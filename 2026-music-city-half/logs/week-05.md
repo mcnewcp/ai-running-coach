@@ -300,4 +300,69 @@
 
 ---
 
-*Log will be updated daily with completed workouts and check-ins*
+### Sunday, February 8
+
+**Morning Check-In**:
+- Sleep: 6 hrs 40 min (Good quality - slept well)
+- Resting Heart Rate: 58 bpm (Feb 7 average)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 6/10
+- Life Stress: 6/10 (travel day - heading to Disney with kids)
+- Overall Status: Well recovered from yesterday's 7-miler. Knee dropped from 3/10 post-run to 1/10 overnight - great sign. Slightly lower motivation/higher stress due to travel day logistics.
+
+**Planned Workout**: Rest + Mobility (20-30 min) + Sauna (optional)
+
+**Completed Workout**:
+- Rest day. Travel day to Disney World (Polynesian Village Resort).
+- Mobility: TBD
+
+**Notes**:
+- Knee recovery from 7-mile long run is excellent (3/10 → 1/10 in <24 hrs)
+- RHR stable at 58 (same as yesterday)
+- Sleep short but quality was good
+- Heading to Disney for the week - Week 6 plan modified for travel (see week-06.md)
+
+---
+
+## Week 5 Summary
+
+**Running Totals**:
+- Total Mileage: 18.42 mi (target: 17 mi) ✓
+- Runs Completed: 5 of 5 planned ✓
+- Long Run: 7.12 mi ✓
+- Hard Workout: Hill repeats (7 reps) ✓
+
+**Avg Easy Run Pace**: ~11:43/mi
+**Avg Easy Run HR**: ~140 bpm (excellent Zone 2 compliance)
+
+**Health**:
+- Left Knee Pain: 1-3/10 range (avg ~2/10, post-long-run bump to 3/10 resolved quickly)
+- Right Knee Pain: 0/10 all week
+- RHR Range: 53-59 bpm
+- Sleep Avg: ~7 hrs (slightly below 7.5 target)
+
+**Strength**:
+- HSR Sessions: 2 ✓ (Mon, Thu)
+- Progression: +20 lbs decline squats, +2.5 lbs SL deadlift, +5 lbs hamstring curl
+- Added upper body work (incline DB bench, incline DB curl)
+
+**Sauna**: 3 of 4 target (Mon, Wed, Thu) - missed Tue
+
+**Key Wins**:
+- First hill repeats session executed well (7 reps at Lifetime hill)
+- Knee tolerated hills + downhill jogging without issues
+- Consistent Zone 2 pacing across all easy runs (11:41-11:46 range)
+- Longest run to date (7.12 mi) completed
+- VO2 max baseline: 44.1 → 43.4 (normal fluctuation)
+
+**Areas to Watch**:
+- Fueling for long runs (no water/food for 87 min = identified gap)
+- Sleep trending below 7.5 hr target
+- Sauna consistency (3/4 this week)
+
+**Heading Into Week 6**: Traveling to Disney World. Plan modified for park days, limited gym, no sauna. Key workouts preserved: tempo run (Tue) + 8-mile long run (Sat).
+
+---
+
+*Week 5 complete. Phase 1 capstone week (Week 6) begins at Disney World.*
