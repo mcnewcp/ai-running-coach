@@ -88,7 +88,7 @@
 
 **Morning Check-In**:
 - Sleep: 7hr 12min, good quality
-- Resting Heart Rate: *(pending)*
+- Resting Heart Rate: 53 bpm
 - Knee Pain: Left 1/10, Right 0/10
 - Energy: 8/10
 - Motivation: 8/10
