@@ -87,14 +87,14 @@
 ### Monday, February 9
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
+- Sleep: 7hr 12min, good quality
+- Resting Heart Rate: *(pending)*
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
 - Body Weight (optional):
-- Overall Status:
+- Overall Status: Feeling good. Strong start to Disney week.
 
 **Planned Workout**: PARK DAY - no running. Walking is the workout. Track miles via Apple Health.
 
