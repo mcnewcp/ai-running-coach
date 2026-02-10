@@ -98,21 +98,21 @@
 
 **Planned Workout**: PARK DAY - no running. Walking is the workout. Track miles via Apple Health.
 
-**Completed Workout**:
+**Completed Workout**: Park walking — 8.4 miles (Apple Health). No running as planned.
 
 ---
 
 ### Tuesday, February 10
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Park Walking (Monday): mi (Apple Health)
-- Overall Status:
+- Sleep: 8hr 18min, ok quality (stayed up late)
+- Resting Heart Rate: 53 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Park Walking (Monday): 8.4 mi (Apple Health)
+- Overall Status: Feeling good despite late night. Knee excellent. Ready for tempo run.
 
 **Planned Workout**: Tempo Run (~50 min total, ~5.0 mi) - treadmill recommended. Extended warm-up OK if legs heavy from Monday parks.
 
