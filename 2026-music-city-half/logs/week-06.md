@@ -132,13 +132,13 @@
 ### Wednesday, February 11
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Overall Status:
+- Sleep: 8hr 31min, good quality
+- Resting Heart Rate: 54 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Feeling great. Knee back to 1/10 after Tuesday's tempo. Well-rested.
 
 **Planned Workout**: PARK DAY - no running. Walking is the workout. Track miles via Apple Health.
 
