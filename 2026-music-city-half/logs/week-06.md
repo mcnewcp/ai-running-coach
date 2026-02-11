@@ -117,6 +117,15 @@
 **Planned Workout**: Tempo Run (~50 min total, ~5.0 mi) - treadmill recommended. Extended warm-up OK if legs heavy from Monday parks.
 
 **Completed Workout**:
+- Distance: 4.14 miles
+- Time: 45:09
+- Average Pace: 10:54/mi
+- Average HR: 147 bpm
+- Tempo Portion: 20 min at <10:00/mi pace, HR 155-165 bpm (held well after initial ramp-up)
+- Effort: Tough but good. Completed as planned.
+- Location: Treadmill (resort)
+- Time of Day: 9:00 PM
+- Knee Status: Left 1/10 (pre-run)
 
 ---
 
