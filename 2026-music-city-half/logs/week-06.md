@@ -125,7 +125,7 @@
 - Effort: Tough but good. Completed as planned.
 - Location: Treadmill (resort)
 - Time of Day: 9:00 PM
-- Knee Status: Left 1/10 (pre-run)
+- Knee Status: Left 1/10 (pre-run), Left 2/10 (post-run). Right 0/10 throughout.
 
 ---
 
