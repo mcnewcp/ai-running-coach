@@ -151,7 +151,7 @@
 **Morning Check-In**:
 - Sleep: 8hr 46min (may include nap), ok quality
 - Resting Heart Rate: 54 bpm
-- Knee Pain: Left *(pending)*/10, Right *(pending)*/10
+- Knee Pain: Left 1/10, Right 0/10
 - Energy: 8/10
 - Motivation: 8/10
 - Life Stress: 6/10 (work stuff)
