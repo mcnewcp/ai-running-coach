@@ -142,21 +142,21 @@
 
 **Planned Workout**: PARK DAY - no running. Walking is the workout. Track miles via Apple Health.
 
-**Completed Workout**:
+**Completed Workout**: Park walking — 8.5 miles (Apple Health). No running as planned.
 
 ---
 
 ### Thursday, February 12
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Park Walking (Wednesday): mi (Apple Health)
-- Overall Status:
+- Sleep: 8hr 46min (may include nap), ok quality
+- Resting Heart Rate: 54 bpm
+- Knee Pain: Left *(pending)*/10, Right *(pending)*/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 6/10 (work stuff)
+- Park Walking (Wednesday): 8.5 mi (Apple Health)
+- Overall Status: Well-rested. Consistent energy and motivation despite slightly elevated life stress.
 
 **Planned Workout**: Easy Run (30 min, Zone 2) + Modified HSR (resort gym) - morning before Epcot evening
 
