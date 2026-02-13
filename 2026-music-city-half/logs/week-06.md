@@ -161,10 +161,16 @@
 **Planned Workout**: Easy Run (30 min, Zone 2) + Modified HSR (resort gym) - morning before Epcot evening
 
 **Completed Workout**:
-
----
-
-### Friday, February 13
+- Distance: 2.58 miles
+- Time: 30:03
+- Average Pace: 11:36/mi
+- Average HR: 132 bpm (well within Zone 2)
+- Effort: Easy
+- Location: Resort
+- Time of Day: 12:30 PM
+- HSR: Skipped (early park departure)
+- Park Walking (Epcot): 7.52 mi (10.1 total - 2.58 run)
+- Knee Status: Left 1/10 (pre-run)
 
 **Morning Check-In**:
 - Sleep:
