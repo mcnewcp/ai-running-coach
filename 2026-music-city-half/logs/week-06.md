@@ -170,7 +170,7 @@
 - Time of Day: 12:30 PM
 - HSR: Skipped (early park departure)
 - Park Walking (Epcot): 7.52 mi (10.1 total - 2.58 run)
-- Knee Status: Left 1/10 (pre-run)
+- Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run + post-Epcot). Right 0/10 throughout.
 
 **Morning Check-In**:
 - Sleep:
