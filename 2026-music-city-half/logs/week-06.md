@@ -172,32 +172,34 @@
 - Park Walking (Epcot): 7.52 mi (10.1 total - 2.58 run)
 - Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run + post-Epcot). Right 0/10 throughout.
 
+### Friday, February 13
+
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Park Walking (Thu Epcot): mi (Apple Health)
-- Overall Status:
+- Sleep: *(not reported — missed check-in)*
+- Resting Heart Rate: *(not reported)*
+- Knee Pain: *(not reported)*
+- Energy: *(not reported)*
+- Motivation: *(not reported)*
+- Life Stress: *(not reported)*
+- Park Walking (Thu Epcot): *(not reported)*
+- Overall Status: *(missed check-in)*
 
 **Planned Workout**: Rest (save legs for Saturday 8-miler)
 
-**Completed Workout**:
+**Completed Workout**: Rest day as planned.
 
 ---
 
 ### Saturday, February 14
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Overall Status:
+- Sleep: 9hr 48min, good quality
+- Resting Heart Rate: 57 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 9/10
+- Motivation: 9/10
+- Life Stress: 4/10
+- Overall Status: Excellent. Best metrics of the week. Well-rested and ready for 8-miler.
 
 **Planned Workout**: Long Run (96 min / 8.0 mi, Zone 2) - early morning recommended. Bail-out at 7mi if legs are spent.
 
