@@ -204,10 +204,16 @@
 **Planned Workout**: Long Run (96 min / 8.0 mi, Zone 2) - early morning recommended. Bail-out at 7mi if legs are spent.
 
 **Completed Workout**:
-
----
-
-### Sunday, February 15
+- Distance: 8.18 miles (longest run to date!)
+- Time: 1:34:46
+- Average Pace: 11:35/mi
+- Average HR: 161 bpm (above Zone 2 target — started too fast, HR climbed early and didn't come back down)
+- VO2 Max (Apple Health): 43.0
+- Effort: Felt easy and conversational throughout. Could have gone further.
+- Location: Outdoor, resort area
+- Fueling: Well-hydrated this week (improvement over Week 5)
+- Notes: Final mile was one of the fastest. Negative split tendency. Felt way easier than Week 5's 7-miler.
+- Knee Status: Left 1/10 (pre-run)
 
 **Morning Check-In**:
 - Sleep:
