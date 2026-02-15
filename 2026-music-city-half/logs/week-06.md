@@ -213,7 +213,7 @@
 - Location: Outdoor, resort area
 - Fueling: Well-hydrated this week (improvement over Week 5)
 - Notes: Final mile was one of the fastest. Negative split tendency. Felt way easier than Week 5's 7-miler.
-- Knee Status: Left 1/10 (pre-run)
+- Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run). Right 0/10 (pre-run), Right 1/10 (post-run — first time above 0 this week).
 
 **Morning Check-In**:
 - Sleep:
