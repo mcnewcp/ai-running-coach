@@ -216,13 +216,13 @@
 - Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run). Right 0/10 (pre-run), Right 1/10 (post-run — first time above 0 this week).
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Overall Status:
+- Sleep: 8hr 23min, ok quality
+- Resting Heart Rate: 54 bpm
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Slightly lower energy and motivation post-long-run — normal. Left knee settling (3→2). Right knee back to 0.
 
 **Planned Workout**: Rest + Mobility (20-30 min)
 
