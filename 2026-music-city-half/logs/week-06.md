@@ -215,6 +215,10 @@
 - Notes: Final mile was one of the fastest. Negative split tendency. Felt way easier than Week 5's 7-miler.
 - Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run). Right 0/10 (pre-run), Right 1/10 (post-run — first time above 0 this week).
 
+---
+
+### Sunday, February 15
+
 **Morning Check-In**:
 - Sleep: 8hr 23min, ok quality
 - Resting Heart Rate: 54 bpm
@@ -226,7 +230,7 @@
 
 **Planned Workout**: Rest + Mobility (20-30 min)
 
-**Completed Workout**:
+**Completed Workout**: Light stretching + Epcot evening walk (5.7 miles via Apple Health). No running.
 
 ---
 
