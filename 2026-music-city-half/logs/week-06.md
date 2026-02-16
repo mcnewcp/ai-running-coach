@@ -87,123 +87,150 @@
 ### Monday, February 9
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
+- Sleep: 7hr 12min, good quality
+- Resting Heart Rate: 53 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
 - Body Weight (optional):
-- Overall Status:
+- Overall Status: Feeling good. Strong start to Disney week.
 
 **Planned Workout**: PARK DAY - no running. Walking is the workout. Track miles via Apple Health.
 
-**Completed Workout**:
+**Completed Workout**: Park walking — 8.4 miles (Apple Health). No running as planned.
 
 ---
 
 ### Tuesday, February 10
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Park Walking (Monday): mi (Apple Health)
-- Overall Status:
+- Sleep: 8hr 18min, ok quality (stayed up late)
+- Resting Heart Rate: 53 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Park Walking (Monday): 8.4 mi (Apple Health)
+- Overall Status: Feeling good despite late night. Knee excellent. Ready for tempo run.
 
 **Planned Workout**: Tempo Run (~50 min total, ~5.0 mi) - treadmill recommended. Extended warm-up OK if legs heavy from Monday parks.
 
 **Completed Workout**:
+- Distance: 4.14 miles
+- Time: 45:09
+- Average Pace: 10:54/mi
+- Average HR: 147 bpm
+- Tempo Portion: 20 min at <10:00/mi pace, HR 155-165 bpm (held well after initial ramp-up)
+- Effort: Tough but good. Completed as planned.
+- Location: Treadmill (resort)
+- Time of Day: 9:00 PM
+- Knee Status: Left 1/10 (pre-run), Left 2/10 (post-run). Right 0/10 throughout.
 
 ---
 
 ### Wednesday, February 11
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Overall Status:
+- Sleep: 8hr 31min, good quality
+- Resting Heart Rate: 54 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Feeling great. Knee back to 1/10 after Tuesday's tempo. Well-rested.
 
 **Planned Workout**: PARK DAY - no running. Walking is the workout. Track miles via Apple Health.
 
-**Completed Workout**:
+**Completed Workout**: Park walking — 8.5 miles (Apple Health). No running as planned.
 
 ---
 
 ### Thursday, February 12
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Park Walking (Wednesday): mi (Apple Health)
-- Overall Status:
+- Sleep: 8hr 46min (may include nap), ok quality
+- Resting Heart Rate: 54 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 6/10 (work stuff)
+- Park Walking (Wednesday): 8.5 mi (Apple Health)
+- Overall Status: Well-rested. Consistent energy and motivation despite slightly elevated life stress.
 
 **Planned Workout**: Easy Run (30 min, Zone 2) + Modified HSR (resort gym) - morning before Epcot evening
 
 **Completed Workout**:
-
----
+- Distance: 2.58 miles
+- Time: 30:03
+- Average Pace: 11:36/mi
+- Average HR: 132 bpm (well within Zone 2)
+- Effort: Easy
+- Location: Resort
+- Time of Day: 12:30 PM
+- HSR: Skipped (early park departure)
+- Park Walking (Epcot): 7.52 mi (10.1 total - 2.58 run)
+- Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run + post-Epcot). Right 0/10 throughout.
 
 ### Friday, February 13
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Park Walking (Thu Epcot): mi (Apple Health)
-- Overall Status:
+- Sleep: *(not reported — missed check-in)*
+- Resting Heart Rate: *(not reported)*
+- Knee Pain: *(not reported)*
+- Energy: *(not reported)*
+- Motivation: *(not reported)*
+- Life Stress: *(not reported)*
+- Park Walking (Thu Epcot): *(not reported)*
+- Overall Status: *(missed check-in)*
 
 **Planned Workout**: Rest (save legs for Saturday 8-miler)
 
-**Completed Workout**:
+**Completed Workout**: Rest day as planned.
 
 ---
 
 ### Saturday, February 14
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Overall Status:
+- Sleep: 9hr 48min, good quality
+- Resting Heart Rate: 57 bpm
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 9/10
+- Motivation: 9/10
+- Life Stress: 4/10
+- Overall Status: Excellent. Best metrics of the week. Well-rested and ready for 8-miler.
 
 **Planned Workout**: Long Run (96 min / 8.0 mi, Zone 2) - early morning recommended. Bail-out at 7mi if legs are spent.
 
 **Completed Workout**:
+- Distance: 8.18 miles (longest run to date!)
+- Time: 1:34:46
+- Average Pace: 11:35/mi
+- Average HR: 161 bpm (above Zone 2 target — started too fast, HR climbed early and didn't come back down)
+- VO2 Max (Apple Health): 43.0
+- Effort: Felt easy and conversational throughout. Could have gone further.
+- Location: Outdoor, resort area
+- Fueling: Well-hydrated this week (improvement over Week 5)
+- Notes: Final mile was one of the fastest. Negative split tendency. Felt way easier than Week 5's 7-miler.
+- Knee Status: Left 1/10 (pre-run), Left 3/10 (post-run). Right 0/10 (pre-run), Right 1/10 (post-run — first time above 0 this week).
 
 ---
 
 ### Sunday, February 15
 
 **Morning Check-In**:
-- Sleep:
-- Resting Heart Rate:
-- Knee Pain: Left /10, Right /10
-- Energy: /10
-- Motivation: /10
-- Life Stress: /10
-- Overall Status:
+- Sleep: 8hr 23min, ok quality
+- Resting Heart Rate: 54 bpm
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Slightly lower energy and motivation post-long-run — normal. Left knee settling (3→2). Right knee back to 0.
 
 **Planned Workout**: Rest + Mobility (20-30 min)
 
-**Completed Workout**:
+**Completed Workout**: Light stretching + Epcot evening walk (5.7 miles via Apple Health). No running.
 
 ---
 
