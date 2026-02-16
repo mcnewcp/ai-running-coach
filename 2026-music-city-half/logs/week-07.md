@@ -42,9 +42,9 @@
 - Body Weight (optional):
 - Overall Status: Knee at boundary (3/10), elevated life stress from travel. Entering Phase 2. Recommended rest or very easy shakeout only — skip HSR until knee settles below 3/10.
 
-**Planned Workout**: Modified — Rest day or optional 20-min easy shakeout. No HSR. Sauna if accessible after travel.
+**Planned Workout**: Modified — Rest day. No HSR. Sauna if accessible after travel.
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**: Rest day. Flight delays pushed arrival home late. Foam rolling/mobility at home in the evening. No sauna.
 
 ---
 
