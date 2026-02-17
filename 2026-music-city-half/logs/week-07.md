@@ -12,7 +12,7 @@
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
 | Monday | Feb 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | Modified |
-| Tuesday | Feb 17 | Easy Run + Strides + Mobility + Sauna | 35 min / ~3.0 mi + 4x20s | Planned |
+| Tuesday | Feb 17 | Easy Run + Strides + Mobility + Sauna | 35 min / ~3.0 mi + 4x20s | ✅ Completed (modified) |
 | Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | Planned |
 | Thursday | Feb 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
 | Friday | Feb 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
@@ -61,7 +61,18 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + Sauna. Strides dropped due to poor sleep.
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Easy Run (Zone 2), outdoors — hilly route behind Lifetime
+- Distance: 3.15 miles
+- Duration: 38:34
+- Average Pace: 12:14/mi
+- Average HR: 141 bpm (well under 150 ceiling)
+- Strides: Dropped (per pre-run modification)
+- VO2 Max (Apple Health): 42.9
+- Effort/Feel: Felt rough going in ("felt like shit") but settled in nicely once moving. Good execution.
+- Knee: No complaints reported
+- Sauna: *(to be updated)*
+- Notes: Excellent HR discipline on a hilly route despite poor sleep night prior. Strong mental effort to show up and execute on a low-energy day.
 
 ---
 
