@@ -51,9 +51,15 @@
 ### Tuesday, February 17
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 5hr 57min, poor quality (travel recovery)
+- Resting Heart Rate: 53 bpm
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 6/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Knee improved (3→2). Poor sleep from travel. Dropping strides, keeping easy run + sauna. HR may run high — stay patient.
 
-**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + Strides (4x20s) + Mobility + Sauna
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + Sauna. Strides dropped due to poor sleep.
 
 **Completed Workout**: *(to be updated)*
 
