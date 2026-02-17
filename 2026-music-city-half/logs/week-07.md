@@ -70,8 +70,8 @@
 - Strides: Dropped (per pre-run modification)
 - VO2 Max (Apple Health): 42.9
 - Effort/Feel: Felt rough going in ("felt like shit") but settled in nicely once moving. Good execution.
-- Knee: No complaints reported
-- Sauna: *(to be updated)*
+- Knee: Left 2/10 (no change post-run), Right 0/10
+- Sauna: 17 min (felt hard after poor sleep/travel recovery — building back to 20 min)
 - Notes: Excellent HR discipline on a hilly route despite poor sleep night prior. Strong mental effort to show up and execute on a low-energy day.
 
 ---
