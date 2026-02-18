@@ -89,7 +89,16 @@
 
 **Planned Workout**: Tempo Run (55 min total / ~5.0 mi — 15 min warm-up, 25 min tempo, 10 min cool-down + 5 min walk)
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Tempo Run, treadmill
+- Distance: 4.61 miles
+- Duration: 55:02
+- Average Pace: 11:56/mi
+- Average HR: 146 bpm
+- Tempo Portion: 25 min, pace 9:40-10:30/mi, HR 160-170 bpm
+- Effort/Feel: Strong session. Took a few minutes to get HR above 160 during tempo, then had to gradually dial pace back to stay under 170 — good pacing awareness.
+- Knee: *(to be updated — how's the left knee feeling post-run?)*
+- Notes: Nailed the workout structure. HR management during tempo showed good self-regulation. Avg HR of 146 across the full session confirms proper warm-up/cool-down execution pulling the average into Zone 2 territory.
 
 ---
 
