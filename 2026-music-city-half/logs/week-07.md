@@ -13,7 +13,7 @@
 |-----|------|---------|--------|--------|
 | Monday | Feb 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | Modified |
 | Tuesday | Feb 17 | Easy Run + Strides + Mobility + Sauna | 35 min / ~3.0 mi + 4x20s | ✅ Completed (modified) |
-| Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | Planned |
+| Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | ✅ Completed |
 | Thursday | Feb 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
 | Friday | Feb 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
 | Saturday | Feb 21 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
@@ -97,8 +97,9 @@
 - Average HR: 146 bpm
 - Tempo Portion: 25 min, pace 9:40-10:30/mi, HR 160-170 bpm
 - Effort/Feel: Strong session. Took a few minutes to get HR above 160 during tempo, then had to gradually dial pace back to stay under 170 — good pacing awareness.
-- Knee: *(to be updated — how's the left knee feeling post-run?)*
-- Notes: Nailed the workout structure. HR management during tempo showed good self-regulation. Avg HR of 146 across the full session confirms proper warm-up/cool-down execution pulling the average into Zone 2 territory.
+- Knee: Left 2/10 post-run (up from 1/10 morning — minimal response to tempo), Right 0/10
+- Sauna: 20 min, ~30 min post-run
+- Notes: Nailed the workout structure. HR management during tempo showed good self-regulation. Avg HR of 146 across the full session confirms proper warm-up/cool-down execution pulling the average into Zone 2 territory. Knee handled tempo well — only +1 point is excellent.
 
 ---
 
