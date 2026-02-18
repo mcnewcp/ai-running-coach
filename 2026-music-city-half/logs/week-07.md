@@ -79,7 +79,13 @@
 ### Wednesday, February 18
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 7hr 10min, ok quality (woken up a few times)
+- Resting Heart Rate: 56 bpm (Tuesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Strong readiness for tempo day. Knee trending excellently (3→2→1). Sleep improving. Energy and motivation up. Green light for full tempo workout.
 
 **Planned Workout**: Tempo Run (55 min total / ~5.0 mi — 15 min warm-up, 25 min tempo, 10 min cool-down + 5 min walk)
 
