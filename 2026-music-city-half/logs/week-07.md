@@ -106,7 +106,13 @@
 ### Thursday, February 19
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 6hr 39min, ok quality (woken up by kids)
+- Resting Heart Rate: 57 bpm (Wednesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 6/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Good recovery day readiness. Knee stable at 2/10 post-tempo (no increase from yesterday morning). Sleep a touch short but RHR normal. Green light for easy run + HSR + sauna.
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR + Sauna
 
