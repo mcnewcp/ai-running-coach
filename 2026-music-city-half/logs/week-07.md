@@ -14,10 +14,10 @@
 | Monday | Feb 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | Modified |
 | Tuesday | Feb 17 | Easy Run + Strides + Mobility + Sauna | 35 min / ~3.0 mi + 4x20s | ✅ Completed (modified) |
 | Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | ✅ Completed |
-| Thursday | Feb 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
-| Friday | Feb 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
-| Saturday | Feb 21 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
-| Sunday | Feb 22 | Rest + Mobility + Sauna | 20-30 min mobility | Planned |
+| Thursday | Feb 19 | Easy Run + Sauna | 35 min / ~3.0 mi | ✅ Completed |
+| Friday | Feb 20 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi + HSR | Planned |
+| Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
+| Sunday | Feb 22 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
 
 **Weekly Targets**:
 - Total Running Mileage: ~21 miles (may adjust based on Monday modification)
@@ -125,8 +125,8 @@
 - VO2 Max (Apple Health): 43.1
 - Shoes: New Mizuno (2026-mizuno)
 - Effort/Feel: Felt good. Hilly terrain, strong execution.
-- Knee: *(to be updated)*
-- HSR: *(to be updated)*
+- Knee: Left 2/10 post-run, Right 0/10
+- HSR: Deferred to Friday (poor sleep, shifting long run to Sunday)
 - Sauna: *(to be updated)*
 - Notes: First run in new Mizuno shoes on hilly trail. VO2 max bounced back up to 43.1 (from 42.9 Tuesday). HR discipline maintained on hills.
 
