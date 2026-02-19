@@ -127,7 +127,7 @@
 - Effort/Feel: Felt good. Hilly terrain, strong execution.
 - Knee: Left 2/10 post-run, Right 0/10
 - HSR: Deferred to Friday (poor sleep, shifting long run to Sunday)
-- Sauna: *(to be updated)*
+- Sauna: 18 min
 - Notes: First run in new Mizuno shoes on hilly trail. VO2 max bounced back up to 43.1 (from 42.9 Tuesday). HR discipline maintained on hills.
 
 ---
