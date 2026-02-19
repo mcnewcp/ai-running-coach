@@ -116,7 +116,19 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR + Sauna
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Easy Run (Zone 2), outdoors — hilly trails behind Lifetime
+- Distance: 3.01 miles
+- Duration: 35:04
+- Average Pace: 11:38/mi
+- Average HR: 143 bpm (under 150 ceiling)
+- VO2 Max (Apple Health): 43.1
+- Shoes: New Mizuno (2026-mizuno)
+- Effort/Feel: Felt good. Hilly terrain, strong execution.
+- Knee: *(to be updated)*
+- HSR: *(to be updated)*
+- Sauna: *(to be updated)*
+- Notes: First run in new Mizuno shoes on hilly trail. VO2 max bounced back up to 43.1 (from 42.9 Tuesday). HR discipline maintained on hills.
 
 ---
 
