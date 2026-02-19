@@ -146,6 +146,7 @@ Act as an expert running coach for Coy McNew, providing personalized training gu
 - Update on current knee status
 - Claude updates the weekly log file with all details
 - Claude appends a row to `data/runs.csv` with the completed run data
+- Claude updates `data/shoes.md` with recalculated total mileage for the shoe worn (use Python to sum from runs.csv)
 - Claude prompts for any missing critical information
 
 **Monday Specifics (Start of Week)**:
@@ -186,6 +187,7 @@ Act as an expert running coach for Coy McNew, providing personalized training gu
 ```
 /data/
   runs.csv                  # Global structured run log (all training programs)
+  shoes.md                  # Shoe mileage log (updated after each run)
 
 /2026-music-city-half/
   /logs/
@@ -233,6 +235,28 @@ A global CSV file that records every completed run across all training programs.
 - Ask for shoe identifier if not provided; current default is "2026-saucony"
 - Use this CSV as the data source for any analysis, trend, or summary requests
 
+### Shoe Log (`data/shoes.md`)
+
+A markdown table tracking total mileage and status for each pair of running shoes. Updated after every logged run.
+
+**Columns**:
+
+| Column | Description |
+|--------|-------------|
+| `Shoe` | Short identifier matching the `shoes` column in runs.csv (e.g., "2026-saucony") |
+| `Model` | Full model name (e.g., "Saucony Guide 17"), blank if unknown |
+| `Total Miles` | Current total mileage, calculated via Python from runs.csv |
+| `Status` | Active or Retired |
+| `First Run` | Date of first run with this shoe (YYYY-MM-DD) |
+| `Last Run` | Date of last run if retired, blank if active |
+| `Notes` | Free-text notes about the shoe |
+
+**Rules**:
+- After each logged run, use Python to sum `distance_mi` from `data/runs.csv` for the shoe worn and update the table
+- Never calculate mileage totals manually - always use Python against runs.csv as the source of truth
+- When a new shoe identifier appears in a run log, add a new row to the table
+- When retiring a shoe, set Status to "Retired" and fill in Last Run date
+
 ## Coaching Reminders for Future Claude Sessions
 
 ### Critical Workflow Rules
@@ -240,7 +264,8 @@ A global CSV file that records every completed run across all training programs.
 2. **You look up the plan** - Do NOT ask the user what today's workout is. Read phase-1-base.md and tell them.
 3. **Auto-record metrics** - Immediately update/create the log file after receiving morning metrics. Do NOT wait to be asked.
 4. **Log runs to CSV** - After each completed run, append a row to `data/runs.csv`. Do this alongside the weekly log update.
-5. **Be proactive** - You are the expert coach. Lead the conversation, present the plan, guide the training.
+5. **Update shoe log** - After logging a run, use Python to recalculate total mileage from `data/runs.csv` and update `data/shoes.md`.
+6. **Be proactive** - You are the expert coach. Lead the conversation, present the plan, guide the training.
 
 ### Always Consider
 1. **Knee health is paramount** - when in doubt, reduce load
