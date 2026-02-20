@@ -135,9 +135,15 @@
 ### Friday, February 20
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 7hr 30min, good quality
+- Resting Heart Rate: 57 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Excellent readiness. Best sleep of the week, energy and motivation high, knee at weekly low (1/10). Green light for easy run + HSR (Phase 2 loads) + sauna.
 
-**Planned Workout**: Rest or Easy Run (25 min / ~2.0 mi) + Sauna
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna
 
 **Completed Workout**: *(to be updated)*
 
