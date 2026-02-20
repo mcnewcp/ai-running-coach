@@ -15,7 +15,7 @@
 | Tuesday | Feb 17 | Easy Run + Strides + Mobility + Sauna | 35 min / ~3.0 mi + 4x20s | ✅ Completed (modified) |
 | Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | ✅ Completed |
 | Thursday | Feb 19 | Easy Run + Sauna | 35 min / ~3.0 mi | ✅ Completed |
-| Friday | Feb 20 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi + HSR | Planned |
+| Friday | Feb 20 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi + HSR | ✅ Completed |
 | Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
 | Sunday | Feb 22 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
 
@@ -145,7 +145,19 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Easy Run (Zone 2), outdoors — Smith Park paved trails
+- Distance: 3.02 miles
+- Duration: 35:25
+- Average Pace: 11:43/mi
+- Average HR: 145 bpm (under 150 ceiling)
+- VO2 Max (Apple Health): 43.1
+- Shoes: Mizuno (2026-mizuno)
+- Effort/Feel: Solid execution.
+- Knee: Left 1/10 (no change from morning), Right 0/10
+- HSR: *(to be updated)*
+- Sauna: *(to be updated)*
+- Notes: Second run in Mizunos. Zone 2 maintained on paved trails. Knee at weekly low — excellent trend.
 
 ---
 
