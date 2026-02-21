@@ -155,9 +155,9 @@
 - Shoes: Mizuno (2026-mizuno)
 - Effort/Feel: Solid execution.
 - Knee: Left 1/10 (no change from morning), Right 0/10
-- HSR: *(to be updated)*
-- Sauna: *(to be updated)*
-- Notes: Second run in Mizunos. Zone 2 maintained on paved trails. Knee at weekly low — excellent trend.
+- HSR: Skipped — prioritizing rest/sleep recovery before Sunday 9-mile long run
+- Sauna: 20 min (finished 2:30pm)
+- Notes: Second run in Mizunos. Zone 2 maintained on paved trails. Knee at weekly low — excellent trend. Mizunos feel more rigid; not sold on the store insoles.
 
 ---
 
