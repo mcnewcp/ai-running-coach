@@ -16,7 +16,7 @@
 | Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | ✅ Completed |
 | Thursday | Feb 19 | Easy Run + Sauna | 35 min / ~3.0 mi | ✅ Completed |
 | Friday | Feb 20 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi + HSR | ✅ Completed |
-| Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
+| Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | ✅ Rest + Sauna |
 | Sunday | Feb 22 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
 
 **Weekly Targets**:
@@ -174,7 +174,7 @@
 
 **Planned Workout**: Rest + Sauna (20 min)
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**: Rest day. Sauna 20 min. Smart recovery ahead of Sunday's 9-mile long run.
 
 ---
 
