@@ -164,9 +164,15 @@
 ### Saturday, February 21
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 6hr 57min, ok quality
+- Resting Heart Rate: 57 bpm (Friday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Good readiness. Knee at weekly low (1/10), energy and motivation solid. Slightly short sleep. Fourth consecutive run day behind him — rest day is the right call to set up Sunday's 9-mile long run.
 
-**Planned Workout**: Long Run (105 min / 9.0 mi, Zone 2)
+**Planned Workout**: Rest + Sauna (20 min)
 
 **Completed Workout**: *(to be updated)*
 
