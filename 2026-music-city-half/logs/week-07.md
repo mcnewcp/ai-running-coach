@@ -16,7 +16,7 @@
 | Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | ✅ Completed |
 | Thursday | Feb 19 | Easy Run + Sauna | 35 min / ~3.0 mi | ✅ Completed |
 | Friday | Feb 20 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi + HSR | ✅ Completed |
-| Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
+| Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | ✅ Rest + Sauna |
 | Sunday | Feb 22 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
 
 **Weekly Targets**:
@@ -164,11 +164,17 @@
 ### Saturday, February 21
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 6hr 57min, ok quality
+- Resting Heart Rate: 57 bpm (Friday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Good readiness. Knee at weekly low (1/10), energy and motivation solid. Slightly short sleep. Fourth consecutive run day behind him — rest day is the right call to set up Sunday's 9-mile long run.
 
-**Planned Workout**: Long Run (105 min / 9.0 mi, Zone 2)
+**Planned Workout**: Rest + Sauna (20 min)
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**: Rest day. Sauna 20 min. Smart recovery ahead of Sunday's 9-mile long run.
 
 ---
 
