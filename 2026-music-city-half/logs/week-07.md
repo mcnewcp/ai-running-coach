@@ -14,10 +14,10 @@
 | Monday | Feb 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | Modified |
 | Tuesday | Feb 17 | Easy Run + Strides + Mobility + Sauna | 35 min / ~3.0 mi + 4x20s | ✅ Completed (modified) |
 | Wednesday | Feb 18 | **Tempo Run** | 55 min total / ~5.0 mi, 25 min tempo | ✅ Completed |
-| Thursday | Feb 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
-| Friday | Feb 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
-| Saturday | Feb 21 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
-| Sunday | Feb 22 | Rest + Mobility + Sauna | 20-30 min mobility | Planned |
+| Thursday | Feb 19 | Easy Run + Sauna | 35 min / ~3.0 mi | ✅ Completed |
+| Friday | Feb 20 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi + HSR | ✅ Completed |
+| Saturday | Feb 21 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | Planned |
+| Sunday | Feb 22 | **Long Run** | 105 min / 9.0 mi, Zone 2 | Planned |
 
 **Weekly Targets**:
 - Total Running Mileage: ~21 miles (may adjust based on Monday modification)
@@ -106,22 +106,58 @@
 ### Thursday, February 19
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 6hr 39min, ok quality (woken up by kids)
+- Resting Heart Rate: 57 bpm (Wednesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 6/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Good recovery day readiness. Knee stable at 2/10 post-tempo (no increase from yesterday morning). Sleep a touch short but RHR normal. Green light for easy run + HSR + sauna.
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR + Sauna
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Easy Run (Zone 2), outdoors — hilly trails behind Lifetime
+- Distance: 3.01 miles
+- Duration: 35:04
+- Average Pace: 11:38/mi
+- Average HR: 143 bpm (under 150 ceiling)
+- VO2 Max (Apple Health): 43.1
+- Shoes: New Mizuno (2026-mizuno)
+- Effort/Feel: Felt good. Hilly terrain, strong execution.
+- Knee: Left 2/10 post-run, Right 0/10
+- HSR: Deferred to Friday (poor sleep, shifting long run to Sunday)
+- Sauna: 18 min
+- Notes: First run in new Mizuno shoes on hilly trail. VO2 max bounced back up to 43.1 (from 42.9 Tuesday). HR discipline maintained on hills.
 
 ---
 
 ### Friday, February 20
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 7hr 30min, good quality
+- Resting Heart Rate: 57 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Excellent readiness. Best sleep of the week, energy and motivation high, knee at weekly low (1/10). Green light for easy run + HSR (Phase 2 loads) + sauna.
 
-**Planned Workout**: Rest or Easy Run (25 min / ~2.0 mi) + Sauna
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Easy Run (Zone 2), outdoors — Smith Park paved trails
+- Distance: 3.02 miles
+- Duration: 35:25
+- Average Pace: 11:43/mi
+- Average HR: 145 bpm (under 150 ceiling)
+- VO2 Max (Apple Health): 43.1
+- Shoes: Mizuno (2026-mizuno)
+- Effort/Feel: Solid execution.
+- Knee: Left 1/10 (no change from morning), Right 0/10
+- HSR: Skipped — prioritizing rest/sleep recovery before Sunday 9-mile long run
+- Sauna: 20 min (finished 2:30pm)
+- Notes: Second run in Mizunos. Zone 2 maintained on paved trails. Knee at weekly low — excellent trend. Mizunos feel more rigid; not sold on the store insoles.
 
 ---
 
