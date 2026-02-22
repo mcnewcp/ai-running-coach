@@ -181,11 +181,49 @@
 ### Sunday, February 22
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 7hr 12min, good quality (+ 1hr 10min nap Saturday afternoon)
+- Resting Heart Rate: 57 bpm (Saturday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 4/10
+- Overall Status: Excellent readiness. Best overall metrics of the week — knee at weekly low (1/10), energy and motivation both 8, lowest stress of the week (4/10). Rest day + sauna yesterday set up perfectly. Full green light for 9-mile long run (new distance PR).
 
-**Planned Workout**: Rest + Mobility (20-30 min) + Sauna
+**Planned Workout**: Long Run (105 min / 9.0 mi, Zone 2) — shifted from Saturday
 
-**Completed Workout**: *(to be updated)*
+**Completed Workout**:
+- Type: Long Run (Zone 2), outdoors — house → trails → Crockett Park loop → back
+- Distance: 9.05 miles (new distance PR!)
+- Duration: 1:49:44
+- Average Pace: 12:07/mi
+- Average HR: 147 bpm (under 150 ceiling)
+- VO2 Max (Apple Health): Not estimated this session
+- Shoes: Saucony (2026-saucony)
+- Effort/Feel: Strong. HR spiked to 140 immediately at start (adrenaline — had just watched USA win hockey gold over Canada), but settled in and managed it well. Last couple miles past previous 8.18 PR felt completely fine — felt like he could have done 10 at the same pace.
+- Fueling: Nerds Gummy Clusters — a couple at mile 5, a couple more at mile 6. Worked great, no stomach issues. First successful mid-run fueling.
+- Knee: Left 2/10 post-run (up from 1/10 morning — minimal response), Right 0/10
+- Sauna: Planned post-run (~20 min)
+- Notes: Massive milestone — first run past 8.18 miles, executed with excellent HR discipline (147 avg on a hilly outdoor route). Aerobic base clearly developing — feeling strong at distances that would have been daunting weeks ago. Fueling strategy validated. Knee handling increased distance well.
+
+---
+
+## Weekly Summary
+
+**Total Running Mileage**: 21.83 miles (5 runs)
+**Long Run**: 9.05 miles (new distance PR)
+**Hard Workout**: Tempo run — 25 min at threshold (Wednesday)
+**HSR Sessions**: 0 (both deferred/skipped — knee management and long run recovery prioritization)
+**Sauna Sessions**: 5 (Tue 17 min, Wed 20 min, Thu 18 min, Fri 20 min, Sat 20 min, Sun planned)
+**Knee Trend**: Left knee 3→2→1→2→1→1→2 (well-managed, no upward trend)
+
+**Week 7 Highlights**:
+- Successfully transitioned into Phase 2 Build despite Monday rest (travel recovery)
+- Nailed 25-min tempo run on treadmill (HR 160-170 in tempo portion)
+- New distance PR: 9.05 miles at 147 bpm avg — excellent Zone 2 discipline
+- First successful mid-run fueling (Nerds Gummy Clusters)
+- Broke in new Mizuno shoes on two mid-week runs
+- VO2 Max holding at 43.1
+- Knee managed beautifully through the highest-volume week yet
 
 ---
 
