@@ -181,9 +181,15 @@
 ### Sunday, February 22
 
 **Morning Check-In**:
-*(to be collected)*
+- Sleep: 7hr 12min, good quality (+ 1hr 10min nap Saturday afternoon)
+- Resting Heart Rate: 57 bpm (Saturday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 4/10
+- Overall Status: Excellent readiness. Best overall metrics of the week — knee at weekly low (1/10), energy and motivation both 8, lowest stress of the week (4/10). Rest day + sauna yesterday set up perfectly. Full green light for 9-mile long run (new distance PR).
 
-**Planned Workout**: Rest + Mobility (20-30 min) + Sauna
+**Planned Workout**: Long Run (105 min / 9.0 mi, Zone 2) — shifted from Saturday
 
 **Completed Workout**: *(to be updated)*
 
