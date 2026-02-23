@@ -11,7 +11,7 @@
 
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
-| Monday | Feb 23 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | ✅ Run completed |
+| Monday | Feb 23 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | ✅ Completed |
 | Tuesday | Feb 24 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | Planned |
 | Wednesday | Feb 25 | **Hill Repeats** | 55 min total / ~4.5 mi, 8-10 x 90s | Planned |
 | Thursday | Feb 26 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
@@ -51,10 +51,10 @@
 - Average HR: 141 bpm (well under 150 ceiling)
 - Shoes: Mizuno (2026-mizuno)
 - Effort/Feel: Solid Zone 2 execution on treadmill. Good recovery run day after 9-mile PR.
-- Knee: Pending post-run report
-- HSR: Pending
-- Sauna: Pending
-- Notes: Third run in Mizunos. Excellent HR discipline at 141 avg — body recovering well from yesterday's long run.
+- Knee: Left 3/10 post-HSR (up from 2/10 morning), Right 0/10
+- HSR (Phase 2, ~2:30pm): Decline squat 115 lbs x 8 x 2, Bulgarian split squat 27.5 lbs x 8 x 2, Banded step out 15 each way x 2, Leg curl machine 90 lbs x 8 x 2
+- Sauna: 20 min (~3:00pm)
+- Notes: Third run in Mizunos. Excellent HR discipline at 141 avg — body recovering well from yesterday's long run. HSR completed — first session in 2+ weeks. Knee bump to 3/10 is expected given combined load of easy run + HSR after a 9-mile PR yesterday.
 
 ---
 
