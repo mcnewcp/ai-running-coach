@@ -12,7 +12,7 @@
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
 | Monday | Feb 23 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | ✅ Completed |
-| Tuesday | Feb 24 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | Planned |
+| Tuesday | Feb 24 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ Completed |
 | Wednesday | Feb 25 | **Hill Repeats** | 55 min total / ~4.5 mi, 8-10 x 90s | Planned |
 | Thursday | Feb 26 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
 | Friday | Feb 27 | Easy Run + Sauna | 30 min / ~2.5 mi | Planned |
@@ -70,6 +70,17 @@
 - Overall Status: Good readiness. Knee back down to 2/10 after post-HSR bump to 3/10 yesterday — positive recovery signal. Energy strong. Sleep a bit shorter than yesterday (6:59 vs 8:19) but still adequate. RHR stable at 58. Green light for easy run + mobility + sauna.
 
 **Planned Workout**: Easy Run (40 min / ~3.5 mi, Zone 2) + Mobility + Sauna (20 min)
+
+**Completed Workout**:
+- Type: Easy Run (Zone 2)
+- Distance: 3.34 miles
+- Duration: 40:02
+- Average Pace: 11:58/mi
+- Average HR: 144 bpm (Zone 2, under 150 ceiling)
+- Shoes: Mizuno (2026-mizuno)
+- Effort/Feel: Clean Zone 2 execution. No issues.
+- Knee: Left 2/10 (no change), Right 0/10
+- Notes: Fourth run in Mizunos. Consistent Zone 2 effort two days in a row (141 Mon, 144 Tue). Good recovery running between Sunday's 9-mile PR and Wednesday's hill repeats.
 
 ---
 
