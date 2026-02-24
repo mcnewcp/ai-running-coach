@@ -80,7 +80,9 @@
 - Shoes: Mizuno (2026-mizuno)
 - Effort/Feel: Clean Zone 2 execution. No issues.
 - Knee: Left 2/10 (no change), Right 0/10
-- Notes: Fourth run in Mizunos. Consistent Zone 2 effort two days in a row (141 Mon, 144 Tue). Good recovery running between Sunday's 9-mile PR and Wednesday's hill repeats.
+- Mobility: ~1400, post-run stretching/foam rolling session
+- Sauna: 20 min (~1430)
+- Notes: Fourth run in Mizunos. Consistent Zone 2 effort two days in a row (141 Mon, 144 Tue). Good recovery running between Sunday's 9-mile PR and Wednesday's hill repeats. Full day completed: run + mobility + sauna.
 
 ---
 
