@@ -86,4 +86,17 @@
 
 ---
 
+### Wednesday, February 25
+
+**Morning Check-In**:
+- Sleep: 8hr 35min, good quality
+- Resting Heart Rate: 58 bpm (Tuesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 4/10
+- Overall Status: Strong readiness for hill repeats. Excellent sleep (8:35 — best of the week). Knee at 1/10 — lowest going into a hard day. RHR stable at 58. Two solid easy days of Zone 2 base underneath. Full green light for hill repeats.
+
+**Planned Workout**: Hill Repeats (55 min total / ~4.5 mi, 8-10 x 90s uphill) + Sauna
+
 *Log will be updated daily with completed workouts and check-ins*
