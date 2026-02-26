@@ -113,4 +113,19 @@
 
 ---
 
+### Thursday, February 26
+
+**Morning Check-In**:
+- Sleep: 5hr 45min, poor quality (kids woke him up repeatedly)
+- Resting Heart Rate: 57 bpm (Wednesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 5/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Below-average readiness due to poor sleep (5:45 — worst of the week by far). Energy at 5/10 is the lowest this week. However, knee remains excellent at 1/10 and RHR actually dipped to 57 (below the 58 baseline this week) — body is recovering well from yesterday's hill repeats despite the sleep disruption. Life stress slightly elevated (5 vs 4 all week). Green light for easy run + HSR + sauna, but run can be shortened to 25-30 min if energy doesn't pick up. HSR is priority (second session this week). Early bedtime tonight recommended ahead of Saturday's 9-mile long run.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna (20 min)
+
+---
+
 *Log will be updated daily with completed workouts and check-ins*
