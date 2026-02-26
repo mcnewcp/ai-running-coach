@@ -126,6 +126,20 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna (20 min)
 
+**Completed Workout**:
+- Type: Easy Run (Zone 2), Crockett Park trails
+- Distance: 2.51 miles
+- Duration: 30:06
+- Average Pace: 11:59/mi
+- Average HR: 148 bpm (Zone 2, under 150 ceiling)
+- VO2 Max: 43.3
+- Shoes: Mizuno (2026-mizuno)
+- Effort/Feel: Sluggish from poor sleep. Tough to keep HR down — 148 avg is the highest easy-run HR this week (vs 141 Mon, 144 Tue). Shortened from 35 to 30 min, smart adjustment.
+- Knee: Left 1/10 (no change), Right 0/10
+- HSR (Phase 2): Pending
+- Sauna: Pending
+- Notes: Fifth run in Mizunos. Despite feeling sluggish, kept HR under 150 ceiling. The elevated HR at easy pace is a classic sign of sleep deprivation — body working harder to produce the same output. Good decision to shorten the run and save energy for HSR.
+
 ---
 
 *Log will be updated daily with completed workouts and check-ins*
