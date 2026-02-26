@@ -113,4 +113,33 @@
 
 ---
 
+### Thursday, February 26
+
+**Morning Check-In**:
+- Sleep: 5hr 45min, poor quality (kids woke him up repeatedly)
+- Resting Heart Rate: 57 bpm (Wednesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 5/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Below-average readiness due to poor sleep (5:45 — worst of the week by far). Energy at 5/10 is the lowest this week. However, knee remains excellent at 1/10 and RHR actually dipped to 57 (below the 58 baseline this week) — body is recovering well from yesterday's hill repeats despite the sleep disruption. Life stress slightly elevated (5 vs 4 all week). Green light for easy run + HSR + sauna, but run can be shortened to 25-30 min if energy doesn't pick up. HSR is priority (second session this week). Early bedtime tonight recommended ahead of Saturday's 9-mile long run.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna (20 min)
+
+**Completed Workout**:
+- Type: Easy Run (Zone 2), Crockett Park trails
+- Distance: 2.51 miles
+- Duration: 30:06
+- Average Pace: 11:59/mi
+- Average HR: 148 bpm (Zone 2, under 150 ceiling)
+- VO2 Max: 43.3
+- Shoes: Mizuno (2026-mizuno)
+- Effort/Feel: Sluggish from poor sleep. Tough to keep HR down — 148 avg is the highest easy-run HR this week (vs 141 Mon, 144 Tue). Shortened from 35 to 30 min, smart adjustment.
+- Knee: Left 1/10 (no change), Right 0/10
+- HSR (Phase 2): Complete (Decline Squat 115lb 2x8, Bulgarian Split Squat 27.5lb 2x8/leg, Banded Step Out 2x15/dir, Leg Curl 90lb 2x8)
+- Sauna: Complete (20 min)
+- Notes: Fifth run in Mizunos. Despite feeling sluggish, kept HR under 150 ceiling. The elevated HR at easy pace is a classic sign of sleep deprivation — body working harder to produce the same output. Good decision to shorten the run and save energy for HSR.
+
+---
+
 *Log will be updated daily with completed workouts and check-ins*
