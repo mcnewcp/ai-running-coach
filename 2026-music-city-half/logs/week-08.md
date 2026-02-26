@@ -13,7 +13,7 @@
 |-----|------|---------|--------|--------|
 | Monday | Feb 23 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | ✅ Completed |
 | Tuesday | Feb 24 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ Completed |
-| Wednesday | Feb 25 | **Hill Repeats** | 55 min total / ~4.5 mi, 8-10 x 90s | Planned |
+| Wednesday | Feb 25 | **Hill Repeats** | 55 min total / ~4.5 mi, 8-10 x 90s | ✅ Completed |
 | Thursday | Feb 26 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
 | Friday | Feb 27 | Easy Run + Sauna | 30 min / ~2.5 mi | Planned |
 | Saturday | Feb 28 | Long Run | 105 min / 9.0 mi, Zone 2 | Planned |
@@ -83,6 +83,33 @@
 - Mobility: ~1400, post-run stretching/foam rolling session
 - Sauna: 20 min (~1430)
 - Notes: Fourth run in Mizunos. Consistent Zone 2 effort two days in a row (141 Mon, 144 Tue). Good recovery running between Sunday's 9-mile PR and Wednesday's hill repeats. Full day completed: run + mobility + sauna.
+
+---
+
+### Wednesday, February 25
+
+**Morning Check-In**:
+- Sleep: 8hr 35min, good quality
+- Resting Heart Rate: 58 bpm (Tuesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 4/10
+- Overall Status: Strong readiness for hill repeats. Excellent sleep (8:35 — best of the week). Knee at 1/10 — lowest going into a hard day. RHR stable at 58. Two solid easy days of Zone 2 base underneath. Full green light for hill repeats.
+
+**Planned Workout**: Hill Repeats (55 min total / ~4.5 mi, 8-10 x 90s uphill) + Sauna
+
+**Completed Workout**:
+- Type: Hill Repeats (8 x 90s)
+- Distance: 4.14 miles
+- Duration: 42:13
+- Average Pace: 10:12/mi
+- Average HR: 151 bpm
+- Shoes: Saucony (2026-saucony)
+- Effort/Feel: Hard but good. Last 1-2 reps were tough but completed all 8. Controlled effort throughout.
+- Knee: Left 1/10 (no change from morning), Right 0/10
+- Sauna: 20 min (~1500)
+- Notes: Second hill repeat session — up from 7 x 60s (Week 5) to 8 x 90s. Significant step up in volume (12 min of hard uphill work vs 7 min in Phase 1). Knee stable through the entire session at 1/10 — best hard-day knee reading yet. Avg HR 151 reflects mix of easy warm-up/cool-down and hard efforts.
 
 ---
 
