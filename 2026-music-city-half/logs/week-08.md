@@ -137,7 +137,7 @@
 - Effort/Feel: Sluggish from poor sleep. Tough to keep HR down — 148 avg is the highest easy-run HR this week (vs 141 Mon, 144 Tue). Shortened from 35 to 30 min, smart adjustment.
 - Knee: Left 1/10 (no change), Right 0/10
 - HSR (Phase 2): Complete (Decline Squat 115lb 2x8, Bulgarian Split Squat 27.5lb 2x8/leg, Banded Step Out 2x15/dir, Leg Curl 90lb 2x8)
-- Sauna: Pending
+- Sauna: Complete (20 min)
 - Notes: Fifth run in Mizunos. Despite feeling sluggish, kept HR under 150 ceiling. The elevated HR at easy pace is a classic sign of sleep deprivation — body working harder to produce the same output. Good decision to shorten the run and save energy for HSR.
 
 ---
