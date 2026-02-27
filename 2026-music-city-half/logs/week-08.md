@@ -156,6 +156,15 @@
 
 **Planned Workout**: Easy Run (30 min / ~2.5 mi, Zone 2) + Sauna (20 min)
 
+**Upper Body Strength Session** (completed):
+- Rower warm-up: 5 min
+- DB Incline Bench Press: 50 lbs × 8 × 2 sets
+- DB Incline Curl: 27.5 lbs × 8 × 2 sets
+- Cable Row: 100 lbs × 8 × 2 sets
+- Barbell Overhead Press: 65 lbs × 8 × 2 sets
+- Skipped: Lat Pulldown, DB Skull Crushers
+- Notes: All exercises 2 sets instead of planned 3. Pending details on skipped exercises.
+
 ---
 
 *Log will be updated daily with completed workouts and check-ins*
