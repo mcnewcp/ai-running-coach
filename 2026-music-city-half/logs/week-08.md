@@ -14,8 +14,8 @@
 | Monday | Feb 23 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | ✅ Completed |
 | Tuesday | Feb 24 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ Completed |
 | Wednesday | Feb 25 | **Hill Repeats** | 55 min total / ~4.5 mi, 8-10 x 90s | ✅ Completed |
-| Thursday | Feb 26 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
-| Friday | Feb 27 | Easy Run + Sauna | 30 min / ~2.5 mi | Planned |
+| Thursday | Feb 26 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | ✅ Completed |
+| Friday | Feb 27 | Easy Run + Sauna | 30 min / ~2.5 mi | 🔄 Today |
 | Saturday | Feb 28 | Long Run | 105 min / 9.0 mi, Zone 2 | Planned |
 | Sunday | Mar 1 | Rest + Mobility + Sauna | 20-30 min mobility | Planned |
 
@@ -139,6 +139,21 @@
 - HSR (Phase 2): Complete (Decline Squat 115lb 2x8, Bulgarian Split Squat 27.5lb 2x8/leg, Banded Step Out 2x15/dir, Leg Curl 90lb 2x8)
 - Sauna: Complete (20 min)
 - Notes: Fifth run in Mizunos. Despite feeling sluggish, kept HR under 150 ceiling. The elevated HR at easy pace is a classic sign of sleep deprivation — body working harder to produce the same output. Good decision to shorten the run and save energy for HSR.
+
+---
+
+### Friday, February 27
+
+**Morning Check-In**:
+- Sleep: 8hr 08min, good quality
+- Resting Heart Rate: 58 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Strong rebound from yesterday's poor sleep. Sleep back up to 8+ hours with good quality. Energy jumped from 5 to 8 — big recovery. Knee holding steady at 1/10 for the fourth straight day, including through Wednesday's hill repeats and Thursday's HSR. RHR stable at 58. Life stress unchanged at 5. Full green light for easy shakeout run + sauna. Keep it light — tomorrow's 9-mile long run is the week's main event.
+
+**Planned Workout**: Easy Run (30 min / ~2.5 mi, Zone 2) + Sauna (20 min)
 
 ---
 
