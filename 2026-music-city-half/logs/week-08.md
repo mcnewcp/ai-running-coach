@@ -162,8 +162,11 @@
 - DB Incline Curl: 27.5 lbs × 8 × 2 sets
 - Cable Row: 100 lbs × 8 × 2 sets
 - Barbell Overhead Press: 65 lbs × 8 × 2 sets
-- Skipped: Lat Pulldown, DB Skull Crushers
-- Notes: All exercises 2 sets instead of planned 3. Pending details on skipped exercises.
+- Skipped: Lat Pulldown, DB Skull Crushers (time constraints)
+- Notes: All exercises 2 sets instead of planned 3 due to time. Got in the key compound movements.
+- Sauna: 20 min (post-weights)
+- Knee: Left 1/10 (no change), Right 0/10
+- Running: Rest day (no easy run)
 
 ---
 
