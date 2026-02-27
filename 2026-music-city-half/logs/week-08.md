@@ -151,6 +151,7 @@
 - Energy: 8/10
 - Motivation: 7/10
 - Life Stress: 5/10
+- Body Weight: 172.2 lbs (16.8% body fat)
 - Overall Status: Strong rebound from yesterday's poor sleep. Sleep back up to 8+ hours with good quality. Energy jumped from 5 to 8 — big recovery. Knee holding steady at 1/10 for the fourth straight day, including through Wednesday's hill repeats and Thursday's HSR. RHR stable at 58. Life stress unchanged at 5. Full green light for easy shakeout run + sauna. Keep it light — tomorrow's 9-mile long run is the week's main event.
 
 **Planned Workout**: Easy Run (30 min / ~2.5 mi, Zone 2) + Sauna (20 min)
