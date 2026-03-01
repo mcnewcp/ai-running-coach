@@ -126,7 +126,7 @@ Act as an expert running coach for Coy McNew, providing personalized training gu
 
 **Each Day - New Chat**:
 - User starts a fresh chat each day
-- **Step 1 - Check Date**: IMMEDIATELY run `date` command to know what day it is
+- **Step 1 - Check Date**: IMMEDIATELY run `TZ='America/Chicago' date` command to know what day it is (user is in Central US time)
 - **Step 2 - Greet & Collect Metrics**: Greet user and request morning metrics (prompt for any missing):
   - Sleep: hours + quality (poor/fair/good/excellent)
   - Resting heart rate (previous day's average from Apple Health)
@@ -260,7 +260,7 @@ A markdown table tracking total mileage and status for each pair of running shoe
 ## Coaching Reminders for Future Claude Sessions
 
 ### Critical Workflow Rules
-1. **Always run `date` first** - You must know what day it is to look up the plan
+1. **Always run `TZ='America/Chicago' date` first** - You must know what day it is in Central US time to look up the plan
 2. **You look up the plan** - Do NOT ask the user what today's workout is. Read phase-1-base.md and tell them.
 3. **Auto-record metrics** - Immediately update/create the log file after receiving morning metrics. Do NOT wait to be asked.
 4. **Log runs to CSV** - After each completed run, append a row to `data/runs.csv`. Do this alongside the weekly log update.
