@@ -16,7 +16,7 @@
 | Wednesday | Feb 25 | **Hill Repeats** | 55 min total / ~4.5 mi, 8-10 x 90s | ✅ Completed |
 | Thursday | Feb 26 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | ✅ Completed |
 | Friday | Feb 27 | Easy Run + Sauna | 30 min / ~2.5 mi | 🔄 Today |
-| Saturday | Feb 28 | Long Run | 105 min / 9.0 mi, Zone 2 | Planned |
+| Saturday | Feb 28 | Long Run | 105 min / 9.0 mi, Zone 2 | ✅ Completed |
 | Sunday | Mar 1 | Rest + Mobility + Sauna | 20-30 min mobility | Planned |
 
 **Weekly Targets**:
@@ -167,6 +167,34 @@
 - Sauna: 20 min (post-weights)
 - Knee: Left 1/10 (no change), Right 0/10
 - Running: Rest day (no easy run)
+
+---
+
+### Saturday, February 28
+
+**Morning Check-In** (reported evening):
+- Sleep: 6hr 50min, fair quality
+- Resting Heart Rate: 58 bpm (Friday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Good readiness despite slightly shorter sleep. Energy and motivation both strong at 8/10. Knee holding at 1/10 for the fifth straight day — remarkable consistency through the Build phase. RHR stable at 58. Green light for the 9-mile consolidation long run.
+
+**Planned Workout**: Long Run (105 min / 9.0 mi, Zone 2) + Sauna
+
+**Completed Workout**:
+- Type: Long Run (Zone 2)
+- Distance: 9.03 miles
+- Duration: 1:43:41
+- Average Pace: 11:29/mi
+- Average HR: 146 bpm (excellent Zone 2, under 150 ceiling)
+- VO2 Max: 43.5 (new high)
+- Shoes: Saucony (2026-saucony)
+- Route: Smith Park trail to Crockett Park and back, behind house
+- Effort/Feel: Felt quite good. Strong execution.
+- Knee: Left 3/10 post-run (up from 1/10), Right 1/10 post-run (up from 0/10)
+- Notes: Second consecutive 9-mile long run — consolidation week complete. Pace improved from 12:07 last week to 11:29 this week at a LOWER avg HR (146 vs 147). That's 38 seconds/mile faster at the same or better effort — clear aerobic progress. VO2 max ticked up to 43.5 (from 43.3). Knee bump to 3/10 is expected and consistent with last week's post-long-run response.
 
 ---
 
