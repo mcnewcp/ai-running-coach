@@ -198,4 +198,48 @@
 
 ---
 
-*Log will be updated daily with completed workouts and check-ins*
+### Sunday, March 1
+
+**Rest Day**:
+- Running: Rest (no run)
+- Mobility: Minimal
+- Sauna: 20 min (~1800)
+- Knee: Left 2/10 (down from 3/10 post-long-run), Right 0/10 (down from 1/10)
+- Notes: Good recovery day after Saturday's 9.03-mile long run. Knee trending back down as expected. Sauna session completed.
+
+---
+
+## Weekly Summary
+
+**Completed Mileage**: ~22.38 miles (5 runs)
+- Monday: 3.36 mi (easy, treadmill)
+- Tuesday: 3.34 mi (easy)
+- Wednesday: 4.14 mi (hill repeats, 8 x 90s)
+- Thursday: 2.51 mi (easy, shortened due to poor sleep)
+- Friday: Rest (upper body strength only)
+- Saturday: 9.03 mi (long run)
+- Sunday: Rest
+
+**Planned vs Actual**: 23 mi target → 22.38 mi actual (97%). Friday's easy run dropped for upper body strength — reasonable tradeoff given time constraints.
+
+**Key Wins**:
+- Hill repeats stepped up significantly: 8 x 90s (from 7 x 60s in Phase 1)
+- Knee remarkably stable: 1/10 for four consecutive days (Wed-Sat morning), including through hill repeats and HSR
+- Saturday long run consolidation: 9.03 mi at 11:29/mi, 146 HR — 38 sec/mile faster than Week 7 at same effort
+- VO2 max new high: 43.5
+- HSR back on track: 2 sessions completed (after 0 last week)
+- Zone 2 discipline strong all week (141, 144, 148 avg HR on easy days)
+
+**Concerns**:
+- Thursday sleep disruption (5:45) showed clear impact on HR and energy
+- Life stress slightly elevated (5/10 vs typical 4)
+- Friday easy run skipped (not critical but missed some planned volume)
+
+**Recovery**:
+- Sauna: 5 sessions (Mon, Tue, Wed, Thu, Fri) — exceeded 4x target
+- HSR: 2 sessions (Mon, Thu) — on target
+- Mobility: 1 dedicated session (Tuesday)
+
+**Knee Trend**: Excellent week. Morning readings: 2→2→1→1→1→1→2. Post-activity bumps to 3/10 after HSR (Mon) and long run (Sat) — both expected and resolved within 24 hours. Trending stable-to-improving through Build Phase Week 2.
+
+**RHR Trend**: 58→58→58→57→58→58→54 (Sunday). The drop to 54 on Sunday suggests strong recovery and adaptation.
