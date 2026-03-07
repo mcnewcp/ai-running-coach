@@ -11,13 +11,13 @@
 
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
-| Monday | Mar 2 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | 🔄 Today |
+| Monday | Mar 2 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, HR <150 | Done |
 | Tuesday | Mar 3 | Easy Run + Strides + Mobility + Sauna | 40 min / ~3.5 mi + 4x20s, Zone 2 | Done |
-| Wednesday | Mar 4 | **Tempo Run** | 60 min total / ~5.5 mi, 30 min at threshold | Planned |
-| Thursday | Mar 5 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi | Planned |
-| Friday | Mar 6 | Easy Run + Sauna | 30 min / ~2.5 mi | Planned |
-| Saturday | Mar 7 | Long Run | 2:00 / 10.0 mi, Zone 2 | Planned |
-| Sunday | Mar 8 | Rest + Mobility + Sauna | 20-30 min mobility | Planned |
+| Wednesday | Mar 4 | **Tempo Run** | 60 min total / ~5.5 mi, 30 min at threshold | Done |
+| Thursday | Mar 5 | Easy Run | 35 min / ~3.0 mi | Done |
+| Friday | Mar 6 | HSR + Sauna | Phase 2 HSR, 20 min sauna | Done |
+| Saturday | Mar 7 | Easy Shakeout + Sauna | 30 min / ~2.5 mi | 🔄 Today |
+| Sunday | Mar 8 | Long Run | 2:00 / 10.0 mi, Zone 2 | Planned |
 
 **Weekly Targets**:
 - Total Running Mileage: ~25 miles (6 runs)
@@ -85,6 +85,98 @@
 - Strides: 4x20s completed post-run
 - Sauna: 20 min (~1100)
 - Notes: Seventh consecutive run showing improving pace/HR efficiency. 11:18/mi at 139 HR eclipses yesterday's 11:22 at 143 as the new best easy-run combo. VO2 max jumps to 44.1 — up 0.4 in two days. Strides completed to prime neuromuscular system for tomorrow's 30-min tempo. Knee completely stable through the week so far.
+
+---
+
+### Wednesday, March 4
+
+**Morning Check-In**:
+- Sleep: 7hr 22min, OK quality
+- Resting Heart Rate: 54 bpm (Tuesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Green light for 30-min tempo. RHR holding at 54 — excellent recovery baseline all week. Knee stable at 2/10 for third consecutive day. Sleep solid at 7h22m. Energy and motivation steady at 7. Stress at 5. All systems go for the longest threshold effort to date.
+
+**Planned Workout**: Tempo Run (60 min total / ~5.5 mi — 15 min warm-up, 30 min tempo, 10-15 min cool-down)
+
+**Completed Workout**:
+- Type: Tempo Run
+- Distance: 5.18 miles
+- Duration: 54:52
+- Average Pace: 10:35/mi
+- Average HR: 160 bpm (tempo portions sub-10:00/mi; HR drifted to 170 at times)
+- VO2 Max: 44.0
+- Shoes: Mizuno (2026-mizuno)
+- Effort/Feel: Strong. Tempo pace was faster than expected — often sub-10:00/mi. Had to consciously rein in effort as HR climbed to 170 when running by feel. 30 minutes at threshold completed as planned.
+- Knee: Left 3/10 (up from 2 morning), Right 1/10 (up from 0)
+- Sauna: 15 min
+- Notes: Longest sustained threshold effort to date — 30 minutes at tempo. Pace significantly faster than Week 7's 25-min tempo, reflecting aerobic gains. The tendency to drift above 165 HR is a discipline point to work on — "comfortably hard" should feel controlled, not unleashed. Left knee bump to 3/10 is within acceptable range post-hard effort. Right knee showing 1/10 for first time this week — monitor tomorrow. Eighth run in Mizunos.
+
+---
+
+### Thursday, March 5
+
+**Morning Check-In**:
+- Sleep: 7hr 02min, good quality
+- Resting Heart Rate: 51 bpm (Wednesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Recovery day after biggest tempo effort to date. RHR drops to 51 — a new low, remarkable recovery signal despite yesterday's hard effort. Knee settled back from post-tempo 3/10 to morning 2/10 — good overnight recovery. Sleep slightly under target at 7h02m but quality was good. Stress ticked up to 6 but energy and motivation holding steady. Green light for easy recovery run + HSR + sauna.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) ~~+ HSR + Sauna~~ (HSR/sauna pushed to Friday)
+
+**Completed Workout**:
+- Type: Easy Run (Zone 2)
+- Distance: 3.13 miles
+- Duration: 36:15
+- Average Pace: 11:35/mi
+- Average HR: 134 bpm (excellent deep Zone 2 — 16 bpm under ceiling)
+- VO2 Max: 44.4 (new all-time high!)
+- Shoes: Saucony (2026-saucony)
+- Effort/Feel: Easy recovery run. HR at 134 is the lowest easy-run avg this week — body recovering well from Wednesday's tempo.
+- Knee: Left 2/10 (no change), Right 0/10
+- Notes: Back in Saucony pair. VO2 max hits new all-time high at 44.4 — up from 44.1 two days ago. 11:35/mi at 134 HR is a strong recovery signal. No HSR or sauna today — pushed to Friday due to schedule shift (long run moving to Sunday).
+
+---
+
+### Friday, March 6
+
+**Morning Check-In**:
+- Sleep: 7hr 09min, good quality (woken mid-night)
+- Resting Heart Rate: 54 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 6/10
+- Life Stress: 6/10
+- Overall Status: Rest day from running. Knee drops to 1/10 — best reading of the week. RHR back to 54 after Thursday's 51 dip. Energy and motivation slightly down at 6 — likely from interrupted sleep and accumulated week stress. Good day for HSR + sauna only, no running.
+
+**Planned Workout**: HSR (Phase 2) + Sauna (20 min) — no run today
+
+**Completed Workout**:
+- HSR (Phase 2, ~1000): Barbell Decline Squat 135 lbs x 8 x 2, DB Bulgarian Split Squat 30 lbs x 8 x 2/leg, Banded Step Out 15 x 2/direction, Machine Leg Curl 90 lbs x 8 x 2
+- Sauna: 20 min (post-HSR)
+- Notes: Weights maintained from Monday — solid consistency at the new loads. Second HSR session of the week completed. Fourth sauna session of the week — target hit.
+
+---
+
+### Saturday, March 7
+
+**Morning Check-In**:
+- Sleep: ~7hr 20min (estimated, no watch), good quality
+- Resting Heart Rate: 52 bpm (Friday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 5/10
+- Motivation: 5/10
+- Life Stress: 6/10
+- Illness: Sore throat, light cramping, fatigue, headache — medium severity
+- Overall Status: Red flag for running. Symptoms below the neck (cramping, fatigue) = no running. Energy and motivation at 5 with illness onset. Knee and RHR both excellent but irrelevant today — rest is the priority.
+
+**Planned Workout**: ~~Easy Shakeout Run + Sauna~~ → Full rest day. Optional sauna if feeling up to it.
+- Notes: Shakeout skipped due to illness. Tomorrow's 10-mile long run is a game-time decision based on Sunday morning symptoms. If still sick, 10-miler can be moved into Week 10 cutback week (replacing the 8-mile long run). Week 9 still banked excellent training: 30-min tempo PR, 4 runs (18.39 mi so far), 2 HSR sessions, 4 saunas.
 
 ---
 
