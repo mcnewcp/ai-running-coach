@@ -3,4 +3,4 @@
 | Shoe | Model | Total Miles | Status | First Run | Last Run | Notes |
 |------|-------|-------------|--------|-----------|----------|-------|
 | 2026-saucony | | 126.14 | Active | 2026-01-07 | | |
-| 2026-mizuno | Mizuno Wave Inspire 22 | 27.37 | Active | 2026-02-19 | | |
+| 2026-mizuno | Mizuno Wave Inspire 22 | 29.96 | Active | 2026-02-19 | | |

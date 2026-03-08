@@ -16,8 +16,8 @@
 | Wednesday | Mar 4 | **Tempo Run** | 60 min total / ~5.5 mi, 30 min at threshold | Done |
 | Thursday | Mar 5 | Easy Run | 35 min / ~3.0 mi | Done |
 | Friday | Mar 6 | HSR + Sauna | Phase 2 HSR, 20 min sauna | Done |
-| Saturday | Mar 7 | Easy Shakeout + Sauna | 30 min / ~2.5 mi | 🔄 Today |
-| Sunday | Mar 8 | Long Run | 2:00 / 10.0 mi, Zone 2 | Planned |
+| Saturday | Mar 7 | ~~Easy Shakeout + Sauna~~ Rest | Illness — full rest | Done (rest) |
+| Sunday | Mar 8 | ~~Long Run~~ Easy Treadmill + Sauna | 2.59 mi, 30:01, HR 137 + 15 min sauna | Done |
 
 **Weekly Targets**:
 - Total Running Mileage: ~25 miles (6 runs)
@@ -180,4 +180,43 @@
 
 ---
 
-*Log will be updated daily with completed workouts and check-ins*
+### Sunday, March 8
+
+**Morning Check-In**:
+- Sleep: 6hr 40min, OK quality (daylight savings time change shortened sleep)
+- Resting Heart Rate: 53 bpm (Saturday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 5/10
+- Motivation: 5/10
+- Life Stress: 6/10
+- Illness: Still present but improving from Saturday. Upper respiratory symptoms lingering.
+- Overall Status: Second day of illness, improving trajectory. Sleep shortened by DST change — not ideal for recovery. Energy and motivation still dampened at 5. Knee excellent at 1/10. 10-mile long run not feasible today — plan adjusted.
+
+**Planned Workout**: ~~Long Run (2:00 / 10.0 mi)~~ → Short treadmill run (25-30 min easy) + Sauna (15 min)
+- Decision: 10-mile long run moved to Week 10 cutback week (replacing the planned 8-mile long run). This gives a full week of additional recovery from illness while still hitting the double-digit milestone before Week 11's progressive long run.
+
+**Completed Workout**:
+- Type: Easy Run (Zone 2, treadmill)
+- Distance: 2.59 miles
+- Duration: 30:01
+- Average Pace: 11:34/mi
+- Average HR: 137 bpm (solid Zone 2 — 13 bpm under ceiling)
+- Shoes: Mizuno (2026-mizuno) on Peloton treadmill (no VO2 max — indoor)
+- Effort/Feel: Easy effort while still recovering from illness. Good HR control.
+- Knee: Left 1/10, Right 0/10
+- Sauna: 15 min (post-run)
+- Notes: Smart session — kept it short and easy while fighting off illness. 137 HR at 11:34 pace continues strong aerobic efficiency trend. Fifth sauna session of the week.
+
+---
+
+## Week 9 Summary
+
+**Total Running**: 5 runs, 17.85 miles (vs. 25 planned)
+**Week Assessment**: Illness disrupted the final 2 days, but the quality work was already banked. 30-min tempo PR on Wednesday was the key session and was executed well. Aerobic efficiency continues to improve (VO2 max hit 44.4). Knee health excellent all week (1-2/10 range). HSR and sauna targets both met (2 HSR, 4+ saunas).
+
+**Adjustments for Week 10**:
+- Long run bumped from 8.0 → 10.0 miles (absorbing the missed Week 9 milestone)
+- Week 10 will still serve as a cutback — total volume ~22 miles vs. Week 9's 25 target
+- Monitor illness recovery through early week; if not fully recovered by Wednesday, reassess the 10-mile plan
+
+*Log will be updated with Sunday treadmill run details when completed*
