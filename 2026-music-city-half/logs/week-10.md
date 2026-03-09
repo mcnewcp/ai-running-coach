@@ -49,4 +49,28 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2) + HSR (Phase 2) + Sauna (20 min) — pending illness update
 
+**Completed Workout**:
+
+*Easy Run* (10:20 AM):
+- Distance: 3.13 miles
+- Duration: 35:01
+- Pace: 11:11/mi
+- Avg HR: 141 bpm
+- VO2 Max: 44.8 (new high!)
+- Route: Smith Park trails
+- Shoes: Mizuno Wave Inspire 22
+- Knee: Left 1/10, Right 0/10
+- Notes: Excellent Zone 2 discipline on hilly trails while recovering from illness. HR well under 150 on terrain that typically pushes HR higher.
+
+*HSR Session* (11:00 AM):
+
+| Exercise | Weight | Reps x Sets | Notes |
+|----------|--------|-------------|-------|
+| Barbell Squat | 135 lbs | 8 x 2 | Held weight from last week (cutback) |
+| DB Bulgarian Split Squat | 2x20 lbs | 8 x 2/leg | Switched to two DBs for balanced loading (up from 1x30 lb). Keeping this format going forward |
+| Banded Step Out | Bodyweight | 15 x 2/direction | |
+| Machine Leg Curl | 90 lbs | 8 x 2 | |
+
+*Sauna* (11:30 AM): 20 minutes ✓
+
 ---
