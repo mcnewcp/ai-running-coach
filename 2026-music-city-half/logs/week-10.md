@@ -74,3 +74,18 @@
 *Sauna* (11:30 AM): 20 minutes ✓
 
 ---
+
+### Tuesday, March 10
+
+**Morning Check-In**:
+- Sleep: 6hr 58min, fair quality ("slept ok")
+- Resting Heart Rate: 52 bpm (Monday avg — down from 54)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 5/10
+- Motivation: 5/10
+- Life Stress: 5/10
+- Overall Status: Fourth consecutive sub-7-hour sleep night. Energy/motivation holding steady at 5. Left knee ticked up slightly (1→2) but still well within green zone. RHR dropped to 52 — a positive recovery signal. Cutback week continues.
+
+**Planned Workout**: Easy Run (30 min / ~2.5 mi, Zone 2) + Strides (4x20s) + Mobility + Sauna (20 min)
+
+---
