@@ -106,3 +106,18 @@
 *Sauna*: Skipped today
 
 ---
+
+### Wednesday, March 11
+
+**Morning Check-In**:
+- Sleep: 7hr 10min, good quality
+- Resting Heart Rate: 56 bpm (Tuesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 4/10
+- Overall Status: Best sleep of the week so far — first night over 7 hours. Energy and motivation both jumped up to 7 (from 5). Left knee back down to 1/10. RHR ticked up to 56 but still healthy range. Cutback week recovery is kicking in.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2 — no hard workout this week)
+
+---
