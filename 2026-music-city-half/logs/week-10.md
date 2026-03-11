@@ -88,4 +88,21 @@
 
 **Planned Workout**: Easy Run (30 min / ~2.5 mi, Zone 2) + Strides (4x20s) + Mobility + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run + Strides* (2:30 PM):
+- Distance: 2.78 miles
+- Duration: 30:56
+- Pace: 11:06/mi
+- Avg HR: 144 bpm
+- VO2 Max: 45.0 (new high — second consecutive!)
+- Shoes: Saucony
+- Knee: Left 2/10, Right 0/10 (no change from morning)
+- Strides: 4x20s completed post-run
+- Notes: Excellent Zone 2 execution; HR 144 at 11:06 pace. VO2 max continues upward trend (44.4 → 44.8 → 45.0). Cutback week working well.
+
+*Mobility*: Short session (evening) ✓
+
+*Sauna*: Skipped today
+
 ---
