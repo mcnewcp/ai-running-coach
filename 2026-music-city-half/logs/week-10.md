@@ -120,4 +120,19 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, Zone 2 — no hard workout this week)
 
+**Completed Workout**:
+
+*Easy Run* (10:00 AM):
+- Distance: 3.23 miles
+- Duration: 36:14
+- Pace: 11:13/mi
+- Avg HR: 144 bpm
+- VO2 Max: 45.3 (new high — third consecutive!)
+- Route: Sidewalks around Lifetime Fitness
+- Shoes: Mizuno Wave Inspire 22
+- Knee: Left 1/10, Right 0/10 (no change)
+- Notes: Solid easy effort. VO2 max keeps ticking up (44.8 → 45.0 → 45.3). Zone 2 discipline on point at 144 HR.
+
+*Sauna* (post-run): 20 minutes ✓
+
 ---
