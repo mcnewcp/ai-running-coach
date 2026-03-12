@@ -136,3 +136,32 @@
 *Sauna* (post-run): 20 minutes ✓
 
 ---
+
+### Thursday, March 12
+
+**Morning Check-In**:
+- Sleep: 7hr 28min, fair quality ("ok")
+- Resting Heart Rate: 53 bpm (Wednesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 5/10
+- Motivation: 5/10
+- Life Stress: 4/10
+- Notes: Had 2 beers at NSC game last night — explains dip in energy/motivation
+- Overall Status: Sleep improved to 7:28 but quality fair after beers. Energy/motivation back to 5 — expected. RHR dropped to 53, still tracking well. Left knee 2/10, within normal range. Cutback week absorbing well despite lower-energy day.
+
+**Planned Workout**: Easy Run (30 min / ~2.5 mi, recovery pace) + HSR + Sauna
+
+**Completed Workout**:
+
+*Easy Run* (2:30 PM):
+- Distance: 3.08 miles
+- Duration: 34:03
+- Pace: 11:03/mi
+- Avg HR: 141 bpm
+- VO2 Max: 45.4 (new high — fourth consecutive!)
+- Route: Smith Park trails
+- Shoes: Saucony
+- Knee: Left 2/10, Right 0/10 (no change)
+- Notes: Best efficiency of the week — 11:03 pace at only 141 HR on hilly trails. VO2 max trend continues: 44.8 → 45.0 → 45.3 → 45.4. Solid run despite lower energy from beers.
+
+---
