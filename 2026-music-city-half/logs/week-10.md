@@ -164,4 +164,8 @@
 - Knee: Left 2/10, Right 0/10 (no change)
 - Notes: Best efficiency of the week — 11:03 pace at only 141 HR on hilly trails. VO2 max trend continues: 44.8 → 45.0 → 45.3 → 45.4. Solid run despite lower energy from beers.
 
+*HSR*: Skipped today
+
+*Sauna* (3:30 PM): 20 minutes ✓
+
 ---
