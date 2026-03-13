@@ -183,4 +183,18 @@
 
 **Planned Workout**: Rest + Sauna + Mobility only
 
+**Upper Body Strength Session** (completed ~10:45 AM):
+
+| Exercise | Weight | Reps × Sets |
+|----------|--------|-------------|
+| Incline DB Bench Press | 50 lbs | 8 × 3 |
+| Cable Row | 100 lbs | 8 × 3 |
+| DB Shoulder Press | 30 lbs | 8 × 3 |
+| Incline DB Curl | 25 lbs | 8 × 3 |
+| Cable Tricep Pushdown | 20 lbs | 10 × 3 |
+
+- Notes: Tricep pushdown lighter than planned (20 vs 40 lbs) — use 20 as baseline. Incline curl stayed at 25 lbs (down from 27.5 plan). Good session, no issues.
+
+**Sauna**: 20 min post-workout ✓ (Sauna count this week: 4/4 target — check with prior days)
+
 ---
