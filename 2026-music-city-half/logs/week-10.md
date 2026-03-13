@@ -169,3 +169,18 @@
 *Sauna* (3:30 PM): 20 minutes ✓
 
 ---
+
+### Friday, March 13
+
+**Morning Check-In**:
+- Sleep: 7hr 12min, fair quality ("ok")
+- Resting Heart Rate: 55 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 6/10
+- Life Stress: 3/10
+- Overall Status: Rest day. Energy and motivation rebounding (6, up from 5). Stress at its lowest this week. Left knee back to 1/10. RHR 55 — normal range. Body is primed for tomorrow's 10-mile long run.
+
+**Planned Workout**: Rest + Sauna + Mobility only
+
+---
