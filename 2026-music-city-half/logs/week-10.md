@@ -179,9 +179,9 @@
 - Energy: 6/10
 - Motivation: 7/10
 - Life Stress: 3/10
-- Overall Status: Cutback week long run day. RHR at an all-time low of 50 — excellent sign of cardiovascular adaptation. Sleep a bit short at 6.5 hrs due to interruptions but energy and motivation are adequate. Knee fully clear. Green light for 8-mile Zone 2 long run.
+- Overall Status: Long run day — 10-miler moved here from Week 9 (missed due to illness). RHR at an all-time low of 50 — excellent sign of cardiovascular adaptation. Sleep a bit short at 6.5 hrs due to interruptions but energy and motivation are adequate. Knee fully clear. Green light for 10-mile Zone 2 long run.
 
-**Planned Workout**: Long Run — 8.0 mi, Zone 2 (<150 bpm)
+**Planned Workout**: Long Run — 10.0 mi, Zone 2 (<150 bpm)
 
 ---
 
