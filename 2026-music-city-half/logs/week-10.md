@@ -170,6 +170,21 @@
 
 ---
 
+### Saturday, March 14
+
+**Morning Check-In**:
+- Sleep: 6hr 28min, fair quality (woken up multiple times)
+- Resting Heart Rate: 50 bpm (Friday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 7/10
+- Life Stress: 3/10
+- Overall Status: Cutback week long run day. RHR at an all-time low of 50 — excellent sign of cardiovascular adaptation. Sleep a bit short at 6.5 hrs due to interruptions but energy and motivation are adequate. Knee fully clear. Green light for 8-mile Zone 2 long run.
+
+**Planned Workout**: Long Run — 8.0 mi, Zone 2 (<150 bpm)
+
+---
+
 ### Friday, March 13
 
 **Morning Check-In**:
