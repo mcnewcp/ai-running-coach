@@ -183,6 +183,20 @@
 
 **Planned Workout**: Long Run — 10.0 mi, Zone 2 (<150 bpm)
 
+**Completed Workout**:
+
+*Long Run* (2:00 PM):
+- Distance: 10.07 miles
+- Duration: 1:52:49
+- Pace: 11:12/mi
+- Avg HR: 142 bpm
+- VO2 Max: 45.6 (new high — fifth consecutive!)
+- Route: Smith Park to Crockett Park trail and back
+- Shoes: Saucony
+- Knee: Left 3/10, Right 1/10
+- Fueling: Nerds Gummy Clusters at miles 4, 5, 6, 7
+- Notes: FIRST 10-MILER! Best long-run efficiency to date — faster, longer, and lower HR than any previous long run. Miles 4-7 felt hard, but 7-10 felt great with a strong finish (fastest mile was the last). Negative split the back half. VO2 max trend continues: 45.4 → 45.6.
+
 ---
 
 ### Friday, March 13
