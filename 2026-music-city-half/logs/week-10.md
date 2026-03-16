@@ -227,3 +227,56 @@
 **Sauna**: 20 min post-workout ✓ (Sauna count this week: 4/4 target — check with prior days)
 
 ---
+
+### Sunday, March 15
+
+**Morning Check-In**:
+- Sleep: 7hr 57min, good quality
+- Resting Heart Rate: 53 bpm (Saturday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 6/10
+- Motivation: 5/10
+- Life Stress: 5/10
+- Overall Status: Full rest day after first-ever 10-miler. Sleep is the best of the week at nearly 8 hours. Left knee already recovering (3→2 from yesterday). RHR steady at 53.
+
+**Planned Workout**: Rest + Mobility + Sauna (20 min)
+
+**Completed**:
+- Mobility session ✓
+- Sauna: Skipped
+- Lots of rest ✓
+
+---
+
+## Week 10 Summary
+
+### Running Totals
+| Metric | Target | Actual |
+|--------|--------|--------|
+| Total Mileage | ~22 mi | 22.29 mi ✓ |
+| Number of Runs | 5 | 5 ✓ |
+| Long Run | 10.0 mi | 10.07 mi ✓ |
+| HSR Sessions | 2 | 1 (Thursday skipped) |
+| Sauna Sessions | 4 | 4 ✓ |
+
+### Key Highlights
+- **FIRST 10-MILER COMPLETED** — 10.07 mi at 11:12/mi, 142 HR. Best long-run efficiency ever.
+- **VO2 max streak**: Five consecutive new highs (44.8 → 45.0 → 45.3 → 45.4 → 45.6)
+- **Zone 2 mastery**: Every run this week was under 150 HR. Avg HR across all runs: ~142.
+- **Cutback week executed well**: Volume right on target at 22 miles despite absorbing the moved 10-miler.
+- **Fueling practice**: Successfully fueled during a long run for the first time (gummy clusters every mile from 4-7).
+
+### Health Tracking
+- **Left knee**: Ranged 1-3/10 all week. Hit 3/10 post-10-miler but recovered to 2 by Sunday. Manageable.
+- **Right knee**: 0-1/10 all week. No concerns.
+- **Sleep**: Averaged ~7:09/night. Best night was Sunday (7:57). Several sub-7 nights early in week.
+- **RHR trend**: 54 → 52 → 56 → 53 → 55 → 50 → 53. Hit an all-time low of 50 on Friday.
+
+### Areas to Improve
+- **HSR compliance**: Only 1 of 2 sessions completed (Thursday skipped). Need to prioritize both sessions next week.
+- **Sleep consistency**: Several sub-7 nights early in the week. Target 7.5+ consistently.
+
+### Looking Ahead to Week 11
+- Peak phase begins — this is the highest-volume week of the program
+- Key workouts will include tempo work and a long run progression
+- Knee health looks good to proceed; monitor closely with increased load
