@@ -12,7 +12,7 @@
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
 | Monday | Mar 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, Zone 2 | |
-| Tuesday | Mar 17 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | |
+| Tuesday | Mar 17 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
 | Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | |
 | Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | |
 | Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | |
@@ -44,5 +44,37 @@
 - Overall Status: Strong start to peak build week. RHR at 51 — excellent cardiovascular fitness signal. Energy and motivation both at 7, matching best of last week. Knee fully clear at 1/10. Sleep a bit short (6:41) due to tornado warning but quality was good. Body is well-recovered from cutback week and ready for highest volume yet.
 
 **Planned Workout**: Easy Run (40 min / ~3.5 mi, Zone 2) + HSR + Sauna (20 min)
+
+---
+
+### Tuesday, March 17
+
+**Morning Check-In**: (Collected earlier in session)
+
+**Planned Workout**: Easy Run (40 min / ~3.5 mi, Zone 2) + Mobility + Sauna (20 min)
+**Actual Workout**: Easy Run + HSR + Sauna (swapped mobility for HSR)
+
+**Completed Workout**:
+
+*Easy Run* (3:00 PM):
+- Distance: 3.51 miles
+- Duration: 40:04
+- Pace: 11:25/mi
+- Avg HR: 143 bpm
+- Route: Treadmill (Peloton)
+- Shoes: Mizuno Wave Inspire 22
+- Knee: Left 1/10, Right 0/10 (no change from morning)
+- Notes: Solid Zone 2 execution at 143 HR. Treadmill day.
+
+*HSR Session* (post-run):
+
+| Exercise | Weight | Reps x Sets |
+|----------|--------|-------------|
+| Barbell Squat | 135 lbs | 8 x 2 |
+| DB Bulgarian Split Squat | 2x20 lbs | 8 x 2/leg |
+| Banded Step Out | Bodyweight | 15 x 2/dir |
+| Machine Leg Curl | 90 lbs | 8 x 2 |
+
+*Sauna* (post-HSR): 20 minutes ✓
 
 ---
