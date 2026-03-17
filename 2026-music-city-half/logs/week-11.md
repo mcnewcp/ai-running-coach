@@ -69,3 +69,18 @@
 *Sauna* (post-HSR): 20 minutes ✓
 
 ---
+
+### Tuesday, March 17
+
+**Morning Check-In**:
+- Sleep: 6hr 45min, OK quality
+- Resting Heart Rate: 55 bpm (Monday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Second consecutive short sleep night (6:41 + 6:45). RHR up 4 bpm to 55 — still within normal range but worth noting. Knee remains excellent at 1/10. Energy slightly lower at 6 but motivation holding strong. Pure recovery day with easy run + mobility + sauna.
+
+**Planned Workout**: Easy Run (40 min / ~3.5 mi, Zone 2) + Mobility + Sauna (20 min)
+
+---
