@@ -13,7 +13,7 @@
 |-----|------|---------|--------|--------|
 | Monday | Mar 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
 | Tuesday | Mar 17 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
-| Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | |
+| Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | ✅ |
 | Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | |
 | Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | |
 | Saturday | Mar 21 | **Progressive Long Run** | ~2:10 / 11.0 mi (8 easy + 3 at HM effort) | |
@@ -110,6 +110,22 @@
 - Life Stress: 5/10
 - Overall Status: Excellent rebound day. Sleep back above 7.5 hours and it shows — energy and motivation both jump to 8 (best of the week). RHR back down to 53 after yesterday's 55. Knee rock-solid at 1/10 all week. Body feeling great heading into easy + strides day.
 
-**Planned Workout**: Easy Run (45 min / ~4.0 mi, Zone 2) + 4x20s Strides
+**Planned Workout**: Easy Run (45 min / ~4.0 mi, Zone 2) + 4x20s Strides + Sauna (20 min)
+
+**Completed Workout**:
+
+*Easy Run + Strides* (1:20 PM):
+- Distance: 4.06 miles
+- Duration: 45:57
+- Pace: 11:19/mi
+- Avg HR: 149 bpm
+- VO2 Max: 45.7 (new high!)
+- Route: Trails behind Lifetime Fitness
+- Shoes: 2026-saucony (assumed — please confirm if different)
+- Knee: Left 1/10, Right 0/10 (no change)
+- Strides: 4x20s completed post-run
+- Notes: Hilly trail run pushed HR to Zone 2 ceiling (149). Good discipline keeping it under 150 on elevation. VO2 max ticks up again to 45.7.
+
+*Sauna* (post-run): 20 minutes ✓
 
 ---
