@@ -121,7 +121,7 @@
 - Avg HR: 149 bpm
 - VO2 Max: 45.7 (new high!)
 - Route: Trails behind Lifetime Fitness
-- Shoes: 2026-saucony (assumed — please confirm if different)
+- Shoes: Mizuno Wave Inspire 22
 - Knee: Left 1/10, Right 0/10 (no change)
 - Strides: 4x20s completed post-run
 - Notes: Hilly trail run pushed HR to Zone 2 ceiling (149). Good discipline keeping it under 150 on elevation. VO2 max ticks up again to 45.7.
