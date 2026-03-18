@@ -12,7 +12,7 @@
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
 | Monday | Mar 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
-| Tuesday | Mar 17 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | |
+| Tuesday | Mar 17 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
 | Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | |
 | Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | |
 | Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | |
@@ -82,5 +82,34 @@
 - Overall Status: Second consecutive short sleep night (6:41 + 6:45). RHR up 4 bpm to 55 — still within normal range but worth noting. Knee remains excellent at 1/10. Energy slightly lower at 6 but motivation holding strong. Pure recovery day with easy run + mobility + sauna.
 
 **Planned Workout**: Easy Run (40 min / ~3.5 mi, Zone 2) + Mobility + Sauna (20 min)
+
+**Completed Workout**:
+
+*Easy Run* (11:00 AM):
+- Distance: 3.54 miles
+- Duration: 40:02
+- Pace: 11:17/mi
+- Avg HR: 145 bpm
+- Route: Treadmill (Peloton)
+- Shoes: Mizuno Wave Inspire 22
+- Knee: Left 1/10, Right 0/10 (no change from morning)
+- Notes: Solid Zone 2 run at 145 HR. Slightly faster pace than Monday (11:17 vs 11:25) at similar effort.
+
+*Sauna* (post-run): 20 minutes ✓
+
+---
+
+### Wednesday, March 18
+
+**Morning Check-In**:
+- Sleep: 7hr 38min, good quality
+- Resting Heart Rate: 53 bpm (Tuesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Excellent rebound day. Sleep back above 7.5 hours and it shows — energy and motivation both jump to 8 (best of the week). RHR back down to 53 after yesterday's 55. Knee rock-solid at 1/10 all week. Body feeling great heading into easy + strides day.
+
+**Planned Workout**: Easy Run (45 min / ~4.0 mi, Zone 2) + 4x20s Strides
 
 ---
