@@ -129,3 +129,18 @@
 *Sauna* (post-run): 20 minutes ✓
 
 ---
+
+### Thursday, March 19
+
+**Morning Check-In**:
+- Sleep: 5hr 59min, fair quality (stayed up late, couple beers)
+- Resting Heart Rate: 54 bpm (Wednesday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 5/10
+- Motivation: 5/10
+- Life Stress: 5/10
+- Overall Status: Shortest sleep of the week at just under 6 hours, compounded by alcohol. Energy and motivation both drop to 5 — lowest of the week. RHR holding steady at 54. Knee remains excellent. This is the easy/short day on the plan, which is fortunate. Priority is checking the box, getting HSR done, and banking good sleep tonight ahead of Saturday's progressive long run.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, recovery pace) + HSR + Sauna (20 min)
+
+---
