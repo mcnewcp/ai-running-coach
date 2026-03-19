@@ -14,7 +14,7 @@
 | Monday | Mar 16 | Easy Run + HSR + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
 | Tuesday | Mar 17 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
 | Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | ✅ |
-| Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | |
+| Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | ✅ |
 | Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | |
 | Saturday | Mar 21 | **Progressive Long Run** | ~2:10 / 11.0 mi (8 easy + 3 at HM effort) | |
 | Sunday | Mar 22 | Rest + Mobility + Sauna | 30 min deep mobility | |
@@ -142,5 +142,21 @@
 - Overall Status: Shortest sleep of the week at just under 6 hours, compounded by alcohol. Energy and motivation both drop to 5 — lowest of the week. RHR holding steady at 54. Knee remains excellent. This is the easy/short day on the plan, which is fortunate. Priority is checking the box, getting HSR done, and banking good sleep tonight ahead of Saturday's progressive long run.
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, recovery pace) + HSR + Sauna (20 min)
+
+**Completed Workout**:
+
+*Easy Run* (3:00 PM):
+- Distance: 3.14 miles
+- Duration: 35:00
+- Pace: 11:08/mi
+- Avg HR: 142 bpm
+- Route: Treadmill (Peloton)
+- Shoes: Mizuno Wave Inspire 22
+- Knee: Left 3/10 (up from 1 AM), Right 0/10
+- Notes: Best pace-to-HR ratio of the week (11:08 at 142). Left knee rose to 3/10 during run.
+
+*HSR Session*: SKIPPED — left knee at 3/10 post-run. Smart decision to protect knee ahead of Saturday's progressive long run.
+
+*Sauna* (post-run): 20 minutes ✓
 
 ---
