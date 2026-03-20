@@ -15,7 +15,7 @@
 | Tuesday | Mar 17 | Easy Run + Mobility + Sauna | 40 min / ~3.5 mi, Zone 2 | ✅ |
 | Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | ✅ |
 | Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | ✅ |
-| Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | |
+| Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | ✅ |
 | Saturday | Mar 21 | **Progressive Long Run** | ~2:10 / 11.0 mi (8 easy + 3 at HM effort) | |
 | Sunday | Mar 22 | Rest + Mobility + Sauna | 30 min deep mobility | |
 
@@ -156,6 +156,36 @@
 - Notes: Best pace-to-HR ratio of the week (11:08 at 142). Left knee rose to 3/10 during run.
 
 *HSR Session*: SKIPPED — left knee at 3/10 post-run. Smart decision to protect knee ahead of Saturday's progressive long run.
+
+*Sauna* (post-run): 20 minutes ✓
+
+---
+
+### Friday, March 20
+
+**Morning Check-In**:
+- Sleep: 8hr 15min, good quality
+- Resting Heart Rate: 53 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 4/10
+- Overall Status: Excellent rebound. Best sleep of the week at 8:15 after Thursday's short night. Energy and motivation surge back to 8. Knee settles back to 1/10 after yesterday's 3/10 — confirms it was a transient response to fatigue/load, not a trend. RHR steady at 53. Body is primed for tomorrow's progressive long run.
+
+**Planned Workout**: Optional Easy Run (25 min / ~2.0 mi) + Sauna (20 min)
+
+**Completed Workout**:
+
+*Easy Shakeout Run* (1:30 PM):
+- Distance: 2.28 miles
+- Duration: 25:17
+- Pace: 11:04/mi
+- Avg HR: 149 bpm
+- VO2 Max: 45.9 (new high!)
+- Route: Trails behind Lifetime Fitness
+- Shoes: Mizuno Wave Inspire 22
+- Knee: Left 1/10, Right 0/10 (no change)
+- Notes: Short shakeout on hilly trails. HR at 149 due to elevation — same trail effect as Wednesday. VO2 max continues upward trend (45.7 → 45.9). Legs feel fresh.
 
 *Sauna* (post-run): 20 minutes ✓
 
