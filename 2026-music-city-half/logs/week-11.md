@@ -190,3 +190,19 @@
 *Sauna* (post-run): 20 minutes ✓
 
 ---
+
+### Saturday, March 21
+
+**Morning Check-In**:
+- Sleep: 7hr 00min, OK quality
+- Resting Heart Rate: 55 bpm (Friday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Ready for the biggest workout of Phase 2. Energy and motivation both at 8. Knee clean at 1/10. Sleep adequate at 7 hours. RHR at 55 — slightly elevated this week but within normal range. All systems go for 11-mile progressive long run.
+
+**Planned Workout**: Progressive Long Run (~2:10 / 11.0 mi — 8 easy + 3 at HM effort)
+- Fueling Plan: 2 gels (25g carbs each) — Gel 1 at mile 4-5, Gel 2 at mile 7-8
+
+---
