@@ -16,7 +16,7 @@
 | Wednesday | Mar 18 | Easy Run + Strides | 45 min / ~4.0 mi + 4x20s, Zone 2 (NO hard workout) | ✅ |
 | Thursday | Mar 19 | Easy Run + HSR + Sauna | 35 min / ~3.0 mi, recovery pace | ✅ |
 | Friday | Mar 20 | Rest or Easy Run + Sauna | Optional 25 min / ~2.0 mi | ✅ |
-| Saturday | Mar 21 | **Progressive Long Run** | ~2:10 / 11.0 mi (8 easy + 3 at HM effort) | |
+| Saturday | Mar 21 | **Progressive Long Run** | ~2:10 / 11.0 mi (8 easy + 3 at HM effort) | ✅ |
 | Sunday | Mar 22 | Rest + Mobility + Sauna | 30 min deep mobility | |
 
 **Weekly Targets**:
@@ -204,5 +204,34 @@
 
 **Planned Workout**: Progressive Long Run (~2:10 / 11.0 mi — 8 easy + 3 at HM effort)
 - Fueling Plan: 2 gels (25g carbs each) — Gel 1 at mile 4-5, Gel 2 at mile 7-8
+
+**Completed Workout**:
+
+*Progressive Long Run*:
+- Distance: 11.02 miles (NEW DISTANCE PR)
+- Duration: 2:01:07
+- Avg Pace: 10:59/mi
+- Avg HR: 151 bpm
+- Route: Outdoor
+- Shoes: Saucony
+- Fueling: Gel 1 at mile 4-5, Gel 2 at mile 7-8 (executed as planned)
+- Pickup Miles (9-11): 10:19, 10:21, 10:01 — negative split on the hard section!
+- Knee (post-run): Left 3/10 (up from 1 AM), Right 2/10 (up from 0)
+- Notes: Crown jewel of Phase 2 — completed. Increased pace at mile 8 as planned. Final 3 miles all sub-10:30 with mile 11 being the fastest (10:01). Hard effort but felt strong. Fueling strategy worked well. Finished 9 minutes faster than the 2:10 estimate. Post-run knee response expected at this distance — new longest run ever.
+
+---
+
+### Sunday, March 22
+
+**Morning Check-In**:
+- Sleep: 6hr 34min, OK quality (woken up early)
+- Resting Heart Rate: 53 bpm (Saturday avg)
+- Knee Pain: Left 3/10, Right 1/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Post-long-run recovery day. Left knee at 3/10 — expected after 11-mile PR. Right knee settled from 2 post-run to 1 overnight. Energy and motivation both at 7 despite shorter sleep — body is resilient. RHR back to 53. Full rest day with mobility and sauna to aid recovery.
+
+**Planned Workout**: Rest + Mobility (30 min deep stretching) + Sauna (20 min)
 
 ---
