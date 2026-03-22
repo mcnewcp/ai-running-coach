@@ -212,6 +212,7 @@
 - Duration: 2:01:07
 - Avg Pace: 10:59/mi
 - Avg HR: 151 bpm
+- VO2 Max: 46.1 (new high!)
 - Route: Outdoor
 - Shoes: Saucony
 - Fueling: Gel 1 at mile 4-5, Gel 2 at mile 7-8 (executed as planned)
