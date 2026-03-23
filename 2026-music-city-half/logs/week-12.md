@@ -46,4 +46,21 @@
 
 **Planned Workout**: Easy Run (40-45 min / ~3.5-4.0 mi, Zone 2) + HSR + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (3:30 PM):
+- Distance: 4.01 miles
+- Duration: 45:05
+- Pace: 11:14/mi
+- Avg HR: 148 bpm
+- VO2 Max: 46.2 (new high!)
+- Route: TBD
+- Shoes: TBD
+- Knee: Left 3/10 (up from 2.5 AM), Right 1/10 (up from 0)
+- Notes: Felt sluggish throughout despite strong numbers. Residual fatigue from Saturday's 11-mile PR. VO2 max continues upward trend (46.1 → 46.2). Solid Zone 2 execution at 148 HR.
+
+*HSR Session*: TBD
+
+*Sauna*: TBD
+
 ---
