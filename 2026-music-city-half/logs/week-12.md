@@ -11,7 +11,7 @@
 
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
-| Monday | Mar 23 | Easy Run + HSR + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | |
+| Monday | Mar 23 | Easy Run + HSR + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | |
 | Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | |
 | Thursday | Mar 26 | Easy Run + HSR + Sauna | 35-40 min / ~3.0-3.5 mi, recovery pace | |
@@ -54,13 +54,12 @@
 - Pace: 11:14/mi
 - Avg HR: 148 bpm
 - VO2 Max: 46.2 (new high!)
-- Route: TBD
-- Shoes: TBD
+- Shoes: Mizuno Wave Inspire 22
 - Knee: Left 3/10 (up from 2.5 AM), Right 1/10 (up from 0)
 - Notes: Felt sluggish throughout despite strong numbers. Residual fatigue from Saturday's 11-mile PR. VO2 max continues upward trend (46.1 → 46.2). Solid Zone 2 execution at 148 HR.
 
-*HSR Session*: TBD
+*HSR Session*: SKIPPED — left knee at 3/10 post-run. Second consecutive skip; prioritizing knee health ahead of Wednesday's HM pace run.
 
-*Sauna*: TBD
+*Sauna*: UNAVAILABLE — Lifetime sauna closed through Wednesday 3/25. Next available session Thursday.
 
 ---
