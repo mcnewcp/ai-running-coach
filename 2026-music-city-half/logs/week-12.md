@@ -63,3 +63,18 @@
 *Sauna*: UNAVAILABLE — Lifetime sauna closed through Wednesday 3/25. Next available session Thursday.
 
 ---
+
+### Tuesday, March 24
+
+**Morning Check-In**:
+- Sleep: 7hr 15min, good quality
+- Resting Heart Rate: 52 bpm (Monday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Strong recovery day. Left knee down from 3 post-run yesterday to 2 this morning — good sign. RHR 52 is healthy (up slightly from Sunday's all-time low 50, which is normal variance). Energy and motivation both high. Stress down from 6 to 5. Body is responding well heading into tomorrow's HM pace run.
+
+**Planned Workout**: Easy Run (40-45 min / ~3.5-4.0 mi, Zone 2) + Mobility (no sauna — Lifetime closed through Wed)
+
+---
