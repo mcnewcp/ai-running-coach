@@ -13,7 +13,7 @@
 |-----|------|---------|--------|--------|
 | Monday | Mar 23 | Easy Run + HSR + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
-| Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | |
+| Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | ✅ |
 | Thursday | Mar 26 | Easy Run + HSR + Sauna | 35-40 min / ~3.0-3.5 mi, recovery pace | |
 | Friday | Mar 27 | Rest or Easy Run + Sauna | Optional 25-30 min / ~2.0-2.5 mi | |
 | Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | |
@@ -108,5 +108,21 @@
 - Overall Status: Green light for HM pace run. Left knee stable at 2 for a second straight morning. RHR steady at 52. Energy/motivation at 7 — slight dip from yesterday's 8s but normal ahead of a hard effort day. Three straight nights of 7+ hours sleep. Body is ready for race-specific work.
 
 **Planned Workout**: HM Pace Run — 5 miles at goal HM pace (~10:00-10:20/mi)
+
+**Completed Workout**:
+
+*HM Pace Run* (2:49 PM):
+- Distance: 5.01 miles
+- Duration: 49:25
+- Pace: 9:51/mi avg
+- Avg HR: 162 bpm
+- VO2 Max: 46.0
+- Shoes: Mizuno Wave Inspire 22
+- Route: Crockett Park trails (paved)
+- Knee: Left 3/10 (up from 2 AM), Right 1/10 (up from 0)
+- Splits: 9:50 (151), 9:56 (159), 9:56 (165), 9:50 (166), 9:39 (168)
+- Notes: Excellent execution. Remarkably consistent pacing — only 17s spread across all 5 miles. Negative split on mile 5 (9:39) shows strong finishing ability. Came in slightly faster than 10:00-10:20 target. HR progression textbook for sustained effort. Felt "hard but good hard." First race-specific pace run of Peak phase — nailed it.
+
+*Sauna*: UNAVAILABLE — Lifetime closed through Wednesday 3/25. Last day of closure.
 
 
