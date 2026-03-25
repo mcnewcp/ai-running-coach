@@ -12,7 +12,7 @@
 | Day | Date | Workout | Target | Status |
 |-----|------|---------|--------|--------|
 | Monday | Mar 23 | Easy Run + HSR + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
-| Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | |
+| Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | |
 | Thursday | Mar 26 | Easy Run + HSR + Sauna | 35-40 min / ~3.0-3.5 mi, recovery pace | |
 | Friday | Mar 27 | Rest or Easy Run + Sauna | Optional 25-30 min / ~2.0-2.5 mi | |
@@ -76,5 +76,20 @@
 - Overall Status: Strong recovery day. Left knee down from 3 post-run yesterday to 2 this morning — good sign. RHR 52 is healthy (up slightly from Sunday's all-time low 50, which is normal variance). Energy and motivation both high. Stress down from 6 to 5. Body is responding well heading into tomorrow's HM pace run.
 
 **Planned Workout**: Easy Run (40-45 min / ~3.5-4.0 mi, Zone 2) + Mobility (no sauna — Lifetime closed through Wed)
+
+**Completed Workout**:
+
+*Easy Run* (3:30 PM):
+- Distance: 4.28 miles
+- Duration: 47:26
+- Pace: 11:04/mi
+- Avg HR: 146 bpm
+- VO2 Max: 46.1
+- Shoes: Saucony Guide 17
+- Route: Vivrette Smith Park trails (hilly, unpaved)
+- Knee: Left 2/10 (stable from AM), Right 1/10 (up from 0)
+- Notes: Strong Zone 2 execution on hilly trails. HR 146 on trails is impressive — lower than yesterday's 148 on flat paved. Knee stable through the run. Good prep day before Wednesday's HM pace run.
+
+*Sauna*: UNAVAILABLE — Lifetime closed through Wednesday 3/25.
 
 ---
