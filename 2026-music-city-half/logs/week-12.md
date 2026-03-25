@@ -14,17 +14,17 @@
 | Monday | Mar 23 | Easy Run + HSR + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | ✅ |
-| Thursday | Mar 26 | Easy Run + HSR + Sauna | 35-40 min / ~3.0-3.5 mi, recovery pace | |
-| Friday | Mar 27 | Rest or Easy Run + Sauna | Optional 25-30 min / ~2.0-2.5 mi | |
+| Thursday | Mar 26 | Easy Run + HSR + Mobility | 35-40 min / ~3.0-3.5 mi, recovery pace | |
+| Friday | Mar 27 | Rest or Easy Run + Mobility | Optional 25-30 min / ~2.0-2.5 mi | |
 | Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | |
-| Sunday | Mar 29 | Rest + Mobility + Sauna | 30 min deep mobility | |
+| Sunday | Mar 29 | Rest + Mobility | 30 min deep mobility | |
 
 **Weekly Targets**:
 - Total Running Mileage: ~30 miles (4-5 easy runs + HM pace run + long run)
 - Long Run: 12.0 miles (new distance PR)
 - Key Workout: 5 miles at HM pace (Wednesday) — first race-specific pace run
 - HSR Sessions: 2 (Monday/Thursday)
-- Sauna Sessions: 4
+- Sauna Sessions: 0 (Lifetime sauna closed through April 1 — substitute with extra mobility)
 - This is the first week of Peak phase — highest volume begins
 
 **Key Note**: This week introduces race-specific pace work. Wednesday's 5-mile HM pace run is the first sustained effort at goal race pace. Saturday's 12-miler extends the long run by 1 mile. The combination of a pace workout AND a long run PR in the same week makes recovery critical.
@@ -123,6 +123,6 @@
 - Splits: 9:50 (151), 9:56 (159), 9:56 (165), 9:50 (166), 9:39 (168)
 - Notes: Excellent execution. Remarkably consistent pacing — only 17s spread across all 5 miles. Negative split on mile 5 (9:39) shows strong finishing ability. Came in slightly faster than 10:00-10:20 target. HR progression textbook for sustained effort. Felt "hard but good hard." First race-specific pace run of Peak phase — nailed it.
 
-*Sauna*: UNAVAILABLE — Lifetime closed through Wednesday 3/25. Last day of closure.
+*Sauna*: UNAVAILABLE — Lifetime sauna now closed through Wednesday April 1. No sauna sessions available this week or early next week. Resume expected Thursday April 2.
 
-
+---
