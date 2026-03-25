@@ -92,4 +92,21 @@
 
 *Sauna*: UNAVAILABLE — Lifetime closed through Wednesday 3/25.
 
+*Mobility*: Completed pre-bed session.
+
 ---
+
+### Wednesday, March 25
+
+**Morning Check-In**:
+- Sleep: 7hr 08min, good quality
+- Resting Heart Rate: 52 bpm (Tuesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Green light for HM pace run. Left knee stable at 2 for a second straight morning. RHR steady at 52. Energy/motivation at 7 — slight dip from yesterday's 8s but normal ahead of a hard effort day. Three straight nights of 7+ hours sleep. Body is ready for race-specific work.
+
+**Planned Workout**: HM Pace Run — 5 miles at goal HM pace (~10:00-10:20/mi)
+
+
