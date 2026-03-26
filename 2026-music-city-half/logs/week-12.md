@@ -14,7 +14,7 @@
 | Monday | Mar 23 | Easy Run + HSR + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | ✅ |
-| Thursday | Mar 26 | Easy Run + HSR + Mobility | 35-40 min / ~3.0-3.5 mi, recovery pace | |
+| Thursday | Mar 26 | Easy Run + HSR + Mobility | 35-40 min / ~3.0-3.5 mi, recovery pace | ✅ |
 | Friday | Mar 27 | Rest or Easy Run + Mobility | Optional 25-30 min / ~2.0-2.5 mi | |
 | Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | |
 | Sunday | Mar 29 | Rest + Mobility | 30 min deep mobility | |
@@ -139,5 +139,27 @@
 - Overall Status: Showing expected recovery cost from yesterday's HM pace run. RHR 55 is up 3 bpm from steady 52 baseline — normal post-hard-effort response. Sleep dipped below 7 hours for first time this week. Left knee recovered from 3 post-run back to 2 overnight — good sign. Energy and motivation holding at 7. This is a recovery day — listen to the body.
 
 **Planned Workout**: Easy Run (35-40 min / ~3.0-3.5 mi, recovery pace) + HSR + Mobility
+
+**Completed Workout**:
+
+*Easy Run* (1:55 PM):
+- Distance: 3.13 miles
+- Duration: 35:04
+- Pace: 11:12/mi
+- Avg HR: 148 bpm
+- VO2 Max: 45.8
+- Shoes: Mizuno Wave Inspire 22
+- Route: Franklin, TN (227 ft elevation gain)
+- Knee: Left 2/10 (stable), Right 1/10 (stable)
+- Weather: 80°F, windy, 50% humidity
+- Notes: Z2 warmup before lift. Solid controlled effort, HR right at Zone 2 ceiling. First 80°F run — heat will be a factor going forward.
+
+*HSR Session*: COMPLETED — first session in over a week. All exercises at previous loads:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x 20 lbs
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: UNAVAILABLE
 
 
