@@ -126,3 +126,18 @@
 *Sauna*: UNAVAILABLE — Lifetime sauna now closed through Wednesday April 1. No sauna sessions available this week or early next week. Resume expected Thursday April 2.
 
 ---
+
+### Thursday, March 26
+
+**Morning Check-In**:
+- Sleep: 6hr 50min, fair quality
+- Resting Heart Rate: 55 bpm (Wednesday avg)
+- Knee Pain: Left 2/10, Right 1/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Showing expected recovery cost from yesterday's HM pace run. RHR 55 is up 3 bpm from steady 52 baseline — normal post-hard-effort response. Sleep dipped below 7 hours for first time this week. Left knee recovered from 3 post-run back to 2 overnight — good sign. Energy and motivation holding at 7. This is a recovery day — listen to the body.
+
+**Planned Workout**: Easy Run (35-40 min / ~3.0-3.5 mi, recovery pace) + HSR + Mobility
+
+
