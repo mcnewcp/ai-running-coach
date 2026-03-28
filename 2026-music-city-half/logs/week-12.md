@@ -15,7 +15,7 @@
 | Tuesday | Mar 24 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | ✅ |
 | Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | ✅ |
 | Thursday | Mar 26 | Easy Run + HSR + Mobility | 35-40 min / ~3.0-3.5 mi, recovery pace | ✅ |
-| Friday | Mar 27 | Rest or Easy Run + Mobility | Optional 25-30 min / ~2.0-2.5 mi | |
+| Friday | Mar 27 | Rest + Mobility | Rest day | ✅ |
 | Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | |
 | Sunday | Mar 29 | Rest + Mobility | 30 min deep mobility | |
 
@@ -162,4 +162,22 @@
 
 *Sauna*: UNAVAILABLE
 
+---
+
+### Friday, March 27
+
+**Morning Check-In**:
+- Sleep: 7hr 14min, good quality
+- Resting Heart Rate: 56 bpm (Thursday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 7/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: RHR trending up through the week (52 → 52 → 55 → 56) — body absorbing this week's training load. Rest day is the right call before Saturday's 12-mile long run. Knee stable at 2. Energy holding at 7. Motivation at 6 is lowest of the week but normal for a pre-long-run rest day.
+
+**Planned Workout**: Rest + Mobility
+
+**Completed**: Rest day. Minimal mobility session in the evening.
+
+---
 
