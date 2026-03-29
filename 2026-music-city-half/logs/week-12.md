@@ -16,7 +16,7 @@
 | Wednesday | Mar 25 | **HM Pace Run** | 5 mi at goal HM pace (~10:00-10:20/mi) | ✅ |
 | Thursday | Mar 26 | Easy Run + HSR + Mobility | 35-40 min / ~3.0-3.5 mi, recovery pace | ✅ |
 | Friday | Mar 27 | Rest + Mobility | Rest day | ✅ |
-| Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | |
+| Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | ✅ |
 | Sunday | Mar 29 | Rest + Mobility | 30 min deep mobility | |
 
 **Weekly Targets**:
@@ -180,4 +180,35 @@
 **Completed**: Rest day. Minimal mobility session in the evening.
 
 ---
+
+### Saturday, March 28
+
+**Morning Check-In**:
+- Sleep: 7hr 35min, good quality
+- Resting Heart Rate: 49 bpm (Friday avg — new all-time low!)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Perfect pre-long-run numbers. RHR dropped from 56 to 49 after rest day — biggest single-day recovery swing we've seen. Left knee at 1 is the lowest it's been in weeks. Energy and motivation back to 8. Body fully recharged and ready for 12 miles.
+
+**Planned Workout**: Long Run — 12.0 mi, Zone 2
+
+**Completed Workout**:
+
+*Long Run* (~12:30 PM):
+- Distance: 12.02 miles (NEW DISTANCE PR!)
+- Duration: 2:10:02
+- Pace: 10:49/mi avg
+- Avg HR: 143 bpm
+- Elevation Gain: 514 ft
+- Shoes: Saucony Guide 17
+- Route: Smith Park trails → Brentwood Library → Crockett Park
+- Weather: 48°F, clear, 47% humidity, 8.5 mph wind NE
+- Knee: Left 3/10 (up from 1 AM), Right 2/10 (up from 0)
+- Fueling: 25g carb gel at mile 5.5 and mile 8.5
+- Splits: 10:44 (129), 11:02 (138), 10:41 (141), 10:39 (141), 10:44 (147), 11:02 (143), 10:54 (142), 10:41 (144), 10:46 (147), 10:41 (147), 11:00 (149), 10:41 (149)
+- Notes: Exceptional execution. Zone 2 the entire way — never broke 150 bpm across 12 miles. Only 23s pace spread (10:39-11:02) on hilly trails with 514ft elevation gain. 10-mile PR triggered by Strava. Perfect day conditions at 48°F after 80°F days earlier in the week. Fueling strategy practiced successfully. RHR 49 new all-time low pre-run.
+
+*Sauna*: UNAVAILABLE
 
