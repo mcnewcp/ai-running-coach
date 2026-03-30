@@ -235,4 +235,6 @@
 
 **Planned Workout**: Rest + Mobility (30 min deep stretching) + Sauna (20 min)
 
+**Completed**: Full rest day. No mobility or sauna. Recovery focused on rest only.
+
 ---
