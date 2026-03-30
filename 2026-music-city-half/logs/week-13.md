@@ -46,3 +46,25 @@
 
 **Planned Workout**: Easy Run (35-40 min / ~3.0-3.5 mi, Zone 2) + HSR + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (~2:30 PM):
+- Distance: 3.25 miles
+- Duration: 35:53
+- Pace: 11:02/mi
+- Avg HR: 146 bpm
+- Elevation Gain: 163 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Smith Park to Crockett Park trails
+- Weather: 66°F, cloudy, 69% humidity, 10.7 mph wind SSW
+- Knee: Not reported post-run
+- Notes: Solid Zone 2 on trails despite poor sleep. HR 146 on hilly terrain — consistent with recent trail performances. Good controlled effort on a low-energy day.
+
+*HSR Session*: COMPLETED — same loads as last Thursday:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x 20 lbs
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: COMPLETED — 20 min. First session in over a week (Lifetime was closed since March 25). Welcome back!
+
