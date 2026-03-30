@@ -17,7 +17,7 @@
 | Thursday | Mar 26 | Easy Run + HSR + Mobility | 35-40 min / ~3.0-3.5 mi, recovery pace | ✅ |
 | Friday | Mar 27 | Rest + Mobility | Rest day | ✅ |
 | Saturday | Mar 28 | **Long Run** | ~2:15 / 12.0 mi (new distance PR) | ✅ |
-| Sunday | Mar 29 | Rest + Mobility | 30 min deep mobility | |
+| Sunday | Mar 29 | Rest + Mobility | 30 min deep mobility | ✅ |
 
 **Weekly Targets**:
 - Total Running Mileage: ~30 miles (4-5 easy runs + HM pace run + long run)
@@ -201,6 +201,7 @@
 - Duration: 2:10:02
 - Pace: 10:49/mi avg
 - Avg HR: 143 bpm
+- VO2 Max: 46.0
 - Elevation Gain: 514 ft
 - Shoes: Saucony Guide 17
 - Route: Smith Park trails → Brentwood Library → Crockett Park
@@ -210,5 +211,52 @@
 - Splits: 10:44 (129), 11:02 (138), 10:41 (141), 10:39 (141), 10:44 (147), 11:02 (143), 10:54 (142), 10:41 (144), 10:46 (147), 10:41 (147), 11:00 (149), 10:41 (149)
 - Notes: Exceptional execution. Zone 2 the entire way — never broke 150 bpm across 12 miles. Only 23s pace spread (10:39-11:02) on hilly trails with 514ft elevation gain. 10-mile PR triggered by Strava. Perfect day conditions at 48°F after 80°F days earlier in the week. Fueling strategy practiced successfully. RHR 49 new all-time low pre-run.
 
-*Sauna*: UNAVAILABLE
+*Sauna*: UNAVAILABLE — last day of closure
+
+---
+
+### Sunday, March 29
+
+**Morning Check-In**:
+- Sleep: 7hr 41min, good quality (best of the week)
+- Resting Heart Rate: 54 bpm (Saturday avg)
+- Knee Pain: Left 2/10, Right 1/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Good recovery from 12-mile PR. Knee down from 3/2 post-run to 2/1 overnight. RHR 54 is expected post-long-run. Sleep at 7:41 is the highest of the week. Body recovering well.
+
+**Planned Workout**: Rest + Mobility
+
+**Completed**: Rest day. 1-hour hot yoga session at 11:00 AM — good heat exposure substitute while sauna was unavailable. Sauna confirmed back open starting Monday.
+
+---
+
+## Week 12 Summary
+
+**Total Running Mileage**: 24.44 miles (4 runs)
+- Monday: 4.01 mi (Easy, 11:14, HR 148)
+- Tuesday: 4.28 mi (Easy, 11:04, HR 146)
+- Wednesday: 5.01 mi (HM Pace, 9:51, HR 162)
+- Saturday: 12.02 mi (Long Run, 10:49, HR 143) — NEW DISTANCE PR
+
+**Key Achievements**:
+- First HM pace run: 5.01 mi at 9:51 avg with textbook pacing (17s spread)
+- New distance PR: 12.02 miles, Zone 2 the entire way (avg HR 143, never broke 150)
+- New all-time low RHR: 49 bpm
+- VO2 Max holding at 46.0-46.2
+- 10-mile PR triggered on Strava
+
+**Health & Recovery**:
+- Knee: Stable throughout week, recovering overnight after hard efforts (3 → 2 pattern)
+- HSR: 1 of 2 sessions completed (Thursday). Two skipped earlier in week for knee management.
+- Sauna: 0 sessions (Lifetime closed all week). Hot yoga Sunday as substitute. Sauna reopening Monday.
+- RHR trend: 50 → 52 → 52 → 55 → 56 → 49 → 54 (spiked mid-week from HM pace effort, recovered after rest day)
+- Sleep: Averaged ~7:15/night, good quality throughout
+
+**Notes**:
+- Week came in under 30-mile target (24.44) due to taking Friday rest and shorter Thursday run. The quality was there — HM pace and long run were both excellent.
+- No sauna all week but body handled it well. Hot yoga was a good substitute.
+- Pacing discipline continues to impress — consistent across both easy and hard efforts.
+- Ready for Week 13 with sauna back and fitness trending up.
 
