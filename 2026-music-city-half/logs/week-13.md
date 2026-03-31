@@ -84,3 +84,22 @@
 
 **Planned Workout**: Easy Run (40-45 min / ~3.5-4.0 mi, Zone 2) + Mobility + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (morning):
+- Distance: 3.66 miles
+- Duration: 40:10
+- Pace: 10:58/mi
+- Avg HR: 146 bpm
+- VO2 Max: 46.0
+- Elevation Gain: 36 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Crockett Park trails
+- Weather: 72°F, partly cloudy, 73% humidity, 14.1 mph wind SSW
+- Knee: Left 2/10 (up from 1 AM), Right 1/10 (up from 0)
+- Notes: Solid Zone 2 execution. 10:58 pace at 146 HR on a flat route — fastest easy pace of the week at same HR. Strava noted weekly distance goal hit. Morning run timing instead of afternoon.
+
+*Sauna*: COMPLETED — 20 min. Second consecutive day back.
+
+---
+
