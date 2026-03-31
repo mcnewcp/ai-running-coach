@@ -69,3 +69,18 @@
 
 *Sauna*: COMPLETED — 20 min. First session in over a week (Lifetime was closed since March 25). Welcome back!
 
+---
+
+### Tuesday, March 31
+
+**Morning Check-In**:
+- Sleep: 7hr 30min, good quality
+- Resting Heart Rate: 52 bpm (Monday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Strong bounce-back day. Sleep up 36 minutes from yesterday with much better quality. Energy and motivation both jumped from 6 to 8. Left knee back down to 1 after post-run 2 yesterday — excellent recovery. RHR steady at 52 baseline. Body is well-rested and primed for an easy day before tomorrow's 35-min tempo.
+
+**Planned Workout**: Easy Run (40-45 min / ~3.5-4.0 mi, Zone 2) + Mobility + Sauna (20 min)
+
