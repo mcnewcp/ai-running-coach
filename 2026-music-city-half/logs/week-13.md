@@ -130,5 +130,5 @@
 - Weather: 74°F, cloudy, 74% humidity, 9.8 mph wind SSW
 - Knee: Left 2/10 (stable from AM), Right 0/10 (stable)
 - Splits: 10:52 (138), 11:00 (159), 9:37 (164), 9:39 (166), 10:05 (171)
-- Notes: Z2 warm-up for ~2 miles, then tempo effort miles 3-4.8. Tempo splits of 9:37/9:39 are strong — sub-10:00 on hilly terrain with 352ft of climbing. HR ran higher than target (164-171 vs 155-165), likely due to hills and 74°F heat. Stoplight interruptions affected flow. Solid effort on a tough course.
+- Notes: Z2 warm-up for ~1 mile (15 min), then tempo effort from mile 2 onward (~38 min at effort — exceeded 35-min target). Mile 2 was tempo effort uphill (11:00 pace but 159 HR confirms threshold effort). Miles 3-4 at 9:37/9:39 once terrain leveled. HR progression 159→164→166→171 is textbook sustained threshold. Hilly route intentional — race-specific prep for Nashville HM course elevation. Stoplight interruptions affected flow. Strong effort.
 
