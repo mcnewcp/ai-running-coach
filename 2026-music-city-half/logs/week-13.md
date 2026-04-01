@@ -116,3 +116,19 @@
 
 **Planned Workout**: Tempo Run — 35 min at threshold (~9:50-10:20/mi, HR ~155-165 bpm). Total ~5.5-6.0 mi with warm-up/cool-down.
 
+**Completed Workout**:
+
+*Tempo Run* (~12:00 PM):
+- Distance: 4.81 miles
+- Duration: 49:19
+- Pace: 10:15/mi avg
+- Avg HR: 159 bpm
+- VO2 Max: 45.9
+- Elevation Gain: 352 ft
+- Shoes: Saucony Guide 17
+- Route: Sidewalks behind Lifetime (hilly, stoplight interruptions)
+- Weather: 74°F, cloudy, 74% humidity, 9.8 mph wind SSW
+- Knee: Left 2/10 (stable from AM), Right 0/10 (stable)
+- Splits: 10:52 (138), 11:00 (159), 9:37 (164), 9:39 (166), 10:05 (171)
+- Notes: Z2 warm-up for ~2 miles, then tempo effort miles 3-4.8. Tempo splits of 9:37/9:39 are strong — sub-10:00 on hilly terrain with 352ft of climbing. HR ran higher than target (164-171 vs 155-165), likely due to hills and 74°F heat. Stoplight interruptions affected flow. Solid effort on a tough course.
+
