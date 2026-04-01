@@ -103,3 +103,16 @@
 
 ---
 
+### Wednesday, April 1
+
+**Morning Check-In**:
+- Sleep: 7hr 06min, good quality
+- Resting Heart Rate: 53 bpm (Tuesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 8/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Green light for tempo day. Energy at 8 is the key indicator — body is ready to work. RHR 53 barely above 52 baseline, no fatigue signal. Left knee stable at 2. Stress up slightly to 6 but shouldn't impact performance. Two solid nights of sleep (7:30 + 7:06) set up good recovery heading into the hardest effort of the week.
+
+**Planned Workout**: Tempo Run — 35 min at threshold (~9:50-10:20/mi, HR ~155-165 bpm). Total ~5.5-6.0 mi with warm-up/cool-down.
+
