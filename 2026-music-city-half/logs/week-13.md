@@ -134,3 +134,18 @@
 
 *Sauna*: COMPLETED — 17 min (cut 3 min short). Felt hard — still re-adapting after week-long closure, plus tempo effort and 74°F heat earlier. Third consecutive day of sauna sessions.
 
+---
+
+### Thursday, April 2
+
+**Morning Check-In**:
+- Sleep: 8hr 03min, good quality (best of the week)
+- Resting Heart Rate: 52 bpm (Wednesday avg)
+- Knee Pain: Left 3/10, Right 1/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 6/10
+- Overall Status: Recovery day after yesterday's tempo. Great sleep — over 8 hours for the first time this week. RHR holding at 52 baseline despite hard effort yesterday, showing strong cardiovascular recovery. Left knee at 3 is the watch point — expected bump after hilly tempo but at our threshold. Flat route recommended today. Energy and motivation both at 8 thanks to the sleep. HSR today is important — second session of the week.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, recovery pace, Zone 2) + HSR + Sauna (20 min). Flat route preferred — knee at 3/10.
+
