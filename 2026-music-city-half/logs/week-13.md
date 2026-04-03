@@ -184,3 +184,11 @@
 
 **Planned Workout**: Easy Run or Rest + Sauna (20 min). Either option valid — bank recovery for Saturday's long run.
 
+**Completed**:
+
+*Hot Yoga*: 1 hour session (morning). Mobility + heat exposure + recovery — perfect pre-long-run day. No running load on legs.
+
+*Sauna*: COMPLETED — 15 min. Shorter session expected after 1 hour of hot yoga heat exposure. Fifth consecutive day of sauna/heat sessions this week.
+
+---
+
