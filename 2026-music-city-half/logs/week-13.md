@@ -149,3 +149,38 @@
 
 **Planned Workout**: Easy Run (35 min / ~3.0 mi, recovery pace, Zone 2) + HSR + Sauna (20 min). Flat route preferred — knee at 3/10.
 
+**Completed Workout**:
+
+*Easy Run* (1:24 PM):
+- Distance: 3.01 miles
+- Duration: 35:02
+- Pace: 11:37/mi
+- Avg HR: 141 bpm
+- Shoes: Saucony Guide 17
+- Route: Treadmill (lift warmup)
+- Knee: No change from AM (Left 3/10, Right 1/10)
+- Notes: Deep Zone 2 recovery run on treadmill — smart flat surface choice with knee at 3. HR 141 is the lowest easy-run HR of the week. Good discipline keeping it easy after yesterday's tempo.
+
+*HSR Session*: COMPLETED — same loads as Monday:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x 20 lbs
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: COMPLETED — 18 min. Fourth consecutive day. Slightly longer than yesterday's 17 min — re-adaptation progressing.
+
+---
+
+### Friday, April 3
+
+**Morning Check-In**:
+- Sleep: 7hr 39min, okay quality
+- Resting Heart Rate: 52 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Excellent knee recovery — left dropped from 3 to 1 overnight after treadmill + HSR day. RHR at 52 for the 4th day this week, remarkably steady through peak week. Energy and motivation at 7 — normal for day 5. Body is absorbing the week well and setting up nicely for tomorrow's 10-mile long run.
+
+**Planned Workout**: Easy Run or Rest + Sauna (20 min). Either option valid — bank recovery for Saturday's long run.
+
