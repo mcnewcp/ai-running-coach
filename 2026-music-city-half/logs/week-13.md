@@ -169,6 +169,19 @@
 
 *Sauna*: COMPLETED — 18 min. Fourth consecutive day. Slightly longer than yesterday's 17 min — re-adaptation progressing.
 
+### Saturday, April 4
+
+**Morning Check-In**:
+- Sleep: 7hr 42min, okay quality
+- Resting Heart Rate: 52 bpm (Friday avg — 5th straight day at 52)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Green light for long run. Knee at 1 for the second straight morning — rest day recovery was excellent. RHR at 52 for the 5th consecutive day through peak week, showing the body is handling the load. Energy and motivation at 7 are honest for end of the biggest week of training. Hot yoga + rest yesterday set up well for today's 10-miler.
+
+**Planned Workout**: Long Run — 10.0 mi, Zone 2 (<150 bpm). No HM pace work — pure easy effort. Fuel at mile 5-6.
+
 ---
 
 ### Friday, April 3
