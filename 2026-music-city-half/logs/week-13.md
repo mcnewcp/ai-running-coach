@@ -182,6 +182,38 @@
 
 **Planned Workout**: Long Run — 10.0 mi, Zone 2 (<150 bpm). No HM pace work — pure easy effort. Fuel at mile 5-6.
 
+**Completed Workout**:
+
+*Long Run* (midday):
+- Distance: 10.01 miles (10-MILE PR per Strava!)
+- Duration: 1:48:33
+- Pace: 10:50/mi avg
+- Avg HR: 146 bpm
+- VO2 Max: 46.0
+- Elevation Gain: 531 ft
+- Shoes: Saucony Guide 17
+- Route: Smith Park to Crockett Park and back
+- Weather: 77°F, windy, 64% humidity, 16.1 mph wind SSW
+- Knee: Left 2/10 (up from 1 AM), Right 1/10 (up from 0)
+- Fueling: Honey Stinger gummies between miles 5-6.5
+- Splits: 10:41 (130), 10:52 (142), 10:54 (142), 10:41 (145), 10:44 (146), 10:54 (145), 10:54 (150), 10:44 (149), 11:02 (155), 10:49 (155)
+- Notes: Exceptional pacing consistency — only 21s spread across 10 miles on hilly terrain (531 ft) in 77°F heat. Zone 2 maintained through mile 8 (HR ≤149). Miles 9-10 drifted to 155 — expected cardiac drift from heat and fatigue. Felt hard but good. 10-mile PR triggered despite being a step-back week for long run distance.
+
+---
+
+### Sunday, April 5
+
+**Morning Check-In**:
+- Sleep: 9hr 34min, okay quality (longest sleep of entire training block)
+- Resting Heart Rate: 53 bpm (Saturday avg)
+- Knee Pain: Left 2/10, Right 1/10
+- Energy: 6/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Expected post-peak-week fatigue. Body demanded 9.5 hours of sleep — smart to listen. RHR 53 is barely above baseline, showing strong cardiovascular recovery. Knee at 2/1 is normal post-long-run. Energy and motivation at 6 reflect cumulative fatigue from the biggest week of training. Full rest today.
+
+**Planned Workout**: Rest + Mobility (30 min deep mobility)
+
 ---
 
 ### Friday, April 3
@@ -204,4 +236,33 @@
 *Sauna*: COMPLETED — 15 min. Shorter session expected after 1 hour of hot yoga heat exposure. Fifth consecutive day of sauna/heat sessions this week.
 
 ---
+
+## Week 13 Summary
+
+**Total Running Mileage**: 24.74 miles (5 runs)
+- Monday: 3.25 mi (Easy, 11:02, HR 146)
+- Tuesday: 3.66 mi (Easy, 10:58, HR 146)
+- Wednesday: 4.81 mi (Tempo, 10:15, HR 159)
+- Thursday: 3.01 mi (Easy, 11:37, HR 141)
+- Saturday: 10.01 mi (Long Run, 10:50, HR 146) — 10-MILE PR
+
+**Key Achievements**:
+- Longest tempo effort: ~34:19 at threshold on hilly terrain (9:37-9:39 on flat miles)
+- 10-mile PR with exceptional pacing (21s spread across 10 miles, 531 ft elevation, 77°F heat)
+- RHR held at 52 for 5 of 7 days — remarkable cardiovascular stability through peak week
+- VO2 Max holding at 45.9-46.1
+- Sauna/heat sessions every day (5 sauna + 1 hot yoga)
+
+**Health & Recovery**:
+- Knee: Well-managed throughout. Peaked at 3/10 post-tempo (Thursday AM), recovered to 1/10 within a day. Post-long-run at 2/10 — normal.
+- HSR: 2 of 2 sessions completed (Monday/Thursday)
+- Sauna: 5 sessions (20, 20, 17, 18, 15 min) + 1 hour hot yoga. Heat re-adaptation in progress after week-long closure.
+- Sleep: Averaged ~7:42/night (range 7:06-9:34), good quality overall
+
+**Notes**:
+- Week came in under 32-mile target (24.74) — Friday rest day and shorter easy runs account for the difference. Quality was there: tempo and long run were both excellent.
+- Body handled peak week well despite being first week back with sauna after closure.
+- Pacing discipline continues to be a major strength — consistent across all effort levels.
+- Energy and motivation dipped to 6/6 by Sunday — normal cumulative fatigue from biggest training week.
+- Week 14 is the final peak week before taper: 13-mile long run with last 3 at HM pace.
 
