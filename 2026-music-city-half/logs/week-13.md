@@ -1,0 +1,268 @@
+# Week 13 Training Log - Music City Half Marathon
+
+**Dates**: March 30 - April 5, 2026
+**Training Phase**: Phase 3 - Peak (Week 2 of 3)
+**Week Goal**: ~32 miles running — PEAK VOLUME WEEK
+**Key Focus**: Tempo run (35 min — longest threshold effort yet), long run 10 mi (step-back from 12)
+
+---
+
+## Weekly Plan
+
+| Day | Date | Workout | Target | Status |
+|-----|------|---------|--------|--------|
+| Monday | Mar 30 | Easy Run + HSR + Sauna | 35-40 min / ~3.0-3.5 mi, Zone 2 | |
+| Tuesday | Mar 31 | Easy Run + Mobility + Sauna | 40-45 min / ~3.5-4.0 mi, Zone 2 | |
+| Wednesday | Apr 1 | **Tempo Run** | 35 min at threshold (~10:00-10:30/mi) | |
+| Thursday | Apr 2 | Easy Run + HSR + Sauna | 35-40 min / ~3.0-3.5 mi, recovery pace | |
+| Friday | Apr 3 | Easy Run or Rest + Sauna | Optional 30 min / ~2.5 mi, Zone 2 | |
+| Saturday | Apr 4 | **Long Run** | ~1:50 / 10.0 mi, Zone 2 | |
+| Sunday | Apr 5 | Rest + Mobility | 30 min deep mobility | |
+
+**Weekly Targets**:
+- Total Running Mileage: ~32 miles (5-6 runs + tempo + long run)
+- Long Run: 10.0 miles (intentional step-back from 12 to manage peak week load)
+- Key Workout: 35-min tempo run (Wednesday) — longest sustained threshold effort of training
+- HSR Sessions: 2 (Monday/Thursday)
+- Sauna Sessions: 4+ (back open after week-long closure!)
+- This is the PEAK VOLUME WEEK — highest mileage of the entire training plan
+
+**Key Note**: This is the biggest week on paper. The long run steps back to 10 miles intentionally — the 35-min tempo and high weekly volume are the primary stressors. Recovery (sleep, sauna, nutrition) is critical all week.
+
+---
+
+## Daily Log
+
+### Monday, March 30
+
+**Morning Check-In**:
+- Sleep: 6hr 54min, poor quality
+- Resting Heart Rate: 52 bpm (Sunday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Entering peak week with mixed signals. Knee health is excellent (left at 1 is one of the lowest morning readings). RHR back to 52 baseline after Saturday's 12-mile PR — cardiovascular recovery is strong. However, poor sleep (6:54, below 7-hour target) is suppressing energy and motivation. No red flags, but keeping today's run on the shorter end to bank recovery ahead of a demanding week. Sauna returns today after a week-long closure.
+
+**Planned Workout**: Easy Run (35-40 min / ~3.0-3.5 mi, Zone 2) + HSR + Sauna (20 min)
+
+**Completed Workout**:
+
+*Easy Run* (~2:30 PM):
+- Distance: 3.25 miles
+- Duration: 35:53
+- Pace: 11:02/mi
+- Avg HR: 146 bpm
+- VO2 Max: 46.1
+- Elevation Gain: 163 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Smith Park to Crockett Park trails
+- Weather: 66°F, cloudy, 69% humidity, 10.7 mph wind SSW
+- Knee: Left 2/10 (up from 1 AM), Right 0/10 (stable)
+- Notes: Solid Zone 2 on trails despite poor sleep. HR 146 on hilly terrain — consistent with recent trail performances. VO2 max holding at 46.1. Good controlled effort on a low-energy day.
+
+*HSR Session*: COMPLETED — same loads as last Thursday:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x 20 lbs
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: COMPLETED — 20 min. First session in over a week (Lifetime was closed since March 25). Welcome back!
+
+---
+
+### Tuesday, March 31
+
+**Morning Check-In**:
+- Sleep: 7hr 30min, good quality
+- Resting Heart Rate: 52 bpm (Monday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 5/10
+- Overall Status: Strong bounce-back day. Sleep up 36 minutes from yesterday with much better quality. Energy and motivation both jumped from 6 to 8. Left knee back down to 1 after post-run 2 yesterday — excellent recovery. RHR steady at 52 baseline. Body is well-rested and primed for an easy day before tomorrow's 35-min tempo.
+
+**Planned Workout**: Easy Run (40-45 min / ~3.5-4.0 mi, Zone 2) + Mobility + Sauna (20 min)
+
+**Completed Workout**:
+
+*Easy Run* (morning):
+- Distance: 3.66 miles
+- Duration: 40:10
+- Pace: 10:58/mi
+- Avg HR: 146 bpm
+- VO2 Max: 46.0
+- Elevation Gain: 36 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Crockett Park trails
+- Weather: 72°F, partly cloudy, 73% humidity, 14.1 mph wind SSW
+- Knee: Left 2/10 (up from 1 AM), Right 1/10 (up from 0)
+- Notes: Solid Zone 2 execution. 10:58 pace at 146 HR on a flat route — fastest easy pace of the week at same HR. Strava noted weekly distance goal hit. Morning run timing instead of afternoon.
+
+*Sauna*: COMPLETED — 20 min. Second consecutive day back.
+
+---
+
+### Wednesday, April 1
+
+**Morning Check-In**:
+- Sleep: 7hr 06min, good quality
+- Resting Heart Rate: 53 bpm (Tuesday avg)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 8/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Green light for tempo day. Energy at 8 is the key indicator — body is ready to work. RHR 53 barely above 52 baseline, no fatigue signal. Left knee stable at 2. Stress up slightly to 6 but shouldn't impact performance. Two solid nights of sleep (7:30 + 7:06) set up good recovery heading into the hardest effort of the week.
+
+**Planned Workout**: Tempo Run — 35 min at threshold (~9:50-10:20/mi, HR ~155-165 bpm). Total ~5.5-6.0 mi with warm-up/cool-down.
+
+**Completed Workout**:
+
+*Tempo Run* (~12:00 PM):
+- Distance: 4.81 miles
+- Duration: 49:19
+- Pace: 10:15/mi avg
+- Avg HR: 159 bpm
+- VO2 Max: 45.9
+- Elevation Gain: 352 ft
+- Shoes: Saucony Guide 17
+- Route: Sidewalks behind Lifetime (hilly, stoplight interruptions)
+- Weather: 74°F, cloudy, 74% humidity, 9.8 mph wind SSW
+- Knee: Left 2/10 (stable from AM), Right 0/10 (stable)
+- Splits: 10:52 (138), 11:00 (159), 9:37 (164), 9:39 (166), 10:05 (171)
+- Notes: Z2 warm-up for ~1 mile (15 min), then tempo effort from mile 2 onward (~34:19 at effort — essentially hit 35-min target). Mile 2 was tempo effort uphill (11:00 pace but 159 HR confirms threshold effort). Miles 3-4 at 9:37/9:39 once terrain leveled. HR progression 159→164→166→171 is textbook sustained threshold. Hilly route intentional — race-specific prep for Nashville HM course elevation. Stoplight interruptions affected flow. Strong effort.
+
+*Sauna*: COMPLETED — 17 min (cut 3 min short). Felt hard — still re-adapting after week-long closure, plus tempo effort and 74°F heat earlier. Third consecutive day of sauna sessions.
+
+---
+
+### Thursday, April 2
+
+**Morning Check-In**:
+- Sleep: 8hr 03min, good quality (best of the week)
+- Resting Heart Rate: 52 bpm (Wednesday avg)
+- Knee Pain: Left 3/10, Right 1/10
+- Energy: 8/10
+- Motivation: 8/10
+- Life Stress: 6/10
+- Overall Status: Recovery day after yesterday's tempo. Great sleep — over 8 hours for the first time this week. RHR holding at 52 baseline despite hard effort yesterday, showing strong cardiovascular recovery. Left knee at 3 is the watch point — expected bump after hilly tempo but at our threshold. Flat route recommended today. Energy and motivation both at 8 thanks to the sleep. HSR today is important — second session of the week.
+
+**Planned Workout**: Easy Run (35 min / ~3.0 mi, recovery pace, Zone 2) + HSR + Sauna (20 min). Flat route preferred — knee at 3/10.
+
+**Completed Workout**:
+
+*Easy Run* (1:24 PM):
+- Distance: 3.01 miles
+- Duration: 35:02
+- Pace: 11:37/mi
+- Avg HR: 141 bpm
+- Shoes: Saucony Guide 17
+- Route: Treadmill (lift warmup)
+- Knee: No change from AM (Left 3/10, Right 1/10)
+- Notes: Deep Zone 2 recovery run on treadmill — smart flat surface choice with knee at 3. HR 141 is the lowest easy-run HR of the week. Good discipline keeping it easy after yesterday's tempo.
+
+*HSR Session*: COMPLETED — same loads as Monday:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x 20 lbs
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: COMPLETED — 18 min. Fourth consecutive day. Slightly longer than yesterday's 17 min — re-adaptation progressing.
+
+### Saturday, April 4
+
+**Morning Check-In**:
+- Sleep: 7hr 42min, okay quality
+- Resting Heart Rate: 52 bpm (Friday avg — 5th straight day at 52)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Green light for long run. Knee at 1 for the second straight morning — rest day recovery was excellent. RHR at 52 for the 5th consecutive day through peak week, showing the body is handling the load. Energy and motivation at 7 are honest for end of the biggest week of training. Hot yoga + rest yesterday set up well for today's 10-miler.
+
+**Planned Workout**: Long Run — 10.0 mi, Zone 2 (<150 bpm). No HM pace work — pure easy effort. Fuel at mile 5-6.
+
+**Completed Workout**:
+
+*Long Run* (midday):
+- Distance: 10.01 miles (10-MILE PR per Strava!)
+- Duration: 1:48:33
+- Pace: 10:50/mi avg
+- Avg HR: 146 bpm
+- VO2 Max: 46.0
+- Elevation Gain: 531 ft
+- Shoes: Saucony Guide 17
+- Route: Smith Park to Crockett Park and back
+- Weather: 77°F, windy, 64% humidity, 16.1 mph wind SSW
+- Knee: Left 2/10 (up from 1 AM), Right 1/10 (up from 0)
+- Fueling: Honey Stinger gummies between miles 5-6.5
+- Splits: 10:41 (130), 10:52 (142), 10:54 (142), 10:41 (145), 10:44 (146), 10:54 (145), 10:54 (150), 10:44 (149), 11:02 (155), 10:49 (155)
+- Notes: Exceptional pacing consistency — only 21s spread across 10 miles on hilly terrain (531 ft) in 77°F heat. Zone 2 maintained through mile 8 (HR ≤149). Miles 9-10 drifted to 155 — expected cardiac drift from heat and fatigue. Felt hard but good. 10-mile PR triggered despite being a step-back week for long run distance.
+
+---
+
+### Sunday, April 5
+
+**Morning Check-In**:
+- Sleep: 9hr 34min, okay quality (longest sleep of entire training block)
+- Resting Heart Rate: 53 bpm (Saturday avg)
+- Knee Pain: Left 2/10, Right 1/10
+- Energy: 6/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Expected post-peak-week fatigue. Body demanded 9.5 hours of sleep — smart to listen. RHR 53 is barely above baseline, showing strong cardiovascular recovery. Knee at 2/1 is normal post-long-run. Energy and motivation at 6 reflect cumulative fatigue from the biggest week of training. Full rest today.
+
+**Planned Workout**: Rest + Mobility (30 min deep mobility)
+
+---
+
+### Friday, April 3
+
+**Morning Check-In**:
+- Sleep: 7hr 39min, okay quality
+- Resting Heart Rate: 52 bpm (Thursday avg)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Excellent knee recovery — left dropped from 3 to 1 overnight after treadmill + HSR day. RHR at 52 for the 4th day this week, remarkably steady through peak week. Energy and motivation at 7 — normal for day 5. Body is absorbing the week well and setting up nicely for tomorrow's 10-mile long run.
+
+**Planned Workout**: Easy Run or Rest + Sauna (20 min). Either option valid — bank recovery for Saturday's long run.
+
+**Completed**:
+
+*Hot Yoga*: 1 hour session (morning). Mobility + heat exposure + recovery — perfect pre-long-run day. No running load on legs.
+
+*Sauna*: COMPLETED — 15 min. Shorter session expected after 1 hour of hot yoga heat exposure. Fifth consecutive day of sauna/heat sessions this week.
+
+---
+
+## Week 13 Summary
+
+**Total Running Mileage**: 24.74 miles (5 runs)
+- Monday: 3.25 mi (Easy, 11:02, HR 146)
+- Tuesday: 3.66 mi (Easy, 10:58, HR 146)
+- Wednesday: 4.81 mi (Tempo, 10:15, HR 159)
+- Thursday: 3.01 mi (Easy, 11:37, HR 141)
+- Saturday: 10.01 mi (Long Run, 10:50, HR 146) — 10-MILE PR
+
+**Key Achievements**:
+- Longest tempo effort: ~34:19 at threshold on hilly terrain (9:37-9:39 on flat miles)
+- 10-mile PR with exceptional pacing (21s spread across 10 miles, 531 ft elevation, 77°F heat)
+- RHR held at 52 for 5 of 7 days — remarkable cardiovascular stability through peak week
+- VO2 Max holding at 45.9-46.1
+- Sauna/heat sessions every day (5 sauna + 1 hot yoga)
+
+**Health & Recovery**:
+- Knee: Well-managed throughout. Peaked at 3/10 post-tempo (Thursday AM), recovered to 1/10 within a day. Post-long-run at 2/10 — normal.
+- HSR: 2 of 2 sessions completed (Monday/Thursday)
+- Sauna: 5 sessions (20, 20, 17, 18, 15 min) + 1 hour hot yoga. Heat re-adaptation in progress after week-long closure.
+- Sleep: Averaged ~7:42/night (range 7:06-9:34), good quality overall
+
+**Notes**:
+- Week came in under 32-mile target (24.74) — Friday rest day and shorter easy runs account for the difference. Quality was there: tempo and long run were both excellent.
+- Body handled peak week well despite being first week back with sauna after closure.
+- Pacing discipline continues to be a major strength — consistent across all effort levels.
+- Energy and motivation dipped to 6/6 by Sunday — normal cumulative fatigue from biggest training week.
+- Week 14 is the final peak week before taper: 13-mile long run with last 3 at HM pace.
+
