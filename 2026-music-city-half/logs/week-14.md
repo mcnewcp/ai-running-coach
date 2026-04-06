@@ -45,3 +45,26 @@
 
 **Planned Workout**: Easy Run (30-40 min / ~3.0 mi, Zone 2) + HSR + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (~11:54 AM):
+- Distance: 3.08 miles
+- Duration: 32:59
+- Pace: 10:43/mi
+- Avg HR: 148 bpm
+- VO2 Max: 46.0
+- Elevation Gain: 170 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Smith Park trails
+- Weather: 58°F, cloudy, 47% humidity, 4.5 mph wind NNE
+- Knee: TBD
+- Notes: Lift warmup run. Solid Zone 2 on trails — fastest easy trail pace at sub-150 HR. Controlled and steady effort throughout.
+
+*HSR Session*: COMPLETED (2:30 PM) — same loads as last week:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x 20 lbs
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: COMPLETED — 20 min.
+
