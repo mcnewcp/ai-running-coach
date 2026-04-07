@@ -57,7 +57,7 @@
 - Shoes: Mizuno Wave Inspire 22
 - Route: Smith Park trails
 - Weather: 58°F, cloudy, 47% humidity, 4.5 mph wind NNE
-- Knee: TBD
+- Knee: Left 3/10 (up from 2 AM), Right 1/10 (stable)
 - Notes: Lift warmup run. Solid Zone 2 on trails — fastest easy trail pace at sub-150 HR. Controlled and steady effort throughout.
 
 *HSR Session*: COMPLETED (2:30 PM) — same loads as last week:
@@ -67,4 +67,19 @@
 - Machine Leg Curls: 2 x 8 @ 90 lbs
 
 *Sauna*: COMPLETED — 20 min.
+
+---
+
+### Tuesday, April 7
+
+**Morning Check-In**:
+- Sleep: 6hr 29min, okay quality (below 7-hour target)
+- Resting Heart Rate: 53 bpm (Monday avg — up 1 from baseline)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 6/10
+- Life Stress: 6/10
+- Overall Status: Short sleep is the main concern — 45 min below target and lowest of the week. RHR ticked to 53, mild fatigue signal after Monday's run + HSR combo. However, knee recovery is excellent: left dropped from post-workout 3 to morning 1 overnight. Energy, motivation, and stress all at 6 — flat but functional. Keep today easy and on the shorter end. Priority: recover for Saturday's 13-miler.
+
+**Planned Workout**: Easy Run (35-45 min / ~3.5 mi, Zone 2) + Mobility + Sauna (20 min). Shorter end of range given sleep deficit.
 
