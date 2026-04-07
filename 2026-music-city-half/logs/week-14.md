@@ -83,3 +83,20 @@
 
 **Planned Workout**: Easy Run (35-45 min / ~3.5 mi, Zone 2) + Mobility + Sauna (20 min). Shorter end of range given sleep deficit.
 
+**Completed Workout**:
+
+*Easy Run* (~10:00 AM):
+- Distance: 3.69 miles
+- Duration: 39:20
+- Pace: 10:40/mi
+- Avg HR: 141 bpm
+- VO2 Max: 46.2 (new high!)
+- Elevation Gain: 201 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Sidewalks down McEwen and Carothers
+- Weather: 57°F, clear, 47% humidity, 11.0 mph wind NE
+- Knee: TBD
+- Notes: Deep Zone 2 recovery run — fastest easy pace at 141 HR. Strava weekly distance goal hit. Excellent aerobic efficiency despite short sleep night.
+
+*Sauna*: 15 min (cut short — headache). Likely dehydration + sleep deficit. Hydration priority rest of day.
+
