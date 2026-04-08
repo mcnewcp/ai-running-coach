@@ -95,7 +95,7 @@
 - Shoes: Mizuno Wave Inspire 22
 - Route: Sidewalks down McEwen and Carothers
 - Weather: 57°F, clear, 47% humidity, 11.0 mph wind NE
-- Knee: TBD
+- Knee: Left 3/10 (up from 1 AM), Right 1/10 (stable)
 - Notes: Deep Zone 2 recovery run — fastest easy pace at 141 HR. Strava weekly distance goal hit. Excellent aerobic efficiency despite short sleep night.
 
 *Sauna*: 15 min (cut short — headache). Likely dehydration + sleep deficit. Hydration priority rest of day.
