@@ -100,3 +100,18 @@
 
 *Sauna*: 15 min (cut short — headache). Likely dehydration + sleep deficit. Hydration priority rest of day.
 
+---
+
+### Wednesday, April 8
+
+**Morning Check-In**:
+- Sleep: 7hr 02min, good quality (improved from yesterday)
+- Resting Heart Rate: 56 bpm (Tuesday avg — 4 above 52 baseline, elevated)
+- Knee Pain: Left 1/10, Right 1/10
+- Energy: 7/10
+- Motivation: 8/10 (highest of the week)
+- Life Stress: 5/10
+- Overall Status: Mixed signals. Motivation and energy are strong, knee is excellent at 1/1. But RHR at 56 is the highest reading of the entire training block — 4 bpm above baseline. Possible causes: cumulative peak-week fatigue, Tuesday's dehydration/short sleep, or body still absorbing high training load. Not a red flag on its own but worth monitoring. Keep today easy and watch HR during the run. If RHR normalizes by Thursday, no concern.
+
+**Planned Workout**: Easy Run (35-40 min / ~3.0-3.5 mi, Zone 2) + Sauna (20 min, hydrate well before). No structured workout — saving legs for Saturday.
+
