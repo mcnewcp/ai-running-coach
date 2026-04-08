@@ -115,3 +115,20 @@
 
 **Planned Workout**: Easy Run (35-40 min / ~3.0-3.5 mi, Zone 2) + Sauna (20 min, hydrate well before). No structured workout — saving legs for Saturday.
 
+**Completed Workout**:
+
+*Easy Run* (~9:22 AM):
+- Distance: 3.85 miles
+- Duration: 40:47
+- Pace: 10:34/mi
+- Avg HR: 139 bpm
+- VO2 Max: 46.3 (new all-time high!)
+- Elevation Gain: 205 ft
+- Shoes: Saucony Guide 17
+- Route: Sidewalks down Carothers and McEwen
+- Weather: 52°F, clear, 60% humidity, 3.6 mph wind ESE
+- Knee: TBD
+- Notes: Lowest easy-run HR of the week at fastest easy pace. Aerobic efficiency peaking — 10:34/mi at 139 HR despite elevated RHR. VO2 max new high 46.3. Body responding well despite Wednesday RHR concern.
+
+*Sauna*: COMPLETED — 20 min. Hydrated well before. No headache — improvement from Tuesday.
+
