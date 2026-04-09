@@ -132,3 +132,18 @@
 
 *Sauna*: COMPLETED — 20 min. Hydrated well before. No headache — improvement from Tuesday.
 
+---
+
+### Thursday, April 9
+
+**Morning Check-In**:
+- Sleep: 6hr 52min, good quality
+- Resting Heart Rate: 53 bpm (Wednesday avg — down from 56, back toward baseline)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Good news — RHR dropped back to 53 from yesterday's 56, confirming that was a transient blip rather than a fatigue trend. Knee at 1/0 is excellent, right knee fully recovered. Sleep a touch short of 7-hour target but quality was good. Energy and motivation steady. Final HSR session of the week today, then easy on Friday to prep for Saturday's 13-miler.
+
+**Planned Workout**: Easy Run (30-35 min / ~3.0 mi, Zone 2) + HSR + Sauna (20 min)
+
