@@ -127,10 +127,12 @@
 - Shoes: Saucony Guide 17
 - Route: Sidewalks down Carothers and McEwen
 - Weather: 52°F, clear, 60% humidity, 3.6 mph wind ESE
-- Knee: TBD
+- Knee: Left 2/10 (up from 1 AM), Right 1/10 (up from 0)
 - Notes: Lowest easy-run HR of the week at fastest easy pace. Aerobic efficiency peaking — 10:34/mi at 139 HR despite elevated RHR. VO2 max new high 46.3. Body responding well despite Wednesday RHR concern.
 
 *Sauna*: COMPLETED — 20 min. Hydrated well before. No headache — improvement from Tuesday.
+
+*Mobility*: Short stretching session before bed. First mobility of the week — good addition heading into Saturday's long run.
 
 ---
 
