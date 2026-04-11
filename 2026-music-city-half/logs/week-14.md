@@ -149,3 +149,60 @@
 
 **Planned Workout**: Easy Run (30-35 min / ~3.0 mi, Zone 2) + HSR + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (~2:12 PM):
+- Distance: 3.44 miles
+- Duration: 36:58
+- Pace: 10:44/mi
+- Avg HR: 153 bpm (above Z2 ceiling)
+- VO2 Max: 46.3
+- Elevation Gain: 171 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Sidewalks McEwen to Carothers
+- Weather: 73°F, clear, 35% humidity, 3.8 mph wind S
+- Knee: Not reported
+- Notes: Schedule was cut short due to busy work day. HR 153 is above Zone 2 ceiling — likely warm weather (73°F, jump from 52°F Wednesday) plus accumulated week fatigue. Pace still controlled at 10:44.
+
+*HSR Session*: Status TBD — user reported training "cut short"
+*Sauna*: COMPLETED — 15 min
+
+---
+
+### Friday, April 10
+
+**Morning Check-In**: Not reported
+
+**Planned Workout**: Rest or Easy Run + Sauna
+
+**Completed Workout**:
+
+*Shakeout Run* (~3:31 PM):
+- Distance: 1.98 miles
+- Duration: 21:11
+- Pace: 10:42/mi
+- Avg HR: 144 bpm
+- VO2 Max: 46.3
+- Elevation Gain: 117 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Sidewalks McEwen to Carothers
+- Weather: 78°F, clear, 35% humidity, 6.7 mph wind SW
+- Notes: Quick shakeout. HR 144 normalized from Thursday's 153. Good aerobic control on warmer day.
+
+*Sauna*: COMPLETED — 12 min
+
+---
+
+### Saturday, April 11
+
+**Morning Check-In**:
+- Sleep: 7hr 21min, good quality (best of the week)
+- Resting Heart Rate: 57 bpm (Friday avg — 5 above baseline, elevated)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: 6/10
+- Overall Status: Long run day with mixed signals. Best sleep of the week (7:21) sets up well. Knee at 1/0 is excellent. However, RHR at 57 is the highest of the week and second elevated reading (Wed was 56). Combined with Thursday's elevated run HR (153 at easy pace in warm weather), the body is showing accumulated fatigue from peak training. Plan: execute 13 miles but stay flexible on HM pace finish. If legs feel strong at mile 10, run the last 3 at HM pace (~9:50/mi). If not, finish all easy. Priorities: aggressive fueling, hydration, knee check-ins at mile 5 and 10.
+
+**Planned Workout**: Long Run — 13 miles. First 10 easy Zone 2 (<150 bpm), last 3 at HM pace (~9:50/mi) *if* legs and knee allow. Fuel at mile 5-6 and 9-10. Hydrate aggressively — warm weather expected.
+
