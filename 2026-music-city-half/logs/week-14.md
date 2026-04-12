@@ -206,3 +206,33 @@
 
 **Planned Workout**: Long Run — 13 miles. First 10 easy Zone 2 (<150 bpm), last 3 at HM pace (~9:50/mi) *if* legs and knee allow. Fuel at mile 5-6 and 9-10. Hydrate aggressively — warm weather expected.
 
+**Completed Workout**:
+
+*Long Run — HALF MARATHON DISTANCE PR* (~2:00 PM):
+- Distance: **13.16 miles** (FIRST HM DISTANCE EVER — full race distance)
+- Duration: 2:19:02
+- Pace: 10:34/mi avg
+- Avg HR: 150 bpm
+- VO2 Max: **46.5** (new all-time high!)
+- Elevation Gain: 534 ft
+- Shoes: Saucony Guide 17
+- Route: House → Crockett Park → Brentwood Library → back
+- Weather: 74°F, clear, 55% humidity, 2.0 mph wind WNW
+- Knee: Left 3/10 (up from 1 AM), Right 3/10 (up from 0)
+- Splits:
+  - 1: 10:41 (133)
+  - 2: 10:49 (146)
+  - 3: 10:57 (146)
+  - 4: 10:44 (146)
+  - 5: 10:36 (146)
+  - 6: 10:49 (141)
+  - 7: 10:57 (144)
+  - 8: 10:46 (147)
+  - 9: 10:49 (149)
+  - 10: 10:49 (154)
+  - 11: 9:47 (164) — HM pace
+  - 12: 9:43 (169) — HM pace
+  - 13: 9:50 (169) — HM pace
+  - 0.1: 10:07 (171)
+- Notes: MASSIVE day. Executed the plan perfectly — Zone 2 discipline through mile 10 (HR 133-154), then textbook HM pace finish at 9:47/9:43/9:50 matching goal race pace exactly. Extended to full HM distance (13.16) for the first time ever. Strava flagged as "Fastest Half Marathon ever." Projected race day pace of 10:34 puts theoretical finish around 2:18 — on flatter course, cooler weather, tapered legs this could be faster. Knee at 3/3 post-run is at threshold but expected after 2:19 effort in 74°F. Huge confidence booster 2 weeks out from race day.
+
