@@ -236,3 +236,51 @@
   - 0.1: 10:07 (171)
 - Notes: MASSIVE day. Executed the plan perfectly — Zone 2 discipline through mile 10 (HR 133-154), then textbook HM pace finish at 9:47/9:43/9:50 matching goal race pace exactly. Extended to full HM distance (13.16) for the first time ever. Strava flagged as "Fastest Half Marathon ever." Projected race day pace of 10:34 puts theoretical finish around 2:18 — on flatter course, cooler weather, tapered legs this could be faster. Knee at 3/3 post-run is at threshold but expected after 2:19 effort in 74°F. Huge confidence booster 2 weeks out from race day.
 
+---
+
+### Sunday, April 12
+
+**Morning Check-In** (logged retroactively):
+- Sleep: 7hr 31min, good quality
+- Resting Heart Rate: 52 bpm (Saturday avg — back to baseline!)
+- Knee Pain: Left 2/10 (down from post-run 3), Right 2/10 (down from post-run 3)
+- Energy: 7/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: Excellent recovery signals after Saturday's HM distance PR. RHR dropped from 57 Saturday morning back to 52 baseline — confirms elevated readings last week were cumulative fatigue now resolved. Both knees recovering from 3 to 2 post-long-run. Body absorbing the effort well.
+
+**Planned Workout**: Rest + Mobility (30 min deep mobility)
+
+---
+
+## Week 14 Summary
+
+**Total Running Mileage**: 29.20 miles (6 runs) — above 28-mile target
+- Monday: 3.08 mi (Easy, 10:43, HR 148)
+- Tuesday: 3.69 mi (Easy, 10:40, HR 141)
+- Wednesday: 3.85 mi (Easy, 10:34, HR 139)
+- Thursday: 3.44 mi (Easy, 10:44, HR 153 — cut short)
+- Friday: 1.98 mi (Shakeout, 10:42, HR 144)
+- Saturday: 13.16 mi (Long Run, 10:34, HR 150) — **HM DISTANCE PR**
+
+**Key Achievements**:
+- **FIRST HM DISTANCE EVER** — 13.16 mi in 2:19:02, textbook execution
+- HM pace finish nailed: 9:47/9:43/9:50 matching goal race pace exactly
+- VO2 Max progression: 46.0 → 46.2 → 46.3 → 46.5 (three new all-time highs in one week)
+- All easy runs stayed in Zone 2 except Thursday (warm weather + fatigue)
+- Average easy pace dropped to 10:30s at HR 139-148 — aerobic engine peaking
+
+**Health & Recovery**:
+- Knee: Managed well throughout. Peaked at 3/3 post-HM (expected). Recovered to 2/2 by Sunday AM, 2/1 by Monday AM.
+- HSR: 1 confirmed (Monday). Thursday session likely missed due to cut-short schedule.
+- Sauna: 5+ sessions
+- Mobility: Wednesday night only (short stretching)
+- Sleep: Averaged ~6:58/night — below 7hr target, sleep quality was a theme to watch
+- RHR: Fluctuated 52→53→56→53→57→52→53. Mid-week elevation resolved post-long-run.
+
+**Notes**:
+- The HM distance PR was the culmination of 14 weeks of training. Confidence builder is huge.
+- Thursday schedule disruption is a reminder that life happens — body handled the compression well.
+- Week 15 begins taper: 20 mi (35% reduction), 8-mile long run, 20-min tempo sharpener.
+- Goal for taper: arrive rested, sharp, injury-free. Fitness is banked.
+
