@@ -58,7 +58,7 @@
 - Shoes: Mizuno Wave Inspire 22
 - Route: Smith Park trails
 - Weather: 70°F, cloudy, 68% humidity, 7.4 mph wind SSW
-- Knee: TBD
+- Knee: Left 2/10, Right 1/10 (unchanged from AM)
 - Notes: Clean Zone 2 on trails. Controlled effort despite low sleep. VO2 max ticked up to 46.4 — another new high.
 
 *HSR Session*: COMPLETED — small progression on split squats:
