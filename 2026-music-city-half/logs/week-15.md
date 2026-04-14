@@ -46,3 +46,41 @@
 
 **Planned Workout**: Easy Run (25-30 min / ~2.5-3.0 mi, Zone 2) + HSR (same loads, or lighter if legs heavy) + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (~11:02 AM):
+- Distance: 2.82 miles
+- Duration: 30:22
+- Pace: 10:46/mi
+- Avg HR: 146 bpm
+- VO2 Max: 46.4 (new all-time high!)
+- Elevation Gain: 161 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Smith Park trails
+- Weather: 70°F, cloudy, 68% humidity, 7.4 mph wind SSW
+- Knee: TBD
+- Notes: Clean Zone 2 on trails. Controlled effort despite low sleep. VO2 max ticked up to 46.4 — another new high.
+
+*HSR Session*: COMPLETED — small progression on split squats:
+- Barbell Decline Squats: 2 x 8 @ 135 lbs
+- DB Bulgarian Split Squats: 2 x 8/leg @ 2 x **22.5 lbs** (up from 20 lbs)
+- Banded Step Outs: 2 x 15/direction
+- Machine Leg Curls: 2 x 8 @ 90 lbs
+
+*Sauna*: COMPLETED — 20 min
+
+---
+
+### Tuesday, April 14
+
+**Morning Check-In**:
+- Sleep: 8hr 10min, good quality (best night of the entire training block!)
+- Resting Heart Rate: 53 bpm (Monday avg — steady at baseline)
+- Knee Pain: Left 2/10, Right 0/10
+- Energy: 8/10 (highest in 10+ days)
+- Motivation: 7/10
+- Life Stress: 4/10 (lowest in a while)
+- Overall Status: Taper is working. 8:10 of sleep is the longest single night of the entire training block. Energy jumped from yesterday's 5 to 8, stress dropped from 6 to 4. Right knee fully recovered (0/10), left at 2 continues trending down. RHR steady at 53. All systems green — this is exactly what taper is supposed to do. Watch out for temptation to push pace with fresh legs; today is about easy volume.
+
+**Planned Workout**: Easy Run (30-35 min / ~3.0 mi, Zone 2) + Mobility (10-15 min) + Sauna (20 min)
+
