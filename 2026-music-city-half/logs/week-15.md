@@ -84,3 +84,35 @@
 
 **Planned Workout**: Easy Run (30-35 min / ~3.0 mi, Zone 2) + Mobility (10-15 min) + Sauna (20 min)
 
+**Completed Workout**:
+
+*Easy Run* (~11:00 AM):
+- Distance: 2.82 miles
+- Duration: 30:06
+- Pace: 10:40/mi
+- Avg HR: 144 bpm
+- VO2 Max: 46.5
+- Elevation Gain: 104 ft
+- Shoes: Saucony Guide 17
+- Route: Smith Park trails
+- Weather: 78°F, clear, 56% humidity, 13.6 mph wind SW
+- Knee: Unchanged (Left 2/10, Right 0/10)
+- Notes: Faster pace, lower HR vs Monday. VO2 max ticking up to 46.5 matches HM day high. Knees unchanged is ideal post-run reading. Warm day at 78°F.
+
+*Sauna*: COMPLETED — 20 min (~2:00 PM)
+
+---
+
+### Wednesday, April 15
+
+**Morning Check-In**:
+- Sleep: 6hr 55min, good quality
+- Resting Heart Rate: **59 bpm** (Tuesday avg — 7 above baseline, highest reading of entire training block)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: 7/10
+- Life Stress: 5/10
+- Overall Status: Mixed signals on tempo day. All subjective markers are strong: energy 8, motivation 7, knee best reading in weeks at 1/0. BUT RHR at 59 is a real signal — 7 bpm above 52 baseline, highest of entire training block. Possible causes: warm weather Tuesday (78°F), slightly short sleep (6:55), or taper transient. Plan: execute tempo with flex option. Use warm-up HR as diagnostic — if HR runs high at easy pace, convert to easy run and defer tempo to Thursday. 10 days to race, no risk-taking.
+
+**Planned Workout**: Tempo Run with flex option — 10-12 min warm-up Zone 2 (diagnostic), 20 min tempo at threshold (~10:00/mi, HR 155-165), 5-10 min cool-down. Total ~4 miles. If warm-up HR elevated, convert to 30-min easy run. + Sauna (20 min).
+
