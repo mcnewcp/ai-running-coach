@@ -116,3 +116,25 @@
 
 **Planned Workout**: Tempo Run with flex option — 10-12 min warm-up Zone 2 (diagnostic), 20 min tempo at threshold (~10:00/mi, HR 155-165), 5-10 min cool-down. Total ~4 miles. If warm-up HR elevated, convert to 30-min easy run. + Sauna (20 min).
 
+**Completed Workout**:
+
+*Tempo Run* (~10:58 AM):
+- Distance: 4.05 miles
+- Duration: 41:28
+- Pace: 10:14/mi avg
+- Avg HR: 150 bpm
+- VO2 Max: **46.6** (new all-time high!)
+- Elevation Gain: 205 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Sidewalks of McEwen and Carothers
+- Weather: 73°F, partly cloudy, 64% humidity, 9.2 mph wind SSW
+- Knee: Left 2/10 (up from 1 AM), Right 0/10 (unchanged)
+- Splits:
+  - 1: 10:44 (127) — warm-up (remarkably low HR, confirming RHR blip was false alarm)
+  - 2: 9:39 (160) — tempo
+  - 3: 9:47 (157) — tempo
+  - 4: 10:41 (157) — cool-down
+- Notes: Excellent tempo execution despite morning RHR concern. Warm-up HR of 127 at 10:44 pace was the diagnostic — far below usual easy HR 140s — which confirmed the 59 RHR was a measurement blip. Fired up the tempo with confidence. Tempo splits 9:39/9:47 at HR 157-160 are faster than HM pace with HR in threshold zone. VO2 max new high 46.6 — 4th new all-time high this week. Taper sharpness dialed in perfectly. 9 days to race.
+
+*Sauna*: COMPLETED — 20 min
+
