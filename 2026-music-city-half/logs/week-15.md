@@ -138,3 +138,26 @@
 
 *Sauna*: COMPLETED — 20 min
 
+---
+
+### Thursday, April 16
+
+**Morning Check-In**:
+- Sleep: 7hr 27min, good quality
+- Resting Heart Rate: 59 bpm (Wednesday avg — still 7 above baseline, second day elevated)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 6/10
+- Motivation: 5/10
+- Life Stress: 5/10
+- **Feeling a bit sick today — coughing, recovering from a small virus**
+- Overall Status: Illness has declared itself. Yesterday's elevated RHR (59, +7 over baseline) now reads as the real early warning signal it was — not a measurement blip. Today: cough, lower motivation (5 from 7), lower energy (6 from 8). Knees still trending down (L1 R0 — best readings in weeks). 9 days to race. This is a textbook "when in doubt, skip it" scenario in taper. Running through a respiratory virus during taper risks deepening the illness and compromising race day. The fitness is banked from 14 weeks of work — nothing to gain from a 2.5-mile run today, significant downside if we push. Plan: rest day, prioritize recovery, reassess tomorrow.
+
+**Planned Workout (Original)**: Easy Run (25-30 min / ~2.5 mi, Zone 2) + Sauna (20 min)
+
+**Recommended Modification**: **REST DAY — no run today.** Replace with:
+- Gentle mobility only (10-15 min, if feeling up to it — skip if tired)
+- Sauna OPTIONAL (20 min) — only if energy allows; heat can support immune function but don't push if feeling drained
+- Hydration priority: extra fluids, warm liquids, electrolytes
+- Early bed, extra sleep
+- Nutrition: whole foods, vitamin C, zinc if you have them
+
