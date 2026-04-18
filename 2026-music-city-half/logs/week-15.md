@@ -161,3 +161,45 @@
 - Early bed, extra sleep
 - Nutrition: whole foods, vitamin C, zinc if you have them
 
+**Completed**: REST DAY — no run, no formal workout. Sleep that night: 8hr 04min (body asking for it).
+
+---
+
+### Friday, April 17
+
+**Morning Check-In**: Not logged in real-time (user forgot to check in due to feeling sick). Retroactively recorded:
+- Sleep (Thu night): 8hr 04min, good quality
+- Resting Heart Rate: 58 bpm (Thursday avg — still elevated +6 over baseline, but down from 59)
+- Status: "Felt pretty sick" — illness peak day
+
+**Planned Workout**: Rest + Sauna (already a rest day in plan)
+
+**Completed**: REST DAY — no run. Aligned with plan and with illness recovery needs. Good that this happened to be a scheduled rest day.
+
+---
+
+### Saturday, April 18
+
+**Morning Check-In**:
+- Sleep (Fri night): 7hr 01min, ok quality
+- Resting Heart Rate: 58 bpm (Friday avg — still +6 above baseline, third day elevated but stable)
+- Knee Pain: not reported (assume similar to Thursday: L1/R0)
+- Energy: 7/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- **Still feeling "a little sick"** — improving from "pretty sick" yesterday
+- Overall Status: Trending in the right direction. Energy up to 7 (from 6 Thursday), motivation up to 6 (from 5 Thursday), self-described from "pretty sick" Friday → "a little sick" today. RHR holding at 58 — still elevated but no longer rising. Three consecutive rest days (Thu/Fri partial, Sat planned long run) means legs are very fresh, but illness recovery is the gating factor. 7 days to race. The 8-mile long run was meant to maintain leg turnover and confidence — it was NOT building fitness. Skipping or significantly shortening it does not hurt race readiness.
+
+**Planned Workout**: Long Run ~1:25 / 8.0 mi, Zone 2 (relaxed)
+
+**Recommended Modification**: **DO NOT do the 8-mile long run.** Two acceptable paths:
+
+*Option A (Preferred — safest)*: REST DAY again. Light mobility only. Save the test run for Sunday/Monday once illness is fully cleared.
+
+*Option B (If you feel notably better by midday)*: **Short test run, 3 miles MAX, very easy Zone 2 (HR <145).** Treat it as a diagnostic, not a workout. Rules:
+- Run from home, loop back close to base
+- If anything feels off in the first mile (chest tightness, HR runs high, legs heavy, dizziness) — turn around immediately
+- Pace doesn't matter at all — slowest comfortable shuffle
+- No tempo, no pickups, nothing fast
+
+Either path: Sauna optional (only if energy holds). Hydration priority. Early bed.
