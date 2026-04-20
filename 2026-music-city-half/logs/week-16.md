@@ -63,3 +63,11 @@ Regardless:
 - Early bed, aim for 8+ hours tonight
 
 **Rationale**: You ran 5 miles yesterday. Fitness is fine. The only thing that can derail race week is not fully clearing this virus. One more full rest day costs nothing; one more run with active illness could push symptoms into race week proper.
+
+**Symptom Update (later AM)**: Cough is mostly a throat tickle, occasionally producing a little phlegm. Upper airway only — **no chest involvement**. User craving sauna.
+
+**Revised guidance**:
+- **Neck-check passes** (symptoms above the neck only) → light exercise and heat exposure are safe
+- **Sauna approved**: 15-20 min today (not longer), hydrate well before/during/after, skip ice bath, cut short if cough intensifies during session
+- **Run: unchanged** — rest or 2-mile max very-easy shakeout, whichever feels right by midday. Both are valid.
+
