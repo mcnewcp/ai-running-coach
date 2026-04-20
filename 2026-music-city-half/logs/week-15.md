@@ -203,3 +203,42 @@
 - No tempo, no pickups, nothing fast
 
 Either path: Sauna optional (only if energy holds). Hydration priority. Early bed.
+
+**Completed**: REST DAY — no run. Felt quite sick through the weekend.
+
+---
+
+### Sunday, April 19
+
+**Morning Check-In**: Not logged in real-time.
+
+**Planned Workout**: Rest + Mobility (20-30 min)
+
+**Completed Workout**:
+
+*Easy Run* (~11:00 AM):
+- Distance: 5.19 miles
+- Duration: 55:28
+- Pace: 10:40/mi
+- Avg HR: 144 bpm
+- Shoes: Mizuno Wave Inspire 22
+- Route: Smith Park trails
+- Notes: Only exercise of the weekend. Originally planned as rest day or at most 3-mile test run. Ended up at 5.19 miles. Ran while still recovering from virus.
+
+---
+
+## Weekly Summary (Week 15 — Taper Week 1)
+
+**Actual vs. Planned**:
+- Planned: ~20 miles / 5 runs — Actual: 14.88 miles / 4 runs
+- Long run planned: 8.0 mi — Actual: 5.19 mi (Sunday, not Saturday)
+- Key workout planned: 20-min tempo — **Executed perfectly on Wednesday** (4.05 mi, splits 9:39/9:47 at HR 157-160)
+- HSR planned: 1-2 — Actual: 1 (Monday)
+- Sauna planned: 4 — Actual: 3 (Mon/Tue/Wed)
+
+**What Happened**: Week started strong with a clean Mon/Tue/Wed block including a tempo sharpener that set a VO2 max all-time high (46.6). Wednesday evening/Thursday morning illness declared itself — cough, elevated RHR (59 → 58 → 58 → 53), lower energy. Thu/Fri/Sat all became rest days. Sunday's run was longer than recommended (5.19 vs 3 max) but went fine: HR 144 at 10:40 pace matches healthy-week readings, so the aerobic system held up.
+
+**What Went Well**: Tempo sharpener was a bullseye. Knees trending to best-of-block readings (L1/R0). RHR now back to 53 (only +1 over baseline) — illness is resolving. Fitness fully banked from 14 weeks.
+
+**Concerns**: User still reporting "quite sick" through weekend and "still not feeling great" Monday AM. Race is Saturday (6 days from Sunday's run, 5 days from Monday). Illness management is the #1 race-readiness issue now — everything else is solved.
+
