@@ -88,3 +88,29 @@ Regardless:
 
 *Sauna*: COMPLETED — 15 min post-run
 
+---
+
+### Tuesday, April 21
+
+**Morning Check-In**:
+- Sleep (Mon night): 7hr 06min, ok quality
+- Resting Heart Rate: 57 bpm (Monday avg — bumped up from Sunday's 53, expected given Monday's run + sauna)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: **7/10** (up from 6 yesterday)
+- Motivation: **7/10** (up from 5 yesterday — big jump)
+- Life Stress: 5/10
+- Overall Status: Excellent morning. Motivation jumped from 5 → 7, energy up, knees holding at best-of-block readings. RHR 57 is a 4-point increase over Sunday's 53, but that's expected after Monday's first training day back (run + sauna = elevated daytime HR avg). Still +5 over baseline, not concerning. 4 days to race. Illness appears to be in the final clearing phase — no mention of cough in check-in (will confirm). Today: execute the planned 3-mile easy run per race week protocol.
+
+**Planned Workout**: Easy Run 3 mi, Zone 2 (HR <150) + Sauna optional (20 min)
+
+**Guidance**:
+- **Pace**: ~11:00-11:30/mi, slowest comfortable
+- **HR**: <150, target 140-145
+- **Route**: Flat — paved trails or Carothers sidewalks (avoid Smith Park hills today)
+- **Duration**: ~30-35 min moving time
+- **Feel**: Conversational. If anything spikes HR (cough flare, climb), back off immediately
+- **No strides, no pickups, no tempo work today**
+- Sauna: fine today (15-20 min) if cough is continuing to clear
+
+
+
