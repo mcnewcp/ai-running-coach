@@ -78,12 +78,13 @@ Regardless:
 - Duration: 22:08
 - Pace: 10:50/mi
 - Avg HR: 138 bpm (below target <140)
+- VO2 Max: **46.7 (NEW ALL-TIME HIGH!)**
 - Elevation Gain: 117 ft
 - Shoes: Mizuno Wave Inspire 22
 - Route: Carothers from Lifetime (sidewalks)
 - Weather: 62°F, clear, 49% humidity, 7.2 mph wind WSW
 - Knee: Unchanged (Left 1/10, Right 0/10)
-- Notes: Textbook 2-mile shakeout. 91% in endurance zone per Strava. HR 138 at 10:50 confirms aerobic system is healthy despite lingering virus. Exactly what race week looks like.
+- Notes: Textbook 2-mile shakeout. 91% in endurance zone per Strava. HR 138 at 10:50 confirms aerobic system is healthy despite lingering virus. VO2 max new ATH 46.7 (up from 46.6 on Apr 15 tempo) — 5th new all-time high in ~2 weeks. Remarkable that a 2-mile shakeout while sick produced a new peak; strong signal the taper + forced rest consolidated fitness rather than eroding it. Exactly what race week looks like.
 
 *Sauna*: COMPLETED — 15 min post-run
 
