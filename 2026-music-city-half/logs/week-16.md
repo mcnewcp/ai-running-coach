@@ -71,3 +71,19 @@ Regardless:
 - **Sauna approved**: 15-20 min today (not longer), hydrate well before/during/after, skip ice bath, cut short if cough intensifies during session
 - **Run: unchanged** — rest or 2-mile max very-easy shakeout, whichever feels right by midday. Both are valid.
 
+**Completed Workout**:
+
+*Easy Shakeout* (10:38 AM):
+- Distance: 2.04 miles
+- Duration: 22:08
+- Pace: 10:50/mi
+- Avg HR: 138 bpm (below target <140)
+- Elevation Gain: 117 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Carothers from Lifetime (sidewalks)
+- Weather: 62°F, clear, 49% humidity, 7.2 mph wind WSW
+- Knee: Unchanged (Left 1/10, Right 0/10)
+- Notes: Textbook 2-mile shakeout. 91% in endurance zone per Strava. HR 138 at 10:50 confirms aerobic system is healthy despite lingering virus. Exactly what race week looks like.
+
+*Sauna*: COMPLETED — 15 min post-run
+
