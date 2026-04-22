@@ -165,4 +165,6 @@ Regardless:
 - Sauna: Optional, fine today (15-20 min)
 - No HSR this week
 
+**Decision Confirmed**: Cough still lingering → **Path B selected**. 3-mile easy + 4-6 x 20s strides on flat route. No threshold work today.
+
 
