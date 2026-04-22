@@ -112,5 +112,57 @@ Regardless:
 - **No strides, no pickups, no tempo work today**
 - Sauna: fine today (15-20 min) if cough is continuing to clear
 
+**Completed Workout**:
+
+*Easy Run* (10:55 AM):
+- Distance: 2.73 miles
+- Duration: 30:02
+- Pace: 10:59/mi
+- Avg HR: 149 bpm (right at 150 ceiling)
+- Elevation Gain: 110 ft
+- Shoes: Mizuno Wave Inspire 22 (crossed 100-mile mark!)
+- Route: Paved Smith Park trails
+- Weather: 68°F, partly cloudy, 53% humidity, 7.2 mph wind SW
+- Knee: Unchanged (Left 1/10, Right 0/10)
+- Notes: Solid execution. HR 149 is at target ceiling — slightly higher than Monday's 138 due to warmer weather (68 vs 62), slightly longer duration, and still some residual virus. Pace 10:59 is in prescribed range.
+
+*Sauna*: COMPLETED — 20 min at 3:00 PM
+
+---
+
+### Wednesday, April 22
+
+**Morning Check-In**:
+- Sleep (Tue night): 6hr 46min, good quality
+- Resting Heart Rate: **53 bpm** (Tuesday avg — back to near baseline, only +1 over 52)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 6/10
+- Life Stress: 5/10
+- Overall Status: **RHR back to 53 is the signal we've been waiting for — autonomic system fully normalized.** Full illness resolution arc: 59 (Wed) → 58/58 → 53 (Sun) → 57 (Mon post-activity rebound) → 53 (Tue). Knees still at best-of-block readings. Sleep 6:46 is just below ideal (3rd night under 7 hrs). Energy 7, motivation 6 — steady. 3 days to race. Today is the traditional "sharpener" day.
+
+**Planned Workout (Race Week Protocol)**: Short tempo sharpener — 10-15 min at threshold (reduced from 20 due to illness week)
+
+**Recommended Approach (decision tree based on cough status)**:
+
+*Path A — If fully symptom-free (no cough today)*: **10-12 min tempo embedded in a 3-mile run**
+- 10 min warm-up Zone 2
+- **10-12 min at tempo effort (target ~10:00/mi, HR 155-160)** — this is NEURAL activation, not a workout
+- 5-10 min cool-down easy
+- Total ~3 miles / 35 min
+
+*Path B — If any cough remaining*: **3-mile easy run + 4-6 x 20-second strides at the end**
+- 3 miles easy Zone 2 (HR <145, ~11:00 pace)
+- 4-6 x 20s strides at controlled fast turnover (not sprinting)
+- Full recovery jog between strides
+- Achieves neural priming without sustained threshold effort
+
+*Path C — If feeling off at all*: **3 miles easy only, no intensity**
+
+**Default recommendation without more info**: Path B (conservative sharpener). Given RHR is back to baseline, this is low-risk and protects race day.
+
+- Route: Flat (Carothers sidewalks ideal — no hills for tempo/strides)
+- Sauna: Optional, fine today (15-20 min)
+- No HSR this week
 
 
