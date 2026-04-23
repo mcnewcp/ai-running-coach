@@ -184,5 +184,29 @@ Regardless:
 
 *Sauna*: COMPLETED — 20 min at 2:00 PM
 
+---
+
+### Thursday, April 23
+
+**Morning Check-In**:
+- Sleep (Wed night): 6hr 42min, good quality
+- Resting Heart Rate: 55 bpm (Wednesday avg — small bump from Tuesday's 53, +3 over baseline, likely from run + sauna + 77°F heat + residual virus)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 7/10
+- Motivation: 7/10
+- Life Stress: **4/10** (lowest in weeks)
+- Overall Status: All green lights on subjective markers. Motivation steady at 7, stress drops to 4 (lowest of the block). Knees holding at best readings. RHR 55 is within normal variation. Sleep 6:42 — 4th straight night under 7 hours; a concern for race recovery but not actionable now. 2 days to race. User accepts the firm rest-day call.
+
+**Planned Workout**: **REST DAY** + leisurely walk in the sun + sauna PM
+
+**Guidance**:
+- No running. No HSR. No formal exercise.
+- Leisurely walk: 20-40 min, conversational pace, just be outside. Sunlight = circadian rhythm support for race-day sleep.
+- Sauna: 20 min afternoon — good. Hydrate before/during/after.
+- **Hydration focus today**: 80-100 oz water + electrolytes (LMNT or similar). Start hyper-hydrating for race day today.
+- **Nutrition**: Carb-forward meals today and tomorrow (rice, pasta, bread). Lean protein. Skip new foods or heavy/spicy meals that could sit wrong.
+- **Sleep priority tonight**: Target 8+ hours. Tonight's sleep matters more than Friday's (per race-sleep research, 2 nights out is the bigger driver).
+
+
 
 
