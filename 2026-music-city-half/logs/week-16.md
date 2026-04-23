@@ -167,4 +167,22 @@ Regardless:
 
 **Decision Confirmed**: Cough still lingering → **Path B selected**. 3-mile easy + 4-6 x 20s strides on flat route. No threshold work today.
 
+**Completed Workout**:
+
+*Easy Run* (~1:10 PM):
+- Distance: 3.03 miles
+- Duration: 33:24
+- Pace: 11:00/mi
+- Avg HR: 145 bpm
+- VO2 Max: 46.6 (tied near-peak, 0.1 below Monday's ATH of 46.7)
+- Elevation Gain: 131 ft
+- Shoes: Mizuno Wave Inspire 22
+- Route: Paved Smith Park trails
+- Weather: 77°F, clear, 37% humidity, 9.6 mph wind WSW
+- Knee: Unchanged (Left 1/10, Right 0/10)
+- Notes: Felt pretty bad — cough and throat rough during the run. Dropped the planned strides and stayed easy (Path C execution). Right call given how he felt. Pace 11:00 at HR 145 is right in target zone. VO2 max 46.6 from a sick-day easy run continues the remarkable taper-consolidation signal. Warmer day at 77°F.
+
+*Sauna*: COMPLETED — 20 min at 2:00 PM
+
+
 
