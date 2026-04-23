@@ -207,6 +207,10 @@ Regardless:
 - **Nutrition**: Carb-forward meals today and tomorrow (rice, pasta, bread). Lean protein. Skip new foods or heavy/spicy meals that could sit wrong.
 - **Sleep priority tonight**: Target 8+ hours. Tonight's sleep matters more than Friday's (per race-sleep research, 2 nights out is the bigger driver).
 
+**Cough Update (later AM)**: Light coughing today, BUT did not cough much last night — first quiet night in a while, which explains the good sleep. The night cough resolution is a strong signal the systemic part of the virus is essentially done; daytime light cough is upper airway residue. Race is on.
+
+**Race Logistics Confirmed**: Start 7:20 AM at 8th & Broadway. Gear check 5:30-7:20 AM. 8 aid stations with water + Mortal Hydration + 1 gel station. 4-hr course time limit (non-issue). Full race day plan written to `plans/race-day-plan.md`.
+
 
 
 
