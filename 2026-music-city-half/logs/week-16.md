@@ -211,6 +211,12 @@ Regardless:
 
 **Race Logistics Confirmed**: Start 7:20 AM at 8th & Broadway. Gear check 5:30-7:20 AM. 8 aid stations with water + Mortal Hydration + 1 gel station. 4-hr course time limit (non-issue). Full race day plan written to `plans/race-day-plan.md`.
 
+**Completed**:
+- Leisurely walk in the sun
+- **1-hr post-lunch nap** — excellent pre-race recovery move. Total sleep today: 6:42 night + ~1:00 nap = **~7:42**, the highest-quality recovery day of the week.
+- Sauna: 15 min at 3:00 PM
+
+
 
 
 
