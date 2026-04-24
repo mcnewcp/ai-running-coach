@@ -216,6 +216,38 @@ Regardless:
 - **1-hr post-lunch nap** — excellent pre-race recovery move. Total sleep today: 6:42 night + ~1:00 nap = **~7:42**, the highest-quality recovery day of the week.
 - Sauna: 15 min at 3:00 PM
 
+---
+
+### Friday, April 24
+
+**Morning Check-In**:
+- Sleep (Thu night): 7:25 - 8:31 per apps (call it ~8 hours — best night of the week)
+- Resting Heart Rate: **52 bpm** (Thursday avg — **BACK TO BASELINE!** Full illness arc closed: 59 → 58 → 58 → 53 → 57 → 53 → 55 → 52)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: **8/10** (highest of the week)
+- Motivation: **8/10** (highest of the week)
+- Life Stress: 4/10 (lowest of the week, matches yesterday)
+- Overall Status: **Best pre-race check-in possible.** RHR back to true baseline 52. Energy + motivation both peak at 8. Stress low at 4. Knees at best-of-block. Nap + early bed + 8 hours = fully charged. 1 day to race. Everything pointing the right direction.
+
+**Planned Workout (Race Eve)**: Light shakeout 15-20 min OR rest
+
+**Recommended**: **Do the shakeout** — given how well you're feeling, 15-20 min of easy movement with a few strides will feel great and prime the system. (If cough still flares at all, downshift to 1.5 mi no strides.)
+
+- 1.5-2 miles very easy (~11:00-11:30/mi, HR <145)
+- Flat route — Carothers sidewalks ideal
+- End with **3-4 x 15-20 second strides** at controlled fast turnover (NOT sprints)
+- Full recovery walk between strides
+- Total time: 20 min max
+- No sauna today (let the body be)
+
+**Rest of day (race prep)**:
+- Hydrate aggressively: 100 oz water + electrolytes
+- Carb-forward dinner **by 6 PM** (pasta, rice, bread — no new foods, no alcohol, nothing spicy)
+- Lay out everything per `plans/race-day-plan.md` gear checklist
+- Charge watch + phone to 100%
+- Bed by 9 PM
+
+
 
 
 
