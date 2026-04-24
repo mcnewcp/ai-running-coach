@@ -247,6 +247,11 @@ Regardless:
 - Charge watch + phone to 100%
 - Bed by 9 PM
 
+**Updates**:
+- **Bib pickup today** — corral and wave start time to be confirmed after.
+- **Cough status**: Still light but best it's been. No race day impact.
+- **Sauna approved** (revised from morning): 10-12 min (shortened from usual 20), early afternoon by 2-3 PM to preserve sleep, aggressive rehydration after. Mood/mental benefit is real and matters for race-day readiness.
+
 
 
 
