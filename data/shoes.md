@@ -2,5 +2,5 @@
 
 | Shoe | Model | Total Miles | Status | First Run | Last Run | Notes |
 |------|-------|-------------|--------|-----------|----------|-------|
-| 2026-saucony | Saucony Guide 17 | 207.05 | Active | 2026-01-07 | | |
+| 2026-saucony | Saucony Guide 17 | 209.45 | Active | 2026-01-07 | | |
 | 2026-mizuno | Mizuno Wave Inspire 22 | 103.96 | Active | 2026-02-19 | | |

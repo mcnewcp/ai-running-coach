@@ -252,6 +252,27 @@ Regardless:
 - **Cough status**: Still light but best it's been. No race day impact.
 - **Sauna approved** (revised from morning): 10-12 min (shortened from usual 20), early afternoon by 2-3 PM to preserve sleep, aggressive rehydration after. Mood/mental benefit is real and matters for race-day readiness.
 
+**Completed Workout**:
+
+*Pre-Race Shakeout* (~10:00 AM):
+- Distance: 2.40 miles
+- Duration: 26:02
+- Pace: 10:49/mi avg
+- Avg HR: 141 bpm
+- VO2 Max: 46.7 (tied all-time high with Monday)
+- Elevation Gain: 151 ft
+- Shoes: **Saucony Guide 17** (race-day dress rehearsal)
+- Route: Sidewalks by Lifetime (Carothers area)
+- Weather: 68°F, partly cloudy, 69% humidity, 5.6 mph wind SSW
+- Knee: Unchanged (Left 1/10, Right 0/10)
+- Splits:
+  - Mile 1: 10:46 (HR 131, -65 ft)
+  - Mile 2: 11:05 (HR 144, +10 ft)
+  - 0.4 mi: 10:17 (HR 162, +51 ft) — **strides segment**
+- Notes: Textbook pre-race execution. Controlled endurance pace on first two miles, then strides drove HR to 162 with 10:17 pace at elevated gradient. Saucony Guide 17s got their race-day dress rehearsal. VO2 max 46.7 ties Monday's all-time high — fitness is locked in.
+
+*Sauna*: COMPLETED — 12 min (shortened per race-eve guidance)
+
 
 
 
