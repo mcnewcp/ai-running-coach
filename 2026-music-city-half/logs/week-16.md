@@ -248,7 +248,7 @@ Regardless:
 - Bed by 9 PM
 
 **Updates**:
-- **Bib pickup today** — corral and wave start time to be confirmed after.
+- **Bib pickup today** — Bib **#9849**, **Corral 19** (likely wave start ~7:45-7:50 AM given corrals release every 1-2 min after 7:20 first wave).
 - **Cough status**: Still light but best it's been. No race day impact.
 - **Sauna approved** (revised from morning): 10-12 min (shortened from usual 20), early afternoon by 2-3 PM to preserve sleep, aggressive rehydration after. Mood/mental benefit is real and matters for race-day readiness.
 
