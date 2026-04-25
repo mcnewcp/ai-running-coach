@@ -273,6 +273,29 @@ Regardless:
 
 *Sauna*: COMPLETED — 12 min (shortened per race-eve guidance)
 
+---
+
+### Saturday, April 25 — 🏁 RACE DAY 🏁
+
+**Morning Check-In (5:00 AM)**:
+- Sleep (Fri night): 6hr 40min, well slept (early wake for race morning)
+- Resting Heart Rate: **52 bpm** (Friday avg — at baseline)
+- Knee Pain: Left 1/10, Right 0/10
+- Energy: 8/10
+- Motivation: **9/10** (week high — race day fire)
+- Life Stress: 4/10
+- Cough: not reported = effectively gone
+- Overall Status: **Textbook race-day morning.** Every marker is in the green. RHR at baseline, motivation peak, knees at best-of-block, illness fully cleared. The 16 weeks of training meet the start line in optimal condition.
+
+**Race**: St. Jude Rock 'n' Roll Nashville Half Marathon
+**Bib**: #9849, **Corral 19** (~7:45-7:50 wave start)
+**Plan**: See `plans/race-day-plan.md`
+**Target**: 2:18-2:22 (~10:35-10:45/mi), goal "finish strong and healthy"
+**Carry**: Flip belt (phone, wallet, 3 gels) + throwaway handheld bottle (toss at aid station 1)
+**Shoes**: Saucony Guide 17
+
+
+
 
 
 
