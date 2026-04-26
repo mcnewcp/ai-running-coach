@@ -288,11 +288,69 @@ Regardless:
 - Overall Status: **Textbook race-day morning.** Every marker is in the green. RHR at baseline, motivation peak, knees at best-of-block, illness fully cleared. The 16 weeks of training meet the start line in optimal condition.
 
 **Race**: St. Jude Rock 'n' Roll Nashville Half Marathon
-**Bib**: #9849, **Corral 19** (~7:45-7:50 wave start)
+**Bib**: #9849, **Corral 19** (wave start 7:56:17 AM)
 **Plan**: See `plans/race-day-plan.md`
 **Target**: 2:18-2:22 (~10:35-10:45/mi), goal "finish strong and healthy"
 **Carry**: Flip belt (phone, wallet, 3 gels) + throwaway handheld bottle (toss at aid station 1)
 **Shoes**: Saucony Guide 17
+
+**🏁 RACE COMPLETE — FIRST HALF MARATHON 🏁**
+
+**Official Chip Time: 2:12:33** (5+ minutes UNDER target!)
+**Official Distance**: 13.1 mi
+**Official Avg Pace**: 9:53/mi
+**Strava Distance**: 13.31 mi (weaving through crowded corral)
+**Strava Moving Time**: 2:12:22
+**Avg HR**: 167 bpm
+**VO2 Max**: 46.8 (NEW ALL-TIME HIGH)
+**Elevation Gain**: 614 ft
+**Weather**: 62°F cloudy, 94% humidity, 2.5 mph wind ENE
+**Calories**: 1,730
+
+### Official Race Splits (chip timing)
+| Point | Time | Time of Day | Pace |
+|-------|------|-------------|------|
+| Start | 0:00:00 | 7:56:17 AM | — |
+| 1 mi | 0:09:09 | 8:05:25 AM | — |
+| 3.1 mi | 0:33:09 | 8:29:25 AM | 10:53 |
+| 6.2 mi | 1:04:04 | 9:00:20 AM | 10:17 |
+| 10 mi | 1:41:47 | 9:38:03 AM | 9:58 |
+| **Finish** | **2:12:33** | 10:08:49 AM | 9:00 |
+
+### Strava Mile-by-Mile Splits
+| Mi | Pace | HR | Elev |
+|----|------|----|----|
+| 1 | 9:56 | 152 | -22 |
+| 2 | 10:49 | 154 | +26 |
+| 3 | 10:34 | 161 | +77 |
+| 4 | 10:07 | 160 | -18 |
+| 5 | 10:01 | 163 | -11 |
+| 6 | 10:07 | 168 | -7 |
+| 7 | 9:58 | 172 | +51 |
+| 8 | 9:56 | 168 | -77 |
+| 9 | 9:56 | 170 | -52 |
+| 10 | 9:29 | 174 | -46 |
+| 11 | 9:43 | 176 | +28 |
+| 12 | 9:35 | 178 | -35 |
+| 13 | 9:21 | 180 | -7 |
+| 0.3 | 8:58 | 185 | -5 |
+
+### Race Notes
+- TEXTBOOK NEGATIVE SPLIT — first 5K at 10:41 pace, last 5K at ~9:55 pace, with kicker at 8:58
+- HR built smoothly 152 → 185 across the race
+- 5 PRs across various distances per Strava
+- Got a high five from Barry Trotz and his kids on course
+- Lesson learned: corral 19 was too crowded for his actual pace — should move up several corrals next race
+- Weaving through crowds added 0.21 miles vs official 13.1
+- VO2 max NEW ALL-TIME HIGH at 46.8
+
+### Comparison to Apr 11 HM-distance training run
+- Training: 13.16 mi @ 10:34 pace, HR 150, 534 ft elev (healthy)
+- Race: 13.31 mi @ 9:56 pace, HR 167, 614 ft elev (after illness week)
+- **38 sec/mi faster, 80 ft more elevation, post-illness — extraordinary improvement**
+
+### Sauconys total: 222.76 miles (race-day shoe)
+
 
 
 
