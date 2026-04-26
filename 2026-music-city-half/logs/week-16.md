@@ -298,14 +298,17 @@ Regardless:
 
 **Official Chip Time: 2:12:33** (5+ minutes UNDER target!)
 **Official Distance**: 13.1 mi
-**Official Avg Pace**: 9:53/mi
+**True Avg Pace (chip time / 13.1 mi)**: **10:07/mi**
 **Strava Distance**: 13.31 mi (weaving through crowded corral)
+**Strava Avg Pace (over 13.31 mi)**: 9:58/mi
 **Strava Moving Time**: 2:12:22
 **Avg HR**: 167 bpm
 **VO2 Max**: 46.8 (NEW ALL-TIME HIGH)
 **Elevation Gain**: 614 ft
 **Weather**: 62°F cloudy, 94% humidity, 2.5 mph wind ENE
 **Calories**: 1,730
+
+*Note: Official results page displayed "9:53/mi avg pace" which doesn't match 13.1 miles at 2:12:33 — likely a display glitch. True pace at certified distance is 10:07/mi.*
 
 ### Official Race Splits (chip timing)
 | Point | Time | Time of Day | Pace |
