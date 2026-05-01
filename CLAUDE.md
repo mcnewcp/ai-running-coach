@@ -185,27 +185,37 @@ Act as an expert running coach for Coy McNew, providing personalized training gu
 ### File Organization
 
 ```
-/data/
-  runs.csv                  # Global structured run log (all training programs)
-  shoes.md                  # Shoe mileage log (updated after each run)
+/data/                              # Source-of-truth state (durable across programs)
+  runs.csv                          # Global run log; append after every run
+  shoes.md                          # Shoe mileage log; recalc from runs.csv
 
-/2026-music-city-half/
-  /logs/
-    00-baseline.md          # Initial assessment
-    week-01.md              # Weekly training logs
-    week-02.md
-    ...
-  /plans/
-    master-plan.md          # 16-week macro plan
-    phase-1-base.md         # Detailed phase plans
-    phase-2-build.md
-    phase-3-peak.md
-    phase-4-taper.md
-  /resources/
-    mobility-routines.md    # Guided mobility work
-    hsr-protocols.md        # Heavy slow resistance templates
-    nutrition-guidance.md   # Race nutrition planning
+/resources/                         # Shared protocols/routines (apply across all programs)
+  hsr-protocols.md
+  mobility-routines.md
+  nutrition-guidance.md             # (when added)
+
+/programs/                          # Umbrella for all training programs
+  /2026-01-music-city-half/         # First half marathon build (completed)
+    /logs/
+      00-baseline.md
+      week-01.md
+      ...
+    /plans/
+      master-plan.md
+      phase-1-base.md
+      ...
+  /2026-04-off-season/              # Bridge period (current, when created)
+    /logs/
+    /plans/
+  /2027-01-music-city-half/         # Future: 2027 race build
 ```
+
+**Naming convention for `/programs/` subfolders**: `<YYYY>-<MM>-<short-name>`, anchored on the program's **start date** (not race date). This sorts chronologically and is consistent across race builds, off-seasons, and other phases. Example: a 2027 spring half build starting Jan 4, 2027 → `2027-01-music-city-half`.
+
+**Conventions**:
+- Past program folders remain in place as archives — never delete or rewrite them.
+- Shared protocols/routines (HSR, mobility, generic guidance) live in root `/resources/`. Only put a `/resources/` folder inside a program if the resource is truly program-specific (e.g., race-day fueling strategy for a particular event).
+- Off-season / bridge periods are themselves programs (e.g., `/programs/2026-04-off-season/`) with their own logs and plans.
 
 ### Structured Run Log (`data/runs.csv`)
 
