@@ -199,7 +199,12 @@ The full daily metrics intake below applies only during **race-specific training
   /2027-01-music-city-half/         # Future: 2027 race build
 ```
 
-**Naming convention for `/programs/` subfolders**: `<YYYY>-<MM>-<short-name>`, anchored on the program's **start date** (not race date). This sorts chronologically and is consistent across race builds, off-seasons, and other phases. Example: a 2027 spring half build starting Jan 4, 2027 → `2027-01-music-city-half`.
+**Naming conventions** (all anchored on the **start date** so files and folders sort chronologically):
+- **Program folders** (`/programs/<name>/`): `<YYYY>-<MM>-<short-name>`. Example: `2027-01-music-city-half` for a 2027 spring half build starting Jan 4, 2027.
+- **Plan files** (`/plans/<name>.md`): `<YYYY>-<MM>-<DD>-<short-name>.md`. Example: `2026-04-27-recovery-phase.md`.
+- **Log files** (`/logs/<name>.md`): `<YYYY>-<MM>-<DD>-<short-name>.md` for phase-level logs. Race builds with linear weekly progression may continue using `week-NN.md` since the numeric prefix already sorts chronologically.
+
+Apply this convention to all new programs, plans, and logs. Existing files (e.g., `phase-1-base.md` in the 2026 Music City build) do not need to be renamed retroactively.
 
 **Conventions**:
 - "Active program" = the folder pointed to by `data/current-goal.md`. Past program folders remain in place as archives — never delete or rewrite them.
