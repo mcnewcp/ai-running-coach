@@ -15,5 +15,16 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 |---|---|---|
 | Mon May 11 | Easy 3.02 mi @ 10:56, HR 142, VO2 45.8 | Smith Park paved trails, 69F cloudy, knees 1/0, 20-min sauna. HR comfortably under Z2 ceiling. |
 
+### HSR sessions
+
+**Tue May 12** (~11:00, sauna at 13:00)
+- Decline Squat: 95 lb × 8 × 2 (~70% of 135 lb working load — on-target reintroduction)
+- Bulgarian Split Squat: 15 lb × 2 DB × 8 × 2/leg (~75% of 2×20 working)
+- Single Leg RDL: 15 lb DB × 8 × 2/leg
+- Banded Lateral Steps: Black band × 10 × 2/dir
+- Hamstring Curl: 70 lb × 8 × 2 (~78% of 90 lb working)
+- Knees 1/0 going in. Solid reintroduction session.
+
 ### Notable
 - Day 1 of base phase looked exactly as drawn up — easy effort, Z2-compliant HR, knees clean.
+- HSR working loads from end of 2026 Music City build now anchored in `resources/hsr-protocols.md` (was stale at old baseline).
