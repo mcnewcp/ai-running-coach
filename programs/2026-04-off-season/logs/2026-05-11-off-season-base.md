@@ -14,6 +14,17 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 | Date | Session | Notes |
 |---|---|---|
 | Mon May 11 | Easy 3.02 mi @ 10:56, HR 142, VO2 45.8 | Smith Park paved trails, 69F cloudy, knees 1/0, 20-min sauna. HR comfortably under Z2 ceiling. |
+| Wed May 13 | Easy 3.01 mi @ 10:50, HR 143, VO2 45.6 | Smith Park paved trails, 130ft elevation, allergies hitting hard, knees 2/1, Saucony, 20-min sauna at 14:30. Z2-compliant despite congestion. |
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon May 11 | 20 min | Post-run |
+| Tue May 12 | 20 min | ~13:00, post-HSR |
+| Wed May 13 | 20 min | ~14:30, post-run |
+
+**Week total**: 3/4 (target 4x/week)
 
 ### HSR sessions
 
