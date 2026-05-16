@@ -16,6 +16,7 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 | Mon May 11 | Easy 3.02 mi @ 10:56, HR 142, VO2 45.8 | Smith Park paved trails, 69F cloudy, knees 1/0, 20-min sauna. HR comfortably under Z2 ceiling. |
 | Wed May 13 | Easy 3.01 mi @ 10:50, HR 143, VO2 45.6 | Smith Park paved trails, 130ft elevation, allergies hitting hard, knees 2/1, Saucony, 20-min sauna at 14:30. Z2-compliant despite congestion. |
 | Thu May 14 | Easy 3.02 mi @ 10:43, HR 145, VO2 45.5 | Lifetime sidewalks Franklin TN, 184ft elevation, 58F clear 56% humidity wind 10.5 NNE, knees 2/1, Saucony. HR 145 still under Z2 ceiling — pace creeping faster across the week. |
+| Sat May 16 | Long Run 5.01 mi @ 11:09, HR 150, VO2 45.7 | Smith Park paved trails, 267ft elevation, 80F cloudy 59% humidity wind 9.4 SSW, knees 2/1, Mizuno. HR 150 right at Z2 ceiling — heat + elevation cost. Long run target hit. |
 
 ### Sauna sessions
 
@@ -25,8 +26,9 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 | Tue May 12 | 20 min | ~13:00, post-HSR |
 | Wed May 13 | 20 min | ~14:30, post-run |
 | Thu May 14 | 20 min | Post-HSR; prioritized today since sauna closed Fri |
+| Fri May 15 | 12 min | Surprisingly open — bonus session |
 
-**Week total**: 4/4 ✓ (target hit)
+**Week total**: 5/4 ✓ (target exceeded)
 
 ### HSR sessions
 
