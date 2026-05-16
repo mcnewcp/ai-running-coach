@@ -41,20 +41,20 @@
 
 ---
 
-## Current HSR Protocol (Baseline)
+## Current HSR Protocol (Working Loads)
 
-**Based on December 2025 Training Logs**
+**Established working loads from end of 2026 Music City Half build (Weeks 11-15).** These are the "100%" reference loads — reintroduction after a layoff (~2-3 weeks off) should start at ~70% of these for one session, ~85% for the next, then return to full load.
 
 ### Session Structure (35-40 minutes)
 
-| Exercise | Tempo | Weight/Resistance | Reps x Sets | Rest |
-|----------|-------|-------------------|-------------|------|
+| Exercise | Tempo | Working Load | Reps x Sets | Rest |
+|----------|-------|--------------|-------------|------|
 | Warm-up Wall Sits | 45s hold | Bodyweight | 2 | Up to 2 min |
-| Eccentric Decline Squats | 3-1-3 | 95 lbs | 8 x 2 | 2-3 min |
-| Bulgarian Split Squats | 3-0-3 | 25 lbs DB | 8 x 2 per leg | 90s-2 min |
+| Eccentric Decline Squats | 3-1-3 | 135 lbs (barbell) | 8 x 2 | 2-3 min |
+| Bulgarian Split Squats | 3-0-3 | 20 lbs × 2 DB | 8 x 2 per leg | 90s-2 min |
 | Single Leg Deadlift | 3-0-2 | 20 lbs DB | 8 x 2 per leg | 90s |
 | Banded Lateral Steps | Controlled | Black band | 15 x 2 per direction | 60s |
-| Hamstring Curl Machine | 5s hold at top | 100 lbs | 8 x 2 | 90s-2 min |
+| Hamstring Curl Machine | 5s hold at top | 90 lbs | 8 x 2 | 90s-2 min |
 
 **Total Time**: ~35-40 minutes including warm-up and rest periods
 
@@ -103,7 +103,7 @@
 - **3 seconds up**: Drive through heels to return to start
 - Complete 8 reps x 2 sets
 
-**Current Load**: 95 lbs
+**Current Working Load**: 135 lbs (barbell, end of 2026 Music City build)
 
 **Cues**:
 - "Control the descent - count 1-2-3"
@@ -131,7 +131,7 @@
 **Setup**:
 - Rear foot elevated on bench (laces down)
 - Front foot 2-3 feet in front of bench
-- Dumbbell in hand OPPOSITE to working leg (for balance)
+- **Two dumbbells**, one in each hand, held at sides (Coy's preferred setup — increases total load and removes asymmetric balance challenge)
 - Torso upright
 
 **Execution**:
@@ -140,7 +140,7 @@
 - **3 seconds up**: Drive through front heel to return to start
 - Complete 8 reps, switch legs
 
-**Current Load**: 25 lbs dumbbell
+**Current Working Load**: 2 × 20 lb dumbbells (one in each hand)
 
 **Cues**:
 - "Front shin stays vertical, knee tracks over toes"
@@ -247,7 +247,7 @@
 - **3 seconds down**: Lower slowly with control (eccentric emphasis)
 - Complete 8 reps x 2 sets
 
-**Current Load**: 100 lbs
+**Current Working Load**: 90 lbs (machine leg curl)
 
 **Cues**:
 - "Pull heels to glutes, full range of motion"
