@@ -48,3 +48,22 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 ### Notable
 - Day 1 of base phase looked exactly as drawn up — easy effort, Z2-compliant HR, knees clean.
 - HSR working loads from end of 2026 Music City build now anchored in `resources/hsr-protocols.md` (was stale at old baseline).
+
+## Week 2 (May 18 – May 24)
+
+**Plan**: 16 mi, 4 runs, 2 HSR (~85% working load), strides start (1x/wk), 6 mi long run.
+
+### Schedule adjustment
+- HSR shifted Mon → Tue (out of time after Monday's run). Week 2 HSR days: **Tue + Thu**.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Mon May 18 | Easy 3.52 mi @ 11:17, HR 150, VO2 45.2 | Smith Park paved trails, 196ft elevation, 82F clear 52% humidity wind 14.1 S, Saucony. Midday sun felt much hotter than 82F — HR pinned at Z2 ceiling driven by heat; VO2 estimate noisy and suppressed by conditions. 20-min sauna at 15:00. |
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon May 18 | 20 min | ~15:00, post-run |
