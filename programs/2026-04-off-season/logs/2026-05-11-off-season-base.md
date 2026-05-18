@@ -60,7 +60,7 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 
 | Date | Session | Notes |
 |---|---|---|
-| Mon May 18 | Easy 3.52 mi @ 11:17, HR 150, VO2 45.2 | Smith Park paved trails, 196ft elevation, 82F clear 52% humidity wind 14.1 S, Saucony. Midday sun felt much hotter than 82F — HR pinned at Z2 ceiling driven by heat; VO2 estimate noisy and suppressed by conditions. 20-min sauna at 15:00. |
+| Mon May 18 | Easy 3.52 mi @ 11:17, HR 150, VO2 45.2 | Smith Park paved trails, 196ft elevation, 82F clear 52% humidity wind 14.1 S, knees 1/0, Saucony. Midday sun felt much hotter than 82F — HR pinned at Z2 ceiling driven by heat; VO2 estimate noisy and suppressed by conditions. 20-min sauna at 15:00. |
 
 ### Sauna sessions
 
