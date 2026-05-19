@@ -61,9 +61,21 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 | Date | Session | Notes |
 |---|---|---|
 | Mon May 18 | Easy 3.52 mi @ 11:17, HR 150, VO2 45.2 | Smith Park paved trails, 196ft elevation, 82F clear 52% humidity wind 14.1 S, knees 1/0, Saucony. Midday sun felt much hotter than 82F — HR pinned at Z2 ceiling driven by heat; VO2 estimate noisy and suppressed by conditions. 20-min sauna at 15:00. |
+| Tue May 19 | Easy 2.02 mi @ 11:09, HR 147 | Optional morning shakeout before HSR; Lifetime sidewalks Franklin TN, 112ft elevation, 80F partly cloudy 74% humidity wind 11.4 SSW, Mizuno. HR 147 just under Z2 ceiling in warm/humid conditions. |
 
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon May 18 | 20 min | ~15:00, post-run |
+| Tue May 19 | 20 min | ~12:15, post-HSR |
+
+### HSR sessions
+
+**Tue May 19** (~10:30, after shakeout run)
+- Bulgarian Split Squat: 20 lb DB × 8 × 2/leg (full working load — exceeded 85% target)
+- Banded Step Outs: 15 each × 2/dir
+- Single Leg RDL: 20 lb DB × 8 × 2/leg (full working load)
+- Decline Squat: 115 lb × 8 × 2 (~85% of 135 lb working — on-target)
+- Hamstring Curl: 75 lb × 8 × 2 (~83% of 90 lb working)
+- Solid Week 2 session 1. Sets at 2× (not 3×) — acceptable reintroduction load with weights bumped from Week 1.
