@@ -45,6 +45,60 @@ Lightweight log for the 10-week aerobic base rebuild. See [phase plan](../plans/
 - Skipped: Bulgarian split squat, single leg RDL, banded lateral steps, hamstring curl
 - Note: prioritized sauna over completing HSR since sauna closed Friday. Partial HSR session.
 
+### HSR sessions (Week 2)
+
+**Tue May 19** (~10:30, after shakeout run)
+- Bulgarian Split Squat: 20 lb DB × 8 × 2/leg (full working load)
+- Banded Step Outs: 15 each × 2/dir
+- Single Leg RDL: 20 lb DB × 8 × 2/leg (full working load)
+- Decline Squat: 115 lb × 8 × 2 (~85% of 135 lb working)
+- Hamstring Curl: 75 lb × 8 × 2 (~83% of 90 lb working)
+- Session 1. Weights bumped from Week 1, 2 sets.
+
+**Thu May 21** (~13:30, post-run)
+- Decline Squat: 115 lb × 8 × 3
+- Bulgarian Split Squat: 20 lb DB × 8 × 3/leg
+- Single Leg RDL: 20 lb DB × 8 × 3/leg
+- Hamstring Curl: 75 lb × 8 × 3
+- Session 2. Volume progression — same weights, 2→3 sets. Banded step outs skipped.
+
 ### Notable
 - Day 1 of base phase looked exactly as drawn up — easy effort, Z2-compliant HR, knees clean.
 - HSR working loads from end of 2026 Music City build now anchored in `resources/hsr-protocols.md` (was stale at old baseline).
+
+## Week 2 (May 18 – May 24)
+
+**Plan**: 16 mi, 4 runs, 2 HSR (~85% working load), strides start (1x/wk), 6 mi long run.
+
+### Schedule adjustment
+- HSR shifted Mon → Tue (out of time after Monday's run). Week 2 HSR days: **Tue + Thu**.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Mon May 18 | Easy 3.52 mi @ 11:17, HR 150, VO2 45.2 | Smith Park paved trails, 196ft elevation, 82F clear 52% humidity wind 14.1 S, knees 1/0, Saucony. Midday sun felt much hotter than 82F — HR pinned at Z2 ceiling driven by heat; VO2 estimate noisy and suppressed by conditions. 20-min sauna at 15:00. |
+| Tue May 19 | Easy 2.02 mi @ 11:09, HR 147 | Optional morning shakeout before HSR; Lifetime sidewalks Franklin TN, 112ft elevation, 80F partly cloudy 74% humidity wind 11.4 SSW, Mizuno. HR 147 just under Z2 ceiling in warm/humid conditions. |
+| Wed May 20 | Easy 3.71 mi @ 11:15, HR 148, VO2 45.1 | Smith Park paved trails, 201ft elevation, 76F rainy feels 78F 80% humidity wind 2.9 WNW, knees 1/0, Saucony. HR 148 under Z2 ceiling. Followed by 4×20s strides (felt smooth — neuromuscular reawakening on target). |
+| Thu May 21 | Easy 3.05 mi @ 10:48, HR 147, VO2 45.0 | Lifetime sidewalks Franklin TN, 165ft elevation, 70F rainy feels 72F 92% humidity wind 1.8 SW, Mizuno. 27s/mi faster than Wed at similar HR — cool rainy morning aided efficiency. VO2 estimate flat (Apple smoothing lags, humidity penalizes). |
+| Sat May 23 | Long Run 6.39 mi @ 11:08, HR 144, VO2 45.1 | Smith Park paved trails, 291ft elevation, 70F rainy feels 68F 91% humidity wind 8.9 SSW, knees 3/1 post-run, Saucony. HR 144 well under Z2 ceiling on hilly terrain — 6 bpm lower than last Sat's 5-miler at near-identical pace despite +1.4 mi and similar elevation gain. Cool rain offset the humidity. Best long-run efficiency of the phase so far. Left knee 3/10 sits at threshold — watch into Week 3. Lingering DOMS from HSR (glutes/hams/quads) — expected reintroduction soreness, not a red flag. |
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon May 18 | 20 min | ~15:00, post-run |
+| Tue May 19 | 20 min | ~12:15, post-HSR |
+| Wed May 20 | 20 min | ~12:30, post-run+strides |
+| Thu May 21 | 20 min | post-HSR (~14:00) |
+| Sat May 23 | 20 min | ~18:30, post-long-run |
+
+### HSR sessions
+
+**Tue May 19** (~10:30, after shakeout run)
+- Bulgarian Split Squat: 20 lb DB × 8 × 2/leg (full working load — exceeded 85% target)
+- Banded Step Outs: 15 each × 2/dir
+- Single Leg RDL: 20 lb DB × 8 × 2/leg (full working load)
+- Decline Squat: 115 lb × 8 × 2 (~85% of 135 lb working — on-target)
+- Hamstring Curl: 75 lb × 8 × 2 (~83% of 90 lb working)
+- Solid Week 2 session 1. Sets at 2× (not 3×) — acceptable reintroduction load with weights bumped from Week 1.
