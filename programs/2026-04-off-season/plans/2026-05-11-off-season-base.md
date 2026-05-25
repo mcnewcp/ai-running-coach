@@ -1,4 +1,14 @@
-# Off-Season Base Phase — May 11 to Jul 19, 2026
+# Off-Season Base Phase — May 11 to May 24, 2026 *(ENDED EARLY)*
+
+> **Phase ended early, May 24, 2026.** Originally planned May 11 – Jul 19 (10 weeks). After 2 weeks of base rebuild, the left patellar tendon was sitting at 3/10 post-long-run with rising trend. Pivoting into a dedicated 12-week patellar tendinopathy rehab block beginning May 25, 2026 (see [2026-05-25-patellar-rehab-12wk.md](2026-05-25-patellar-rehab-12wk.md)). Annual periodization downstream (speed block, fall tune-up, transition base) shifts ~12 weeks later — see [current-goal.md](../../../data/current-goal.md) for the updated phase map.
+>
+> **What completed**: Weeks 1–2 ran cleanly through Sat May 23 long run (6.39 mi, HR 144, knees 3/1 post). HSR was on the old protocol at end-of-build working loads. The reintroduction was on-target but the rising left knee signal (3/10 post-long-run, lingering DOMS) plus deeper research on patellar loading prompted the switch to a strength-led rehab block rather than continued volume progression.
+>
+> The original 10-week plan as written follows for reference.
+>
+> ---
+
+## *(Original plan — superseded)*
 
 Ten-week aerobic base rebuild between the Music City Half (Apr 25, 2026) and the speed block beginning Jul 20. See [current-goal.md](../../../data/current-goal.md) for the full off-season phase map.
 
