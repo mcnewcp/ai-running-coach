@@ -32,5 +32,14 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 |---|---|---|
 | Mon May 25 | 20 min | Post-lift |
 
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Mon May 25 | 4/10 | 1/10 | Pre-lift, late afternoon (off-cadence baseline — proper baseline retest scheduled Sat May 30 AM, fresh) |
+
+- **Baseline established.** Left 4/10 lands in the yellow band (3–4/10) — exactly what we'd expect on a still-irritated tendon and precisely why this block exists. Right 1/10 gives a clean comparator; asymmetry is real but not extreme.
+- Timing deviation noted: protocol calls for Saturday morning, fresh. Retest Sat May 30 AM to anchor the on-cadence baseline. From there, weekly trend is what matters.
+
 ### Notable
 - Day 1 of the block in the books. Calibration is the goal this week — Week 2 we lock in 15RM loads and start the real progression.
