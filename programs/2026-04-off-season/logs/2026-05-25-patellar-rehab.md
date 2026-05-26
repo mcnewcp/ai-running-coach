@@ -6,6 +6,12 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 
 **Plan**: 15RM, 3×15 on Slots 1 & 2. Running 10 mi total (2.5 / 2.5 / 5).
 
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue May 26 | Easy 2.51 mi @ 11:13, HR 153, VO2 44.7 | Lifetime sidewalks Franklin TN, 139ft elevation, 74F cloudy feels 73F 84% humidity wind 10.7, Mizuno. HR 153 ~3 bpm over Z2 ceiling — heat + 84% humidity penalty (Apr-style conditions in May). VO2 estimate 44.7 (lowest in recent memory) — Apple's smoothing reads humidity-suppressed efficiency as fitness loss; ignore the single-day dip. 600th Strava activity 🎉. 20-min sauna post-run. |
+
 ### Lift sessions
 
 **Mon May 25 — Lift A** (~16:30, post-work)
@@ -31,6 +37,7 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | Date | Duration | Notes |
 |---|---|---|
 | Mon May 25 | 20 min | Post-lift |
+| Tue May 26 | 20 min | Post-run |
 
 ### Decline squat test
 
