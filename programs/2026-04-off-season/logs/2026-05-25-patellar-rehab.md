@@ -32,12 +32,30 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 - **Slot 5 (lateral walks)**: yellow band ✓ — pick the band that lets you push knees out without form breakdown.
 - No in-lift knee pain reported. ✓
 
+**Wed May 27 — Lift B** (midday, sauna soon after)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Hack squat (3s/3s) | 3 × 15 | 90 lb × 3 sets |
+| 2 | Bulgarian split squat (3s/3s), lead left | 3 × 15/leg | 2× 15 lb × 3 sets |
+| 3 | Barbell RDL (2s/1s) | 2 × 15 (cut short) | 95 lb × 2 sets |
+| 4 | Standing cable hip abduction, lead left | 3 × 10/side | 7.5 → 10 → 10 lb |
+| 5 | Side plank w/ top-leg abduction, lead left | 2 × 12/side | BW |
+
+- **Hack squat 90 × 15 × 3**: weight held all 3 sets with no drop-off — 90 was below true 15RM. Try **110 lb** next Lift B.
+- **Bulgarian split 2× 15 × 15 × 3**: full load held all 3 sets. Strong contrast with Monday's reverse lunge calibration (15→12.5→10) — the elevated-rear-foot position is more grooved for him. 15RM dialed at 2× 15 lb.
+- **Barbell RDL — stopped after 2 sets**: started feeling it in the lower back. **Long-standing pattern with RDLs** (not a today thing). **Permanent swap to trap bar deadlift** for the heavy bilateral hinge — load line through center of mass, more upright torso, far less lumbar shear, still hits posterior chain + brings in quad (actually a better fit for a patellar block). Added to Slot 3 menu in [hsr-protocols.md](../../../resources/hsr-protocols.md).
+- **Cable hip abduction 7.5 → 10 → 10**: calibration solid. Stay at 10 lb next time; add reps before load.
+- **Side plank BW × 12**: clean. Add 5 lb DB on outer thigh next session if it felt easy.
+- No knee pain reported during the lift. ✓
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon May 25 | 20 min | Post-lift |
 | Tue May 26 | 20 min | Post-run |
+| Wed May 27 | 20 min | Post-lift |
 
 ### Decline squat test
 
