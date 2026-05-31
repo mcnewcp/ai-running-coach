@@ -50,6 +50,23 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 - **Side plank BW × 12**: clean. Add 5 lb DB on outer thigh next session if it felt easy.
 - No knee pain reported during the lift. ✓
 
+**Fri May 29 — Lift C** (time-crunched; Slot 5 cut, Slot 4 abbreviated to 2 sets)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Goblet squat (3s/3s) | 3 × 15 | 40 → 40 → 45 lb DB |
+| 2 | Step-up onto 18–20" box (3s/3s), lead left | 3 × 15/leg | BW × 3 sets |
+| 3 | **Trap bar deadlift** (2s/1s) | 3 × 15 | 145 lb × 3 sets (55 lb trap bar + 2× 45) |
+| 4 | Hip abduction machine | 2 × 12 (cut from 3) | 85 → 95 lb |
+| 5 | Clamshell progression 4 (banded) | Skipped (time) | — |
+
+- **Trap bar deadlift swap worked.** 145 lb × 3 clean sets, no lower back signal. This is the new Slot 3 default for heavy bilateral hinge. Bump to **160 lb** next session if 145 still felt under 15RM.
+- **Goblet squat 40 → 40 → 45 lb DB**: bumped on set 3, calibration dialing in around 45. Try **50 lb DB** to start next Lift C.
+- **Step-up BW × 15/leg × 3**: held all 3 sets, but 6-sec tempo on a 20" box at BW is genuinely hard — staying BW for now, add 2× 10 lb DBs only after we see how the knees feel through the weekend.
+- **Hip abduction machine 85 → 95**: solid calibration arc. Next session start at 95.
+- **Slot 5 (clamshell) cut, Slot 4 abbreviated to 2 sets** — followed the cut-priority list as designed. ✓
+- No knee pain, no back pain reported. ✓
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
@@ -58,6 +75,7 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | Tue May 26 | 20 min | Post-run |
 | Wed May 27 | 20 min | Post-lift |
 | Thu May 28 | 20 min | Post-run |
+| Fri May 29 | 15 min | Post-lift (time-crunched) |
 
 ### Decline squat test
 
