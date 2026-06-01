@@ -12,6 +12,7 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 |---|---|---|
 | Tue May 26 | Easy 2.51 mi @ 11:13, HR 153, VO2 44.7 | Lifetime sidewalks Franklin TN, 139ft elevation, 74F cloudy feels 73F 84% humidity wind 10.7, Mizuno. HR 153 ~3 bpm over Z2 ceiling — heat + 84% humidity penalty (Apr-style conditions in May). VO2 estimate 44.7 (lowest in recent memory) — Apple's smoothing reads humidity-suppressed efficiency as fitness loss; ignore the single-day dip. 600th Strava activity 🎉. 20-min sauna post-run. |
 | Thu May 28 | Easy 2.55 mi @ 10:37, HR 156, VO2 44.7 | Crockett Park paved trails Franklin TN, 19ft elevation (flat), 77F partly cloudy feels 80F 83% humidity wind 2.9 ENE, Saucony. HR 156 6 bpm over Z2 ceiling. Reported as "felt conversational." Pace 10:37 was 36 s/mi faster than Tue's 11:13 in similar humidity — pace creep alongside HR creep, not pure heat. 20-min sauna post-run. |
+| Sun May 31 | Long Run 5.02 mi @ 10:54, HR 147, VO2 44.6 | Gorge Trail Richmond IN (visiting parents), 297ft elevation, 62F clear 63% humidity wind 6.5 ESE — best conditions of the month. HR 147 well under Z2 ceiling on hilly terrain. Pace 10:54 (6 s/mi under the 11:00 floor I set Thu) is acceptable in these conditions given HR sits clean — cool/dry weather restored real aerobic efficiency. Compare May 23: 11:08 / HR 144 / 291ft / 70F-rainy-91% — today is 14 s/mi faster for +3 bpm in much better conditions. Clean execution. |
 
 ### Lift sessions
 
@@ -81,10 +82,14 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 
 | Date | Left | Right | Conditions |
 |---|---|---|---|
-| Mon May 25 | 4/10 | 1/10 | Pre-lift, late afternoon (off-cadence baseline — proper baseline retest scheduled Sat May 30 AM, fresh) |
+| Mon May 25 | 4/10 | 1/10 | Pre-lift, late afternoon (off-cadence baseline — proper baseline retest scheduled Sun May 31 AM, fresh) |
+| Sun May 31 | 3/10 | 0/10 | Fresh AM, before long run (proper on-cadence baseline). Test cadence permanently moved to Sunday mornings. |
 
-- **Baseline established.** Left 4/10 lands in the yellow band (3–4/10) — exactly what we'd expect on a still-irritated tendon and precisely why this block exists. Right 1/10 gives a clean comparator; asymmetry is real but not extreme.
-- Timing deviation noted: protocol calls for Saturday morning, fresh. Retest Sat May 30 AM to anchor the on-cadence baseline. From there, weekly trend is what matters.
+- **Proper baseline established**: **L 3/10, R 0/10.**
+- **Per the progression rule, this fails the gate for Week 2.** The plan requires morning-after decline squat ≤ 2/10 on the affected side to advance running volume. L 3/10 is in the yellow band. **Repeat Week 1 mileage (10 mi total, 2.5/2.5/5) for Week 2 instead of jumping to 12.**
+- This is the correct call and exactly what the gating rule exists for. Better to lose a calendar week than lose the tendon. The score will move — that's why the block exists.
+- **Strength progresses on its own schedule** (Week 2 → 12RM, 3 × 12 on Slots 1 & 2). Strength is the treatment; running volume is what we hold.
+- Test cadence moved Sat → Sun AM going forward (easier to anchor with the long run).
 
 ### Notable
 - Day 1 of the block in the books. Calibration is the goal this week — Week 2 we lock in 15RM loads and start the real progression.
