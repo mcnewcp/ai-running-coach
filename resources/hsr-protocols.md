@@ -50,6 +50,7 @@ Every session uses the same **5-slot template**. Pick one item from each menu. R
 
 Normal tempo (2 sec down, 1 sec up).
 
+- Trap bar deadlift
 - Romanian deadlift (barbell)
 - Single-leg RDL (kettlebell or DB)
 - Barbell hip thrust
