@@ -93,3 +93,33 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 
 ### Notable
 - Day 1 of the block in the books. Calibration is the goal this week — Week 2 we lock in 15RM loads and start the real progression.
+
+## Week 2 (Jun 1 – Jun 7)
+
+**Plan**: 12RM, 3×12 on Slots 1 & 2 (strength progression advances on schedule). **Running held at Week 1 volume** — 10 mi total (2.5 / 2.5 / 5) — per the progression rule (Sun May 31 decline squat L 3/10 failed the ≤2/10 gate).
+
+### Lift sessions
+
+**Mon Jun 1 — Lift A**
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Leg press (3s/3s) | 3 × 12 | 160 → 180 → 190 lb |
+| 2 | Reverse lunge w/ DBs (3s/3s), lead left | 3 × 12/leg | 2× 15 lb × 3 sets |
+| 3 | 45° hyperextension (2s/1s) | 3 × 12 | +10 lb → +15 lb → +15 lb |
+| 4 | Single-leg hip thrust, lead left | 3 × 10/side | 15 lb DB × 3 sets |
+| 5 | Banded lateral walks | 2 × 15/dir | yellow band × 2 |
+
+- **Slot 1 (leg press)**: ramped 160 → 180 → 190 across the 3 sets. 190 holding for 12 with 6-sec tempo is a real jump from last Monday's 160 @ 15RM ceiling — solid week-over-week progress. Next Lift A: start at 180, ramp to 200, see if 12 reps still clean.
+- **Slot 2 (reverse lunge)**: **held 2× 15 lb across all 3 sets** — a notable jump from last week's 15→12.5→10 fade at 15RM. Lower rep count + tempo familiarity made the difference, as predicted. Likely true 12RM is closer to 2× 17.5 or 2× 20 lb — next session bump to 2× 17.5 lb.
+- **Slot 3 (hyperextension)**: +10 → +15 → +15 lb. Bumped on set 2 and held — good calibration. Start 15 lb plate across all 3 sets next time.
+- **Slot 4 (single-leg hip thrust)**: 15 lb DB × 10/side held all 3 sets — used the top of the 10–15 lb suggested range. Add load (20 lb DB) next session if reps stayed clean.
+- **Slot 5 (lateral walks)**: yellow band × 2 ✓.
+- Knee pain during lift: not reported (assumed clean). Confirm at next check-in.
+- **20-min sauna post-lift.** ✓
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 1 | 20 min | Post-lift |
