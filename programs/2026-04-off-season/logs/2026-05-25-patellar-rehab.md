@@ -115,7 +115,7 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 - **Slot 3 (hyperextension)**: +10 → +15 → +15 lb. Bumped on set 2 and held — good calibration. Start 15 lb plate across all 3 sets next time.
 - **Slot 4 (single-leg hip thrust)**: 15 lb DB × 10/side held all 3 sets — used the top of the 10–15 lb suggested range. Add load (20 lb DB) next session if reps stayed clean.
 - **Slot 5 (lateral walks)**: yellow band × 2 ✓.
-- Knee pain during lift: not reported (assumed clean). Confirm at next check-in.
+- Knee pain during lift: **L 1/10, R 0/10** — well within acceptable range, no tendon flag.
 - **20-min sauna post-lift.** ✓
 
 ### Sauna sessions
