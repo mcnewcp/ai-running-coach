@@ -98,6 +98,12 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 
 **Plan**: 12RM, 3×12 on Slots 1 & 2 (strength progression advances on schedule). **Running held at Week 1 volume** — 10 mi total (2.5 / 2.5 / 5) — per the progression rule (Sun May 31 decline squat L 3/10 failed the ≤2/10 gate).
 
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Wed Jun 3 | Easy 2.91 mi @ 10:30, HR 146, VO2 44.8 | Smith Park paved trails Franklin TN (Mizuno), 111ft elevation, 73F clear feels 76F 65% humidity wind 6.5 NE. Tue easy shifted to Wed (Tue skipped). HR 146 clean — 4 bpm under Z2 ceiling. Distance 2.91 vs planned 2.5 — slight overshoot (~16%); fine for one off but watch the pattern with running gated at Week 1 volume. |
+
 ### Lift sessions
 
 **Mon Jun 1 — Lift A**
