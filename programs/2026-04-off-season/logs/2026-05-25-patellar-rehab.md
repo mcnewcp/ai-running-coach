@@ -131,15 +131,15 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | 1 | Hack squat (3s/3s) | 3 × 12 | 110 lb × 3 sets |
 | 2 | Bulgarian split squat (3s/3s), lead left | 3 × 12/leg | 2× 17.5 lb × 3 sets |
 | 3 | Trap bar deadlift (2s/1s) | 3 × 12 | 145 → 155 → 155 lb |
-| 4 | Standing cable hip abduction, lead left | 2 × 12/side (3rd set TBC) | 10 lb × 2 sets |
+| 4 | Standing cable hip abduction, lead left | 3 × 12/side | 10 lb × 3 sets |
 | 5 | Side plank w/ top-leg abduction, lead left | 2 × 12/side | BW → 5 lb DB |
 
 - **Hack squat 110 × 3**: held all 3 sets at 110 — clean jump from Week 1's 90. Conservative vs the 120 lb start I suggested, but no fade across sets means there's room. **Next Lift B start at 120, ramp to 130.**
 - **Bulgarian split 2× 17.5 lb × 3**: held all 3 sets clean — exact target. Bump to **2× 20 lb** next Lift B.
 - **Trap bar DL 145 → 155 → 155**: ramped on set 2 and held 155 for sets 2 & 3. Calibration dialed. **Next Lift B start at 165, hold across all 3.**
-- **Cable hip abduction 10 lb × 2 sets logged**: third set not noted — confirm if 3rd was completed. Load held from Week 1; next session bump to 12.5 lb.
+- **Cable hip abduction 10 lb × 3 sets**: full 3 sets at 10 lb. Load held from Week 1; **bump to 12.5 lb** next session.
 - **Side plank BW → 5 lb DB**: added the DB on set 2 as planned. Stay at 5 lb across both sets next time.
-- Knee pain during lift: **not reported** — confirm.
+- Knee pain during lift: **L 2/10 on hack squat set 1, faded within the set as it warmed up. Otherwise clean.** Within acceptable range (≤3/10 during lifting). Worth flagging as the first non-zero in-lift signal of the block — watch hack squat set 1 next Lift B to see if it's a one-off or a pattern.
 - **20-min sauna post-lift.** ✓
 
 ### Sauna sessions
@@ -147,5 +147,5 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jun 1 | 20 min | Post-lift |
-| Tue Jun 2 | (not reported) | Post-run? |
 | Wed Jun 3 | 20 min | Post-lift |
+| Thu Jun 4 | 20 min | ~20 min post-run |
