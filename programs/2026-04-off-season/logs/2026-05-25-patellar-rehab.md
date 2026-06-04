@@ -103,6 +103,7 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | Date | Session | Notes |
 |---|---|---|
 | Tue Jun 2 | Easy 2.91 mi @ 10:30, HR 146, VO2 44.8 | Smith Park paved trails Franklin TN (Mizuno), 111ft elevation, 73F clear feels 76F 65% humidity wind 6.5 NE. HR 146 clean — 4 bpm under Z2 ceiling. Distance 2.91 vs planned 2.5 — slight overshoot (~16%); fine for one off but watch the pattern with running gated at Week 1 volume. |
+| Thu Jun 4 | Easy 2.53 mi @ 10:29, HR 148, VO2 44.9 | Flat route Franklin TN (Mizuno), 21ft elevation, 71F clear feels 76F 68% humidity wind 4.3 S. HR 148 clean — 2 bpm under Z2 ceiling. Distance 2.53 on plan (clipped back from Tue's overshoot ✓). Pace 10:29 ~identical to Tue's 10:30 at +2 bpm HR in similar conditions — slight efficiency degradation but trivial. 20-min sauna ~20 min post-run. |
 
 ### Lift sessions
 
