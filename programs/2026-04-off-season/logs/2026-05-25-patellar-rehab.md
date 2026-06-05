@@ -143,6 +143,24 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 - Knee pain during lift: **L 2/10 on hack squat set 1, faded within the set as it warmed up. Otherwise clean.** Within acceptable range (≤3/10 during lifting). Worth flagging as the first non-zero in-lift signal of the block — watch hack squat set 1 next Lift B to see if it's a one-off or a pattern.
 - **20-min sauna post-lift.** ✓
 
+**Fri Jun 5 — Lift C**
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Barbell back squat (3s/3s) | 3 × 12 | 115 → 115 → 135 lb |
+| 2 | Walking lunge w/ DBs (3s/3s), lead left | 3 × 12/leg | 2× 15 → 2× 17.5 → 2× 17.5 lb |
+| 3 | Booty Builder hip thrust machine (2s/1s) | 3 × 12 | 90 → 100 → 100 lb (plate load) |
+| 4 | Side-lying hip abduction w/ DB on outer thigh, lead left | 3 × 10/side | 10 → 17.5 → 17.5 lb |
+| 5 | Lateral step-up onto 18" box | **cut for time** | — |
+
+- **Back squat 115 → 115 → 135**: held 115 on first two sets, bumped to 135 set 3 and held — exact calibration arc. **Next Lift C start 135, hold across all 3; ramp toward 155** if 12 reps stay clean.
+- **Walking lunge 2× 15 → 2× 17.5 → 2× 17.5**: ramped on set 2 and held. Now matches the Lift B BSS load. **Next Lift C start 2× 17.5, ramp to 2× 20** if reps stay clean.
+- **Booty Builder hip thrust machine**: swap from planned barbell hip thrust based on equipment choice — plate-loaded hip thrust machine (Booty Builder brand). Plate load is **not directly comparable to barbell** (different leverage, lower effective load for same effort), so calibration starts here. 90 → 100 → 100 lb held cleanly. **Next Lift C start 100, ramp to 115–125** if 12 reps easy. Pick a default for the slot (machine vs barbell) and stay with it for consistent week-over-week progression.
+- **Side-lying hip abduction 10 → 17.5 → 17.5**: big calibration jump from my 5 lb start suggestion — 17.5 lb held all 3 sets. Strong glute med there. **Next Lift C start 17.5, ramp to 20 lb.**
+- **Slot 5 cut for time** — second Friday in a row (last Friday's clamshell also cut). **Pattern flag**: Friday's schedule is consistently squeezing the finisher. Options for next Lift C: (a) front-load Slot 5 right after Slot 4, (b) pre-pick a faster option (banded lateral walks across the gym is the fastest 2-min finisher), or (c) accept Friday is a 4-slot day and program around it. Recommend (b) — banded lateral walks for Lift C from here.
+- Knee pain during lift: **not reported** — confirm. Back squat + walking lunge were the novel knee-dominant pieces; whether they spoke up matters.
+- **20-min sauna post-lift.** ✓
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
@@ -150,3 +168,4 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | Mon Jun 1 | 20 min | Post-lift |
 | Wed Jun 3 | 20 min | Post-lift |
 | Thu Jun 4 | 20 min | ~20 min post-run |
+| Fri Jun 5 | 20 min | Post-lift |
