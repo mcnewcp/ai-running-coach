@@ -193,4 +193,24 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 **Focus**:
 - **Long run pace discipline.** Last Sunday's HR overshoot (155 vs 150 ceiling) was preventable. In June heat/humidity, **target HR not pace**. If HR climbs over 150, slow down — walk hills if needed. The block's run rule is Z2 only, and that's measured at the HR, not the watch's pace.
 - **Lift A pattern check**: does the first-set knee twinge on heavy knee-dominant work repeat at 12RM-into-Week-3 loads? If yes, we accept it as cold-start signal. If it intensifies or persists through sets, we adjust.
-- **Slot 5 on Lift C**: pre-pick banded lateral walks to dodge the time crunch.
+- **Slot 5 on Lift C**: pre-pick banded lateral walks to dodge the time crunch. *(Lift C dropped this week — see schedule adjustment below; this focus rolls to the next Lift C.)*
+
+### Schedule adjustment — Bonnaroo trip (Thu Jun 11 – Sun Jun 14 midday)
+
+Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (travel out), no Friday Lift C (at camp), Sunday long run dropped (travel home midday + festival fatigue). Heavy festival walking Thu–Sun substitutes as low-grade load.
+
+| Day | Plan |
+|---|---|
+| Mon Jun 8 | Lift A + sauna |
+| Tue Jun 9 | Easy 3 mi Z2 + sauna |
+| Wed Jun 10 | Lift B + sauna |
+| Thu Jun 11 | Travel to Bonnaroo. No run. Walking. **Decline squat test (AM, fresh, before travel).** |
+| Fri Jun 12 | Bonnaroo. No lift. Walking. |
+| Sat Jun 13 | **Bonnaroo 5K, 9:00 AM — run EASY/Z2, not a race** (~3.1 mi, counts as the week's 2nd easy run). Walking. |
+| Sun Jun 14 | Travel home midday. Rest / recover. |
+
+- **5K is a fun run, not a race.** Block rule stands: Z2 only, HR ≤150, no surging, no sprint finish. Pace by HR (June heat in Manchester TN). Watch footing on uneven farm terrain (grass/gravel, possible mud).
+- **Lifts: 2/3** (Mon A, Wed B). Fri C dropped — no clean non-consecutive slot given Thu–Sun travel; festival walking partially compensates. Not stacking lifts to force a third in a tendon block.
+- **Running: ~6.1 mi** (Tue 3 + Sat 5K) vs 12 planned — intentional travel-week cutback, offset by heavy walking. Long run replaced by the 5K + festival walking; not made up.
+- **Decline squat test moved Sun → Thu Jun 11 AM** (one-week exception; Sat/Sun both compromised). Gates Week 4 volume (→14 mi if L ≤2/10; repeat 12 if risen). Fallback: Mon Jun 15 AM before Lift A.
+- **Sauna**: Mon/Tue/Wed at home; pauses for the trip, resumes Mon Jun 15.
