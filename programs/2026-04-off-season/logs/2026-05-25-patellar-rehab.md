@@ -104,6 +104,13 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 |---|---|---|
 | Tue Jun 2 | Easy 2.91 mi @ 10:30, HR 146, VO2 44.8 | Smith Park paved trails Franklin TN (Mizuno), 111ft elevation, 73F clear feels 76F 65% humidity wind 6.5 NE. HR 146 clean — 4 bpm under Z2 ceiling. Distance 2.91 vs planned 2.5 — slight overshoot (~16%); fine for one off but watch the pattern with running gated at Week 1 volume. |
 | Thu Jun 4 | Easy 2.53 mi @ 10:29, HR 148, VO2 44.9 | Flat route Franklin TN (Mizuno), 21ft elevation, 71F clear feels 76F 68% humidity wind 4.3 S. HR 148 clean — 2 bpm under Z2 ceiling. Distance 2.53 on plan (clipped back from Tue's overshoot ✓). Pace 10:29 ~identical to Tue's 10:30 at +2 bpm HR in similar conditions — slight efficiency degradation but trivial. 20-min sauna ~20 min post-run. |
+| Sun Jun 7 | Long Run 5.01 mi @ 10:26, HR 155, VO2 44.9 | Smith Park paved trails Franklin TN (Saucony), 344ft elevation, 75F cloudy feels 78F 80% humidity wind 1.8 SE. HR 155 — **5 bpm over Z2 ceiling**, driven by heat + humidity + hills. 28 s/mi faster than last Sun's 10:54 in much better conditions (62F/63%/297ft) — paced by feel, came in too aggressive for conditions. **Lesson: pace by HR not feel in heat/humidity.** Next long run target HR ≤150 even if it means walking the hills. VO2 44.9. |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sun Jun 7 | 2/10 | 0/10 | Fresh AM, before long run. **L moved 3/10 → 2/10 in two weeks — passes the ≤2/10 gate.** Week 3 mileage advances to 12 mi (3/3/6). |
 
 ### Lift sessions
 
@@ -170,3 +177,20 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 | Wed Jun 3 | 20 min | Post-lift |
 | Thu Jun 4 | 20 min | ~20 min post-run |
 | Fri Jun 5 | 20 min | Post-lift |
+
+### Week 2 wrap
+
+- **Running**: 10.45 mi total (2.91 Tue + 2.53 Thu + 5.01 Sun) vs 10 mi planned — slight overshoot driven by Tue's 2.91 (Thu clipped back ✓). All three runs in the books, none missed.
+- **Lifts**: 3/3 sessions completed. Strength progression on schedule (12RM, 3×12). Strong load jumps across the board vs Week 1 calibration. Slot 5 cut on Fri for the second week running — pattern, addressing with the lateral-walks swap.
+- **Knee signal**: two first-set first-rep twinges on heavy knee-dominant work (Wed hack squat L 2/10, Fri back squat L 1/10), both warmed away in-set. Long run HR overshoot was conditions-driven (heat + hills + paced by feel), not a tendon signal.
+- **Decline squat L 3/10 → 2/10**: the most important data point of the week. Two weeks of training moved the score — the protocol is doing its job. **Gate passes — Week 3 mileage advances.**
+- **Sauna**: 4/4 sessions (Mon, Wed, Thu, Fri) — on target.
+
+## Week 3 (Jun 8 – Jun 14)
+
+**Plan**: Consolidate week per the phase plan — same 12RM, 3×12 strength loading. **Running advances to 12 mi total (3 / 3 / 6)** — first volume bump since the gate was instated.
+
+**Focus**:
+- **Long run pace discipline.** Last Sunday's HR overshoot (155 vs 150 ceiling) was preventable. In June heat/humidity, **target HR not pace**. If HR climbs over 150, slow down — walk hills if needed. The block's run rule is Z2 only, and that's measured at the HR, not the watch's pace.
+- **Lift A pattern check**: does the first-set knee twinge on heavy knee-dominant work repeat at 12RM-into-Week-3 loads? If yes, we accept it as cold-start signal. If it intensifies or persists through sets, we adjust.
+- **Slot 5 on Lift C**: pre-pick banded lateral walks to dodge the time crunch.
