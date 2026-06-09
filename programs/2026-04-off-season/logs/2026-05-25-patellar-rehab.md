@@ -214,3 +214,28 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Running: ~6.1 mi** (Tue 3 + Sat 5K) vs 12 planned — intentional travel-week cutback, offset by heavy walking. Long run replaced by the 5K + festival walking; not made up.
 - **Decline squat test moved Sun → Thu Jun 11 AM** (one-week exception; Sat/Sun both compromised). Gates Week 4 volume (→14 mi if L ≤2/10; repeat 12 if risen). Fallback: Mon Jun 15 AM before Lift A.
 - **Sauna**: Mon/Tue/Wed at home; pauses for the trip, resumes Mon Jun 15.
+
+### Lift sessions
+
+**Mon Jun 8 — Lift A** (variety rotation; 12RM target, 3×12, 3s/3s tempo)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Front squat (3s/3s) | 3 × 12 | 95 lb × 3 sets |
+| 2 | Single-leg leg press (3s/3s), lead left | 3 × 12/side | 90 lb × 3 sets |
+| 3 | Single-leg RDL (DB), lead left | 3 × 10/side | 25 lb × 3 sets |
+| 4 | Side-lying hip abduction (DB) | — | **Skipped — out of time** |
+| 5 | Copenhagen plank | — | **Skipped — out of time** |
+
+- **First fresh Lift A of the block** (prior two weeks were the same leg press / reverse lunge / hyperext / SL hip thrust / lateral walks). New movements calibrated today.
+- **Front squat 95 × 3 sets, held cleanly** → 95 was below true 12RM (expected on first exposure; conservative is the right call on a new movement). Next Lift A: start 105, ramp toward 115 to find the real 12RM.
+- **Single-leg leg press 90 × 3 sets, held cleanly**, no L/R asymmetry flagged → also below 12RM ceiling. Next time bump to ~105–115/side; keep leading left, matching right.
+- **Single-leg RDL 25 lb × 10/side × 3** — sensible conservative start for a balance-heavy new movement. Next time push to 12 reps or 30 lb.
+- **Slots 4 & 5 both skipped (time)** — first session of the block missing *both* glute-med slots. Glute med is "not optional" per the block. Pattern now: Fri Lift C cut Slot 5 twice, Mon Lift A cut both. **Fix going forward**: front-load the glute work (do Slot 4/5 right after Slot 3, or first), or tack a 5-min glute-med mini onto an easy-run/sauna day — cheap insurance, negligible fatigue cost.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 8 | 20 min | Post-lift |
