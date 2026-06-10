@@ -215,6 +215,12 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Decline squat test moved Sun → Thu Jun 11 AM** (one-week exception; Sat/Sun both compromised). Gates Week 4 volume (→14 mi if L ≤2/10; repeat 12 if risen). Fallback: Mon Jun 15 AM before Lift A.
 - **Sauna**: Mon/Tue/Wed at home; pauses for the trip, resumes Mon Jun 15.
 
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jun 9 | Easy 3.01 mi @ 10:52, HR 147, VO2 44.8 | Crockett Park trails Brentwood TN (flat, 37ft), 76F cloudy feels 77F 89% humidity wind 5.6 SSW, Mizuno. **HR 147 = 3 bpm under Z2 ceiling, clean.** Textbook pace-by-HR execution: vs May 28's Crockett run (10:37 / HR 156, 83% humidity, same flat course) — 15 s/mi slower for **9 bpm lower HR in worse humidity**. Lesson from last Sunday applied. Distance 3.01 right on plan (no Tuesday overshoot this week ✓). 20-min sauna soon after. |
+
 ### Lift sessions
 
 **Mon Jun 8 — Lift A** (variety rotation; 12RM target, 3×12, 3s/3s tempo)
@@ -239,3 +245,4 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jun 8 | 20 min | Post-lift |
+| Tue Jun 9 | 20 min | Soon after easy run |
