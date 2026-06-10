@@ -245,14 +245,14 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Slot | Exercise | Sets × Reps | Working loads |
 |---|---|---|---|
 | 1 | Hack squat (3s/3s) | 3 × 12 | 110 lb × 3 sets |
-| 2 | Step-up onto 20" box (3s/3s), lead left | 3 × 15/side | BW × 3 sets |
+| 2 | Step-up onto 20" box (3s/3s), lead left | 3 × 12/side | 2× 15 lb DB × 3 sets |
 | 3 | Trap bar deadlift (2s/1s) | 3 × 12 | 145 → 155 → 155 lb |
 | 4 | Standing cable hip abduction, lead left | 3 × 12/side | 10 → 15 → 15 lb |
 | 5 | Banded lateral walks | 2 × 15/dir | gray (medium) band |
 
 - **All 5 slots completed — glute-med work not skipped this time ✓** (fixed Monday's pattern).
 - **Hack squat 110 × 3, held cleanly** — same as last Lift B, so 110 is now below 12RM. Next Lift B start 120 (the bump flagged last week). No rush in a consolidation week, but there's room.
-- **Step-up BW × 15/side × 3** — went bodyweight + 15 reps instead of 2× 10 lb DB + 12; BW at 15 reps isn't a true 12RM. Next time add the 2× 10 lb DBs and drop to 12 reps to bring it into the loading range.
+- **Step-up 2× 15 lb DB × 12/side × 3** — went straight to 2× 15 lb (past the 2× 10 lb start I suggested) and held all 3 sets clean. Right in line with his other unilateral loads (Bulgarian split 2× 17.5, walking lunge 2× 17.5). Next Lift B try 2× 17.5 lb to find the true 12RM.
 - **Trap bar DL 145 → 155 → 155** — same ramp/holds as last Lift B; didn't reach the suggested 165. Fine for consolidation. Open at 155 and touch 165 next time.
 - **Cable hip abduction 10 → 15 → 15** — ramped past the 12.5 suggestion to 15 and held. Start 15 next time.
 - **Banded lateral walks, gray (medium) band, 2× 15/dir** ✓.
