@@ -278,15 +278,15 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Running**: 5.96 mi (Tue 3.01 easy + Sat 2.95 Bonnaroo 5K) vs 12 planned — intentional Bonnaroo cutback. 5K replaced an easy run; long run dropped per plan; festival walking was the substitute load.
 - **Bonnaroo 5K**: above Z2 (HR 165 / 9:43) but a flagged one-off on a flat course, no sprints/hills → moderate strain rate. Carrying a kid on shoulders + heavy walking Thu–Sun = real cumulative tendon load; watch the 24–48h response.
 - **Lifts**: 2/3 (Mon A, Wed B); Fri C dropped for travel as planned. All 5 slots hit both sessions — glute work no longer skipped.
-- **Decline squat L 2/10**: passes the gate → Week 4 = 14 mi, contingent on a calm knee post-festival.
+- **Decline squat L 2/10**: passes the gate → Week 4 = 14 mi (knee confirmed calm Mon Jun 15, no post-festival flare).
 - **Sauna**: 3/4 (Mon/Tue/Wed) — solid given the trip.
 - **Shoes**: Saucony Guide 17 retired at 266 mi after the 5K; rotation needs a replacement pair.
 
 ## Week 4 (Jun 15 – Jun 21)
 
-**Plan**: Strength steps up to **10RM, 4×10** on Slots 1 & 2 (Weeks 4–5 loading block). **Running advances to 14 mi (3.5 / 3.5 / 7)** — first volume bump since the gate, contingent on a calm left knee after Bonnaroo. Back to normal structure: Mon/Wed/Fri lift, Tue/Thu easy, Sun long.
+**Plan**: Strength steps up to **10RM, 4×10** on Slots 1 & 2 (Weeks 4–5 loading block). **Running advances to 14 mi (3.5 / 3.5 / 7)** — first volume bump since the gate; left knee confirmed calm Mon Jun 15 (no pain after the festival load), so the bump is a go. Back to normal structure: Mon/Wed/Fri lift, Tue/Thu easy, Sun long.
 
 **Focus**:
-- **Confirm the knee tolerated the festival load** before committing to the full 14-mi week. Decline squat recheck as usual this week (back to Sunday cadence).
+- **Knee tolerated the festival load** — confirmed calm, no pain, Mon Jun 15. The 14-mi week is a go. Decline squat recheck Sunday as usual.
 - **Ease into the 10RM jump** — heavier load + an added set per slot. Day 1 of a new loading phase doesn't need max loads; find honest 10RMs, especially with festival fatigue in the legs.
 - **Back to Z2 discipline on runs** after Saturday's above-zone effort — pace by HR, ceiling 150.
