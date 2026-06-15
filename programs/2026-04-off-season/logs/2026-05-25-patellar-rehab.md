@@ -220,6 +220,7 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Date | Session | Notes |
 |---|---|---|
 | Tue Jun 9 | Easy 3.01 mi @ 10:52, HR 147, VO2 44.8 | Crockett Park trails Brentwood TN (flat, 37ft), 76F cloudy feels 77F 89% humidity wind 5.6 SSW, Mizuno. **HR 147 = 3 bpm under Z2 ceiling, clean.** Textbook pace-by-HR execution: vs May 28's Crockett run (10:37 / HR 156, 83% humidity, same flat course) — 15 s/mi slower for **9 bpm lower HR in worse humidity**. Lesson from last Sunday applied. Distance 3.01 right on plan (no Tuesday overshoot this week ✓). 20-min sauna soon after. |
+| Sat Jun 13 | Bonnaroo "Roo Run" 5K — 2.95 mi @ 9:43, HR 165 (Saucony) | Manchester TN, short course (2.95 mi by GPS), 70ft, 76F partly cloudy feels 80F 83% humidity, direct sun the whole way. **HR 165 / pace 9:43 — well above Z2**, fastest pace in a month. Flagged in advance as a fun run: HR let to float, pace kept tendon-safe. Flat course, no sprints/hills → strain rate stayed moderate. Group run w/ 58 others; carried a kid on shoulders — great family memory. Final run in the retiring Saucony Guide 17. No in-run knee pain reported. |
 
 ### Lift sessions
 
@@ -265,3 +266,27 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Mon Jun 8 | 20 min | Post-lift |
 | Tue Jun 9 | 20 min | Soon after easy run |
 | Wed Jun 10 | 20 min | Post-lift |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Thu Jun 11 | 2/10 | 0/10 | Fresh AM before Bonnaroo travel (one-week shift off the usual Sunday). **L holds at 2/10 — passes the ≤2/10 gate.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11), moved down then plateaued in the green. Week 4 running cleared to advance to 14 mi — pending a calm left knee after the festival load (test predated the 5K + heavy walking weekend). |
+
+### Week 3 wrap
+
+- **Running**: 5.96 mi (Tue 3.01 easy + Sat 2.95 Bonnaroo 5K) vs 12 planned — intentional Bonnaroo cutback. 5K replaced an easy run; long run dropped per plan; festival walking was the substitute load.
+- **Bonnaroo 5K**: above Z2 (HR 165 / 9:43) but a flagged one-off on a flat course, no sprints/hills → moderate strain rate. Carrying a kid on shoulders + heavy walking Thu–Sun = real cumulative tendon load; watch the 24–48h response.
+- **Lifts**: 2/3 (Mon A, Wed B); Fri C dropped for travel as planned. All 5 slots hit both sessions — glute work no longer skipped.
+- **Decline squat L 2/10**: passes the gate → Week 4 = 14 mi, contingent on a calm knee post-festival.
+- **Sauna**: 3/4 (Mon/Tue/Wed) — solid given the trip.
+- **Shoes**: Saucony Guide 17 retired at 266 mi after the 5K; rotation needs a replacement pair.
+
+## Week 4 (Jun 15 – Jun 21)
+
+**Plan**: Strength steps up to **10RM, 4×10** on Slots 1 & 2 (Weeks 4–5 loading block). **Running advances to 14 mi (3.5 / 3.5 / 7)** — first volume bump since the gate, contingent on a calm left knee after Bonnaroo. Back to normal structure: Mon/Wed/Fri lift, Tue/Thu easy, Sun long.
+
+**Focus**:
+- **Confirm the knee tolerated the festival load** before committing to the full 14-mi week. Decline squat recheck as usual this week (back to Sunday cadence).
+- **Ease into the 10RM jump** — heavier load + an added set per slot. Day 1 of a new loading phase doesn't need max loads; find honest 10RMs, especially with festival fatigue in the legs.
+- **Back to Z2 discipline on runs** after Saturday's above-zone effort — pace by HR, ceiling 150.
