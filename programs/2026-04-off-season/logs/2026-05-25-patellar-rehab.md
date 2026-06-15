@@ -290,3 +290,29 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Knee tolerated the festival load** — confirmed calm, no pain, Mon Jun 15. The 14-mi week is a go. Decline squat recheck Sunday as usual.
 - **Ease into the 10RM jump** — heavier load + an added set per slot. Day 1 of a new loading phase doesn't need max loads; find honest 10RMs, especially with festival fatigue in the legs.
 - **Back to Z2 discipline on runs** after Saturday's above-zone effort — pace by HR, ceiling 150.
+
+### Lift sessions
+
+**Mon Jun 15 — Lift A** (Week 4; **10RM, 4×10** on Slots 1 & 2; 3s/3s tempo)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Front squat (3s/3s) | 4 × 10 | 95 → 105 → 105 → 105 lb |
+| 2 | Single-leg leg press (3s/3s), lead left | 4 × 10/side | 90 lb × 4 sets |
+| 3 | Single-leg RDL (DB), lead left | 3 × 10/side | 30 lb × 3 sets |
+| 4 | Side-lying hip abduction (DB), lead left | 3 × 10/side | 20 lb × 3 sets |
+| 5 | Copenhagen plank (knee-bent), lead left | 3 × 12s/side | BW holds |
+
+- **All 5 slots completed — including side-lying abduction and Copenhagen, both skipped in Week 3 Lift A.** Glute-med work fully integrated now. ✓
+- **Front squat 95 → 105 × 3** — stepped up to 105 for the 10RM working sets (from last week's 95). Clean progression into the 10RM phase. If 105 held cleanly through set 4, try **110–115** next Lift A; if set 4 was a grind, 105 is the right 10RM.
+- **Single-leg leg press 90 × 4** — held 90 again. Now held at 10–12 reps for two weeks → below the 10RM. Push to **110–120/side** next time to find the real working load. *(Logged as 4 sets per the 4×10 phase — flag if it was only 3.)*
+- **Single-leg RDL 30 × 3** — up from 25 ✓. (Slot 3 correctly stays 3 sets — only Slots 1 & 2 go to 4×10 this phase.)
+- **Side-lying abduction 20 lb × 10/side × 3** — strong glute-med load ✓.
+- **Copenhagen 3 × ~12s/side** — new movement, finally in. Low end of the 12–20s range; build the hold duration over the coming weeks ✓.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 15 | 20 min | Post-lift |
