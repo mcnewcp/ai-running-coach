@@ -305,7 +305,7 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 
 - **All 5 slots completed — including side-lying abduction and Copenhagen, both skipped in Week 3 Lift A.** Glute-med work fully integrated now. ✓
 - **Front squat 95 → 105 × 3** — stepped up to 105 for the 10RM working sets (from last week's 95). Clean progression into the 10RM phase. If 105 held cleanly through set 4, try **110–115** next Lift A; if set 4 was a grind, 105 is the right 10RM.
-- **Single-leg leg press 90 × 4** — held 90 again. Now held at 10–12 reps for two weeks → below the 10RM. Push to **110–120/side** next time to find the real working load. *(Logged as 4 sets per the 4×10 phase — flag if it was only 3.)*
+- **Single-leg leg press 90 × 10/side × 4** — athlete reports 90 was a true 10RM this week ("all I could do — those are hard"). Unilateral load + 6-sec tempo + the added 4th set make this far harder than the bare number suggests, and total work rose vs last week (4×10 > 3×12 at the same load). **Hold 90 here — it's the honest 10RM.** Progress by feel when 90 stops being a true RM, not toward a target number. *(My earlier "push to 110–120" call was wrong — corrected per athlete RPE. 4th set confirmed at 90.)*
 - **Single-leg RDL 30 × 3** — up from 25 ✓. (Slot 3 correctly stays 3 sets — only Slots 1 & 2 go to 4×10 this phase.)
 - **Side-lying abduction 20 lb × 10/side × 3** — strong glute-med load ✓.
 - **Copenhagen 3 × ~12s/side** — new movement, finally in. Low end of the 12–20s range; build the hold duration over the coming weeks ✓.
