@@ -291,6 +291,12 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Ease into the 10RM jump** — heavier load + an added set per slot. Day 1 of a new loading phase doesn't need max loads; find honest 10RMs, especially with festival fatigue in the legs.
 - **Back to Z2 discipline on runs** after Saturday's above-zone effort — pace by HR, ceiling 150.
 
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jun 16 | Easy 3.50 mi @ 10:58, HR 146, VO2 44.4 | Smith Park paved trails Brentwood TN (rolling, 164ft), 80F clear feels 82F 47% humidity wind 5.8 WSW (driest air in weeks), Mizuno. **HR 146 — 4 bpm under Z2 ceiling, clean.** First run of the 14-mi week, 3.5 right on plan. Pace 10:58 on rolling terrain in dry 80F. No knee issues reported. |
+
 ### Lift sessions
 
 **Mon Jun 15 — Lift A** (Week 4; **10RM, 4×10** on Slots 1 & 2; 3s/3s tempo)
