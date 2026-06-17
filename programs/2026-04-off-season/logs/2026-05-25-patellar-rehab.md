@@ -317,8 +317,27 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Copenhagen 3 × ~12s/side** — new movement, finally in. Low end of the 12–20s range; build the hold duration over the coming weeks ✓.
 - No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
 
+**Wed Jun 17 — Lift B** (Week 4; 10RM, 4×10 on Slots 1 & 2; 3s/3s; variety rotation)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) | 4 × 10 | 135 → 145 → 145 → 145 lb |
+| 2 | Bulgarian split squat (3s/3s), lead left | 4 × 10/side | 2× 20 lb × 4 sets |
+| 3 | Trap bar deadlift (2s/1s) | 4 × 10 | 145 → 145 → 155 → 155 lb |
+| 4 | Standing cable hip abduction, lead left | 3 × 10/side | 15 → 10 → 10 lb |
+| 5 | Side plank + top-leg abduction, lead left | 2 × 12/side | BW × 2 sets |
+
+- **All 5 slots completed.**
+- **Back squat 135 → 145 × 3** — settled at 145 as the working 10RM (in the 145–155 range). Clean. Hold 145 until it stops being a true 10RM.
+- **Bulgarian split 2× 20 lb × 10/side × 4** — held 2× 20 across all 4 sets, up from 2× 17.5 at 12RM. Strong unilateral progression.
+- **Trap bar DL 145 → 145 → 155 → 155** — did 4 sets (one more than prescribed), topped at 155 (didn't push 165). Fine — RPE judge; 165 can wait.
+- **Cable hip abduction 15 → 10 → 10** — opened at 15, dropped to 10 for sets 2–3. Cumulative fatigue from the heavier mains (10RM back squat + BSS + 4 sets trap bar) caught up to the glute-med work. Normal on a heavy-main day — glute med progresses by feel/form, 10 lb clean beats 15 lb ragged. Next heavy day, open Slot 4 at ~12.5, or move the glute work earlier to hit it fresher.
+- **Side plank + top-leg abduction BW × 2** — bodyweight (no 5 lb DB this time). Fine for a finisher; add 5 lb back when it feels easy.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jun 15 | 20 min | Post-lift |
+| Wed Jun 17 | 20 min | Post-lift |
