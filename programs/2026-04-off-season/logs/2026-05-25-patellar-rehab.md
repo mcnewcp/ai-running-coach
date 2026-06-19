@@ -296,6 +296,7 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Date | Session | Notes |
 |---|---|---|
 | Tue Jun 16 | Easy 3.50 mi @ 10:58, HR 146, VO2 44.4 | Smith Park paved trails Brentwood TN (rolling, 164ft), 80F clear feels 82F 47% humidity wind 5.8 WSW (driest air in weeks), Mizuno. **HR 146 — 4 bpm under Z2 ceiling, clean.** First run of the 14-mi week, 3.5 right on plan. Pace 10:58 on rolling terrain in dry 80F. No knee issues reported. |
+| Thu Jun 18 | Easy 3.51 mi @ 11:20, HR 148 (treadmill) | Treadmill at home, Mizuno. **HR 148 — 2 bpm under Z2 ceiling, clean.** 3.51 right on plan; no VO2 (treadmill). Week 4 running now at 7.01 mi (Tue 3.50 + Thu 3.51); Sun 7-mi long run to come. 20-min sauna right after. |
 
 ### Lift sessions
 
@@ -341,3 +342,4 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 |---|---|---|
 | Mon Jun 15 | 20 min | Post-lift |
 | Wed Jun 17 | 20 min | Post-lift |
+| Thu Jun 18 | 20 min | Post-run |
