@@ -336,6 +336,24 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Side plank + top-leg abduction BW × 2** — bodyweight (no 5 lb DB this time). Fine for a finisher; add 5 lb back when it feels easy.
 - No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
 
+**Fri Jun 19 — Lift C** (Week 4; autoregulated B-effort — tired legs, protecting Sunday's long run; 3×10, 3s/3s on Slots 1–2)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Leg press (3s/3s) | 3 × 10 | 180 lb × 3 sets |
+| 2 | DB reverse lunge (3s/3s), lead left | 3 × 10/side | 2× 15 lb × 3 sets |
+| 3 | Smith-machine hip thrust (2s/1s) | 3 × 10 | 90 → 90 → 100 lb (plates; Smith counterbalanced, bar ignored) |
+| 4 | Hip abduction machine | 3 × 12 | 160 → 175 → 175 |
+| 5 | Banded lateral walks | 2 × 15/dir | gray band |
+
+- **Autoregulated B-effort on tired legs — all 5 slots done.** Right call to execute rather than skip; tendon got its load without a max effort before Sunday's 7-miler.
+- **Leg press 180 × 3** — took the firm end of submaximal (vs ~190 12RM → RPE ~8). A touch heavier than the RPE-7 target but fine if controlled; watch that it didn't dig into the legs before the long run.
+- **Reverse lunge 2× 15 × 10/side × 3** — on plan ✓.
+- **Smith hip thrust 90 → 90 → 100** (plate load; Lifetime Smith counterbalanced so effective load ≈ plates) — establishes a Smith hip thrust baseline. Next time open at 100.
+- **Hip abduction machine 160 → 175 → 175** — much higher than Week 1 Lift C's 85–95; likely a different machine/stack. **Note which abduction machine** so we track the same one going forward.
+- **Banded lateral walks, gray band, 2× 15/dir** ✓.
+- No knee pain reported (benign). 20-min sauna after → **sauna 4/4 this week** 🎯.
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
@@ -343,3 +361,4 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Mon Jun 15 | 20 min | Post-lift |
 | Wed Jun 17 | 20 min | Post-lift |
 | Thu Jun 18 | 20 min | Post-run |
+| Fri Jun 19 | 20 min | Post-lift |
