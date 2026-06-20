@@ -181,7 +181,7 @@ The full daily metrics intake below applies only during **race-specific training
 /resources/                         # Shared protocols/routines (apply across all programs)
   hsr-protocols.md
   mobility-routines.md
-  nutrition-guidance.md             # (when added)
+  nutrition-guidance.md
 
 /programs/                          # Umbrella for all training programs
   /2026-01-music-city-half/         # First half marathon build (completed)
