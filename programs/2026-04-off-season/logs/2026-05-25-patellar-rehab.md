@@ -297,6 +297,7 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 |---|---|---|
 | Tue Jun 16 | Easy 3.50 mi @ 10:58, HR 146, VO2 44.4 | Smith Park paved trails Brentwood TN (rolling, 164ft), 80F clear feels 82F 47% humidity wind 5.8 WSW (driest air in weeks), Mizuno. **HR 146 — 4 bpm under Z2 ceiling, clean.** First run of the 14-mi week, 3.5 right on plan. Pace 10:58 on rolling terrain in dry 80F. No knee issues reported. |
 | Thu Jun 18 | Easy 3.51 mi @ 11:20, HR 148 (treadmill) | Treadmill at home, Mizuno. **HR 148 — 2 bpm under Z2 ceiling, clean.** 3.51 right on plan; no VO2 (treadmill). Week 4 running now at 7.01 mi (Tue 3.50 + Thu 3.51); Sun 7-mi long run to come. 20-min sauna right after. |
+| Sun Jun 21 | Long Run 7.01 mi @ 11:10, HR 152, VO2 44.2 (Saucony) | Smith Park paved trails Brentwood TN (hilly, 411ft), 75F cloudy feels 77F 82% humidity wind 3.4 SSW. **Longest run of the block.** HR 152 — 2 bpm over Z2 ceiling, driven by 411ft climbing + 82% humidity; well-controlled given the conditions and better paced than Jun 7 (155 on 344ft). Completes the 14-mi week. Father's Day run. |
 
 ### Lift sessions
 
@@ -368,3 +369,21 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Date | Left | Right | Conditions |
 |---|---|---|---|
 | Sun Jun 21 | 2/10 | 0/10 | Fresh AM before the 7-mi long run (back on Sunday cadence). **L holds 2/10 — passes the ≤2/10 gate → Week 5 (consolidate, 14 mi) proceeds.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21): improved early, now plateaued at a mild 2 with no flare under the 10RM + 14-mi load (good tolerance signal). Want it ticking toward 0–1 over coming weeks; reassess at the Week 6 midpoint. |
+
+### Week 4 wrap
+
+- **Running**: 14.02 mi (Tue 3.50 + Thu 3.51 + Sun 7.01) — full prescribed volume, first clean 14-mi week since the gate was instated. The bump landed without issue.
+- **Long run**: 7.01 mi, longest of the block. HR 152 (2 over ceiling) but well-controlled on 411 ft of climbing in 82% humidity — better paced than Jun 7 (155 on 344 ft). Strong aerobic work.
+- **Lifts**: 3/3 at 10RM, 4×10, all 5 slots each session — glute-med work fully integrated. Back squat settled at 145, Bulgarian 2× 20, front squat 105, single-leg leg press a true 10RM at 90.
+- **Sauna**: 4/4 🎯.
+- **Knee**: L decline squat held 2/10; stayed quiet through the simultaneous 10RM strength jump *and* the volume bump. Excellent tolerance.
+- **Verdict**: first fully-compliant normal week post-Bonnaroo. Everything green.
+
+## Week 5 (Jun 22 – Jun 28)
+
+**Plan**: **Consolidate.** Hold running at 14 mi (3.5 / 3.5 / 7) and strength at 10RM, 4×10 (Weeks 4–5 block) — same as Week 4. Absorb the load; no new volume progression. Structure: Mon/Wed/Fri lift, Tue/Thu easy, Sun long.
+
+**Focus**:
+- **Consolidation, not progression** — repeat Week 4's numbers cleanly. Gains bank during the absorb week.
+- **Hold loads where they're honest RMs** (leg press ~180, back squat 145, single-leg leg press 90, Bulgarian 2× 20); progress only what still has room.
+- **Week 6 is the midpoint assessment** — next Sunday's decline squat sets up the step to 16 mi and the 8RM strength block.
