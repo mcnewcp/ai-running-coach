@@ -362,3 +362,9 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 | Wed Jun 17 | 20 min | Post-lift |
 | Thu Jun 18 | 20 min | Post-run |
 | Fri Jun 19 | 20 min | Post-lift |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sun Jun 21 | 2/10 | 0/10 | Fresh AM before the 7-mi long run (back on Sunday cadence). **L holds 2/10 — passes the ≤2/10 gate → Week 5 (consolidate, 14 mi) proceeds.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21): improved early, now plateaued at a mild 2 with no flare under the 10RM + 14-mi load (good tolerance signal). Want it ticking toward 0–1 over coming weeks; reassess at the Week 6 midpoint. |
