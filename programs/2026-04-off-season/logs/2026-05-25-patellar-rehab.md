@@ -193,4 +193,197 @@ Light-touch log for the 12-week HSR-led rehab block. See [phase plan](../plans/2
 **Focus**:
 - **Long run pace discipline.** Last Sunday's HR overshoot (155 vs 150 ceiling) was preventable. In June heat/humidity, **target HR not pace**. If HR climbs over 150, slow down — walk hills if needed. The block's run rule is Z2 only, and that's measured at the HR, not the watch's pace.
 - **Lift A pattern check**: does the first-set knee twinge on heavy knee-dominant work repeat at 12RM-into-Week-3 loads? If yes, we accept it as cold-start signal. If it intensifies or persists through sets, we adjust.
-- **Slot 5 on Lift C**: pre-pick banded lateral walks to dodge the time crunch.
+- **Slot 5 on Lift C**: pre-pick banded lateral walks to dodge the time crunch. *(Lift C dropped this week — see schedule adjustment below; this focus rolls to the next Lift C.)*
+
+### Schedule adjustment — Bonnaroo trip (Thu Jun 11 – Sun Jun 14 midday)
+
+Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (travel out), no Friday Lift C (at camp), Sunday long run dropped (travel home midday + festival fatigue). Heavy festival walking Thu–Sun substitutes as low-grade load.
+
+| Day | Plan |
+|---|---|
+| Mon Jun 8 | Lift A + sauna |
+| Tue Jun 9 | Easy 3 mi Z2 + sauna |
+| Wed Jun 10 | Lift B + sauna |
+| Thu Jun 11 | Travel to Bonnaroo. No run. Walking. **Decline squat test (AM, fresh, before travel).** |
+| Fri Jun 12 | Bonnaroo. No lift. Walking. |
+| Sat Jun 13 | **Bonnaroo 5K, 9:00 AM — run EASY/Z2, not a race** (~3.1 mi, counts as the week's 2nd easy run). Walking. |
+| Sun Jun 14 | Travel home midday. Rest / recover. |
+
+- **5K is a fun run, not a race.** Block rule stands: Z2 only, HR ≤150, no surging, no sprint finish. Pace by HR (June heat in Manchester TN). Watch footing on uneven farm terrain (grass/gravel, possible mud).
+- **Lifts: 2/3** (Mon A, Wed B). Fri C dropped — no clean non-consecutive slot given Thu–Sun travel; festival walking partially compensates. Not stacking lifts to force a third in a tendon block.
+- **Running: ~6.1 mi** (Tue 3 + Sat 5K) vs 12 planned — intentional travel-week cutback, offset by heavy walking. Long run replaced by the 5K + festival walking; not made up.
+- **Decline squat test moved Sun → Thu Jun 11 AM** (one-week exception; Sat/Sun both compromised). Gates Week 4 volume (→14 mi if L ≤2/10; repeat 12 if risen). Fallback: Mon Jun 15 AM before Lift A.
+- **Sauna**: Mon/Tue/Wed at home; pauses for the trip, resumes Mon Jun 15.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jun 9 | Easy 3.01 mi @ 10:52, HR 147, VO2 44.8 | Crockett Park trails Brentwood TN (flat, 37ft), 76F cloudy feels 77F 89% humidity wind 5.6 SSW, Mizuno. **HR 147 = 3 bpm under Z2 ceiling, clean.** Textbook pace-by-HR execution: vs May 28's Crockett run (10:37 / HR 156, 83% humidity, same flat course) — 15 s/mi slower for **9 bpm lower HR in worse humidity**. Lesson from last Sunday applied. Distance 3.01 right on plan (no Tuesday overshoot this week ✓). 20-min sauna soon after. |
+| Sat Jun 13 | Bonnaroo "Roo Run" 5K — 2.95 mi @ 9:43, HR 165 (Saucony) | Manchester TN, short course (2.95 mi by GPS), 70ft, 76F partly cloudy feels 80F 83% humidity, direct sun the whole way. **HR 165 / pace 9:43 — well above Z2**, fastest pace in a month. Flagged in advance as a fun run: HR let to float, pace kept tendon-safe. Flat course, no sprints/hills → strain rate stayed moderate. Group run w/ 58 others; carried a kid on shoulders — great family memory. Final run in the retiring Saucony Guide 17. No in-run knee pain reported. |
+
+### Lift sessions
+
+**Mon Jun 8 — Lift A** (variety rotation; 12RM target, 3×12, 3s/3s tempo)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Front squat (3s/3s) | 3 × 12 | 95 lb × 3 sets |
+| 2 | Single-leg leg press (3s/3s), lead left | 3 × 12/side | 90 lb × 3 sets |
+| 3 | Single-leg RDL (DB), lead left | 3 × 10/side | 25 lb × 3 sets |
+| 4 | Side-lying hip abduction (DB) | — | **Skipped — out of time** |
+| 5 | Copenhagen plank | — | **Skipped — out of time** |
+
+- **First fresh Lift A of the block** (prior two weeks were the same leg press / reverse lunge / hyperext / SL hip thrust / lateral walks). New movements calibrated today.
+- **Front squat 95 × 3 sets, held cleanly** → 95 was below true 12RM (expected on first exposure; conservative is the right call on a new movement). Next Lift A: start 105, ramp toward 115 to find the real 12RM.
+- **Single-leg leg press 90 × 3 sets, held cleanly**, no L/R asymmetry flagged → also below 12RM ceiling. Next time bump to ~105–115/side; keep leading left, matching right.
+- **Single-leg RDL 25 lb × 10/side × 3** — sensible conservative start for a balance-heavy new movement. Next time push to 12 reps or 30 lb.
+- **Slots 4 & 5 both skipped (time)** — first session of the block missing *both* glute-med slots. Glute med is "not optional" per the block. Pattern now: Fri Lift C cut Slot 5 twice, Mon Lift A cut both. **Fix going forward**: front-load the glute work (do Slot 4/5 right after Slot 3, or first), or tack a 5-min glute-med mini onto an easy-run/sauna day — cheap insurance, negligible fatigue cost.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+**Wed Jun 10 — Lift B** (variety rotation; 12RM target, 3×12, 3s/3s)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Hack squat (3s/3s) | 3 × 12 | 110 lb × 3 sets |
+| 2 | Step-up onto 20" box (3s/3s), lead left | 3 × 12/side | 2× 15 lb DB × 3 sets |
+| 3 | Trap bar deadlift (2s/1s) | 3 × 12 | 145 → 155 → 155 lb |
+| 4 | Standing cable hip abduction, lead left | 3 × 12/side | 10 → 15 → 15 lb |
+| 5 | Banded lateral walks | 2 × 15/dir | gray (medium) band |
+
+- **All 5 slots completed — glute-med work not skipped this time ✓** (fixed Monday's pattern).
+- **Hack squat 110 × 3, held cleanly** — same as last Lift B, so 110 is now below 12RM. Next Lift B start 120 (the bump flagged last week). No rush in a consolidation week, but there's room.
+- **Step-up 2× 15 lb DB × 12/side × 3** — went straight to 2× 15 lb (past the 2× 10 lb start I suggested) and held all 3 sets clean. Right in line with his other unilateral loads (Bulgarian split 2× 17.5, walking lunge 2× 17.5). Next Lift B try 2× 17.5 lb to find the true 12RM.
+- **Trap bar DL 145 → 155 → 155** — same ramp/holds as last Lift B; didn't reach the suggested 165. Fine for consolidation. Open at 155 and touch 165 next time.
+- **Cable hip abduction 10 → 15 → 15** — ramped past the 12.5 suggestion to 15 and held. Start 15 next time.
+- **Banded lateral walks, gray (medium) band, 2× 15/dir** ✓.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 8 | 20 min | Post-lift |
+| Tue Jun 9 | 20 min | Soon after easy run |
+| Wed Jun 10 | 20 min | Post-lift |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Thu Jun 11 | 2/10 | 0/10 | Fresh AM before Bonnaroo travel (one-week shift off the usual Sunday). **L holds at 2/10 — passes the ≤2/10 gate.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11), moved down then plateaued in the green. Week 4 running cleared to advance to 14 mi — pending a calm left knee after the festival load (test predated the 5K + heavy walking weekend). |
+
+### Week 3 wrap
+
+- **Running**: 5.96 mi (Tue 3.01 easy + Sat 2.95 Bonnaroo 5K) vs 12 planned — intentional Bonnaroo cutback. 5K replaced an easy run; long run dropped per plan; festival walking was the substitute load.
+- **Bonnaroo 5K**: above Z2 (HR 165 / 9:43) but a flagged one-off on a flat course, no sprints/hills → moderate strain rate. Carrying a kid on shoulders + heavy walking Thu–Sun = real cumulative tendon load; watch the 24–48h response.
+- **Lifts**: 2/3 (Mon A, Wed B); Fri C dropped for travel as planned. All 5 slots hit both sessions — glute work no longer skipped.
+- **Decline squat L 2/10**: passes the gate → Week 4 = 14 mi (knee confirmed calm Mon Jun 15, no post-festival flare).
+- **Sauna**: 3/4 (Mon/Tue/Wed) — solid given the trip.
+- **Shoes**: Saucony Guide 17 retired at 266 mi after the 5K; rotation needs a replacement pair.
+
+## Week 4 (Jun 15 – Jun 21)
+
+**Plan**: Strength steps up to **10RM, 4×10** on Slots 1 & 2 (Weeks 4–5 loading block). **Running advances to 14 mi (3.5 / 3.5 / 7)** — first volume bump since the gate; left knee confirmed calm Mon Jun 15 (no pain after the festival load), so the bump is a go. Back to normal structure: Mon/Wed/Fri lift, Tue/Thu easy, Sun long.
+
+**Focus**:
+- **Knee tolerated the festival load** — confirmed calm, no pain, Mon Jun 15. The 14-mi week is a go. Decline squat recheck Sunday as usual.
+- **Ease into the 10RM jump** — heavier load + an added set per slot. Day 1 of a new loading phase doesn't need max loads; find honest 10RMs, especially with festival fatigue in the legs.
+- **Back to Z2 discipline on runs** after Saturday's above-zone effort — pace by HR, ceiling 150.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jun 16 | Easy 3.50 mi @ 10:58, HR 146, VO2 44.4 | Smith Park paved trails Brentwood TN (rolling, 164ft), 80F clear feels 82F 47% humidity wind 5.8 WSW (driest air in weeks), Mizuno. **HR 146 — 4 bpm under Z2 ceiling, clean.** First run of the 14-mi week, 3.5 right on plan. Pace 10:58 on rolling terrain in dry 80F. No knee issues reported. |
+| Thu Jun 18 | Easy 3.51 mi @ 11:20, HR 148 (treadmill) | Treadmill at home, Mizuno. **HR 148 — 2 bpm under Z2 ceiling, clean.** 3.51 right on plan; no VO2 (treadmill). Week 4 running now at 7.01 mi (Tue 3.50 + Thu 3.51); Sun 7-mi long run to come. 20-min sauna right after. |
+| Sun Jun 21 | Long Run 7.01 mi @ 11:10, HR 152, VO2 44.2 (Saucony) | Smith Park paved trails Brentwood TN (hilly, 411ft), 75F cloudy feels 77F 82% humidity wind 3.4 SSW. **Longest run of the block.** HR 152 — 2 bpm over Z2 ceiling, driven by 411ft climbing + 82% humidity; well-controlled given the conditions and better paced than Jun 7 (155 on 344ft). Completes the 14-mi week. Father's Day run. **Left knee 1–2/10 at rest afterward** — mild, within the fluctuating baseline band; watch the morning-after read. |
+
+### Lift sessions
+
+**Mon Jun 15 — Lift A** (Week 4; **10RM, 4×10** on Slots 1 & 2; 3s/3s tempo)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Front squat (3s/3s) | 4 × 10 | 95 → 105 → 105 → 105 lb |
+| 2 | Single-leg leg press (3s/3s), lead left | 4 × 10/side | 90 lb × 4 sets |
+| 3 | Single-leg RDL (DB), lead left | 3 × 10/side | 30 lb × 3 sets |
+| 4 | Side-lying hip abduction (DB), lead left | 3 × 10/side | 20 lb × 3 sets |
+| 5 | Copenhagen plank (knee-bent), lead left | 3 × 12s/side | BW holds |
+
+- **All 5 slots completed — including side-lying abduction and Copenhagen, both skipped in Week 3 Lift A.** Glute-med work fully integrated now. ✓
+- **Front squat 95 → 105 × 3** — stepped up to 105 for the 10RM working sets (from last week's 95). Clean progression into the 10RM phase. If 105 held cleanly through set 4, try **110–115** next Lift A; if set 4 was a grind, 105 is the right 10RM.
+- **Single-leg leg press 90 × 10/side × 4** — athlete reports 90 was a true 10RM this week ("all I could do — those are hard"). Unilateral load + 6-sec tempo + the added 4th set make this far harder than the bare number suggests, and total work rose vs last week (4×10 > 3×12 at the same load). **Hold 90 here — it's the honest 10RM.** Progress by feel when 90 stops being a true RM, not toward a target number. *(My earlier "push to 110–120" call was wrong — corrected per athlete RPE. 4th set confirmed at 90.)*
+- **Single-leg RDL 30 × 3** — up from 25 ✓. (Slot 3 correctly stays 3 sets — only Slots 1 & 2 go to 4×10 this phase.)
+- **Side-lying abduction 20 lb × 10/side × 3** — strong glute-med load ✓.
+- **Copenhagen 3 × ~12s/side** — new movement, finally in. Low end of the 12–20s range; build the hold duration over the coming weeks ✓.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+**Wed Jun 17 — Lift B** (Week 4; 10RM, 4×10 on Slots 1 & 2; 3s/3s; variety rotation)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) | 4 × 10 | 135 → 145 → 145 → 145 lb |
+| 2 | Bulgarian split squat (3s/3s), lead left | 4 × 10/side | 2× 20 lb × 4 sets |
+| 3 | Trap bar deadlift (2s/1s) | 4 × 10 | 145 → 145 → 155 → 155 lb |
+| 4 | Standing cable hip abduction, lead left | 3 × 10/side | 15 → 10 → 10 lb |
+| 5 | Side plank + top-leg abduction, lead left | 2 × 12/side | BW × 2 sets |
+
+- **All 5 slots completed.**
+- **Back squat 135 → 145 × 3** — settled at 145 as the working 10RM (in the 145–155 range). Clean. Hold 145 until it stops being a true 10RM.
+- **Bulgarian split 2× 20 lb × 10/side × 4** — held 2× 20 across all 4 sets, up from 2× 17.5 at 12RM. Strong unilateral progression.
+- **Trap bar DL 145 → 145 → 155 → 155** — did 4 sets (one more than prescribed), topped at 155 (didn't push 165). Fine — RPE judge; 165 can wait.
+- **Cable hip abduction 15 → 10 → 10** — opened at 15, dropped to 10 for sets 2–3. Cumulative fatigue from the heavier mains (10RM back squat + BSS + 4 sets trap bar) caught up to the glute-med work. Normal on a heavy-main day — glute med progresses by feel/form, 10 lb clean beats 15 lb ragged. Next heavy day, open Slot 4 at ~12.5, or move the glute work earlier to hit it fresher.
+- **Side plank + top-leg abduction BW × 2** — bodyweight (no 5 lb DB this time). Fine for a finisher; add 5 lb back when it feels easy.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+**Fri Jun 19 — Lift C** (Week 4; autoregulated B-effort — tired legs, protecting Sunday's long run; 3×10, 3s/3s on Slots 1–2)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Leg press (3s/3s) | 3 × 10 | 180 lb × 3 sets |
+| 2 | DB reverse lunge (3s/3s), lead left | 3 × 10/side | 2× 15 lb × 3 sets |
+| 3 | Smith-machine hip thrust (2s/1s) | 3 × 10 | 90 → 90 → 100 lb (plates; Smith counterbalanced, bar ignored) |
+| 4 | Hip abduction machine | 3 × 12 | 160 → 175 → 175 |
+| 5 | Banded lateral walks | 2 × 15/dir | gray band |
+
+- **Autoregulated B-effort on tired legs — all 5 slots done.** Right call to execute rather than skip; tendon got its load without a max effort before Sunday's 7-miler.
+- **Leg press 180 × 3** — took the firm end of submaximal (vs ~190 12RM → RPE ~8). A touch heavier than the RPE-7 target but fine if controlled; watch that it didn't dig into the legs before the long run.
+- **Reverse lunge 2× 15 × 10/side × 3** — on plan ✓.
+- **Smith hip thrust 90 → 90 → 100** (plate load; Lifetime Smith counterbalanced so effective load ≈ plates) — establishes a Smith hip thrust baseline. Next time open at 100.
+- **Hip abduction machine 160 → 175 → 175** — much higher than Week 1 Lift C's 85–95; likely a different machine/stack. **Note which abduction machine** so we track the same one going forward.
+- **Banded lateral walks, gray band, 2× 15/dir** ✓.
+- No knee pain reported (benign). 20-min sauna after → **sauna 4/4 this week** 🎯.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 15 | 20 min | Post-lift |
+| Wed Jun 17 | 20 min | Post-lift |
+| Thu Jun 18 | 20 min | Post-run |
+| Fri Jun 19 | 20 min | Post-lift |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sun Jun 21 | 2/10 | 0/10 | Fresh AM before the 7-mi long run (back on Sunday cadence). **L holds 2/10 — passes the ≤2/10 gate → Week 5 (consolidate, 14 mi) proceeds.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21): improved early, now plateaued at a mild 2 with no flare under the 10RM + 14-mi load (good tolerance signal). Want it ticking toward 0–1 over coming weeks; reassess at the Week 6 midpoint. |
+
+### Week 4 wrap
+
+- **Running**: 14.02 mi (Tue 3.50 + Thu 3.51 + Sun 7.01) — full prescribed volume, first clean 14-mi week since the gate was instated. The bump landed without issue.
+- **Long run**: 7.01 mi, longest of the block. HR 152 (2 over ceiling) but well-controlled on 411 ft of climbing in 82% humidity — better paced than Jun 7 (155 on 344 ft). Strong aerobic work.
+- **Lifts**: 3/3 at 10RM, 4×10, all 5 slots each session — glute-med work fully integrated. Back squat settled at 145, Bulgarian 2× 20, front squat 105, single-leg leg press a true 10RM at 90.
+- **Sauna**: 4/4 🎯.
+- **Knee**: L decline squat held 2/10; stayed quiet through the simultaneous 10RM strength jump *and* the volume bump. Excellent tolerance.
+- **Verdict**: first fully-compliant normal week post-Bonnaroo. Everything green.
+
+## Week 5 (Jun 22 – Jun 28)
+
+**Plan**: **Consolidate.** Hold running at 14 mi (3.5 / 3.5 / 7) and strength at 10RM, 4×10 (Weeks 4–5 block) — same as Week 4. Absorb the load; no new volume progression. Structure: Mon/Wed/Fri lift, Tue/Thu easy, Sun long.
+
+**Focus**:
+- **Consolidation, not progression** — repeat Week 4's numbers cleanly. Gains bank during the absorb week.
+- **Hold loads where they're honest RMs** (leg press ~180, back squat 145, single-leg leg press 90, Bulgarian 2× 20); progress only what still has room.
+- **Week 6 is the midpoint assessment** — next Sunday's decline squat sets up the step to 16 mi and the 8RM strength block.
