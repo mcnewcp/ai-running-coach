@@ -387,3 +387,23 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Consolidation, not progression** — repeat Week 4's numbers cleanly. Gains bank during the absorb week.
 - **Hold loads where they're honest RMs** (leg press ~180, back squat 145, single-leg leg press 90, Bulgarian 2× 20); progress only what still has room.
 - **Week 6 is the midpoint assessment** — next Sunday's decline squat sets up the step to 16 mi and the 8RM strength block.
+
+### Schedule adjustment — Miami trip (Mon Jun 22 eve – Fri Jun 26 afternoon)
+
+Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match Wed (full day), eating/drinking most days, hot + humid. Staying at a friend's apartment with a building gym (equipment unknown). **Consolidation week, so nothing is lost by scaling back** — running is held this week (no progression to protect) and the trip's recovery hit is well-timed against a down week. Strength is the treatment, so landing even 1–2 lifts is the highest-value goal; running is optional and Z2-only.
+
+| Day | Plan |
+|---|---|
+| Mon Jun 22 | **Lift A at Lifetime before flying out** (home equipment — bank the best session of the week). Travel in the evening. |
+| Tue Jun 23 | Miami. Glute-med mini (band, Slots 4/5). Optional easy Z2 — gym treadmill in A/C preferred, or early AM, ≤30 min, HR ≤150. |
+| Wed Jun 24 | World Cup match — rest day. Walking/standing = incidental load. |
+| Thu Jun 25 | Miami. **Abbreviated HSR session if the gym allows** (whatever covers Slots 1–3 + glute med). Else glute-med mini + optional easy Z2. |
+| Fri Jun 26 | Travel home afternoon. Rest / walking. |
+| Sat Jun 27 | Home. Optional easy shakeout or rest. |
+| Sun Jun 28 | **Decline squat test (AM, fresh)** — gates Week 6 (→16 mi + 8RM). **Long run 7 mi Z2** at home (trim if travel-fatigued). |
+
+- **Strength priority**: aim for 2 sessions — Lift A at home Mon + one abbreviated session in Miami. Apartment gym TBD; report what it has and I'll give a precise session. DB-only fallback covers 4 of 5 slots (goblet squat + DB reverse lunge + DB single-leg RDL + side-lying abduction).
+- **Glute-med (Slots 4/5) needs almost nothing** — pack a mini band; clamshells / lateral walks / side planks in the apartment, ~10 min. Cheapest insurance of the block.
+- **Running de-emphasized**: heat + humidity + alcohol + unknown routes make outdoor miles low-value and junk-HR. If running, treadmill-in-A/C is the best option (cool, flat, no route worries). No long-run attempt in Miami — the 7-miler waits for Sunday at home.
+- **Decline squat test stays Sunday at home** (fresh, on cadence) — no mid-trip testing. It still gates Week 6.
+- **Recovery note**: alcohol blunts collagen synthesis/recovery, so the lighter load is well-timed — don't stack heavy lifting on the heaviest drinking days. Hydrate hard in the heat.
