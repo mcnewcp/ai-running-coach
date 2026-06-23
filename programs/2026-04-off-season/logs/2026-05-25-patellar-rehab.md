@@ -407,3 +407,29 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 - **Running de-emphasized**: heat + humidity + alcohol + unknown routes make outdoor miles low-value and junk-HR. If running, treadmill-in-A/C is the best option (cool, flat, no route worries). No long-run attempt in Miami — the 7-miler waits for Sunday at home.
 - **Decline squat test stays Sunday at home** (fresh, on cadence) — no mid-trip testing. It still gates Week 6.
 - **Recovery note**: alcohol blunts collagen synthesis/recovery, so the lighter load is well-timed — don't stack heavy lifting on the heaviest drinking days. Hydrate hard in the heat.
+
+### Lift sessions
+
+**Mon Jun 22 — Lift A** (Week 5 consolidation; 10RM, 4×10 on Slots 1 & 2; 3s/3s tempo; back squat subbed for front squat per athlete preference; done before evening travel)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) | 4 × 10 | 135 → 135 → 135 → 155 lb |
+| 2 | Single-leg leg press (3s/3s), lead left | 4 × 10/side | 90 lb × 4 sets |
+| 3 | Single-leg RDL (DB), lead left | 3 × 10/side | 30 lb × 3 sets |
+| 4 | Side-lying hip abduction (DB), lead left | 3 × 10/side | 22.5 lb × 3 sets |
+| 5 | Copenhagen plank (knee-bent), lead left | 3 × 15s/side | BW |
+
+- **All 5 slots completed — no skips, glute-med work fully in** ✓. Clean execution before travel.
+- **Back squat 135 × 3 → 155 on set 4**: held 135 for the first three sets (below the 145 working target — RPE likely <8 on those), then jumped straight to 155 for the final set. **155 × 10 at 3s/3s is a new 10RM high** (prior working 10RM was 145) — strength clearly has room. Process note for cleaner week-over-week tracking: steadier loading next time (open ~145, ramp 145 → 150 → 155) keeps the early sets from under-loading and the top set out of near-max territory on a consolidation day. **Reset working back squat 10RM to ~155**; next back squat day open 145, work 150–155.
+- **Single-leg leg press 90 × 10/side × 4**: exactly on plan — honest 10RM reconfirmed (held across all 4 sets, no L/R asymmetry flagged).
+- **Single-leg RDL 30 × 10/side × 3**: on plan (held 30; didn't extend to 12 reps — fine).
+- **Side-lying hip abduction 22.5 × 10/side × 3**: bumped from last week's 20 → 22.5/side, held all 3 sets — glute-med load progressing ✓.
+- **Copenhagen plank 15s/side × 3**: built the hold from Week 4's 12s to 15s ✓.
+- No in-lift knee pain reported (benign). Given the 155 top set is a new high, worth a glance at the morning-after read. **20-min sauna post-lift** ✓.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 22 | 20 min | Post-lift |
