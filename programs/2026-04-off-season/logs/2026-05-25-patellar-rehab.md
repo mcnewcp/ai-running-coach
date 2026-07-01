@@ -470,8 +470,27 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 |---|---|---|
 | Tue Jun 30 | Easy 3.01 mi @ 11:00, HR 141 (treadmill) | Home treadmill, first run back post-Miami. **HR 141 — 9 bpm under Z2 ceiling, very clean.** Wore old lifting trainers (poor running shoes) — **excluded from the shoe log per request**. No VO2 (treadmill); 5574 steps; 343 cal; Apple Watch Ultra 3. 20-min sauna after. Easy re-entry, no knee issues reported. |
 
+### Lift sessions
+
+**Wed Jul 1 — Lower-body HSR** (Week 6 re-entry; 10RM target, 3s/3s; **abbreviated — out of time**; leg press → back squat sub, leg press taken)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) — subbed for leg press | 4 × 10 | 135 → 135 → 145 → 145 lb |
+| 2 | Bulgarian split squat (3s/3s), lead left | 4 × 10/side | 2× 20 lb × 4 sets |
+| 3 | Hip hinge | — | **Skipped — out of time** |
+| 4 | Glute-med main | — | **Skipped — out of time** |
+| 5 | Glute-med finisher | — | **Skipped — out of time** |
+
+- **First tendon session back after 9 days off** — hit the two heavy HSR core slots (knee-dominant + unilateral), cut Slots 3–5 for time. Right prioritization: the HSR core is the treatment, so if anything gets cut it should be the hinge and glute med, not the mains.
+- **Back squat 135 → 145 (subbed for a taken leg press)**: well-judged re-entry loading — held 135 for two sets, 145 for two, and did **not** chase last week's one-off 155. 145 is his honest working 10RM; exactly the RPE 7–8 re-entry call. Clean sub.
+- **Bulgarian split 2× 20 × 10/side × 4**: held his dialed 10RM across all 4 sets — no re-entry rust there. ✓
+- **Glute med + hinge skipped** — under the new 2×/week lower structure this stings a bit more: Slots 3–5 now only get Wed + Fri, so cutting today leaves just Friday this week. **Protect the glute-med + hinge on Friday's mix** — ideally front-load them so a time crunch can't cut them. Exactly the tradeoff flagged in the split amendment: fewer lower days means each day's full slate matters more.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Tue Jun 30 | 20 min | Post-run (first back post-trip) |
+| Wed Jul 1 | 20 min | Post-lift |
