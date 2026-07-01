@@ -433,3 +433,45 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jun 22 | 20 min | Post-lift |
+
+### Week 5 wrap
+
+- **Miami trip wiped Tue–Sun.** Only session completed: Mon Jun 22 Lift A (before travel). No runs, no other lifts, no Sunday long run, and the **Sunday decline squat test was missed** (no fresh read this week). Couldn't fit training in around the trip — fine.
+- **A consolidation week is the ideal week to lose to travel** — running was held at 14 mi by design (no progression to protect), so nothing was forfeited on the rehab curve. The tendon got an unplanned rest on the back of a clean, improving trajectory.
+- **Net**: 1 lift, 0 runs, ~8 days off structured training. Treat as an unscheduled down/recovery week.
+- **Re-entry + a program restructure begin Week 6** (below).
+
+## Week 6 (Jun 29 – Jul 5)
+
+**This was the planned midpoint / step-up week (→16 mi + 8RM). Deferred one week** because of the trip: 8 days off + a missed decline squat test means we re-baseline before progressing. Week 6 = **re-entry** — hold running ~15 mi and strength at **10RM** to re-groove; the 8RM block and the 16-mi step move to Week 7 if the decline squat re-baseline is clean.
+
+**New structure starts now** — upper/lower split (see [plan amendment Jul 1](../plans/2026-05-25-patellar-rehab-12wk.md#amendment--jul-1-2026-week-6-upperlower-split) and the new [upper-body menu](../../../resources/upper-body-protocols.md)): Mon upper / Tue run / Wed lower HSR / Thu run / Fri mix / Sat rest-or-light / Sun long.
+
+**Re-baseline the decline squat test** fresh **Thu Jul 2 AM** (before the run) — it's already afternoon Jul 1, so morning-fresh is tomorrow. This re-establishes the gate after the layoff; then back to Sunday cadence.
+
+### Schedule this week (mid-week re-entry + July 4 5K)
+
+| Day | Plan |
+|---|---|
+| Mon Jun 29 | Off (post-trip). |
+| Tue Jun 30 | Easy 3.01 mi treadmill (logged below) + 20-min sauna. First run back. |
+| Wed Jul 1 | **Lower-body HSR** (re-entry, 10RM, RPE 7–8). |
+| Thu Jul 2 | **Decline squat test (AM, fresh)** + easy run ~3 mi Z2. |
+| Fri Jul 3 | **Mixed lift** — lower HSR core + upper. |
+| Sat Jul 4 | **July 4 fun 5K, 7:00 AM — run EASY, not a race.** Flat, Z2-ish, HR allowed to float modestly but no surging / sprint finish, no hills. Same rules as the Bonnaroo 5K. |
+| Sun Jul 5 | Long run ~6 mi Z2 (trimmed — follows the Sat 5K, and it's a re-entry week). |
+
+- **July 4 5K** is the day before the long run — keep it genuinely easy, treat it as the weekend's first easy run, not a separate hard effort. Block rule stands: no intensity, no hills, tendon-safe strain rate.
+- **Weekend running**: Sat 5K (~3.1) + Sun long (~6) back-to-back, both easy. Capping Sunday at ~6 lands the re-entry week around 15 mi total (Tue 3 + Thu 3 + Sat 3.1 + Sun 6), not the 16 the calendar originally called for.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jun 30 | Easy 3.01 mi @ 11:00, HR 141 (treadmill) | Home treadmill, first run back post-Miami. **HR 141 — 9 bpm under Z2 ceiling, very clean.** Wore old lifting trainers (poor running shoes) — **excluded from the shoe log per request**. No VO2 (treadmill); 5574 steps; 343 cal; Apple Watch Ultra 3. 20-min sauna after. Easy re-entry, no knee issues reported. |
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Tue Jun 30 | 20 min | Post-run (first back post-trip) |
