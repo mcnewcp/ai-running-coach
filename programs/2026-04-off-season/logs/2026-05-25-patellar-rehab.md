@@ -469,6 +469,7 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 | Date | Session | Notes |
 |---|---|---|
 | Tue Jun 30 | Easy 3.01 mi @ 11:00, HR 141 (treadmill) | Home treadmill, first run back post-Miami. **HR 141 — 9 bpm under Z2 ceiling, very clean.** Wore old lifting trainers (poor running shoes) — **excluded from the shoe log per request**. No VO2 (treadmill); 5574 steps; 343 cal; Apple Watch Ultra 3. 20-min sauna after. Easy re-entry, no knee issues reported. |
+| Thu Jul 2 | Easy 3.00 mi @ 11:03, HR 166, VO2 42.8 (Mizuno) | Crockett Park trails Franklin TN (flat, 24 ft). **Historic Nashville heat wave** — clear 85°F, **feels like 92°F, 76% humidity** (region-wide heat index flirting with 110°F; hottest, most humid stretch of 2026). **HR 166 — 16 bpm over Z2 ceiling, pure heat-driven cardiac drift**: effort kept easy, flat course, no surging → tendon strain rate stayed low even as HR climbed. Pace 11:03. **VO2 42.8 is a heat-suppressed artifact — ignore** (true VO2 ~46–47 from spring). 13-min sauna after (time-limited). No tendon strain reported. |
 
 ### Lift sessions
 
@@ -494,3 +495,10 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 |---|---|---|
 | Tue Jun 30 | 20 min | Post-run (first back post-trip) |
 | Wed Jul 1 | 20 min | Post-lift |
+| Thu Jul 2 | 13 min | Post-run (time-limited); note: the heat wave itself is heavy heat exposure right now |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Thu Jul 2 | 1/10 | 0/10 | Fresh AM before the run (re-baseline after the Miami layoff; one day off the Sunday cadence). **L moved 2 → 1 — best score of the block, passes the ≤2/10 gate with room to spare.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → **1 (Jul 2)**. The tendon improved *across* the trip's rest — 8 days off running load, on top of six weeks of HSR, let it settle. **Clears the Week 7 step-up: advance to 16 mi + the 8RM strength block** (pending no flare over the July 4 weekend). Re-baseline confirms the new 2×/week HSR structure begins from a strong position — keep watching the score as load steps up. |
