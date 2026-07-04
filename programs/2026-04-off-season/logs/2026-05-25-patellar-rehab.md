@@ -489,6 +489,24 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 - **Glute med + hinge skipped** — under the new 2×/week lower structure this stings a bit more: Slots 3–5 now only get Wed + Fri, so cutting today leaves just Friday this week. **Protect the glute-med + hinge on Friday's mix** — ideally front-load them so a time crunch can't cut them. Exactly the tradeoff flagged in the split amendment: fewer lower days means each day's full slate matters more.
 - No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
 
+**Fri Jul 3 — Mixed lift (lower HSR core + upper)** (Week 6 re-entry; **first upper session of the new split**; lower 10RM, upper calibration; normal 5-slot length)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| L1 — knee-dom (3s/3s) | Leg press | 2 × 10 *(3rd set intentionally skipped)* | 180 lb |
+| L3 — hinge (2s/1s) | Trap bar deadlift | 3 × 10 | 145 lb |
+| U1 — push (~2-1) | DB incline bench press (45°) | 8 / 8 / 7 | 2× 45 lb |
+| U2 — pull (~2-1) | Single-arm DB row | 3 × 10/side | 45 lb |
+| L5 — glute-med | Banded lateral walks | 2 × 15/dir | gray band |
+
+- **Genuine mix day at normal length** — two heavy lower (leg press + trap bar) + two upper (incline press + row) + glute-med finisher. Redesigned from the first draft (which was a full lower day + upper bolt-on) at the athlete's request.
+- **Leg press 180 × 2 — intentionally skipped the 3rd set** on tired legs with the 5K + long run this weekend. Textbook autoregulation: this was an RPE-7 "protect the legs" slot and he protected them. ✓
+- **Trap bar 145 × 3** — held 145 across all sets (didn't ramp to 155). Right call the day before a running weekend.
+- **DB incline press (45°) 2× 45 for 8 / 8 / 7** — first upper calibration. The drop to 7 on set 3 pegs **2× 45 lb right at his ~8RM on incline**. Next upper day: hold 2× 45 and build toward 3× 10 (add reps before load). **Baseline established.**
+- **Single-arm DB row 45 × 10/side × 3** — held all 3 sets clean at 10, no fade → **45 has room; bump to 50 lb** next time. Baseline established.
+- **Banded lateral walks, gray band** — glute-med finisher in ✓ (glute med hit this week after Wed's cut).
+- Upper ran at normal controlled tempo (correct — no HSR slowness on upper). 12-min sauna after.
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
@@ -496,6 +514,7 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 | Tue Jun 30 | 20 min | Post-run (first back post-trip) |
 | Wed Jul 1 | 20 min | Post-lift |
 | Thu Jul 2 | 13 min | Post-run (time-limited); note: the heat wave itself is heavy heat exposure right now |
+| Fri Jul 3 | 12 min | Post-lift (time-limited) |
 
 ### Decline squat test
 
