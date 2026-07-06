@@ -533,3 +533,16 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 - **Upper body introduced** — incline DB press (2× 45, ~8RM) and 1-arm DB row (45) baselines set. Glute-med hit once (Fri) after Wed's cut.
 - **Sauna**: 5 sessions (Tue/Wed/Thu/Fri/Sun), several shortened to 12–13 min — the heat wave itself is doing much of the heat-adaptation work.
 - **Verdict**: re-entered cleanly, tendon trending down, first 5K banked. **Week 7 launches the 8RM block + 16 mi + the upper/lower split at full cadence.**
+
+## Week 7 (Jul 6 – Jul 12)
+
+**Step-up week** (cleared by the Jul 2 decline squat, L 1/10). Strength advances to **8RM, 4×8** on the knee-dominant/unilateral HSR slots (Weeks 6–8 loading block); **running steps toward 16 mi**. Upper/lower split at full cadence: Mon upper / Tue run / Wed lower HSR / Thu run / Fri mix / Sat rest-or-light / Sun long.
+
+**Focus**:
+- First week at 8RM — find honest 8RMs on the heavy lower work; ease into the heavier load, no maxing on day 1 of the block.
+- Heat wave still in effect — runs by effort/RPE (treadmill or dawn); outdoor HR will read high, that's the heat tax, not fitness.
+- ~16 mi across Tue/Thu easy + Sun long (~7–8), plus the Wed/Fri lower work.
+
+### Schedule note — Mon Jul 6 rest day (athlete's call)
+
+Planned dedicated upper day **converted to full rest.** Poor sleep last night + accumulated fatigue from a no-rest-day weekend (Sat 5K PR effort + Sun 4 mi). Napping in the afternoon. **Correct call** — recovery is training, and the dedicated upper day is the most expendable slot: upper still gets hit on Friday's mix, and the HSR treatment (Wed/Fri) is untouched. No make-up needed. Week resumes Tue with the easy run.
