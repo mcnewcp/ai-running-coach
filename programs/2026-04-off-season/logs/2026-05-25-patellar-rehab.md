@@ -470,7 +470,8 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 |---|---|---|
 | Tue Jun 30 | Easy 3.01 mi @ 11:00, HR 141 (treadmill) | Home treadmill, first run back post-Miami. **HR 141 — 9 bpm under Z2 ceiling, very clean.** Wore old lifting trainers (poor running shoes) — **excluded from the shoe log per request**. No VO2 (treadmill); 5574 steps; 343 cal; Apple Watch Ultra 3. 20-min sauna after. Easy re-entry, no knee issues reported. |
 | Thu Jul 2 | Easy 3.00 mi @ 11:03, HR 166, VO2 42.8 (Mizuno) | Crockett Park trails Franklin TN (flat, 24 ft). **Historic Nashville heat wave** — clear 85°F, **feels like 92°F, 76% humidity** (region-wide heat index flirting with 110°F; hottest, most humid stretch of 2026). **HR 166 — 16 bpm over Z2 ceiling, pure heat-driven cardiac drift**: effort kept easy, flat course, no surging → tendon strain rate stayed low even as HR climbed. Pace 11:03. **VO2 42.8 is a heat-suppressed artifact — ignore** (true VO2 ~46–47 from spring). 13-min sauna after (time-limited). No tendon strain reported. |
-| Sat Jul 4 | **5K Fun Run (PR effort) 3.14 mi @ 8:33, HR 174, VO2 42.9 (Saucony)** | July 4 "Firecracker" group fun run (37 others). **Fastest 5K of 2026 — 2:52 under prior best per Strava; official chip time pending.** Went for it: **8:33/mi, HR 174 — a genuine hard/fast effort, not the planned easy Z2 fun run.** 69°F feels 74°F, 96% humidity (cooler early start than the week's peak), 132 ft rolling. Faster running = higher strain rate than the block's easy-only rule → **the morning-after knee read is the thing to watch.** VO2 42.9 heat/humidity-suppressed (ignore). Wore the Guide 17 (now ~276 mi — flagged for replacement). Felt good, had a blast. Add to `race-history.md` once the official chip time arrives. |
+| Sat Jul 4 | **5K Fun Run (PR effort) 3.14 mi @ 8:33, HR 174, VO2 42.9 (Saucony)** | July 4 "Firecracker" group fun run (37 others). **Fastest 5K of 2026 — 2:52 under prior best per Strava; official chip time pending.** Went for it: **8:33/mi, HR 174 — a genuine hard/fast effort, not the planned easy Z2 fun run.** 69°F feels 74°F, 96% humidity (cooler early start than the week's peak), 132 ft rolling. Faster running = higher strain rate than the block's easy-only rule → **the morning-after knee read is the thing to watch.** VO2 42.9 heat/humidity-suppressed (ignore). Wore the Guide 17 (now ~276 mi — flagged for replacement). Felt good, had a blast. **Official chip: 26:56 net / 27:26 gun** (gun-to-mat 0:29); logged to `race-history.md` as his first official 5K (PR). |
+| Sun Jul 5 | Easy 4.00 mi @ 10:54, HR 139 (treadmill, Mizuno) | Home treadmill, day-after-5K easy recovery run — **very disciplined, HR 139 = 11 bpm under Z2 ceiling**, felt great. Textbook heat-cost contrast: 10:54 @ HR 139 indoors vs Thu's 11:03 @ HR 166 outdoors (feels-like 92°F) — **~27 bpm lower for the same easy effort in A/C.** No VO2 (treadmill); 7330 steps; 546 cal. Closes re-entry Week 6. 12-min sauna after. Knees fine (1/1 AM). |
 
 ### Lift sessions
 
@@ -516,9 +517,19 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 | Wed Jul 1 | 20 min | Post-lift |
 | Thu Jul 2 | 13 min | Post-run (time-limited); note: the heat wave itself is heavy heat exposure right now |
 | Fri Jul 3 | 12 min | Post-lift (time-limited) |
+| Sun Jul 5 | 12 min | Post-run |
 
 ### Decline squat test
 
 | Date | Left | Right | Conditions |
 |---|---|---|---|
 | Thu Jul 2 | 1/10 | 0/10 | Fresh AM before the run (re-baseline after the Miami layoff; one day off the Sunday cadence). **L moved 2 → 1 — best score of the block, passes the ≤2/10 gate with room to spare.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → **1 (Jul 2)**. The tendon improved *across* the trip's rest — 8 days off running load, on top of six weeks of HSR, let it settle. **Clears the Week 7 step-up: advance to 16 mi + the 8RM strength block** (pending no flare over the July 4 weekend). Re-baseline confirms the new 2×/week HSR structure begins from a strong position — keep watching the score as load steps up. |
+
+### Week 6 wrap
+
+- **Re-entry week, executed well.** After 8 days fully off (Miami): **4 runs** (Tue 3.01 treadmill, Thu 3.00 hot outdoor, Sat 5K, Sun 4.00 treadmill) + **2 lifts** (Wed lower HSR, Fri mixed). ~13.1 running miles — a hair under the ~15 target, but the 5K was a hard effort so the slightly lower easy volume is right.
+- **Decline squat re-baselined at L 1/10** (block best) and held — the tendon *improved* across the trip. Cleared the Week 7 step-up.
+- **July 4 5K: 26:56 net — a hard/fast one-off** (~8:40/mi, HR 174) in the middle of an easy-only block. Deliberately allowed; morning-after knee a benign **1/1**, confirming the tendon tolerated the faster strain rate. First official 5K on the board (PR).
+- **Upper body introduced** — incline DB press (2× 45, ~8RM) and 1-arm DB row (45) baselines set. Glute-med hit once (Fri) after Wed's cut.
+- **Sauna**: 5 sessions (Tue/Wed/Thu/Fri/Sun), several shortened to 12–13 min — the heat wave itself is doing much of the heat-adaptation work.
+- **Verdict**: re-entered cleanly, tendon trending down, first 5K banked. **Week 7 launches the 8RM block + 16 mi + the upper/lower split at full cadence.**
