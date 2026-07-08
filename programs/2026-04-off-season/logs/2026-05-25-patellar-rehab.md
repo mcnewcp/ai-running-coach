@@ -546,3 +546,36 @@ Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match 
 ### Schedule note — Mon Jul 6 rest day (athlete's call)
 
 Planned dedicated upper day **converted to full rest.** Poor sleep last night + accumulated fatigue from a no-rest-day weekend (Sat 5K PR effort + Sun 4 mi). Napping in the afternoon. **Correct call** — recovery is training, and the dedicated upper day is the most expendable slot: upper still gets hit on Friday's mix, and the HSR treatment (Wed/Fri) is untouched. No make-up needed. Week resumes Tue with the easy run.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jul 7 | Easy 4.03 mi @ 11:00, HR 143 (treadmill, Mizuno) | Home treadmill, first run back after Monday's rest. **HR 143 = 7 bpm under Z2 ceiling** — held easy discipline despite feeling good post-rest (dodged the pace-creep trap flagged in the plan). Pace 11:00. No VO2 (treadmill); 7446 steps; 556 cal. Longest run in 2 weeks. 12-min sauna after. |
+
+### Lift sessions
+
+**Wed Jul 8 — Lower-body HSR** (Week 7; **first day of the 8RM block, 4×8** on Slots 1 & 2; 3s/3s tempo)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) | 4 × 8 | 135 → 145 → 145 → 145 lb |
+| 2 | Bulgarian split squat (3s/3s), lead left | 4 × 8/side | 2× 25 lb × 4 sets |
+| 3 | Trap bar deadlift (2s/1s) | 4 × 8 | 145 lb × 4 sets |
+| 4 | Glute-med main | — | **Not in session** (Slots 1–3 + finisher only) |
+| 5 | Banded lateral walks | 2 × 15/dir | black (heavy) band |
+
+- **First 8RM session — eased in appropriately** (no maxing day 1, exactly as planned).
+- **Back squat 145 × 8** — held 145 (his 10RM working weight) for 8 reps → RPE ~7, submaximal for a true 8RM. Right conservative start. **Next Wednesday: open 145, work toward 155–160 to find the honest 8RM** (he's hit 155 for a 10-rep set before, so it's in reach).
+- **BSS 2× 25 × 8/side × 4** — genuine progression from the 2× 20 held at 10RM. Strong unilateral step into the 8RM block. ✓
+- **Trap bar 145 × 8 × 4** — held 145 (conservative; he's done 155 × 10). Room to move → **155–165 next time.** (4 sets vs the usual 3 on Slot 3 — fine, minor extra hinge volume.)
+- **Banded lateral walks progressed gray → black band** — glute-med finisher, heavier tension ✓.
+- **Glute-med main (Slot 4) not in the session** — finisher (Slot 5) in, but not the main abduction/thrust. Recurring gap; under the 2×/week structure Slot 4 now lands on Friday only this week. **Front-load a Slot 4 glute-med main into Friday's mix.**
+- No in-lift knee pain reported — first 8RM (heaviest bilateral load of the block) tolerated cleanly. 17.5-min sauna after.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Tue Jul 7 | 12 min | Post-run |
+| Wed Jul 8 | 17.5 min | Post-lift |
