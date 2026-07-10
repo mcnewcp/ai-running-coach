@@ -574,6 +574,24 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 - **Glute-med main (Slot 4) not in the session** — finisher (Slot 5) in, but not the main abduction/thrust. Recurring gap; under the 2×/week structure Slot 4 now lands on Friday only this week. **Front-load a Slot 4 glute-med main into Friday's mix.**
 - No in-lift knee pain reported — first 8RM (heaviest bilateral load of the block) tolerated cleanly. 17.5-min sauna after.
 
+**Fri Jul 10 — Mixed lift (lower HSR core + upper)** (Week 7, 8RM block; **trap bar dropped at athlete's request** — declined a 2nd heavy hinge in 3 days to protect the lower back; **incline DB curl added**)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| L1 — knee-dom (3s/3s) | Leg press | 3 × 8 | 180 → 200 → 200 lb |
+| L4 — glute-med main | Side-lying hip abduction (DB), lead left | 3 × 10/side | 22.5 lb × 3 sets |
+| U1 — push (~2-1) | DB incline bench press (45°) | 3 × 8 | 2× 45 lb |
+| U2 — pull (~2-1) | 1-arm DB row | 3 × 10/side | 45 lb × 3 sets |
+| U5 — arms (~2-1) | Incline DB curl (45°) | 10 / 9 / 8 | 2× 22.5 lb |
+
+- **Trap bar dropped at athlete's request** — declined a second heavy hinge in 3 days given his documented lower-back/hinge sensitivity (the RDL→trap-bar swap history). Hinge got its work Wed; correct injury-aware call. Session shifted lighter-lower / bigger-upper, but the two tendon essentials (knee-dominant HSR + glute-med main) were preserved.
+- **Leg press found a real 8RM at 200** — opened 180, jumped to 200 for sets 2–3 and held. Strong step up from the 180 he'd used at 3×10; the 8RM block working as intended. Next leg-press day: open 190, confirm 200–205.
+- **Side-lying hip abduction 22.5 × 10/side × 3** — the Slot 4 glute-med main that slipped Wed, caught this time ✓.
+- **Incline DB press 2× 45 × 8 × 3** — held 45s for a clean 3×8 (vs last week's 8/8/7). Consolidating the ~8RM. Next: chase reps toward 3×10, or nudge to 2× 47.5.
+- **1-arm DB row 45 × 10 × 3** — stayed at 45 (target was 50); held clean again, so still has room → **50 next time.**
+- **Incline DB curl 2× 22.5 for 10/9/8** — first calibration; the rep fade pegs **2× 22.5 ≈ 10RM on the incline curl** (the stretched position is humbling). Baseline set — hold 22.5 and build reps.
+- No knee signal reported — first 200-lb leg-press 8RM tolerated cleanly. 20-min sauna (afternoon, post-work/lunch).
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
@@ -581,3 +599,4 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 | Tue Jul 7 | 12 min | Post-run |
 | Wed Jul 8 | 17.5 min | Post-lift |
 | Thu Jul 9 | 20 min | Afternoon (post-run) |
+| Fri Jul 10 | 20 min | Afternoon (post-work/lunch) |
