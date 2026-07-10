@@ -552,6 +552,7 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 | Date | Session | Notes |
 |---|---|---|
 | Tue Jul 7 | Easy 4.03 mi @ 11:00, HR 143 (treadmill, Mizuno) | Home treadmill, first run back after Monday's rest. **HR 143 = 7 bpm under Z2 ceiling** — held easy discipline despite feeling good post-rest (dodged the pace-creep trap flagged in the plan). Pace 11:00. No VO2 (treadmill); 7446 steps; 556 cal. Longest run in 2 weeks. 12-min sauna after. |
+| Thu Jul 9 | Easy 4.02 mi @ 11:01, HR 150, VO2 43 (Mizuno) | Crockett Park trails Brentwood TN (flat, 43 ft), late morning. 79°F feels 83°F, **95% humidity** (cooler than the July 2 peak, still brutally humid). **HR 150 — right at the Z2 ceiling, well-controlled** vs July 2's 166 on the same course in worse heat: real pacing discipline. Day after the first 8RM lower session — legs held up fine. VO2 43 still humidity-suppressed (ignore). 472 cal. Completes Tue+Thu easy (8.05 mi); Sun long (~8) to come. 20-min sauna in the afternoon. |
 
 ### Lift sessions
 
@@ -579,3 +580,4 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 |---|---|---|
 | Tue Jul 7 | 12 min | Post-run |
 | Wed Jul 8 | 17.5 min | Post-lift |
+| Thu Jul 9 | 20 min | Afternoon (post-run) |
