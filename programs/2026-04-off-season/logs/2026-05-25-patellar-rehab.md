@@ -553,6 +553,7 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 |---|---|---|
 | Tue Jul 7 | Easy 4.03 mi @ 11:00, HR 143 (treadmill, Mizuno) | Home treadmill, first run back after Monday's rest. **HR 143 = 7 bpm under Z2 ceiling** — held easy discipline despite feeling good post-rest (dodged the pace-creep trap flagged in the plan). Pace 11:00. No VO2 (treadmill); 7446 steps; 556 cal. Longest run in 2 weeks. 12-min sauna after. |
 | Thu Jul 9 | Easy 4.02 mi @ 11:01, HR 150, VO2 43 (Mizuno) | Crockett Park trails Brentwood TN (flat, 43 ft), late morning. 79°F feels 83°F, **95% humidity** (cooler than the July 2 peak, still brutally humid). **HR 150 — right at the Z2 ceiling, well-controlled** vs July 2's 166 on the same course in worse heat: real pacing discipline. Day after the first 8RM lower session — legs held up fine. VO2 43 still humidity-suppressed (ignore). 472 cal. Completes Tue+Thu easy (8.05 mi); Sun long (~8) to come. 20-min sauna in the afternoon. |
+| Sun Jul 12 | **Long Run 8.04 mi @ 11:13, HR 150, VO2 43.2 (Saucony)** | Paved trails Smith→Crockett Park, Brentwood/Franklin TN; **hilly 426 ft**; cloudy 74°F feels 76°F, **90% humidity**. **HR 150 right at the Z2 ceiling for 90 min on hills — excellent.** **Longest run of the block** (longest since the April half). Direct beat of Jun 21 (7 mi / 411 ft / 82% / HR 152): more distance + hills + humidity at a *lower* HR = clear aerobic gain. VO2 43.2 still humidity-suppressed (nudging up as heat eases). 964 cal; completes the 16-mi week. **No gel** — big breakfast 2 h prior, sound call for a 90-min run. Saucony Guide 17 (now ~284 mi, past replacement flag). |
 
 ### Lift sessions
 
@@ -600,3 +601,27 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 | Wed Jul 8 | 17.5 min | Post-lift |
 | Thu Jul 9 | 20 min | Afternoon (post-run) |
 | Fri Jul 10 | 20 min | Afternoon (post-work/lunch) |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sun Jul 12 | 2/10 | 1/10 | Fresh AM before the 8-mile long run (back on Sunday cadence). **L ticked 1 → 2, R 0 → 1 — both up one; L still ≤2, so the gate technically passes.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → 1 (Jul 2) → **2 (Jul 12)**. Reads as the tendon's honest response to a big ~10-day load surge — hard 5K PR + first 8RM block (leg press to 200) + step to 16 mi — settling back to its long-standing baseline of 2 rather than a true regression. Not alarming (still green; no in-run or in-lift pain all week), but it's the **first uptick of the block, arriving right as load spiked → consolidate rather than press on.**
+
+### Week 7 wrap
+
+- **Full, clean step-up week.** 16.09 mi (Tue 4.03 + Thu 4.02 + Sun 8.04) + 2 lifts (Wed lower 8RM, Fri mixed). Monday's upper converted to rest (poor sleep) — the one gap.
+- **8RM block launched** — back squat 145×8 (eased in) → leg press found a genuine 8RM at 200 Friday; BSS to 2×25. Strength progressing well, no in-lift knee pain.
+- **Long-run breakthrough**: 8.04 mi, 426 ft, 90% humidity at HR 150 — more distance/hills/humidity than Jun 21 at a *lower* HR. Longest run since the April half.
+- **Upper baselines building**: incline press 2×45×8, row 45, incline curl 2×22.5.
+- **Decline squat ticked to L2/R1** (see above) — still green, but the signal to consolidate.
+- **Verdict**: strong week, tendon absorbed a lot. **Bank it — Week 8 holds volume.**
+
+## Week 8 (Jul 13 – Jul 19)
+
+**Consolidation week — hold, don't press.** After a ~10-day load surge (hard 5K + 8RM block + 16-mi step + longest run) nudged the decline squat L 1 → 2, the smart call is to **hold running at 16 mi** and **keep strength at 8RM** — repeat Week 7's numbers, absorb the load, re-test the decline squat next Sunday. If it settles back to ≤1 (or holds at 2 with no symptoms), Week 9 steps to 18 mi. Structure unchanged: Mon upper / Tue run / Wed lower HSR / Thu run / Fri mix / Sat rest-or-light / Sun long.
+
+**Focus**:
+- **Consolidate, not progress** — bank Week 7's gains; the tendon marker is the reason.
+- Strength: hold honest 8RMs (leg press ~200, back squat ~150, BSS 2×25); progress only what still has clear room (upper: row → 50, incline press → reps).
+- Keep an eye on the morning-after knee, especially after the 8-miler in the aging Saucony — **get the replacement pair in soon.**
