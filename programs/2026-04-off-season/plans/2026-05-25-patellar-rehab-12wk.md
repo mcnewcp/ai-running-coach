@@ -34,6 +34,28 @@ Goal: arrive at Aug 17 with a symptom-free patellar tendon, a verified-improving
 
 > Long run lives on **Sunday** for this block (deliberate exception to the usual Saturday default — driven by the lift cadence). Returns to Saturday once this block ends.
 
+### Amendment — Jul 1, 2026 (Week 6): Upper/Lower Split
+
+Restructured mid-block at the athlete's request to add upper-body work and variety while preserving the tendon treatment. New weekly layout from Week 6 onward:
+
+| Day | Activity |
+|---|---|
+| Monday | **Upper-body lift** (dedicated; legs rest the day after Sunday's long run) |
+| Tuesday | Easy run |
+| Wednesday | **Lower-body HSR** (full knee-dominant tendon session) |
+| Thursday | Easy run |
+| Friday | **Mixed lift** — lower-body HSR core (knee-dominant + hip hinge + glute med) *plus* 2–3 upper slots |
+| Saturday | Rest or light activity |
+| Sunday | Long run |
+
+Upper-body menu: [resources/upper-body-protocols.md](../../../resources/upper-body-protocols.md).
+
+**HSR frequency note (important):** this drops dedicated lower-body HSR from **3×/week → 2×/week** (Wed full + Fri core). That's a real reduction in the tendon-remodeling dose during an active rehab block — the studied HSR protocols use 3×/week. Accepting it because: (1) the tendon is responding well — decline squat L 3→2 over six weeks, tolerating 10RM + 14 mi with no flare; (2) both remaining lower sessions land on the freshest-leg days (Wed, Fri) and both carry the heavy knee-dominant HSR core; (3) making Monday upper-only removes heavy knee loading from the *worst* day for it — the day after the long run, the original layout's known compromise.
+
+**Safeguard:** the weekly decline squat test is the early-warning system. If the score **stalls or rises** under the 2×/week structure, add a third knee-dominant exposure back (a single Slot 1 opener on Monday, or a brief HSR mini on a run day) before anything else changes. Glute-med work (Slots 4/5) now lives on Wed + Fri — sprinkle onto a run day if you want extra.
+
+The original 3×/week Mon/Wed/Fri all-lower structure above is retained as the block's first-six-weeks history.
+
 ## Strength Sessions
 
 The full 5-slot template and exercise menus live in [resources/hsr-protocols.md](../../../resources/hsr-protocols.md). Every session pulls one item from each slot and rotates across sessions for variety.

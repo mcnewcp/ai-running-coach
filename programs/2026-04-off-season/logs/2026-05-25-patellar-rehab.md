@@ -387,3 +387,241 @@ Family trip to Bonnaroo disrupts the back half of the week. No Thursday run (tra
 - **Consolidation, not progression** — repeat Week 4's numbers cleanly. Gains bank during the absorb week.
 - **Hold loads where they're honest RMs** (leg press ~180, back squat 145, single-leg leg press 90, Bulgarian 2× 20); progress only what still has room.
 - **Week 6 is the midpoint assessment** — next Sunday's decline squat sets up the step to 16 mi and the 8RM strength block.
+
+### Schedule adjustment — Miami trip (Mon Jun 22 eve – Fri Jun 26 afternoon)
+
+Guys' trip to Miami: fly out Mon evening, return Fri afternoon. World Cup match Wed (full day), eating/drinking most days, hot + humid. Staying at a friend's apartment with a building gym (equipment unknown). **Consolidation week, so nothing is lost by scaling back** — running is held this week (no progression to protect) and the trip's recovery hit is well-timed against a down week. Strength is the treatment, so landing even 1–2 lifts is the highest-value goal; running is optional and Z2-only.
+
+| Day | Plan |
+|---|---|
+| Mon Jun 22 | **Lift A at Lifetime before flying out** (home equipment — bank the best session of the week). Travel in the evening. |
+| Tue Jun 23 | Miami. Glute-med mini (band, Slots 4/5). Optional easy Z2 — gym treadmill in A/C preferred, or early AM, ≤30 min, HR ≤150. |
+| Wed Jun 24 | World Cup match — rest day. Walking/standing = incidental load. |
+| Thu Jun 25 | Miami. **Abbreviated HSR session if the gym allows** (whatever covers Slots 1–3 + glute med). Else glute-med mini + optional easy Z2. |
+| Fri Jun 26 | Travel home afternoon. Rest / walking. |
+| Sat Jun 27 | Home. Optional easy shakeout or rest. |
+| Sun Jun 28 | **Decline squat test (AM, fresh)** — gates Week 6 (→16 mi + 8RM). **Long run 7 mi Z2** at home (trim if travel-fatigued). |
+
+- **Strength priority**: aim for 2 sessions — Lift A at home Mon + one abbreviated session in Miami. Apartment gym TBD; report what it has and I'll give a precise session. DB-only fallback covers 4 of 5 slots (goblet squat + DB reverse lunge + DB single-leg RDL + side-lying abduction).
+- **Glute-med (Slots 4/5) needs almost nothing** — pack a mini band; clamshells / lateral walks / side planks in the apartment, ~10 min. Cheapest insurance of the block.
+- **Running de-emphasized**: heat + humidity + alcohol + unknown routes make outdoor miles low-value and junk-HR. If running, treadmill-in-A/C is the best option (cool, flat, no route worries). No long-run attempt in Miami — the 7-miler waits for Sunday at home.
+- **Decline squat test stays Sunday at home** (fresh, on cadence) — no mid-trip testing. It still gates Week 6.
+- **Recovery note**: alcohol blunts collagen synthesis/recovery, so the lighter load is well-timed — don't stack heavy lifting on the heaviest drinking days. Hydrate hard in the heat.
+
+### Lift sessions
+
+**Mon Jun 22 — Lift A** (Week 5 consolidation; 10RM, 4×10 on Slots 1 & 2; 3s/3s tempo; back squat subbed for front squat per athlete preference; done before evening travel)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) | 4 × 10 | 135 → 135 → 135 → 155 lb |
+| 2 | Single-leg leg press (3s/3s), lead left | 4 × 10/side | 90 lb × 4 sets |
+| 3 | Single-leg RDL (DB), lead left | 3 × 10/side | 30 lb × 3 sets |
+| 4 | Side-lying hip abduction (DB), lead left | 3 × 10/side | 22.5 lb × 3 sets |
+| 5 | Copenhagen plank (knee-bent), lead left | 3 × 15s/side | BW |
+
+- **All 5 slots completed — no skips, glute-med work fully in** ✓. Clean execution before travel.
+- **Back squat 135 × 3 → 155 on set 4**: held 135 for the first three sets (below the 145 working target — RPE likely <8 on those), then jumped straight to 155 for the final set. **155 × 10 at 3s/3s is a new 10RM high** (prior working 10RM was 145) — strength clearly has room. Process note for cleaner week-over-week tracking: steadier loading next time (open ~145, ramp 145 → 150 → 155) keeps the early sets from under-loading and the top set out of near-max territory on a consolidation day. **Reset working back squat 10RM to ~155**; next back squat day open 145, work 150–155.
+- **Single-leg leg press 90 × 10/side × 4**: exactly on plan — honest 10RM reconfirmed (held across all 4 sets, no L/R asymmetry flagged).
+- **Single-leg RDL 30 × 10/side × 3**: on plan (held 30; didn't extend to 12 reps — fine).
+- **Side-lying hip abduction 22.5 × 10/side × 3**: bumped from last week's 20 → 22.5/side, held all 3 sets — glute-med load progressing ✓.
+- **Copenhagen plank 15s/side × 3**: built the hold from Week 4's 12s to 15s ✓.
+- No in-lift knee pain reported (benign). Given the 155 top set is a new high, worth a glance at the morning-after read. **20-min sauna post-lift** ✓.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jun 22 | 20 min | Post-lift |
+
+### Week 5 wrap
+
+- **Miami trip wiped Tue–Sun.** Only session completed: Mon Jun 22 Lift A (before travel). No runs, no other lifts, no Sunday long run, and the **Sunday decline squat test was missed** (no fresh read this week). Couldn't fit training in around the trip — fine.
+- **A consolidation week is the ideal week to lose to travel** — running was held at 14 mi by design (no progression to protect), so nothing was forfeited on the rehab curve. The tendon got an unplanned rest on the back of a clean, improving trajectory.
+- **Net**: 1 lift, 0 runs, ~8 days off structured training. Treat as an unscheduled down/recovery week.
+- **Re-entry + a program restructure begin Week 6** (below).
+
+## Week 6 (Jun 29 – Jul 5)
+
+**This was the planned midpoint / step-up week (→16 mi + 8RM). Deferred one week** because of the trip: 8 days off + a missed decline squat test means we re-baseline before progressing. Week 6 = **re-entry** — hold running ~15 mi and strength at **10RM** to re-groove; the 8RM block and the 16-mi step move to Week 7 if the decline squat re-baseline is clean.
+
+**New structure starts now** — upper/lower split (see [plan amendment Jul 1](../plans/2026-05-25-patellar-rehab-12wk.md#amendment--jul-1-2026-week-6-upperlower-split) and the new [upper-body menu](../../../resources/upper-body-protocols.md)): Mon upper / Tue run / Wed lower HSR / Thu run / Fri mix / Sat rest-or-light / Sun long.
+
+**Re-baseline the decline squat test** fresh **Thu Jul 2 AM** (before the run) — it's already afternoon Jul 1, so morning-fresh is tomorrow. This re-establishes the gate after the layoff; then back to Sunday cadence.
+
+### Schedule this week (mid-week re-entry + July 4 5K)
+
+| Day | Plan |
+|---|---|
+| Mon Jun 29 | Off (post-trip). |
+| Tue Jun 30 | Easy 3.01 mi treadmill (logged below) + 20-min sauna. First run back. |
+| Wed Jul 1 | **Lower-body HSR** (re-entry, 10RM, RPE 7–8). |
+| Thu Jul 2 | **Decline squat test (AM, fresh)** + easy run ~3 mi Z2. |
+| Fri Jul 3 | **Mixed lift** — lower HSR core + upper. |
+| Sat Jul 4 | **July 4 fun 5K, 7:00 AM — run EASY, not a race.** Flat, Z2-ish, HR allowed to float modestly but no surging / sprint finish, no hills. Same rules as the Bonnaroo 5K. |
+| Sun Jul 5 | Long run ~6 mi Z2 (trimmed — follows the Sat 5K, and it's a re-entry week). |
+
+- **July 4 5K** is the day before the long run — keep it genuinely easy, treat it as the weekend's first easy run, not a separate hard effort. Block rule stands: no intensity, no hills, tendon-safe strain rate.
+- **Weekend running**: Sat 5K (~3.1) + Sun long (~6) back-to-back, both easy. Capping Sunday at ~6 lands the re-entry week around 15 mi total (Tue 3 + Thu 3 + Sat 3.1 + Sun 6), not the 16 the calendar originally called for.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jun 30 | Easy 3.01 mi @ 11:00, HR 141 (treadmill) | Home treadmill, first run back post-Miami. **HR 141 — 9 bpm under Z2 ceiling, very clean.** Wore old lifting trainers (poor running shoes) — **excluded from the shoe log per request**. No VO2 (treadmill); 5574 steps; 343 cal; Apple Watch Ultra 3. 20-min sauna after. Easy re-entry, no knee issues reported. |
+| Thu Jul 2 | Easy 3.00 mi @ 11:03, HR 166, VO2 42.8 (Mizuno) | Crockett Park trails Franklin TN (flat, 24 ft). **Historic Nashville heat wave** — clear 85°F, **feels like 92°F, 76% humidity** (region-wide heat index flirting with 110°F; hottest, most humid stretch of 2026). **HR 166 — 16 bpm over Z2 ceiling, pure heat-driven cardiac drift**: effort kept easy, flat course, no surging → tendon strain rate stayed low even as HR climbed. Pace 11:03. **VO2 42.8 is a heat-suppressed artifact — ignore** (true VO2 ~46–47 from spring). 13-min sauna after (time-limited). No tendon strain reported. |
+| Sat Jul 4 | **5K Fun Run (PR effort) 3.14 mi @ 8:33, HR 174, VO2 42.9 (Saucony)** | July 4 "Firecracker" group fun run (37 others). **Fastest 5K of 2026 — 2:52 under prior best per Strava; official chip time pending.** Went for it: **8:33/mi, HR 174 — a genuine hard/fast effort, not the planned easy Z2 fun run.** 69°F feels 74°F, 96% humidity (cooler early start than the week's peak), 132 ft rolling. Faster running = higher strain rate than the block's easy-only rule → **the morning-after knee read is the thing to watch.** VO2 42.9 heat/humidity-suppressed (ignore). Wore the Guide 17 (now ~276 mi — flagged for replacement). Felt good, had a blast. **Official chip: 26:56 net / 27:26 gun** (gun-to-mat 0:29); logged to `race-history.md` as his first official 5K (PR). |
+| Sun Jul 5 | Easy 4.00 mi @ 10:54, HR 139 (treadmill, Mizuno) | Home treadmill, day-after-5K easy recovery run — **very disciplined, HR 139 = 11 bpm under Z2 ceiling**, felt great. Textbook heat-cost contrast: 10:54 @ HR 139 indoors vs Thu's 11:03 @ HR 166 outdoors (feels-like 92°F) — **~27 bpm lower for the same easy effort in A/C.** No VO2 (treadmill); 7330 steps; 546 cal. Closes re-entry Week 6. 12-min sauna after. Knees fine (1/1 AM). |
+
+### Lift sessions
+
+**Wed Jul 1 — Lower-body HSR** (Week 6 re-entry; 10RM target, 3s/3s; **abbreviated — out of time**; leg press → back squat sub, leg press taken)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) — subbed for leg press | 4 × 10 | 135 → 135 → 145 → 145 lb |
+| 2 | Bulgarian split squat (3s/3s), lead left | 4 × 10/side | 2× 20 lb × 4 sets |
+| 3 | Hip hinge | — | **Skipped — out of time** |
+| 4 | Glute-med main | — | **Skipped — out of time** |
+| 5 | Glute-med finisher | — | **Skipped — out of time** |
+
+- **First tendon session back after 9 days off** — hit the two heavy HSR core slots (knee-dominant + unilateral), cut Slots 3–5 for time. Right prioritization: the HSR core is the treatment, so if anything gets cut it should be the hinge and glute med, not the mains.
+- **Back squat 135 → 145 (subbed for a taken leg press)**: well-judged re-entry loading — held 135 for two sets, 145 for two, and did **not** chase last week's one-off 155. 145 is his honest working 10RM; exactly the RPE 7–8 re-entry call. Clean sub.
+- **Bulgarian split 2× 20 × 10/side × 4**: held his dialed 10RM across all 4 sets — no re-entry rust there. ✓
+- **Glute med + hinge skipped** — under the new 2×/week lower structure this stings a bit more: Slots 3–5 now only get Wed + Fri, so cutting today leaves just Friday this week. **Protect the glute-med + hinge on Friday's mix** — ideally front-load them so a time crunch can't cut them. Exactly the tradeoff flagged in the split amendment: fewer lower days means each day's full slate matters more.
+- No in-lift knee pain reported (benign). 20-min sauna post-lift ✓.
+
+**Fri Jul 3 — Mixed lift (lower HSR core + upper)** (Week 6 re-entry; **first upper session of the new split**; lower 10RM, upper calibration; normal 5-slot length)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| L1 — knee-dom (3s/3s) | Leg press | 2 × 10 *(3rd set intentionally skipped)* | 180 lb |
+| L3 — hinge (2s/1s) | Trap bar deadlift | 3 × 10 | 145 lb |
+| U1 — push (~2-1) | DB incline bench press (45°) | 8 / 8 / 7 | 2× 45 lb |
+| U2 — pull (~2-1) | Single-arm DB row | 3 × 10/side | 45 lb |
+| L5 — glute-med | Banded lateral walks | 2 × 15/dir | gray band |
+
+- **Genuine mix day at normal length** — two heavy lower (leg press + trap bar) + two upper (incline press + row) + glute-med finisher. Redesigned from the first draft (which was a full lower day + upper bolt-on) at the athlete's request.
+- **Leg press 180 × 2 — intentionally skipped the 3rd set** on tired legs with the 5K + long run this weekend. Textbook autoregulation: this was an RPE-7 "protect the legs" slot and he protected them. ✓
+- **Trap bar 145 × 3** — held 145 across all sets (didn't ramp to 155). Right call the day before a running weekend.
+- **DB incline press (45°) 2× 45 for 8 / 8 / 7** — first upper calibration. The drop to 7 on set 3 pegs **2× 45 lb right at his ~8RM on incline**. Next upper day: hold 2× 45 and build toward 3× 10 (add reps before load). **Baseline established.**
+- **Single-arm DB row 45 × 10/side × 3** — held all 3 sets clean at 10, no fade → **45 has room; bump to 50 lb** next time. Baseline established.
+- **Banded lateral walks, gray band** — glute-med finisher in ✓ (glute med hit this week after Wed's cut).
+- Upper ran at normal controlled tempo (correct — no HSR slowness on upper). 12-min sauna after.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Tue Jun 30 | 20 min | Post-run (first back post-trip) |
+| Wed Jul 1 | 20 min | Post-lift |
+| Thu Jul 2 | 13 min | Post-run (time-limited); note: the heat wave itself is heavy heat exposure right now |
+| Fri Jul 3 | 12 min | Post-lift (time-limited) |
+| Sun Jul 5 | 12 min | Post-run |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Thu Jul 2 | 1/10 | 0/10 | Fresh AM before the run (re-baseline after the Miami layoff; one day off the Sunday cadence). **L moved 2 → 1 — best score of the block, passes the ≤2/10 gate with room to spare.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → **1 (Jul 2)**. The tendon improved *across* the trip's rest — 8 days off running load, on top of six weeks of HSR, let it settle. **Clears the Week 7 step-up: advance to 16 mi + the 8RM strength block** (pending no flare over the July 4 weekend). Re-baseline confirms the new 2×/week HSR structure begins from a strong position — keep watching the score as load steps up. |
+
+### Week 6 wrap
+
+- **Re-entry week, executed well.** After 8 days fully off (Miami): **4 runs** (Tue 3.01 treadmill, Thu 3.00 hot outdoor, Sat 5K, Sun 4.00 treadmill) + **2 lifts** (Wed lower HSR, Fri mixed). ~13.1 running miles — a hair under the ~15 target, but the 5K was a hard effort so the slightly lower easy volume is right.
+- **Decline squat re-baselined at L 1/10** (block best) and held — the tendon *improved* across the trip. Cleared the Week 7 step-up.
+- **July 4 5K: 26:56 net — a hard/fast one-off** (~8:40/mi, HR 174) in the middle of an easy-only block. Deliberately allowed; morning-after knee a benign **1/1**, confirming the tendon tolerated the faster strain rate. First official 5K on the board (PR).
+- **Upper body introduced** — incline DB press (2× 45, ~8RM) and 1-arm DB row (45) baselines set. Glute-med hit once (Fri) after Wed's cut.
+- **Sauna**: 5 sessions (Tue/Wed/Thu/Fri/Sun), several shortened to 12–13 min — the heat wave itself is doing much of the heat-adaptation work.
+- **Verdict**: re-entered cleanly, tendon trending down, first 5K banked. **Week 7 launches the 8RM block + 16 mi + the upper/lower split at full cadence.**
+
+## Week 7 (Jul 6 – Jul 12)
+
+**Step-up week** (cleared by the Jul 2 decline squat, L 1/10). Strength advances to **8RM, 4×8** on the knee-dominant/unilateral HSR slots (Weeks 6–8 loading block); **running steps toward 16 mi**. Upper/lower split at full cadence: Mon upper / Tue run / Wed lower HSR / Thu run / Fri mix / Sat rest-or-light / Sun long.
+
+**Focus**:
+- First week at 8RM — find honest 8RMs on the heavy lower work; ease into the heavier load, no maxing on day 1 of the block.
+- Heat wave still in effect — runs by effort/RPE (treadmill or dawn); outdoor HR will read high, that's the heat tax, not fitness.
+- ~16 mi across Tue/Thu easy + Sun long (~7–8), plus the Wed/Fri lower work.
+
+### Schedule note — Mon Jul 6 rest day (athlete's call)
+
+Planned dedicated upper day **converted to full rest.** Poor sleep last night + accumulated fatigue from a no-rest-day weekend (Sat 5K PR effort + Sun 4 mi). Napping in the afternoon. **Correct call** — recovery is training, and the dedicated upper day is the most expendable slot: upper still gets hit on Friday's mix, and the HSR treatment (Wed/Fri) is untouched. No make-up needed. Week resumes Tue with the easy run.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jul 7 | Easy 4.03 mi @ 11:00, HR 143 (treadmill, Mizuno) | Home treadmill, first run back after Monday's rest. **HR 143 = 7 bpm under Z2 ceiling** — held easy discipline despite feeling good post-rest (dodged the pace-creep trap flagged in the plan). Pace 11:00. No VO2 (treadmill); 7446 steps; 556 cal. Longest run in 2 weeks. 12-min sauna after. |
+| Thu Jul 9 | Easy 4.02 mi @ 11:01, HR 150, VO2 43 (Mizuno) | Crockett Park trails Brentwood TN (flat, 43 ft), late morning. 79°F feels 83°F, **95% humidity** (cooler than the July 2 peak, still brutally humid). **HR 150 — right at the Z2 ceiling, well-controlled** vs July 2's 166 on the same course in worse heat: real pacing discipline. Day after the first 8RM lower session — legs held up fine. VO2 43 still humidity-suppressed (ignore). 472 cal. Completes Tue+Thu easy (8.05 mi); Sun long (~8) to come. 20-min sauna in the afternoon. |
+| Sun Jul 12 | **Long Run 8.04 mi @ 11:13, HR 150, VO2 43.2 (Saucony)** | Paved trails Smith→Crockett Park, Brentwood/Franklin TN; **hilly 426 ft**; cloudy 74°F feels 76°F, **90% humidity**. **HR 150 right at the Z2 ceiling for 90 min on hills — excellent.** **Longest run of the block** (longest since the April half). Direct beat of Jun 21 (7 mi / 411 ft / 82% / HR 152): more distance + hills + humidity at a *lower* HR = clear aerobic gain. VO2 43.2 still humidity-suppressed (nudging up as heat eases). 964 cal; completes the 16-mi week. **No gel** — big breakfast 2 h prior, sound call for a 90-min run. Saucony Guide 17 (now ~284 mi, past replacement flag). |
+
+### Lift sessions
+
+**Wed Jul 8 — Lower-body HSR** (Week 7; **first day of the 8RM block, 4×8** on Slots 1 & 2; 3s/3s tempo)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| 1 | Back squat (3s/3s) | 4 × 8 | 135 → 145 → 145 → 145 lb |
+| 2 | Bulgarian split squat (3s/3s), lead left | 4 × 8/side | 2× 25 lb × 4 sets |
+| 3 | Trap bar deadlift (2s/1s) | 4 × 8 | 145 lb × 4 sets |
+| 4 | Glute-med main | — | **Not in session** (Slots 1–3 + finisher only) |
+| 5 | Banded lateral walks | 2 × 15/dir | black (heavy) band |
+
+- **First 8RM session — eased in appropriately** (no maxing day 1, exactly as planned).
+- **Back squat 145 × 8** — held 145 (his 10RM working weight) for 8 reps → RPE ~7, submaximal for a true 8RM. Right conservative start. **Next Wednesday: open 145, work toward 155–160 to find the honest 8RM** (he's hit 155 for a 10-rep set before, so it's in reach).
+- **BSS 2× 25 × 8/side × 4** — genuine progression from the 2× 20 held at 10RM. Strong unilateral step into the 8RM block. ✓
+- **Trap bar 145 × 8 × 4** — held 145 (conservative; he's done 155 × 10). Room to move → **155–165 next time.** (4 sets vs the usual 3 on Slot 3 — fine, minor extra hinge volume.)
+- **Banded lateral walks progressed gray → black band** — glute-med finisher, heavier tension ✓.
+- **Glute-med main (Slot 4) not in the session** — finisher (Slot 5) in, but not the main abduction/thrust. Recurring gap; under the 2×/week structure Slot 4 now lands on Friday only this week. **Front-load a Slot 4 glute-med main into Friday's mix.**
+- No in-lift knee pain reported — first 8RM (heaviest bilateral load of the block) tolerated cleanly. 17.5-min sauna after.
+
+**Fri Jul 10 — Mixed lift (lower HSR core + upper)** (Week 7, 8RM block; **trap bar dropped at athlete's request** — declined a 2nd heavy hinge in 3 days to protect the lower back; **incline DB curl added**)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| L1 — knee-dom (3s/3s) | Leg press | 3 × 8 | 180 → 200 → 200 lb |
+| L4 — glute-med main | Side-lying hip abduction (DB), lead left | 3 × 10/side | 22.5 lb × 3 sets |
+| U1 — push (~2-1) | DB incline bench press (45°) | 3 × 8 | 2× 45 lb |
+| U2 — pull (~2-1) | 1-arm DB row | 3 × 10/side | 45 lb × 3 sets |
+| U5 — arms (~2-1) | Incline DB curl (45°) | 10 / 9 / 8 | 2× 22.5 lb |
+
+- **Trap bar dropped at athlete's request** — declined a second heavy hinge in 3 days given his documented lower-back/hinge sensitivity (the RDL→trap-bar swap history). Hinge got its work Wed; correct injury-aware call. Session shifted lighter-lower / bigger-upper, but the two tendon essentials (knee-dominant HSR + glute-med main) were preserved.
+- **Leg press found a real 8RM at 200** — opened 180, jumped to 200 for sets 2–3 and held. Strong step up from the 180 he'd used at 3×10; the 8RM block working as intended. Next leg-press day: open 190, confirm 200–205.
+- **Side-lying hip abduction 22.5 × 10/side × 3** — the Slot 4 glute-med main that slipped Wed, caught this time ✓.
+- **Incline DB press 2× 45 × 8 × 3** — held 45s for a clean 3×8 (vs last week's 8/8/7). Consolidating the ~8RM. Next: chase reps toward 3×10, or nudge to 2× 47.5.
+- **1-arm DB row 45 × 10 × 3** — stayed at 45 (target was 50); held clean again, so still has room → **50 next time.**
+- **Incline DB curl 2× 22.5 for 10/9/8** — first calibration; the rep fade pegs **2× 22.5 ≈ 10RM on the incline curl** (the stretched position is humbling). Baseline set — hold 22.5 and build reps.
+- No knee signal reported — first 200-lb leg-press 8RM tolerated cleanly. 20-min sauna (afternoon, post-work/lunch).
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Tue Jul 7 | 12 min | Post-run |
+| Wed Jul 8 | 17.5 min | Post-lift |
+| Thu Jul 9 | 20 min | Afternoon (post-run) |
+| Fri Jul 10 | 20 min | Afternoon (post-work/lunch) |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sun Jul 12 | 2/10 | 1/10 | Fresh AM before the 8-mile long run (back on Sunday cadence). **L ticked 1 → 2, R 0 → 1 — both up one; L still ≤2, so the gate technically passes.** Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → 1 (Jul 2) → **2 (Jul 12)**. Reads as the tendon's honest response to a big ~10-day load surge — hard 5K PR + first 8RM block (leg press to 200) + step to 16 mi — settling back to its long-standing baseline of 2 rather than a true regression. Not alarming (still green; no in-run or in-lift pain all week), but it's the **first uptick of the block, arriving right as load spiked → consolidate rather than press on.**
+
+### Week 7 wrap
+
+- **Full, clean step-up week.** 16.09 mi (Tue 4.03 + Thu 4.02 + Sun 8.04) + 2 lifts (Wed lower 8RM, Fri mixed). Monday's upper converted to rest (poor sleep) — the one gap.
+- **8RM block launched** — back squat 145×8 (eased in) → leg press found a genuine 8RM at 200 Friday; BSS to 2×25. Strength progressing well, no in-lift knee pain.
+- **Long-run breakthrough**: 8.04 mi, 426 ft, 90% humidity at HR 150 — more distance/hills/humidity than Jun 21 at a *lower* HR. Longest run since the April half.
+- **Upper baselines building**: incline press 2×45×8, row 45, incline curl 2×22.5.
+- **Decline squat ticked to L2/R1** (see above) — still green, but the signal to consolidate.
+- **Verdict**: strong week, tendon absorbed a lot. **Bank it — Week 8 holds volume.**
+
+## Week 8 (Jul 13 – Jul 19)
+
+**Consolidation week — hold, don't press.** After a ~10-day load surge (hard 5K + 8RM block + 16-mi step + longest run) nudged the decline squat L 1 → 2, the smart call is to **hold running at 16 mi** and **keep strength at 8RM** — repeat Week 7's numbers, absorb the load, re-test the decline squat next Sunday. If it settles back to ≤1 (or holds at 2 with no symptoms), Week 9 steps to 18 mi. Structure unchanged: Mon upper / Tue run / Wed lower HSR / Thu run / Fri mix / Sat rest-or-light / Sun long.
+
+**Focus**:
+- **Consolidate, not progress** — bank Week 7's gains; the tendon marker is the reason.
+- Strength: hold honest 8RMs (leg press ~200, back squat ~150, BSS 2×25); progress only what still has clear room (upper: row → 50, incline press → reps).
+- Keep an eye on the morning-after knee, especially after the 8-miler in the aging Saucony — **get the replacement pair in soon.**

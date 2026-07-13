@@ -28,4 +28,14 @@ Append-only log of race results. Source of truth for PRs and race-day narrative 
 
 ## 5K
 
-*No 5K races yet. 5K time trial planned for early June 2026.*
+### Firecracker 5K — Jul 4, 2026
+- **Result**: 26:56 net (chip) / 27:26 gun — **first official 5K, current PR**
+- **Distance / Pace**: 5K; ~8:40/mi at true 5K distance (net); watch recorded 3.14 mi @ 8:33/mi
+- **Placement**: Overall 185/686; Age 30–39: 21/57; Gender: 126/353 (gun) — bib 844
+- **Location**: Middle Tennessee (Nashville area) — "Firecracker" July 4 group fun run
+- **Conditions**: 69°F, feels like 74°F, 96% humidity, partly cloudy; 132 ft rolling; 7:00 AM start
+- **Avg HR**: 174 bpm (hard, raced effort)
+- **VO2 max**: 42.9 (heat/humidity-suppressed estimate — artifact, not a fitness read; true ~46–47)
+- **Shoes**: 2026-saucony (Guide 17)
+- **Timing**: A Matter of Timing (amatteroftiming.com); start split 0:29 (gun-to-mat gap)
+- **Narrative**: Billed as a "fun run" but raced it — fastest 5K of 2026, 2:52 under prior Strava best. Run mid-patellar-rehab (easy-only block) as a deliberate one-off hard effort on a flat-ish course; morning-after knee a benign 1/1. First real 5K benchmark — a soft number set in a heat wave during rehab, with clear upside once dedicated speed work resumes.
