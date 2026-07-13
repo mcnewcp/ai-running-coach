@@ -625,3 +625,31 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 - **Consolidate, not progress** — bank Week 7's gains; the tendon marker is the reason.
 - Strength: hold honest 8RMs (leg press ~200, back squat ~150, BSS 2×25); progress only what still has clear room (upper: row → 50, incline press → reps).
 - Keep an eye on the morning-after knee, especially after the 8-miler in the aging Saucony — **get the replacement pair in soon.**
+
+### Lift sessions
+
+**Mon Jul 13 — Dedicated upper-body** (Week 8; normal tempo ~2s/1s; day after Sunday's 8-mi long run, legs resting)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| U1 — horizontal push | Flat DB bench press | 3 × 8 | 2× 45 lb × 3 sets |
+| U2 — horizontal pull | Seated chest-supported row (Technogym) | 3 × 8 | 55/arm → 70 → 70 |
+| U3 — vertical push | Seated DB shoulder press | 3 × 8 | 2× 20 lb × 3 sets |
+| U4 — vertical pull | Lat pulldown | 3 × 8 | 100 → 100 → 85 |
+| U5 — arms superset | Overhead DB triceps ext + hammer curl | 3 × 10 | tri 30 lb / bi 2× 20 lb (all 3 rounds) |
+| U6 — core | — | — | Skipped |
+
+- **Full U1–U5 dedicated upper day — first Monday upper actually completed since the split began** (Jul 6 was converted to rest). Legs got their post-long-run break; upper body got a complete session. ✓
+- **Flat DB bench 2× 45 × 8 × 3** — clean and steady, matches Friday's incline 45s. Consolidating the horizontal-push pattern. Next: chase reps toward 3×10 or nudge to 2× 47.5.
+- **Chest-supported row jumped 55/arm → 70 → 70** — found the working weight fast and held 70 for two sets. Good, aggressive-but-controlled progression on the pull. Note the machine's loading scheme for next time so we can track it cleanly.
+- **DB shoulder press 2× 20 × 8 × 3** — first calibration on the vertical push under the split. Held 20s clean for 3×8 → likely has room; **try 2× 22.5 next dedicated upper day** if it moved easily.
+- **Lat pulldown 100 → 100 → 85** — the set-3 drop to 85 shows an honest working weight; 100 is right around the 8-rep ceiling. Hold 100 and build the third set back to 8.
+- **U5 superset (all-DB, per today's swap): overhead tri ext 30 + hammer curl 2× 20, 3× 10** — the antagonist superset run as planned, stayed at one station. Solid baselines to build from.
+- **U6 skipped** — fine; it's the optional slot. Roll the core/anti-rotation into a run day or Friday if you want it.
+- No knee involvement (upper-only day). **20-min sauna right after.** ✓
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jul 13 | 20 min | Post-lift |
