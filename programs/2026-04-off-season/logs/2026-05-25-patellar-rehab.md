@@ -648,8 +648,20 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 - **U6 skipped** — fine; it's the optional slot. Roll the core/anti-rotation into a run day or Friday if you want it.
 - No knee involvement (upper-only day). **20-min sauna right after.** ✓
 
+### Vacation note (Jul 14 – Jul 21)
+
+Family vacation: flew to Boston **Tue Jul 14**, driving up to **Bar Harbor, Maine** Thu Jul 16 through the following **Tuesday (Jul 21)**. Workouts **played by ear** — gym access uncertain, schedule fluid. Consolidation-week goals stay the same (hold ~16 mi, protect the knee), but structure flexes to what travel allows. Any easy Z2 miles + whatever bodyweight/glute-med work fits is a win; don't force lifts without equipment. Sauna continuity may lapse on the road — that's fine.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jul 14 | **Missed easy run — travel day** | Ran out of time before the flight to Boston; 12-min sauna only (below). No run. |
+| Wed Jul 15 | Easy 4.03 mi @ 11:09, HR 150, VO2 43.4 (Saucony) | **Vacation run** around the bay / Charles River basin, Cambridge MA. Flat (64 ft); partly cloudy 84°F feels 86°F, 67% humidity, wind 7.6 NW. **HR 150 right at the Z2 ceiling** — same disciplined easy effort as home. Pace 11:09. VO2 43.4 (nudging up as heat eases). Apple Watch Ultra 3. Same aging Saucony (**now ~288 mi — past the flag**). Effectively the week's Tue easy run, shifted a day by travel. No knee signal reported. |
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jul 13 | 20 min | Post-lift |
+| Tue Jul 14 | 12 min | Pre-flight, time-limited (travel day) |

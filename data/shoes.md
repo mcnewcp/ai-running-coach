@@ -2,7 +2,7 @@
 
 | Shoe | Model | Total Miles | Status | First Run | Last Run | Notes |
 |------|-------|-------------|--------|-----------|----------|-------|
-| 2026-saucony | Saucony Guide 17 | 284.21 | Active | 2026-01-07 | | Music City Half Marathon race day shoe (4/25/2026); **~284 mi — replace soon** (original Guide 17; approaching end of usable life, especially for long runs — new pair pending) |
+| 2026-saucony | Saucony Guide 17 | 288.24 | Active | 2026-01-07 | | Music City Half Marathon race day shoe (4/25/2026); **~288 mi — replace now** (original Guide 17; past usable life for long runs — new pair still pending, on vacation) |
 | 2026-mizuno | Mizuno Wave Inspire 22 | 159.16 | Active | 2026-02-19 | | |
 
 ---
