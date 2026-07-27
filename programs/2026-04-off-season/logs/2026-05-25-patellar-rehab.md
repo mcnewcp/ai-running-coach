@@ -663,7 +663,7 @@ Family vacation: flew to Boston **Tue Jul 14**, driving up to **Bar Harbor, Main
 
 | Date | Session | Notes |
 |---|---|---|
-| Fri Jul 18 | **Cut short — onset of illness** (Bar Harbor, ME; Saucony; VO2 43.3) | Vacation run in Bar Harbor; **ended prematurely as he started to feel very poor** — the onset of the illness that ran through the back end of the trip and into the return home. Distance/time/HR pending report. Not a training-quality run; flagged as the illness marker. |
+| Fri Jul 18 | **Cut short 3.07 mi @ 10:43, HR 153, VO2 43.3 (Saucony)** | Bar Harbor, ME vacation run, **ended prematurely as he felt very poor** — onset of the illness. Rolling 163 ft; cloudy 63°F feels 59°F, 70% humidity. **HR 153 = 3 bpm over the Z2 ceiling despite cool weather and an easy 10:43 pace** — retrospectively an early-illness cardiac signal (elevated HR in cool conditions, not heat or fitness). VO2 43.3. Apple Watch Ultra 3. Last run before the sickness wiped out the following week. |
 
 ### Sauna sessions
 
