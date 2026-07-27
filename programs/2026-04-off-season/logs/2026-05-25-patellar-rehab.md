@@ -697,3 +697,29 @@ Travel + illness cut this consolidation week well short of the planned 16 mi: on
 - **Back off lifting loads** ~15–20% on the first sessions back, reduced sets, RPE capped — rebuild to the 8RMs over 1–2 weeks rather than opening where he left off.
 - **Re-baseline the tendon.** No decline squat test since Jul 12 (L2/R1); **re-test fresh some morning this week before resuming lower HSR** to confirm the ~2-week layoff didn't stir it up.
 - **Today (Mon Jul 27):** dedicated **upper-body** re-entry — the ideal low-stakes first session back (no patellar load, no running). Keep it light and short.
+
+**Health status at return (Jul 27):** below- **and** above-the-neck illness — chest congestion/cough + sinus headaches. **Not yet symptom-free**, energy 6/10, on the mend. Session run as a light "movement snack" (RPE ~5, no straining/Valsalva, hard stops for chest/cardiac signs) rather than training. Chose to lift to help sleep.
+
+### Lift sessions
+
+**Mon Jul 27 — Dedicated upper-body, eased-back return** (Week 10; post-illness re-entry; loads backed off ~15–20% from Jul 13; RPE-capped)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| U1 — horizontal push | Incline DB bench | 2 × 8–10 | 2× 35–40 lb |
+| U2 — horizontal pull | Chest-supported row | 2 × 10 | ~55–60 |
+| U3 — vertical push | Seated DB shoulder press | 2 × 10 | 2× 15 lb |
+| U4 — vertical pull | Lat pulldown | 2 × 10 | 85 |
+| U5 — arms superset | OH tri ext + hammer curl | 1 round × 12 | tri 25 / bi 2× 15 |
+
+- **First session back after ~2 weeks off (travel + illness) — executed exactly as prescribed.** Two sets per slot, loads down ~15–20%, completed all five slots including the optional U5. No overreaching on day 1 back. ✓
+- **U1 came in as incline DB** (vs the planned flat) — fine rotation; keeps the horizontal-push pattern moving.
+- Loads are deliberately submaximal re-entry numbers — **not a strength data point**, just re-establishing the groove. Rebuild toward the pre-illness working weights (flat/incline 45s, row 70, press 20s, pulldown 100) over the next 1–2 sessions *as symptoms clear*, not before.
+- No knee involvement (upper-only). **20-min sauna after.**
+- **Next lift (lower HSR):** gate it behind a fresh decline squat re-test + clearing chest symptoms. Reintroduce lower load conservatively — the tendon hasn't been loaded since Jul 8/10; don't open at the 8RMs.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jul 27 | 20 min | Post-lift; also eases congestion |
