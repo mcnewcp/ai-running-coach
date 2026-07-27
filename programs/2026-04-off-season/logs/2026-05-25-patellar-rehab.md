@@ -659,9 +659,41 @@ Family vacation: flew to Boston **Tue Jul 14**, driving up to **Bar Harbor, Main
 | Tue Jul 14 | **Missed easy run — travel day** | Ran out of time before the flight to Boston; 12-min sauna only (below). No run. |
 | Wed Jul 15 | Easy 4.03 mi @ 11:09, HR 150, VO2 43.4 (Saucony) | **Vacation run** around the bay / Charles River basin, Cambridge MA. Flat (64 ft); partly cloudy 84°F feels 86°F, 67% humidity, wind 7.6 NW. **HR 150 right at the Z2 ceiling** — same disciplined easy effort as home. Pace 11:09. VO2 43.4 (nudging up as heat eases). Apple Watch Ultra 3. Same aging Saucony (**now ~288 mi — past the flag**). Effectively the week's Tue easy run, shifted a day by travel. No knee signal reported. |
 
+### Runs logged (Week 8, cont.)
+
+| Date | Session | Notes |
+|---|---|---|
+| Fri Jul 18 | **Cut short — onset of illness** (Bar Harbor, ME; Saucony; VO2 43.3) | Vacation run in Bar Harbor; **ended prematurely as he started to feel very poor** — the onset of the illness that ran through the back end of the trip and into the return home. Distance/time/HR pending report. Not a training-quality run; flagged as the illness marker. |
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jul 13 | 20 min | Post-lift |
 | Tue Jul 14 | 12 min | Pre-flight, time-limited (travel day) |
+
+### Week 8 wrap
+
+Travel + illness cut this consolidation week well short of the planned 16 mi: only **Wed 4.03 (Cambridge) + Fri 7/18 (Bar Harbor, cut short)** got run — no Sunday long run, no Wed/Fri lower HSR (on the road). The Mon upper lift was the one complete strength session. **Not a failed week — the right call given the circumstances.** Consolidation was already the theme; it just became a deeper deload than planned. Knee stayed quiet throughout.
+
+## Week 9 (Jul 20 – Jul 26) — Illness week
+
+**No training.** Coy got sick over the last days of the Bar Harbor trip and through the return home. Week 9 (the originally planned step to 18 mi) is written off as a **forced illness deload** — no runs, no lifts. Recovery saunas only (symptom relief).
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Thu Jul 23 | 20 min | Post-return-home; symptom recovery |
+| Fri Jul 24 | 20 min | Symptom recovery |
+| Sat Jul 25 | 20 min | Symptom recovery |
+
+## Week 10 (Jul 27 – Aug 2) — Return to training (post-illness)
+
+**Ease back in — do NOT resume at the pre-vacation load.** Between travel (Week 8 cut short) and illness (Week 9 lost), this is effectively a **~2-week gap in lower-body HSR** (last full lift Jul 13) and a broken running rhythm (last run Jul 18, cut short). The original "Week 10 = 20 mi" target is off the table.
+
+**Return principles:**
+- **Reset the running progression, don't chase it.** Rebuild toward ~14–16 mi of easy Z2 first; the calendar's mileage targets wait until rhythm + health are re-established.
+- **Back off lifting loads** ~15–20% on the first sessions back, reduced sets, RPE capped — rebuild to the 8RMs over 1–2 weeks rather than opening where he left off.
+- **Re-baseline the tendon.** No decline squat test since Jul 12 (L2/R1); **re-test fresh some morning this week before resuming lower HSR** to confirm the ~2-week layoff didn't stir it up.
+- **Today (Mon Jul 27):** dedicated **upper-body** re-entry — the ideal low-stakes first session back (no patellar load, no running). Keep it light and short.
