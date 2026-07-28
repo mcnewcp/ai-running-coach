@@ -733,3 +733,15 @@ Travel + illness cut this consolidation week well short of the planned 16 mi: on
 ### Return read (Tue Jul 28, AM)
 
 Slept better after Monday's light lift, feels "pleasantly worked," **not yet fully symptom-free but clearly improving.** Wants an easy run today. Cleared for a **short, HR-capped, flat easy run** with abort criteria (see plan) — chest illness means the run's cardio load is the variable to watch (elevated easy-HR was the 7/18 early-illness tell).
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jul 28 | **Illness-recovery walk/run 2.21 mi @ 13:08, HR 141, VO2 42.6 (Saucony)** | Smith Park paved trails, Brentwood TN; rolling 133 ft; **hot direct sun, clear 86°F feels 88°F, 73% humidity.** Executed exactly to prescription: 2.21 mi (under the 2–3 cap), **HR 141 held under the 145 cap** with walk breaks (13:08 avg incl. walking). **Strong recovery signal: 141 bpm in 86°F today vs 153 in 63°F on 7/18** — same-or-lower HR in ~25°F more heat = cardiac response normalizing, no early-illness spike. Still a few coughs + slight chest rattle (not symptom-free, expected). VO2 42.6 (heat + residual illness suppressed — ignore). Knee L1/R0. **First run back, clean.** 20-min sauna ~20 min after. |
+
+### Sauna sessions (cont.)
+
+| Date | Duration | Notes |
+|---|---|---|
+| Tue Jul 28 | 20 min | ~20 min post-run; eases residual congestion |
