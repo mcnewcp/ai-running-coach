@@ -723,3 +723,13 @@ Travel + illness cut this consolidation week well short of the planned 16 mi: on
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Jul 27 | 20 min | Post-lift; also eases congestion |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Tue Jul 28 | 1/10 | 0/10 | Fresh AM. **Best score of the block** — L 1, R 0. Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → 1 (Jul 2) → 2 (Jul 12) → **1/0 (Jul 28)**. The forced ~2-week layoff (travel + illness) was **restorative for the tendon** — it settled the Jul 12 uptick right back down. Confirms the layoff didn't stir it up; clean green light to resume lower HSR once chest symptoms clear (open conservatively, below the 8RMs, given the detraining). |
+
+### Return read (Tue Jul 28, AM)
+
+Slept better after Monday's light lift, feels "pleasantly worked," **not yet fully symptom-free but clearly improving.** Wants an easy run today. Cleared for a **short, HR-capped, flat easy run** with abort criteria (see plan) — chest illness means the run's cardio load is the variable to watch (elevated easy-HR was the 7/18 early-illness tell).
