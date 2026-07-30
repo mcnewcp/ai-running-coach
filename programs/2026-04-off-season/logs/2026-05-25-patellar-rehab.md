@@ -752,3 +752,15 @@ Slept better after Monday's light lift, feels "pleasantly worked," **not yet ful
 |---|---|---|
 | Tue Jul 28 | 20 min | ~20 min post-run; eases residual congestion |
 | Wed Jul 29 | 20 min | Post-walk |
+
+### Amendment — Jul 30, 2026 (Week 10): Strength restructured to general movement-pattern framework
+
+At the athlete's request, the strength program is simplified from the HSR + glute-med slot structure to a **general six-pattern framework** with **double-progression** overload (reps first, then load). New durable reference: [resources/strength-training.md](../../../resources/strength-training.md).
+
+- **Keeps** the Mon/Wed/Fri cadence and Mon-upper / Wed-lower / Fri-mix split.
+- **Six patterns**: horizontal push, horizontal pull, vertical press, vertical pull, squat, hinge. Single-leg work folded into squat/hinge. Optional finisher (core/carry, arms, or glute-med) — never mandatory.
+- **Progression**: 3 × 8–12 mains; add reps to the top of the range across all sets, then +2.5–5 lb (upper) / +5–10 lb (lower) and reset to the bottom. **Coach maintains the running load/rep history from the athlete's per-session reports and flags when to bump.**
+- **Tendon guardrails retained through Aug 16**: ~3s squat descent (HSR benefit baked in), weekly Saturday decline-squat test, conservative lower-load reintroduction after the layoff (~30% below pre-layoff, climb over 1–2 sessions).
+- **Debuts Friday Aug 1** (next lift day).
+
+Prior structure (HSR 5-slot template + upper-body split) retained in this file's history and in [hsr-protocols.md](../../../resources/hsr-protocols.md) / [upper-body-protocols.md](../../../resources/upper-body-protocols.md) as archive.
