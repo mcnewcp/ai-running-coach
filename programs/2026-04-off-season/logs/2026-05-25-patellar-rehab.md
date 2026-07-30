@@ -739,6 +739,7 @@ Slept better after Monday's light lift, feels "pleasantly worked," **not yet ful
 | Date | Session | Notes |
 |---|---|---|
 | Tue Jul 28 | **Illness-recovery walk/run 2.21 mi @ 13:08, HR 141, VO2 42.6 (Saucony)** | Smith Park paved trails, Brentwood TN; rolling 133 ft; **hot direct sun, clear 86°F feels 88°F, 73% humidity.** Executed exactly to prescription: 2.21 mi (under the 2–3 cap), **HR 141 held under the 145 cap** with walk breaks (13:08 avg incl. walking). **Strong recovery signal: 141 bpm in 86°F today vs 153 in 63°F on 7/18** — same-or-lower HR in ~25°F more heat = cardiac response normalizing, no early-illness spike. Still a few coughs + slight chest rattle (not symptom-free, expected). VO2 42.6 (heat + residual illness suppressed — ignore). Knee L1/R0. **First run back, clean.** 20-min sauna ~20 min after. |
+| Thu Jul 30 | **Chill easy 2.01 mi @ 11:29, HR 141, VO2 42.5 (Saucony)** | Crockett Park paved trails, Brentwood TN; flat (25 ft); clear 79°F feels 84°F, 67% humidity. **HR 141, 4 bpm under the 145 cap** — and this time a **continuous run** (no walk breaks) vs Tue's walk/run at the same HR: recovery progressing. 2nd run back. Chest breathing held fine; still slight rattle/cough + sore throat (marginally better). VO2 42.5 (suppressed, ignore). Saucony ~296 mi. 20-min sauna ~45 min after. |
 
 ### Recovery movement (non-run)
 
@@ -752,6 +753,7 @@ Slept better after Monday's light lift, feels "pleasantly worked," **not yet ful
 |---|---|---|
 | Tue Jul 28 | 20 min | ~20 min post-run; eases residual congestion |
 | Wed Jul 29 | 20 min | Post-walk |
+| Thu Jul 30 | 20 min | ~45 min post-run |
 
 ### Amendment — Jul 30, 2026 (Week 10): Strength restructured to general movement-pattern framework
 
