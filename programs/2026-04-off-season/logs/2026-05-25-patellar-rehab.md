@@ -740,8 +740,15 @@ Slept better after Monday's light lift, feels "pleasantly worked," **not yet ful
 |---|---|---|
 | Tue Jul 28 | **Illness-recovery walk/run 2.21 mi @ 13:08, HR 141, VO2 42.6 (Saucony)** | Smith Park paved trails, Brentwood TN; rolling 133 ft; **hot direct sun, clear 86°F feels 88°F, 73% humidity.** Executed exactly to prescription: 2.21 mi (under the 2–3 cap), **HR 141 held under the 145 cap** with walk breaks (13:08 avg incl. walking). **Strong recovery signal: 141 bpm in 86°F today vs 153 in 63°F on 7/18** — same-or-lower HR in ~25°F more heat = cardiac response normalizing, no early-illness spike. Still a few coughs + slight chest rattle (not symptom-free, expected). VO2 42.6 (heat + residual illness suppressed — ignore). Knee L1/R0. **First run back, clean.** 20-min sauna ~20 min after. |
 
+### Recovery movement (non-run)
+
+| Date | Activity | Notes |
+|---|---|---|
+| Wed Jul 29 | Treadmill incline walk — 1.08 mi, 20:02, **avg HR 122 / max 143** | Opted for a walk over the prescribed mobility/glute-med session; cranked the incline to lift HR. Low-impact, tendon-safe, chest-appropriate (avg HR 122 is a gentle recovery load). **Not logged to `runs.csv`** per the walking-only exclusion; no shoe mileage (treadmill). Coaching note: on recovery days he doesn't need to *chase* HR — easy is the whole point — but no harm here, and it scratched the "need to move" itch. Glute-med activation still owed on a future day. |
+
 ### Sauna sessions (cont.)
 
 | Date | Duration | Notes |
 |---|---|---|
 | Tue Jul 28 | 20 min | ~20 min post-run; eases residual congestion |
+| Wed Jul 29 | 20 min | Post-walk |
