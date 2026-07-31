@@ -766,3 +766,39 @@ At the athlete's request, the strength program is simplified from the HSR + glut
 - **Debuts Friday Aug 1** (next lift day).
 
 Prior structure (HSR 5-slot template + upper-body split) retained in this file's history and in [hsr-protocols.md](../../../resources/hsr-protocols.md) / [upper-body-protocols.md](../../../resources/upper-body-protocols.md) as archive.
+
+### Lift sessions (cont.) — New framework debut
+
+**Fri Jul 31 — Mix day, Session 1 on the six-pattern framework** (first real lower load since Jul 8/10; conservative openers to set baselines)
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 12 | 2× 40 lb |
+| Vertical pull | Lat pulldown | 3 × 12 | 85 lb |
+| Squat | Goblet squat (~3s descent) | 3 × 12 | 53 lb (green KB) |
+| Finisher | Pallof press | 2 × 12/side | 20 lb cable |
+
+*(Notebook had the lat pulldown & goblet squat results written in each other's rows — athlete flagged the swap; corrected above.)*
+
+- **All three mains hit 3×12 (top of range) clean** — expected, since these were deliberately conservative re-entry openers. Per double progression, **all graduate to a load bump next exposure.** Early re-entry gains will move fast for a session or two before settling.
+- **Next-time bumps:** incline DB bench **40 → 45** (back to his pre-illness weight); lat pulldown **85 → 90–95** (toward pre-illness 100); goblet squat **53 → 60–70** *(but see ceiling note)*.
+- **Goblet squat ceiling flag:** 53 lb × 3×12 easy confirms the legs have far more — goblet load is capped by the grip/hold, not leg strength (his pre-illness leg press was 200, back squat ~145). Goblet was ideal for a careful first-session-back knee feel-out, but **Wednesday's lower day should move to back squat or leg press** to actually load the legs, keeping the 3s descent. Goblet can stay as a warm-up.
+- **No knee pain reported** on the goblet squats (first loaded knee-dominant work since the layoff) — consistent with the L1/R0 decline squat. Confirm knee felt clean.
+- Lifting tolerated fine with residual illness (low cardio demand). 20-min sauna after.
+
+### InBody results (Fri Jul 31)
+
+| Metric | Value | Read |
+|---|---|---|
+| Weight | 177.1 lb | Up from the profile's 171 baseline — consistent with vacation + illness (reduced training volume). Expect it to trend back with training resumption. |
+| Skeletal muscle mass (SMM) | 82.0 lb | Solid muscle mass for his frame — the strength work is well-supported. |
+| Percent body fat (PBF) | 19.1% | Up from the profile's 15.5% — again tracks the vacation/illness gap in training + eating. A data point, not a concern; will respond to resumed volume. |
+| ECW/TBW | 0.363 | **Healthy fluid balance** (normal ~0.36–0.39). No systemic edema/inflammation signal — a reassuring post-illness marker that the body's recovering cleanly. |
+
+*(Body-comp snapshot; CLAUDE.md profile figures (171 lb / 15.5% BF) are older — treat this InBody as the current reference. Not duplicated into CLAUDE.md; time-varying state.)*
+
+### Sauna sessions (cont. 2)
+
+| Date | Duration | Notes |
+|---|---|---|
+| Fri Jul 31 | 20 min | Post-lift |
