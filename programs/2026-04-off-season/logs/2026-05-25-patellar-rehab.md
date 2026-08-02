@@ -802,3 +802,4 @@ Prior structure (HSR 5-slot template + upper-body split) retained in this file's
 | Date | Duration | Notes |
 |---|---|---|
 | Fri Jul 31 | 20 min | Post-lift |
+| Sat Aug 1 | 20 min | Stopped by the gym |
