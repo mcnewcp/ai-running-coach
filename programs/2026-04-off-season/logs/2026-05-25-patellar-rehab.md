@@ -729,6 +729,7 @@ Travel + illness cut this consolidation week well short of the planned 16 mi: on
 | Date | Left | Right | Conditions |
 |---|---|---|---|
 | Tue Jul 28 | 1/10 | 0/10 | Fresh AM. **Best score of the block** — L 1, R 0. Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → 1 (Jul 2) → 2 (Jul 12) → **1/0 (Jul 28)**. The forced ~2-week layoff (travel + illness) was **restorative for the tendon** — it settled the Jul 12 uptick right back down. Confirms the layoff didn't stir it up; clean green light to resume lower HSR once chest symptoms clear (open conservatively, below the 8RMs, given the detraining). |
+| Sun Aug 2 | 1/10 | 0/10 | Weekly test (a day late — Sat was a rest/sauna day). **Holds at the block-best L1/R0** through the return to running (3 easy runs) and the first loaded goblet squats (Fri, no pain). Trend now: … → 2 (Jul 12) → 1/0 (Jul 28) → **1/0 (Aug 2)**. Tendon is stable and happy at the best score of the block — green light to load the legs heavier Wed (back squat / leg press, 3s descent). |
 
 ### Return read (Tue Jul 28, AM)
 
@@ -740,6 +741,7 @@ Slept better after Monday's light lift, feels "pleasantly worked," **not yet ful
 |---|---|---|
 | Tue Jul 28 | **Illness-recovery walk/run 2.21 mi @ 13:08, HR 141, VO2 42.6 (Saucony)** | Smith Park paved trails, Brentwood TN; rolling 133 ft; **hot direct sun, clear 86°F feels 88°F, 73% humidity.** Executed exactly to prescription: 2.21 mi (under the 2–3 cap), **HR 141 held under the 145 cap** with walk breaks (13:08 avg incl. walking). **Strong recovery signal: 141 bpm in 86°F today vs 153 in 63°F on 7/18** — same-or-lower HR in ~25°F more heat = cardiac response normalizing, no early-illness spike. Still a few coughs + slight chest rattle (not symptom-free, expected). VO2 42.6 (heat + residual illness suppressed — ignore). Knee L1/R0. **First run back, clean.** 20-min sauna ~20 min after. |
 | Thu Jul 30 | **Chill easy 2.01 mi @ 11:29, HR 141, VO2 42.5 (Saucony)** | Crockett Park paved trails, Brentwood TN; flat (25 ft); clear 79°F feels 84°F, 67% humidity. **HR 141 avg, 4 bpm under the 145 cap** — took a couple walk breaks when HR touched 150 (same disciplined HR management as Tue, not yet fully continuous). 2nd run back. Chest breathing held fine; still slight rattle/cough + sore throat (marginally better). VO2 42.5 (suppressed, ignore). Saucony ~296 mi. 20-min sauna ~45 min after. |
+| Sun Aug 2 | **Easy 3.10 mi @ 11:11, HR 151, VO2 42.3 (Mizuno)** | Smith Park paved trails, Brentwood TN; rolling 182 ft; cloudy 72°F feels 71°F, 84% humidity. **First 3-miler back** — gently extending duration. HR 151 = 1 bpm over the ~150 cap, **well-controlled** on rolling terrain in 84% humidity (no walk breaks needed at the higher cap). **Chest essentially cleared** (only occasional cough). **Rotated to the Mizuno** — rested the worn Saucony, good shoe management. VO2 42.3 (humidity-suppressed, ignore). Closes a clean comeback week. |
 
 ### Recovery movement (non-run)
 
