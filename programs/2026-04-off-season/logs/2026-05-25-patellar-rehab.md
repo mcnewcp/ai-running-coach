@@ -805,3 +805,32 @@ Prior structure (HSR 5-slot template + upper-body split) retained in this file's
 |---|---|---|
 | Fri Jul 31 | 20 min | Post-lift |
 | Sat Aug 1 | 20 min | Stopped by the gym |
+
+## Week 11 (Aug 3 – Aug 9) — Comeback consolidation
+
+Calendar says Week 11 (22 mi target), but that's off the table — we're rebuilding off a clean comeback week that topped out at Sunday's 3-miler. Rhythm and health first, mileage targets wait. Chest essentially cleared (Aug 2), decline squat holding block-best L1/R0. Strength continues on the six-pattern framework, climbing back toward pre-illness working weights.
+
+### Lift sessions
+
+**Mon Aug 3 — Upper day (six-pattern framework)**
+
+| Pattern | Exercise | Goal | Achieved |
+|---|---|---|---|
+| Horizontal push | Flat DB bench | 3 × 8–12 @ 2× 45 lb | 45 lb × 9, 9, 9 |
+| Horizontal pull | Chest-supported row *(Technogym, plate-loaded per arm)* | 3 × 8–12 @ 70 lb | **55 lb/arm × 12, 12, 12** |
+| Vertical press | Seated DB shoulder press | 3 × 8–12 @ 2× 20 lb | 22.5 lb × 8, 9, 10 |
+| Vertical pull | Lat pulldown | 3 × 8–12 @ 95 lb | 90 × 12, then 95 × 12, 13 |
+| Finisher | Hammer curl + OH triceps ext | 2–3 × 12 | curl 22.5 × 12, 12 · tri 30 × 12, 12 |
+
+- **Strong session — essentially at pre-illness working weights, no illness/knee limitation.** Clear confirmation he's back. Upper-only day, no patellar load.
+- **Row modality change:** switched to the **plate-loaded Technogym chest-supported row, 55 lb/arm** — his stated preferred method for this pattern going forward. Not directly comparable to the pre-illness 70/arm chest-supported machine (different lever/loading); **treat 55/arm on the Technogym as the new baseline** for this lift. 12,12,12 clean at the top of the range → **graduates: add one plate (→ ~60/arm) next row session.**
+- **Flat DB bench 45 × 9,9,9** — back at his pre-illness working weight, sitting mid-range. Hold 45, chase reps toward 3×12 before bumping to 50s.
+- **Seated DB shoulder press 22.5 × 8,9,10** — jumped from 20 to 22.5 (past pre-illness 20s); honest working weight, building the sets up. Hold 22.5, work toward 3×12.
+- **Lat pulldown 90 → 95 (12, 13)** — the two working sets at 95 hit the top of the range. Next time run all 3 working sets at 95 for 3×12, then graduate to 100 (his pre-illness number).
+- Finishers done as prescribed. 20-min sauna after.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Aug 3 | 20 min | Post-lift |
