@@ -1,5 +1,7 @@
 # Strength Training Protocol — HSR-Based, Patellar-Tendon-Focused
 
+> **Note (Jul 30, 2026):** The athlete's go-forward general strength program moved to a simpler movement-pattern framework — see [strength-training.md](strength-training.md). **This file remains active** for: (1) the **single-leg decline-squat test protocol** (still run weekly through Aug 16), and (2) the HSR history/reference for the 2026 patellar rehab block. The ~3s squat descent from HSR is carried into the new framework as the one tendon-protective habit worth keeping.
+
 **Purpose**: Heavy Slow Resistance (HSR) loading for patellar tendon remodeling, plus integrated glute medius work for hip-control / knee-stability insurance.
 
 **Frequency**: 3x per week during dedicated rehab blocks; 2x per week as ongoing maintenance once symptom-free.

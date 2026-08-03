@@ -625,3 +625,183 @@ Planned dedicated upper day **converted to full rest.** Poor sleep last night + 
 - **Consolidate, not progress** — bank Week 7's gains; the tendon marker is the reason.
 - Strength: hold honest 8RMs (leg press ~200, back squat ~150, BSS 2×25); progress only what still has clear room (upper: row → 50, incline press → reps).
 - Keep an eye on the morning-after knee, especially after the 8-miler in the aging Saucony — **get the replacement pair in soon.**
+
+### Lift sessions
+
+**Mon Jul 13 — Dedicated upper-body** (Week 8; normal tempo ~2s/1s; day after Sunday's 8-mi long run, legs resting)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| U1 — horizontal push | Flat DB bench press | 3 × 8 | 2× 45 lb × 3 sets |
+| U2 — horizontal pull | Seated chest-supported row (Technogym) | 3 × 8 | 55/arm → 70 → 70 |
+| U3 — vertical push | Seated DB shoulder press | 3 × 8 | 2× 20 lb × 3 sets |
+| U4 — vertical pull | Lat pulldown | 3 × 8 | 100 → 100 → 85 |
+| U5 — arms superset | Overhead DB triceps ext + hammer curl | 3 × 10 | tri 30 lb / bi 2× 20 lb (all 3 rounds) |
+| U6 — core | — | — | Skipped |
+
+- **Full U1–U5 dedicated upper day — first Monday upper actually completed since the split began** (Jul 6 was converted to rest). Legs got their post-long-run break; upper body got a complete session. ✓
+- **Flat DB bench 2× 45 × 8 × 3** — clean and steady, matches Friday's incline 45s. Consolidating the horizontal-push pattern. Next: chase reps toward 3×10 or nudge to 2× 47.5.
+- **Chest-supported row jumped 55/arm → 70 → 70** — found the working weight fast and held 70 for two sets. Good, aggressive-but-controlled progression on the pull. Note the machine's loading scheme for next time so we can track it cleanly.
+- **DB shoulder press 2× 20 × 8 × 3** — first calibration on the vertical push under the split. Held 20s clean for 3×8 → likely has room; **try 2× 22.5 next dedicated upper day** if it moved easily.
+- **Lat pulldown 100 → 100 → 85** — the set-3 drop to 85 shows an honest working weight; 100 is right around the 8-rep ceiling. Hold 100 and build the third set back to 8.
+- **U5 superset (all-DB, per today's swap): overhead tri ext 30 + hammer curl 2× 20, 3× 10** — the antagonist superset run as planned, stayed at one station. Solid baselines to build from.
+- **U6 skipped** — fine; it's the optional slot. Roll the core/anti-rotation into a run day or Friday if you want it.
+- No knee involvement (upper-only day). **20-min sauna right after.** ✓
+
+### Vacation note (Jul 14 – Jul 21)
+
+Family vacation: flew to Boston **Tue Jul 14**, driving up to **Bar Harbor, Maine** Thu Jul 16 through the following **Tuesday (Jul 21)**. Workouts **played by ear** — gym access uncertain, schedule fluid. Consolidation-week goals stay the same (hold ~16 mi, protect the knee), but structure flexes to what travel allows. Any easy Z2 miles + whatever bodyweight/glute-med work fits is a win; don't force lifts without equipment. Sauna continuity may lapse on the road — that's fine.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jul 14 | **Missed easy run — travel day** | Ran out of time before the flight to Boston; 12-min sauna only (below). No run. |
+| Wed Jul 15 | Easy 4.03 mi @ 11:09, HR 150, VO2 43.4 (Saucony) | **Vacation run** around the bay / Charles River basin, Cambridge MA. Flat (64 ft); partly cloudy 84°F feels 86°F, 67% humidity, wind 7.6 NW. **HR 150 right at the Z2 ceiling** — same disciplined easy effort as home. Pace 11:09. VO2 43.4 (nudging up as heat eases). Apple Watch Ultra 3. Same aging Saucony (**now ~288 mi — past the flag**). Effectively the week's Tue easy run, shifted a day by travel. No knee signal reported. |
+
+### Runs logged (Week 8, cont.)
+
+| Date | Session | Notes |
+|---|---|---|
+| Fri Jul 18 | **Cut short 3.07 mi @ 10:43, HR 153, VO2 43.3 (Saucony)** | Bar Harbor, ME vacation run, **ended prematurely as he felt very poor** — onset of the illness. Rolling 163 ft; cloudy 63°F feels 59°F, 70% humidity. **HR 153 = 3 bpm over the Z2 ceiling despite cool weather and an easy 10:43 pace** — retrospectively an early-illness cardiac signal (elevated HR in cool conditions, not heat or fitness). VO2 43.3. Apple Watch Ultra 3. Last run before the sickness wiped out the following week. |
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jul 13 | 20 min | Post-lift |
+| Tue Jul 14 | 12 min | Pre-flight, time-limited (travel day) |
+
+### Week 8 wrap
+
+Travel + illness cut this consolidation week well short of the planned 16 mi: only **Wed 4.03 (Cambridge) + Fri 7/18 (Bar Harbor, cut short)** got run — no Sunday long run, no Wed/Fri lower HSR (on the road). The Mon upper lift was the one complete strength session. **Not a failed week — the right call given the circumstances.** Consolidation was already the theme; it just became a deeper deload than planned. Knee stayed quiet throughout.
+
+## Week 9 (Jul 20 – Jul 26) — Illness week
+
+**No training.** Coy got sick over the last days of the Bar Harbor trip and through the return home. Week 9 (the originally planned step to 18 mi) is written off as a **forced illness deload** — no runs, no lifts. Recovery saunas only (symptom relief).
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Thu Jul 23 | 20 min | Post-return-home; symptom recovery |
+| Fri Jul 24 | 20 min | Symptom recovery |
+| Sat Jul 25 | 20 min | Symptom recovery |
+
+## Week 10 (Jul 27 – Aug 2) — Return to training (post-illness)
+
+**Ease back in — do NOT resume at the pre-vacation load.** Between travel (Week 8 cut short) and illness (Week 9 lost), this is effectively a **~2-week gap in lower-body HSR** (last full lift Jul 13) and a broken running rhythm (last run Jul 18, cut short). The original "Week 10 = 20 mi" target is off the table.
+
+**Return principles:**
+- **Reset the running progression, don't chase it.** Rebuild toward ~14–16 mi of easy Z2 first; the calendar's mileage targets wait until rhythm + health are re-established.
+- **Back off lifting loads** ~15–20% on the first sessions back, reduced sets, RPE capped — rebuild to the 8RMs over 1–2 weeks rather than opening where he left off.
+- **Re-baseline the tendon.** No decline squat test since Jul 12 (L2/R1); **re-test fresh some morning this week before resuming lower HSR** to confirm the ~2-week layoff didn't stir it up.
+- **Today (Mon Jul 27):** dedicated **upper-body** re-entry — the ideal low-stakes first session back (no patellar load, no running). Keep it light and short.
+
+**Health status at return (Jul 27):** below- **and** above-the-neck illness — chest congestion/cough + sinus headaches. **Not yet symptom-free**, energy 6/10, on the mend. Session run as a light "movement snack" (RPE ~5, no straining/Valsalva, hard stops for chest/cardiac signs) rather than training. Chose to lift to help sleep.
+
+### Lift sessions
+
+**Mon Jul 27 — Dedicated upper-body, eased-back return** (Week 10; post-illness re-entry; loads backed off ~15–20% from Jul 13; RPE-capped)
+
+| Slot | Exercise | Sets × Reps | Working loads |
+|---|---|---|---|
+| U1 — horizontal push | Incline DB bench | 2 × 8–10 | 2× 35–40 lb |
+| U2 — horizontal pull | Chest-supported row | 2 × 10 | ~55–60 |
+| U3 — vertical push | Seated DB shoulder press | 2 × 10 | 2× 15 lb |
+| U4 — vertical pull | Lat pulldown | 2 × 10 | 85 |
+| U5 — arms superset | OH tri ext + hammer curl | 1 round × 12 | tri 25 / bi 2× 15 |
+
+- **First session back after ~2 weeks off (travel + illness) — executed exactly as prescribed.** Two sets per slot, loads down ~15–20%, completed all five slots including the optional U5. No overreaching on day 1 back. ✓
+- **U1 came in as incline DB** (vs the planned flat) — fine rotation; keeps the horizontal-push pattern moving.
+- Loads are deliberately submaximal re-entry numbers — **not a strength data point**, just re-establishing the groove. Rebuild toward the pre-illness working weights (flat/incline 45s, row 70, press 20s, pulldown 100) over the next 1–2 sessions *as symptoms clear*, not before.
+- No knee involvement (upper-only). **20-min sauna after.**
+- **Next lift (lower HSR):** gate it behind a fresh decline squat re-test + clearing chest symptoms. Reintroduce lower load conservatively — the tendon hasn't been loaded since Jul 8/10; don't open at the 8RMs.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Jul 27 | 20 min | Post-lift; also eases congestion |
+
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Tue Jul 28 | 1/10 | 0/10 | Fresh AM. **Best score of the block** — L 1, R 0. Trend: 3 (May 31) → 2 (Jun 7) → 2 (Jun 11) → 2 (Jun 21) → 1 (Jul 2) → 2 (Jul 12) → **1/0 (Jul 28)**. The forced ~2-week layoff (travel + illness) was **restorative for the tendon** — it settled the Jul 12 uptick right back down. Confirms the layoff didn't stir it up; clean green light to resume lower HSR once chest symptoms clear (open conservatively, below the 8RMs, given the detraining). |
+| Sun Aug 2 | 1/10 | 0/10 | Weekly test (a day late — Sat was a rest/sauna day). **Holds at the block-best L1/R0** through the return to running (3 easy runs) and the first loaded goblet squats (Fri, no pain). Trend now: … → 2 (Jul 12) → 1/0 (Jul 28) → **1/0 (Aug 2)**. Tendon is stable and happy at the best score of the block — green light to load the legs heavier Wed (back squat / leg press, 3s descent). |
+
+### Return read (Tue Jul 28, AM)
+
+Slept better after Monday's light lift, feels "pleasantly worked," **not yet fully symptom-free but clearly improving.** Wants an easy run today. Cleared for a **short, HR-capped, flat easy run** with abort criteria (see plan) — chest illness means the run's cardio load is the variable to watch (elevated easy-HR was the 7/18 early-illness tell).
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Jul 28 | **Illness-recovery walk/run 2.21 mi @ 13:08, HR 141, VO2 42.6 (Saucony)** | Smith Park paved trails, Brentwood TN; rolling 133 ft; **hot direct sun, clear 86°F feels 88°F, 73% humidity.** Executed exactly to prescription: 2.21 mi (under the 2–3 cap), **HR 141 held under the 145 cap** with walk breaks (13:08 avg incl. walking). **Strong recovery signal: 141 bpm in 86°F today vs 153 in 63°F on 7/18** — same-or-lower HR in ~25°F more heat = cardiac response normalizing, no early-illness spike. Still a few coughs + slight chest rattle (not symptom-free, expected). VO2 42.6 (heat + residual illness suppressed — ignore). Knee L1/R0. **First run back, clean.** 20-min sauna ~20 min after. |
+| Thu Jul 30 | **Chill easy 2.01 mi @ 11:29, HR 141, VO2 42.5 (Saucony)** | Crockett Park paved trails, Brentwood TN; flat (25 ft); clear 79°F feels 84°F, 67% humidity. **HR 141 avg, 4 bpm under the 145 cap** — took a couple walk breaks when HR touched 150 (same disciplined HR management as Tue, not yet fully continuous). 2nd run back. Chest breathing held fine; still slight rattle/cough + sore throat (marginally better). VO2 42.5 (suppressed, ignore). Saucony ~296 mi. 20-min sauna ~45 min after. |
+| Sun Aug 2 | **Easy 3.10 mi @ 11:11, HR 151, VO2 42.3 (Mizuno)** | Smith Park paved trails, Brentwood TN; rolling 182 ft; cloudy 72°F feels 71°F, 84% humidity. **First 3-miler back** — gently extending duration. HR 151 = 1 bpm over the ~150 cap, **well-controlled** on rolling terrain in 84% humidity (no walk breaks needed at the higher cap). **Chest essentially cleared** (only occasional cough). **Rotated to the Mizuno** — rested the worn Saucony, good shoe management. VO2 42.3 (humidity-suppressed, ignore). Closes a clean comeback week. |
+
+### Recovery movement (non-run)
+
+| Date | Activity | Notes |
+|---|---|---|
+| Wed Jul 29 | Treadmill incline walk — 1.08 mi, 20:02, **avg HR 122 / max 143** | Opted for a walk over the prescribed mobility/glute-med session; cranked the incline to lift HR. Low-impact, tendon-safe, chest-appropriate (avg HR 122 is a gentle recovery load). **Not logged to `runs.csv`** per the walking-only exclusion; no shoe mileage (treadmill). Coaching note: on recovery days he doesn't need to *chase* HR — easy is the whole point — but no harm here, and it scratched the "need to move" itch. Glute-med activation still owed on a future day. |
+
+### Sauna sessions (cont.)
+
+| Date | Duration | Notes |
+|---|---|---|
+| Tue Jul 28 | 20 min | ~20 min post-run; eases residual congestion |
+| Wed Jul 29 | 20 min | Post-walk |
+| Thu Jul 30 | 20 min | ~45 min post-run |
+
+### Amendment — Jul 30, 2026 (Week 10): Strength restructured to general movement-pattern framework
+
+At the athlete's request, the strength program is simplified from the HSR + glute-med slot structure to a **general six-pattern framework** with **double-progression** overload (reps first, then load). New durable reference: [resources/strength-training.md](../../../resources/strength-training.md).
+
+- **Keeps** the Mon/Wed/Fri cadence and Mon-upper / Wed-lower / Fri-mix split.
+- **Six patterns**: horizontal push, horizontal pull, vertical press, vertical pull, squat, hinge. Single-leg work folded into squat/hinge. Optional finisher (core/carry, arms, or glute-med) — never mandatory.
+- **Progression**: 3 × 8–12 mains; add reps to the top of the range across all sets, then +2.5–5 lb (upper) / +5–10 lb (lower) and reset to the bottom. **Coach maintains the running load/rep history from the athlete's per-session reports and flags when to bump.**
+- **Tendon guardrails retained through Aug 16**: ~3s squat descent (HSR benefit baked in), weekly Saturday decline-squat test, conservative lower-load reintroduction after the layoff (~30% below pre-layoff, climb over 1–2 sessions).
+- **Debuts Friday Aug 1** (next lift day).
+
+Prior structure (HSR 5-slot template + upper-body split) retained in this file's history and in [hsr-protocols.md](../../../resources/hsr-protocols.md) / [upper-body-protocols.md](../../../resources/upper-body-protocols.md) as archive.
+
+### Lift sessions (cont.) — New framework debut
+
+**Fri Jul 31 — Mix day, Session 1 on the six-pattern framework** (first real lower load since Jul 8/10; conservative openers to set baselines)
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 12 | 2× 40 lb |
+| Vertical pull | Lat pulldown | 3 × 12 | 85 lb |
+| Squat | Goblet squat (~3s descent) | 3 × 12 | 53 lb (green KB) |
+| Finisher | Pallof press | 2 × 12/side | 20 lb cable |
+
+*(Notebook had the lat pulldown & goblet squat results written in each other's rows — athlete flagged the swap; corrected above.)*
+
+- **All three mains hit 3×12 (top of range) clean** — expected, since these were deliberately conservative re-entry openers. Per double progression, **all graduate to a load bump next exposure.** Early re-entry gains will move fast for a session or two before settling.
+- **Next-time bumps:** incline DB bench **40 → 45** (back to his pre-illness weight); lat pulldown **85 → 90–95** (toward pre-illness 100); goblet squat **53 → 60–70** *(but see ceiling note)*.
+- **Goblet squat ceiling flag:** 53 lb × 3×12 easy confirms the legs have far more — goblet load is capped by the grip/hold, not leg strength (his pre-illness leg press was 200, back squat ~145). Goblet was ideal for a careful first-session-back knee feel-out, but **Wednesday's lower day should move to back squat or leg press** to actually load the legs, keeping the 3s descent. Goblet can stay as a warm-up.
+- **No knee pain reported** on the goblet squats (first loaded knee-dominant work since the layoff) — consistent with the L1/R0 decline squat. Confirm knee felt clean.
+- Lifting tolerated fine with residual illness (low cardio demand). 20-min sauna after.
+
+### InBody results (Fri Jul 31)
+
+| Metric | Value | Read |
+|---|---|---|
+| Weight | 177.1 lb | Up from the profile's 171 baseline — consistent with vacation + illness (reduced training volume). Expect it to trend back with training resumption. |
+| Skeletal muscle mass (SMM) | 82.0 lb | Solid muscle mass for his frame — the strength work is well-supported. |
+| Percent body fat (PBF) | 19.1% | Up from the profile's 15.5% — again tracks the vacation/illness gap in training + eating. A data point, not a concern; will respond to resumed volume. |
+| ECW/TBW | 0.363 | **Healthy fluid balance** (normal ~0.36–0.39). No systemic edema/inflammation signal — a reassuring post-illness marker that the body's recovering cleanly. |
+
+*(Body-comp snapshot; CLAUDE.md profile figures (171 lb / 15.5% BF) are older — treat this InBody as the current reference. Not duplicated into CLAUDE.md; time-varying state.)*
+
+### Sauna sessions (cont. 2)
+
+| Date | Duration | Notes |
+|---|---|---|
+| Fri Jul 31 | 20 min | Post-lift |
+| Sat Aug 1 | 20 min | Stopped by the gym |
