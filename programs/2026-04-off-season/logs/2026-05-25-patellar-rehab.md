@@ -829,8 +829,15 @@ Calendar says Week 11 (22 mi target), but that's off the table — we're rebuild
 - **Lat pulldown 90 → 95 (12, 13)** — the two working sets at 95 hit the top of the range. Next time run all 3 working sets at 95 for 3×12, then graduate to 100 (his pre-illness number).
 - Finishers done as prescribed. 20-min sauna after.
 
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Aug 4 | **Easy 2.75 mi @ 11:06, HR 155, VO2 42.3 (Saucony)** | Crockett Park paved trails, Brentwood TN; flat (68 ft); partly cloudy 74°F feels 77°F, **85% humidity**, wind 3.6 NE. **HR 155 = 5 bpm over the ~150 Z2 ceiling** — humidity-driven on a flat, easy-paced (11:06) course. Ran continuous (no walk breaks) — a step up from the walk/run comeback runs. Slight watch item: 155 on flat 68 ft today vs 151 on rolling 182 ft Sunday at similar pace = a touch of drift, cleanly explained by the 85% humidity; not a concern unless it persists in cooler air. VO2 42.3 (humidity-suppressed — ignore). Apple Watch Ultra 3. Saucony back in rotation (~298 mi, past replacement flag). 20-min sauna after. Comeback progressing. |
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Aug 3 | 20 min | Post-lift |
+| Tue Aug 4 | 20 min | Post-run |
