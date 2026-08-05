@@ -829,6 +829,32 @@ Calendar says Week 11 (22 mi target), but that's off the table — we're rebuild
 - **Lat pulldown 90 → 95 (12, 13)** — the two working sets at 95 hit the top of the range. Next time run all 3 working sets at 95 for 3×12, then graduate to 100 (his pre-illness number).
 - Finishers done as prescribed. 20-min sauna after.
 
+**Wed Aug 5 — Lower day (six-pattern framework)** — first real heavy knee-dominant session back since ~Jul 8/10
+
+| Pattern | Exercise | Goal | Achieved |
+|---|---|---|---|
+| Squat | Back squat *(~3s descent)* | 3 × 8 @ 95–105 lb | **115 lb × 8, 10, 8** |
+| Hinge | DB Romanian deadlift | 3 × 8–10 @ 2× 40 lb | 40 lb × 8, 8, 8 |
+| Single-leg | Split squat | 3 × 8 / side @ 2× 20 lb | 20 lb × 8, 8, 9 |
+| Finisher | Banded lateral walk | 2 × 15/side | red band × 15, 15 |
+
+- **The tendon's first real heavy loading day back — big milestone.** Held the ~3s descent (guardrail through Aug 16).
+- **Back squat came in at 115, above the conservative 95–105 reopen** — legs clearly had the strength (8,10,8, mid-set felt strong). Slightly ahead of the "open ~30% under pre-illness (~145)" plan, but a reasonable jump if the knee stayed quiet. **Knee status on the squats to confirm** — this is exactly the session where next-morning tendon response matters most (tendinopathy pain lags 24h). Watch tomorrow AM.
+- **RDL 40 × 8,8,8 and split squat 20 × 8,8,9** — sensible moderate reintroductions of hinge + unilateral. Both have room: build RDL toward 3×10, split squat toward 3×9+ before load bumps.
+- Glute-med finisher done. 20-min sauna after.
+- **Cadence note:** this landed on the normal Wed lower day (Mon upper / Tue run / Wed lower held). Thu = easy run, Fri = mix, as planned — today's squats + Fri's lower core stay 2 days apart (non-consecutive heavy-lower, good).
+
+### InBody scan (Wed Aug 5) — logged to `data/inbody.csv`
+
+| Metric | Jul 31 | Aug 5 | Read |
+|---|---|---|---|
+| Weight | 177.1 | **174.4** | Trending back down as training resumes — the post-vacation/illness bump receding |
+| SMM | 82.0 | **82.5** | Up slightly — muscle holding/building through the return |
+| PBF | 19.1% | **18.2%** | Down ~0.9 pts — tracking the weight trend |
+| ECW/TBW | 0.363 | **0.357** | Still in the healthy band (~0.36–0.39); low end = clean fluid balance, no inflammation signal |
+
+Clean recovery trajectory across the board in just 5 days. (InBody display listed age 40 / height 5′09″.)
+
 ### Runs logged
 
 | Date | Session | Notes |
@@ -841,3 +867,4 @@ Calendar says Week 11 (22 mi target), but that's off the table — we're rebuild
 |---|---|---|
 | Mon Aug 3 | 20 min | Post-lift |
 | Tue Aug 4 | 20 min | Post-run |
+| Wed Aug 5 | 20 min | Post-lift |
