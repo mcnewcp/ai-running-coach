@@ -844,6 +844,21 @@ Calendar says Week 11 (22 mi target), but that's off the table — we're rebuild
 - Glute-med finisher done. 20-min sauna after.
 - **Cadence note:** this landed on the normal Wed lower day (Mon upper / Tue run / Wed lower held). Thu = easy run, Fri = mix, as planned — today's squats + Fri's lower core stay 2 days apart (non-consecutive heavy-lower, good).
 
+**Fri Aug 7 — Upper-focus (Friday mix pivoted; posterior chain recovery after Thu's HR-169 fatigue flag + heavy-squat DOMS)**
+
+| Pattern | Exercise | Goal | Achieved |
+|---|---|---|---|
+| Horizontal pull | Chest-supported row *(Technogym)* | 3 × 8–12 @ 60 lb/arm | 60 lb/arm × 10, 10, 10 |
+| Horizontal push | Incline DB bench | 3 × 8–12 @ 2× 40 lb | 40 lb × 9, 9, 9 |
+| Vertical pull | Lat pulldown | 3 × 8–12 @ 95 lb | **95 × 12, 12, 12** |
+| Vertical press | Seated DB shoulder press | 3 × 8–12 @ 2× 22.5 lb | **22.5 × 12, 12, 12** |
+| Finisher | Pallof press | 2 × 12–15 | 20 lb × 15, 15 |
+
+- **Executed the upper-only pivot exactly — no loaded legs.** Right call given the fatigue signal; protects Sunday's long run.
+- **Two graduations earned:** **lat pulldown 95 → 100** (all 3 sets at top of range, back to pre-illness) and **seated DB shoulder press 22.5 → 25** (3×12 clean). Both bump next exposure.
+- **Row bumped 55 → 60/arm**, landed 3×10 — hold 60, chase 3×12 before the next bump. **Incline bench 40 × 9,9,9** — hold 40, build to 3×12.
+- Sauna 15 min (short of the 20 target — fine).
+
 ### InBody scan (Wed Aug 5) — logged to `data/inbody.csv`
 
 | Metric | Jul 31 | Aug 5 | Read |
@@ -870,3 +885,4 @@ Clean recovery trajectory across the board in just 5 days. (InBody display liste
 | Tue Aug 4 | 20 min | Post-run |
 | Wed Aug 5 | 20 min | Post-lift |
 | Thu Aug 6 | 18 min | Post-run |
+| Fri Aug 7 | 15 min | Post-lift |
