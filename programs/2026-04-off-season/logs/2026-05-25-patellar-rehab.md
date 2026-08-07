@@ -860,6 +860,7 @@ Clean recovery trajectory across the board in just 5 days. (InBody display liste
 | Date | Session | Notes |
 |---|---|---|
 | Tue Aug 4 | **Easy 2.75 mi @ 11:06, HR 155, VO2 42.3 (Saucony)** | Crockett Park paved trails, Brentwood TN; flat (68 ft); partly cloudy 74°F feels 77°F, **85% humidity**, wind 3.6 NE. **HR 155 = 5 bpm over the ~150 Z2 ceiling** — humidity-driven on a flat, easy-paced (11:06) course. Ran continuous (no walk breaks) — a step up from the walk/run comeback runs. Slight watch item: 155 on flat 68 ft today vs 151 on rolling 182 ft Sunday at similar pace = a touch of drift, cleanly explained by the 85% humidity; not a concern unless it persists in cooler air. VO2 42.3 (humidity-suppressed — ignore). Apple Watch Ultra 3. Saucony back in rotation (~298 mi, past replacement flag). 20-min sauna after. Comeback progressing. |
+| Thu Aug 6 | **Easy 2.77 mi @ 10:53, HR 169 ⚠️, VO2 42.0 (Saucony)** | Crockett Park paved trails, Brentwood TN; flat (23 ft); partly cloudy 80°F feels 84°F, 81% humidity, wind 2.7 SW. **HR 169 = ~19 bpm over the ~150 Z2 ceiling — a real flag, not just heat.** The tell: it's *higher* than the Jul 2 heat-wave run (166 in feels-92°F) despite ~8°F cooler conditions, and +14 over Tue (155 in feels-77°F). Heat is only part of it — the rest is **systemic fatigue / heavy-squat DOMS** from Wed's 115 back squat two days prior (he reports glutes + hams "pretty damn sore"). VO2 42.0. 18-min sauna after. **Takeaway: the aggressive squat load + heat + post-illness ramp are stacking; back off the accelerator.** Friday's mix pivoted to upper-focus (see below) to give the posterior chain a recovery pass. |
 
 ### Sauna sessions
 
@@ -868,3 +869,4 @@ Clean recovery trajectory across the board in just 5 days. (InBody display liste
 | Mon Aug 3 | 20 min | Post-lift |
 | Tue Aug 4 | 20 min | Post-run |
 | Wed Aug 5 | 20 min | Post-lift |
+| Thu Aug 6 | 18 min | Post-run |
