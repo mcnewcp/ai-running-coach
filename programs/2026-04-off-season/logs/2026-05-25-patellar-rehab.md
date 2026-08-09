@@ -870,6 +870,12 @@ Calendar says Week 11 (22 mi target), but that's off the table — we're rebuild
 
 Clean recovery trajectory across the board in just 5 days. (InBody display listed age 40 / height 5′09″.)
 
+### Decline squat test
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sat Aug 8 | 1/10 | 0/10 | Fresh AM. **Holds at block-best L1/R0** — the verdict on Wed's 115 back squat: the tendon tolerated the heaviest knee-dominant load of the block (above the conservative reopen) with zero uptick. Confirms Thu's HR-169 + sore legs were **muscular DOMS + heat, not tendon**. Trend: … → 2 (Jul 12) → 1/0 (Jul 28) → 1/0 (Aug 2) → **1/0 (Aug 8)**. Green light to keep climbing squat load — the tendon is ready faster than the calendar. |
+
 ### Runs logged
 
 | Date | Session | Notes |
