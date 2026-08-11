@@ -898,3 +898,23 @@ Clean recovery trajectory across the board in just 5 days. (InBody display liste
 ### Week 11 summary
 
 First full week back — and a good one. **Running:** 3 runs, ~9.5 mi (Tue 2.75 + Thu 2.77 + Sun 4.00 long), all easy/HR-governed. Well under the calendar's nominal 22 mi, which was always off the table for a post-illness rebuild. **Strength:** upper (Mon) + heavy lower reintro (Wed, 115 back squat) + upper-pivot (Fri), with four lifts graduating loads. **Tendon:** decline squat held block-best L1/R0 through the heaviest knee-dominant loading of the block — the standout signal. **The one bump** — Thu's HR 169 — was diagnosed as heat + squat DOMS, confirmed by Sunday's clean 151 on harder terrain in the same heat. Body-comp trending the right way (174.4 lb / 18.2%). Net: healthy, progressing, and the tendon's ready to keep climbing. **Week 12 (Aug 10–16) is the final week of the rehab block → reassessment Aug 16.**
+
+## Week 12 (Aug 10 – Aug 16) — Final week of the rehab block → reassessment Aug 16
+
+The 12-week block's closing week. Priorities: keep the strength progression rolling (now largely back to / past pre-illness loads), extend easy running gently off Sunday's clean 4-miler, and run the **Aug 16 reassessment** (decline squat + symptom review) to decide the transition into a post-rehab base + light-intensity block.
+
+### Lift sessions
+
+**Mon Aug 10 — Upper day**
+
+| Pattern | Exercise | Goal | Achieved |
+|---|---|---|---|
+| Horizontal push | Flat DB bench | 3 × 8–12 @ 2× 45 lb | 45 lb × 9, 10, 10 |
+| Horizontal pull | Chest-supported row *(Technogym)* | 3 × 8–12 @ 60 lb/arm | 60 lb/arm × 9, 10, 12 |
+| Vertical press | Seated DB shoulder press | 3 × 8–10 @ 2× 25 lb ⬆️ | 25 lb × 8, 9, 9 |
+| Vertical pull | Lat pulldown | 3 × 8–10 @ 100 lb ⬆️ | 100 lb × 8, 9, 9 |
+| Finisher | Hammer curl + OH triceps ext | 2–3 × 12 | 22.5 / 30 × 12, 12 |
+
+- **Cashed both Friday graduations cleanly:** shoulder press **25 × 8,9,9** and lat pulldown **100 × 8,9,9** — the pulldown puts him **back at his pre-illness working weight**. Upper body is fully recovered and progressing. Both: hold the new load, build toward 3×10.
+- **Flat bench 45 → 9,10,10** (up from 9,9,9 on Aug 3) and **row 60 → 9,10,12** — both climbing toward 3×12 before the next bump. Hold loads.
+- 18-min sauna after.
