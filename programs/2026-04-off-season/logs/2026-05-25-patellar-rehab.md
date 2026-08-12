@@ -918,3 +918,16 @@ The 12-week block's closing week. Priorities: keep the strength progression roll
 - **Cashed both Friday graduations cleanly:** shoulder press **25 × 8,9,9** and lat pulldown **100 × 8,9,9** — the pulldown puts him **back at his pre-illness working weight**. Upper body is fully recovered and progressing. Both: hold the new load, build toward 3×10.
 - **Flat bench 45 → 9,10,10** (up from 9,9,9 on Aug 3) and **row 60 → 9,10,12** — both climbing toward 3×12 before the next bump. Hold loads.
 - 18-min sauna after.
+
+### Runs logged
+
+| Date | Session | Notes |
+|---|---|---|
+| Tue Aug 11 | **Easy 3.01 mi @ 11:55, HR 151 (Mizuno)** | Smith Park paved trails, Brentwood/Franklin TN; rolling 127 ft; **clear 85°F feels 91°F, 78% humidity, direct sun — brutal.** HR 151 held at the ~150 cap **only via several walk breaks** (11:55 avg incl. walking) — good discipline in feels-91°F rather than letting it drift like Thu Aug 6. No VO2 reported. 20-min sauna after. **Takeaway: midday August running is now a losing battle with the heat** — plans a **6am Thu run** to fix it, which is exactly right. Knee quiet. |
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Aug 10 | 18 min | Post-lift |
+| Tue Aug 11 | 20 min | Post-run |
