@@ -919,11 +919,36 @@ The 12-week block's closing week. Priorities: keep the strength progression roll
 - **Flat bench 45 → 9,10,10** (up from 9,9,9 on Aug 3) and **row 60 → 9,10,12** — both climbing toward 3×12 before the next bump. Hold loads.
 - 18-min sauna after.
 
+**Wed Aug 12 — Lower day (freshened lineup)** — rotated all three mains for variety (athlete flagged the repeated back squat / DB RDL / split squat); tendon guardrail (3s descent) kept on the knee-dominant lift
+
+| Pattern | Exercise | Goal | Achieved |
+|---|---|---|---|
+| Squat (knee-dominant) | **Leg press** *(~3s descent)* | 3 × 8–10 @ ~170 lb | 180 lb × 8, 8, 8 |
+| Hinge | **Trap-bar deadlift** | 3 × 8 @ ~135 lb | 145 lb × 8, 8, 8 |
+| Single-leg | **DB reverse lunge** | 3 × 8 / side @ 2× 20–25 lb | 25 lb × 8, 8, 8 |
+| Finisher | **Copenhagen plank** | 2 × 15–30s / side | 30s, 30s |
+
+- **Fresh lineup executed clean, all at RIR ~2** — exactly the calibration intent. New baselines set: leg press 180, trap-bar DL 145, reverse lunge 25/hand. All build toward 3×10 before load bumps.
+- Opened each a touch above the suggested starting loads and handled them — legs are strong. **Knee quiet through the leg press** (the knee-dominant tendon load), consistent with the block-best decline squat.
+- 15-min sauna after.
+
 ### Runs logged
 
 | Date | Session | Notes |
 |---|---|---|
 | Tue Aug 11 | **Easy 3.01 mi @ 11:55, HR 151 (Mizuno)** | Smith Park paved trails, Brentwood/Franklin TN; rolling 127 ft; **clear 85°F feels 91°F, 78% humidity, direct sun — brutal.** HR 151 held at the ~150 cap **only via several walk breaks** (11:55 avg incl. walking) — good discipline in feels-91°F rather than letting it drift like Thu Aug 6. No VO2 reported. 20-min sauna after. **Takeaway: midday August running is now a losing battle with the heat** — plans a **6am Thu run** to fix it, which is exactly right. Knee quiet. |
+| Thu Aug 13 | **Easy 3.00 mi @ 11:05, HR 149 (Mizuno, treadmill)** | **Treadmill at Lifetime Fitness** — chose A/C over the planned 6am outdoor; either way it sidesteps the heat, which is the whole point. **HR 149, 1 bpm under the ~150 cap** — controlled indoors, the cleanest easy-HR run of the week (vs 151 w/ walk breaks Tue, 151 Sun, 169 last Thu). Pace 11:05, 5,620 steps. No VO2 (treadmill). 20-min sauna after. Knee quiet. **Heat-controlled environment = effortless Z2 compliance** — a useful tool to keep in rotation through August. |
+
+### InBody scan (Thu Aug 13) — logged to `data/inbody.csv`
+
+| Metric | Aug 5 | Aug 13 | Read |
+|---|---|---|---|
+| Weight | 174.4 | 175.2 | +0.8 — but see composition below |
+| SMM | 82.5 | **83.6** | **+1.1 lb muscle** in 8 days |
+| PBF | 18.2% | **17.1%** | **−1.1 pts** |
+| ECW/TBW | 0.357 | 0.362 | Still healthy normal band |
+
+**Textbook recomposition** — muscle up, fat down, weight flat-to-slightly-up. The resumed strength volume + running is doing exactly what it should. Three scans now trending cleanly the right way (177.1/19.1 → 174.4/18.2 → 175.2/17.1).
 
 ### Sauna sessions
 
@@ -931,3 +956,5 @@ The 12-week block's closing week. Priorities: keep the strength progression roll
 |---|---|---|
 | Mon Aug 10 | 18 min | Post-lift |
 | Tue Aug 11 | 20 min | Post-run |
+| Wed Aug 12 | 15 min | Post-lift |
+| Thu Aug 13 | 20 min | Post-run |
