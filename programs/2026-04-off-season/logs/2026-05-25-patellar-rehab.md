@@ -950,6 +950,25 @@ The 12-week block's closing week. Priorities: keep the strength progression roll
 
 **Textbook recomposition** — muscle up, fat down, weight flat-to-slightly-up. The resumed strength volume + running is doing exactly what it should. Three scans now trending cleanly the right way (177.1/19.1 → 174.4/18.2 → 175.2/17.1).
 
+**Fri Aug 14 — Mix day (upper-leaning, tendon-fresh for the test)** — V-press + H-push swapped for variety at athlete's request (BB OHP, incline DB)
+
+| Pattern | Exercise | Goal | Achieved |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 8–12 @ 2× 40 lb | **40 × 12, 12, 12** |
+| Horizontal pull | 1-arm DB row | 3 × 8–12 @ 55 lb | 55 × 10, 10, 10 |
+| Vertical press | **BB overhead press** *(new)* | 3 × 8 @ ~65 lb | 65 × 8, 8, 8 |
+| Hinge *(light)* | Single-leg RDL | 3 × 8 / side @ 2× 25–30 lb | 25 × 8, 8, 8 |
+| Finisher | Face pulls | 2 × 12–15 | 25 × 15, 30 × 15 |
+
+- **Incline DB bench 40 × 12,12,12 → graduates to 45** next time.
+- **BB overhead press new baseline: 65 × 3×8** clean — calibrated the barbell strict press; build to 3×10 then +5. **1-arm DB row 55 × 10,10,10** — new baseline, hold 55, chase 3×12.
+- No knee-dominant load (single-leg RDL only) — tendon kept fresh for Saturday's test, as planned.
+- 20-min sauna after.
+
+### InBody scan (Fri Aug 14) — logged to `data/inbody.csv`
+
+Day after the Aug 13 scan: **175.7 / SMM 83.1 / PBF 17.3 / ECW-TBW 0.365** vs Aug 13's 175.2 / 83.6 / 17.1 / 0.362. All differences are **within normal day-to-day InBody noise** (hydration, food, timing) — not a real change. *Coaching note: scanning daily mostly captures noise; a roughly weekly cadence reads the actual body-comp trend better.* The block-level trend remains clearly positive.
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
@@ -958,3 +977,4 @@ The 12-week block's closing week. Priorities: keep the strength progression roll
 | Tue Aug 11 | 20 min | Post-run |
 | Wed Aug 12 | 15 min | Post-lift |
 | Thu Aug 13 | 20 min | Post-run |
+| Fri Aug 14 | 20 min | Post-lift |
