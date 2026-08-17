@@ -938,6 +938,7 @@ The 12-week block's closing week. Priorities: keep the strength progression roll
 |---|---|---|
 | Tue Aug 11 | **Easy 3.01 mi @ 11:55, HR 151 (Mizuno)** | Smith Park paved trails, Brentwood/Franklin TN; rolling 127 ft; **clear 85°F feels 91°F, 78% humidity, direct sun — brutal.** HR 151 held at the ~150 cap **only via several walk breaks** (11:55 avg incl. walking) — good discipline in feels-91°F rather than letting it drift like Thu Aug 6. No VO2 reported. 20-min sauna after. **Takeaway: midday August running is now a losing battle with the heat** — plans a **6am Thu run** to fix it, which is exactly right. Knee quiet. |
 | Thu Aug 13 | **Easy 3.00 mi @ 11:05, HR 149 (Mizuno, treadmill)** | **Treadmill at Lifetime Fitness** — chose A/C over the planned 6am outdoor; either way it sidesteps the heat, which is the whole point. **HR 149, 1 bpm under the ~150 cap** — controlled indoors, the cleanest easy-HR run of the week (vs 151 w/ walk breaks Tue, 151 Sun, 169 last Thu). Pace 11:05, 5,620 steps. No VO2 (treadmill). 20-min sauna after. Knee quiet. **Heat-controlled environment = effortless Z2 compliance** — a useful tool to keep in rotation through August. |
+| Sun Aug 16 | **Long run 4.11 mi @ 11:20, HR 148, VO2 41.2 (Mizuno)** — *block's final run* | Smith Park paved trails from house, Brentwood/Franklin TN; rolling 221 ft; **early 6:10 AM start**; clear 73°F feels 74°F, 90% humidity, wind 4.0 SW. **HR 148 — 2 bpm UNDER the ~150 cap on rolling terrain.** The 6am start solved the heat problem outright (vs 151–169 on this week's midday/afternoon runs). Pace 11:20. VO2 41.2 (90%-humidity-suppressed — ignore). **Lesson locked in: early-morning is the answer to summer HR.** Clean close to the block. |
 
 ### InBody scan (Thu Aug 13) — logged to `data/inbody.csv`
 
@@ -978,3 +979,37 @@ Day after the Aug 13 scan: **175.7 / SMM 83.1 / PBF 17.3 / ECW-TBW 0.365** vs Au
 | Wed Aug 12 | 15 min | Post-lift |
 | Thu Aug 13 | 20 min | Post-run |
 | Fri Aug 14 | 20 min | Post-lift |
+
+### Decline squat test — BLOCK FINAL (Sat Aug 15)
+
+| Date | Left | Right | Conditions |
+|---|---|---|---|
+| Sat Aug 15 | 2/10 | 0/10 | Fresh AM — **the block's final test.** A 1-pt uptick from the block-best 1/0, expected after the week's heaviest lower loading (leg press 180 + trap-bar 145 + reverse lunges). **Still solidly in the green band (≤2 = progress).** Full block trend: 3 (May 31) → 2 (Jun 7–21) → 1 (Jul 2) → 2 (Jul 12) → **1/0 (Jul 28–Aug 8)** → 2/0 (Aug 15). Net: **L3→L2 over 12 weeks, symptom-free through leg press 180 / back squat 115.** Green light for the next block; the small uptick just says reintroduce intensity *conservatively* (strides first, tempo later). |
+
+## Block Completion & Reassessment (Aug 16) — PASSED ✅
+
+**The 12-week patellar rehab block is complete, and it worked.**
+
+### Reassessment scorecard
+
+| Criterion (from the plan) | Result | Verdict |
+|---|---|---|
+| Symptom-free during runs (≤1/10) | Yes, throughout | ✅ |
+| Decline squat ≤2/10 affected side | L2/R0 | ✅ (green) |
+| Affected trending toward unaffected | L3→L2, R held 0 | ✅ improving |
+| Meaningful strength baseline | Full 6-pattern base built; back at/above pre-illness on every upper lift; leg press 180, back squat 115, trap-bar 145 | ✅ |
+| ~24 mpw clean Z2 volume | **Not reached** — illness (mid-Jul) cost ~2 weeks and reset the running ramp; finished at ~10–11 mpw | ⚠️ the one incomplete goal |
+
+### The 12 weeks in numbers
+- **Running:** 29 runs, **~104 mi** total across the block (May 26 – Aug 16), all easy/HR-governed. Peaked ~16 mpw pre-illness (Week 7), rebuilt to ~10–11 mpw post-illness.
+- **Tendon:** decline squat **L3 → L2** (block-best L1 for three straight weeks), symptom-free through the heaviest knee-dominant loading of the block. **This is the headline — the treatment worked.**
+- **Strength:** migrated HSR → six-pattern framework (Jul 30); finished at or above pre-illness loads on every pattern.
+- **Body comp:** **19.1% → 17.1% body fat** with SMM up (82.0 → ~83+ lb) — clean recomposition.
+- **Disruptions handled:** a Miami trip (late Jun), a Boston/Maine vacation + an illness that cost ~2 weeks (mid-Jul) — navigated with sensible deloads, never a tendon setback.
+
+### Key lessons banked
+1. **Early-morning running is the answer to summer heat** — Sun Aug 16, 6:10 AM → HR 148; the same week's midday runs hit 151–169. Carry this into the next block.
+2. **Elevated easy-HR is a fatigue/recovery signal** — diagnosed the Aug 6 HR-169 as heat + heavy-squat DOMS, confirmed by the clean Aug 9 rerun. Keep watching it.
+3. **The tendon tolerates heavy loading** — leg press 180 and back squat 115 with a 3s descent, no flare. Loading, not resting, is the treatment.
+
+**→ Transition to the Post-Rehab Base + Intensity Reintroduction block: [2026-08-17-post-rehab-base.md](../plans/2026-08-17-post-rehab-base.md). Rehab block archived; this log is closed.**
