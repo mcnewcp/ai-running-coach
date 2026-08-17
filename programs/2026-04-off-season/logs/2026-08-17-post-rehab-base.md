@@ -22,6 +22,10 @@ Opening week. Volume target ~13 mi; **strides reintroduced** (2×, on Tue + Thu 
 - **On deck to graduate:** shoulder press and lat pulldown are each **one rep/set from 3×10** → next exposure should tip them to the next load. Bench + row climbing toward 3×12.
 - Athlete switched to **Hevy app** for lift logging (cleaner structured export than notebook photos). 20-min sauna after.
 
+### InBody scan (Mon Aug 17) — logged to `data/inbody.csv`
+
+**176.2 / SMM 84.0 / PBF 16.9 / ECW-TBW 0.363.** Two new milestones vs the Aug 13 baseline: **SMM first ≥ 84 lb** (83.6 → 84.0) and **PBF first sub-17%** (17.1 → 16.9). Recomposition still trending clean as the rehab-block gap closes. Block-wide: **19.1% → 16.9% BF** with muscle up throughout.
+
 ### Sauna sessions
 
 | Date | Duration | Notes |
