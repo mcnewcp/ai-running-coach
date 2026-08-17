@@ -5,9 +5,11 @@
 ## Active Program
 **Off-season + base building** (Apr 27, 2026 – Jan 3, 2027)
 
-Bridge between first half marathon (Music City 2026) and next A-race. Originally planned as eight months of fitness expansion + weakness work; restructured May 25, 2026 around a 12-week patellar tendinopathy rehab block ([2026-05-25-patellar-rehab-12wk.md](../programs/2026-04-off-season/plans/2026-05-25-patellar-rehab-12wk.md)) after a rising left-knee signal in Week 2 of the base phase.
+Bridge between first half marathon (Music City 2026) and next A-race. Originally planned as eight months of fitness expansion + weakness work; restructured May 25, 2026 around a 12-week patellar tendinopathy rehab block after a rising left-knee signal in Week 2 of the base phase.
 
-Tracking stays at off-season cadence throughout — no daily metrics intake, even during the rehab block. The one structured weekly metric is the Saturday-morning decline squat test.
+**Current phase (as of Aug 17, 2026): Post-Rehab Base + Intensity Reintroduction** — [2026-08-17-post-rehab-base.md](../programs/2026-04-off-season/plans/2026-08-17-post-rehab-base.md). The rehab block completed Aug 16 with a **clean reassessment** (decline squat L2/R0, symptom-free through leg press 180 / back squat 115 — [rehab plan](../programs/2026-04-off-season/plans/2026-05-25-patellar-rehab-12wk.md), [rehab log](../programs/2026-04-off-season/logs/2026-05-25-patellar-rehab.md)). Now rebuilding volume from ~11 mpw (post-illness reset) toward the mid-20s while reintroducing strides → light tempo.
+
+Tracking stays at off-season cadence throughout — no daily metrics intake. During the rehab block the one structured weekly metric was the Saturday decline squat test; in the post-rehab block it drops to **biweekly / as-needed**.
 
 ## Next A-Race
 **Music City Half Marathon 2027** — April 24, 2027 (Nashville, TN)
@@ -27,8 +29,8 @@ Tracking stays at off-season cadence throughout — no daily metrics intake, eve
 |---|---|---|---|
 | Recovery | Apr 27 – May 10 | Reverse taper. No running first 10-14 days. | 0 → 5 mpw |
 | Off-season base *(ended early)* | May 11 – May 24 | Rebuild aerobic capacity. Cut short due to rising left-knee signal. | 14 → 16 mpw reached |
-| **Patellar rehab block (HSR-led)** | **May 25 – Aug 16** | **3x/week HSR + symptom-gated Z2 running. No hills, no intensity.** | 10 → 24 mpw |
-| Post-rehab base + intensity ramp | Aug 17 – Oct 11 | If rehab clean: rebuild base + reintroduce strides, light tempo | 24 → 28 mpw |
+| Patellar rehab block (HSR-led) *(complete ✅)* | May 25 – Aug 16 | Strength-led rehab + symptom-gated Z2. **Passed reassessment (L2/R0).** Illness cost ~2 wks. | 10 → ~16, reset to ~11 |
+| **Post-rehab base + intensity ramp** | **Aug 17 – Oct 11** | Rebuild base from post-illness ~11 mpw; reintroduce **strides → light tempo**. Rehab passed clean. | ~13 → 24 mpw |
 | Speed block (5K/10K) | Oct 12 – Dec 6 | VO2max + threshold work. 5K race in late fall as fitness check. | 25-28 mpw |
 | Transition base | Dec 7 – Jan 3 | Easy mileage, holiday-friendly, prep for race build | 20-25 mpw |
 | **2027 Music City build** | Jan 4 – Apr 24, 2027 | Specific 16-week race prep | Per phase plan |

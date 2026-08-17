@@ -1,0 +1,41 @@
+date,training_goal,session,pattern,exercise,load_lb,load_basis,sets,reps,notes
+2026-07-31,Patellar rehab block,Mix,Horizontal push,Incline DB bench,40,per_hand,3,"12,12,12","Six-pattern framework debut; conservative re-entry opener. Top of range clean -> bump to 45 next time"
+2026-07-31,Patellar rehab block,Mix,Vertical pull,Lat pulldown,85,total,3,"12,12,12","Re-entry opener. Top of range clean -> bump toward 90-95 (pre-illness 100)"
+2026-07-31,Patellar rehab block,Mix,Squat,Goblet squat,53,total,3,"12,12,12","~3s descent (tendon load). Green KB. No knee pain (first loaded knee-dominant since layoff). Load capped by grip not legs -> move to back squat/leg press for real lower loading"
+2026-07-31,Patellar rehab block,Mix,Finisher,Pallof press,20,total,2,"12,12","Anti-rotation core; per side; 20 lb cable"
+2026-08-03,Patellar rehab block,Upper,Horizontal push,Flat DB bench,45,per_hand,3,"9,9,9","Back at pre-illness working weight; mid-range. Hold 45, chase 3x12 before 50s"
+2026-08-03,Patellar rehab block,Upper,Horizontal pull,Chest-supported row,55,per_arm,3,"12,12,12","Technogym plate-loaded, loaded per arm - stated preferred row modality going forward. New baseline (not comparable to old 70/arm machine). Top of range clean -> add a plate (~60/arm) next row session"
+2026-08-03,Patellar rehab block,Upper,Vertical press,Seated DB shoulder press,22.5,per_hand,3,"8,9,10","Jumped past pre-illness 20s. Hold 22.5, build to 3x12"
+2026-08-03,Patellar rehab block,Upper,Vertical pull,Lat pulldown,95,total,2,"12,13","Warm-up ramp set 90 lb x 12 (not counted). Both working sets at 95 hit top of range -> run all 3 sets at 95 for 3x12, then graduate to 100 (pre-illness)"
+2026-08-03,Patellar rehab block,Upper,Finisher,Hammer curl,22.5,per_hand,2,"12,12","Arms superset with OH triceps ext"
+2026-08-03,Patellar rehab block,Upper,Finisher,Overhead triceps extension,30,total,2,"12,12","Arms superset with hammer curl"
+2026-08-05,Patellar rehab block,Lower,Squat,Back squat,115,total,3,"8,10,8","~3s descent (tendon guardrail). First heavy knee-dominant session back since ~Jul 8/10. Went ABOVE the conservative 95-105 reopen (115) - knee status to confirm; if quiet, legs clearly had it"
+2026-08-05,Patellar rehab block,Lower,Hinge,Romanian deadlift,40,per_hand,3,"8,8,8","DB RDL, normal tempo; hip hinge reintroduced. Room to add reps toward 3x10 before load bump"
+2026-08-05,Patellar rehab block,Lower,Squat,Split squat,20,per_hand,3,"8,8,9",Single-leg (per side); 20 lb DBs. Reintroduced unilateral work. Near top set 3 -> chase 3x8-9+ then bump
+2026-08-05,Patellar rehab block,Lower,Finisher,Banded lateral walk,,total,2,"15,15",Glute-med insurance; red band; per side
+2026-08-07,Patellar rehab block,Upper,Horizontal pull,Chest-supported row,60,per_arm,3,"10,10,10","Technogym plate-loaded per arm; earned bump 55->60 (Mon 3x12). Got 10s - hold 60, chase 3x12"
+2026-08-07,Patellar rehab block,Upper,Horizontal push,Incline DB bench,40,per_hand,3,"9,9,9","Rotated from Mon flat bench. Hold 40, chase 3x12 before 45s"
+2026-08-07,Patellar rehab block,Upper,Vertical pull,Lat pulldown,95,total,3,"12,12,12",All 3 sets at 95 top of range clean -> GRADUATE to 100 next time (back to pre-illness)
+2026-08-07,Patellar rehab block,Upper,Vertical press,Seated DB shoulder press,22.5,per_hand,3,"12,12,12",Top of range all sets clean -> GRADUATE to 25 next time
+2026-08-07,Patellar rehab block,Upper,Finisher,Pallof press,20,total,2,"15,15",Anti-rotation core; per side; 20 lb cable
+2026-08-10,Patellar rehab block,Upper,Horizontal push,Flat DB bench,45,per_hand,3,"9,10,10","Hold 45, chase 3x12 (Aug 3 was 9,9,9 -> now 9,10,10, progressing)"
+2026-08-10,Patellar rehab block,Upper,Horizontal pull,Chest-supported row,60,per_arm,3,"9,10,12","Technogym per arm; hold 60, chase 3x12 across all sets (last set reached 12)"
+2026-08-10,Patellar rehab block,Upper,Vertical press,Seated DB shoulder press,25,per_hand,3,"8,9,9","GRADUATED 22.5->25; landed bottom of range as planned. Hold 25, build to 3x10"
+2026-08-10,Patellar rehab block,Upper,Vertical pull,Lat pulldown,100,total,3,"8,9,9","GRADUATED to pre-illness 100; landed 8,9,9. Fully back to pre-illness pulldown strength. Hold 100, build to 3x10"
+2026-08-10,Patellar rehab block,Upper,Finisher,Hammer curl,22.5,per_hand,2,"12,12",Arms superset with OH triceps ext
+2026-08-10,Patellar rehab block,Upper,Finisher,Overhead triceps extension,30,total,2,"12,12",Arms superset with hammer curl
+2026-08-12,Patellar rehab block,Lower,Squat,Leg press,180,total,3,"8,8,8","~3s descent; NEW rotation (from back squat) for variety. Opened 180 (above the ~170 suggestion), 3x8 clean ~RIR2. New knee-dominant baseline; build to 3x10 then +5-10. Knee quiet"
+2026-08-12,Patellar rehab block,Lower,Hinge,Trap-bar deadlift,145,total,3,"8,8,8","NEW rotation (from DB RDL). 145 x 3x8 clean, normal tempo. New hinge baseline; build to 3x10 then +5-10"
+2026-08-12,Patellar rehab block,Lower,Squat,DB reverse lunge,25,per_hand,3,"8,8,8",Single-leg per side; NEW rotation (from split squat). 25/hand x 3x8. Build to 3x10/side
+2026-08-12,Patellar rehab block,Lower,Finisher,Copenhagen plank,,bodyweight,2,"30s,30s",Glute-med/adductor insurance; 30s hold per side (time-based)
+2026-08-14,Patellar rehab block,Mix,Horizontal push,Incline DB bench,40,per_hand,3,"12,12,12",Top of range all sets clean -> GRADUATE to 45 next time
+2026-08-14,Patellar rehab block,Mix,Horizontal pull,1-arm DB row,55,per_hand,3,"10,10,10","NEW rotation (single-arm DB); per working arm. Hold 55, chase 3x12"
+2026-08-14,Patellar rehab block,Mix,Vertical press,BB overhead press,65,total,3,"8,8,8",NEW movement baseline; strict barbell (harder lever than 25 DBs). 3x8 clean. Build to 3x10 then +5
+2026-08-14,Patellar rehab block,Mix,Hinge,Single-leg RDL,25,per_hand,3,"8,8,8",Light hinge per side; deliberately no knee-dominant load to keep tendon fresh for Sat decline test
+2026-08-14,Patellar rehab block,Mix,Finisher,Face pulls,30,total,2,"15,15","Posture/rear-delt; set 1 at 25 lb, set 2 at 30 lb cable"
+2026-08-17,Post-rehab base,Upper,Horizontal push,Flat DB bench,45,per_hand,3,"10,10,10","Post-rehab base Wk1. Hold 45, chase 3x12 (Aug 10 was 9,10,10) before 50s"
+2026-08-17,Post-rehab base,Upper,Horizontal pull,Chest-supported row,60,per_arm,3,"11,11,11","Technogym (Hevy labels it chest-supported T-bar row); per arm. Consistent 11s, one rep from graduating -> chase 3x12"
+2026-08-17,Post-rehab base,Upper,Vertical press,Seated DB shoulder press,25,per_hand,3,"9,9,9","Building to 3x10 (Aug 10 was 8,9,9) -> one more rep/set graduates to 27.5-30"
+2026-08-17,Post-rehab base,Upper,Vertical pull,Lat pulldown,100,total,3,"9,9,9","Building to 3x10 (Aug 10 was 8,9,9) -> one more rep/set graduates to 105-110"
+2026-08-17,Post-rehab base,Upper,Finisher,Hammer curl,22.5,per_hand,2,"12,12",Arms superset with triceps ext
+2026-08-17,Post-rehab base,Upper,Finisher,Overhead triceps extension,30,total,2,"12,12",DB triceps extension; arms superset with hammer curl

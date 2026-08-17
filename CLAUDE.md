@@ -262,6 +262,56 @@ A markdown table tracking total mileage and status for each pair of running shoe
 - When a new shoe identifier appears in a run log, add a new row to the table
 - When retiring a shoe, set Status to "Retired" and fill in Last Run date
 
+### Structured Lift Log (`data/lifts.csv`)
+
+A global CSV recording every strength-training exercise across all programs, mirroring `runs.csv` for the quantitative six-pattern strength framework (see [resources/strength-training.md](resources/strength-training.md)). Enables load/rep trend analysis and double-progression tracking. **One row per exercise per session.** Tracking begins at the framework's debut (Jul 31, 2026); pre-framework HSR-slot sessions live only in the program log history.
+
+**Columns**: `date,training_goal,session,pattern,exercise,load_lb,load_basis,sets,reps,notes`
+
+| Column | Format | Notes |
+|--------|--------|-------|
+| `date` | YYYY-MM-DD | Date of the session |
+| `training_goal` | text | Matches runs.csv (e.g., "Patellar rehab block") |
+| `session` | text | Upper, Lower, or Mix |
+| `pattern` | text | One of: Horizontal push, Horizontal pull, Vertical press, Vertical pull, Squat, Hinge, Finisher |
+| `exercise` | text | Specific exercise (e.g., "Flat DB bench", "Chest-supported row") |
+| `load_lb` | decimal | Working load in pounds. For a ramp, record the top working load and note the ramp |
+| `load_basis` | text | `per_hand` (dumbbells), `per_arm` (unilateral machine loaded each side), `total` (barbell/stack/kettlebell/cable), or `bodyweight` |
+| `sets` | integer | Number of working sets |
+| `reps` | quoted list | Per-set reps achieved, e.g., `"9,9,9"` or `"8,9,10"` |
+| `notes` | quoted text | Equipment, RIR, ramp details, tempo, pain, and graduation flags |
+
+**Rules**:
+- Append rows after each completed lift session, alongside the program log update
+- Only log actual working sets; note (don't count) warm-up ramp sets in `notes`
+- Per the double-progression rule, when a lift hits the top of its range across all sets cleanly, flag the load bump in `notes` (coach maintains this running history — see strength-training.md)
+- Squats through the rehab block use a ~3s descent — note it
+- Use this CSV as the data source for any strength trend, progression, or summary request
+
+### Body Composition Log (`data/inbody.csv`)
+
+A global CSV tracking InBody body-composition measurements over time. Append a row each time a new InBody scan is done (typically at Lifetime Fitness). Leave columns blank when a metric isn't on the printout — don't compute or fabricate values.
+
+**Columns**: `date,weight_lb,skeletal_muscle_mass_lb,percent_body_fat,body_fat_mass_lb,bmi,ecw_tbw,visceral_fat_level,basal_metabolic_rate_kcal,notes`
+
+| Column | Format | Notes |
+|--------|--------|-------|
+| `date` | YYYY-MM-DD | Date of the scan |
+| `weight_lb` | decimal | Body weight (lbs) |
+| `skeletal_muscle_mass_lb` | decimal | SMM (lbs) |
+| `percent_body_fat` | decimal | PBF (%) |
+| `body_fat_mass_lb` | decimal | Fat mass (lbs), blank if not on printout |
+| `bmi` | decimal | Blank if not on printout |
+| `ecw_tbw` | decimal | Extracellular/total body water ratio (normal ~0.36–0.39) |
+| `visceral_fat_level` | integer | InBody visceral fat level, blank if unavailable |
+| `basal_metabolic_rate_kcal` | integer | BMR (kcal), blank if unavailable |
+| `notes` | quoted text | Context (post-illness, training phase, interpretation) |
+
+**Rules**:
+- Append a new row per scan; never overwrite prior entries (this is a trend record)
+- Only record values shown on the InBody printout; leave others blank
+- The CLAUDE.md profile figures (171 lb / 15.5% BF) are an older baseline — treat the latest `inbody.csv` row as the current body-comp reference
+
 ## Coaching Reminders for Future Claude Sessions
 
 ### Critical Workflow Rules
@@ -270,7 +320,8 @@ A markdown table tracking total mileage and status for each pair of running shoe
 3. **Auto-record metrics** - Immediately update/create the log file after receiving morning metrics. Do NOT wait to be asked.
 4. **Log runs to CSV** - After each completed run, append a row to `data/runs.csv`. Do this alongside the weekly log update.
 5. **Update shoe log** - After logging a run, use Python to recalculate total mileage from `data/runs.csv` and update `data/shoes.md`.
-6. **Be proactive** - You are the expert coach. Lead the conversation, present the plan, guide the training.
+6. **Log lifts to CSV** - After each completed strength session, append rows (one per exercise) to `data/lifts.csv`, alongside the program log update. Log new InBody scans to `data/inbody.csv`.
+7. **Be proactive** - You are the expert coach. Lead the conversation, present the plan, guide the training.
 
 ### Always Consider
 1. **Knee health is paramount** - when in doubt, reduce load
