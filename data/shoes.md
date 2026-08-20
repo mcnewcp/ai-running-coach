@@ -2,8 +2,9 @@
 
 | Shoe | Model | Total Miles | Status | First Run | Last Run | Notes |
 |------|-------|-------------|--------|-----------|----------|-------|
-| 2026-saucony | Saucony Guide 17 | 301.05 | Active | 2026-01-07 | | Music City Half Marathon race day shoe (4/25/2026); **~301 mi — replace now** (original Guide 17; past usable life for long runs — replacement ordered; keep to short easy runs until new pair arrives) |
-| 2026-mizuno | Mizuno Wave Inspire 22 | 176.38 | Active | 2026-02-19 | | |
+| 2026-saucony | Saucony Guide 17 | 301.05 | Retired | 2026-01-07 | 2026-08-06 | **Retired Aug 20, 2026 at 301 mi.** Music City Half Marathon race day shoe (4/25/2026). Carried the whole first-half build and most of the rehab block; retired at the conservative end of the 300–400 mi window per the guideline below. Replaced by 2026-brooks |
+| 2026-mizuno | Mizuno Wave Inspire 22 | 179.38 | Active | 2026-02-19 | | Primary trainer through the rehab block and comeback |
+| 2026-brooks | Brooks Glycerin 23 | 0.00 | Active | 2026-08-20 | | New pair, replaces the retired Saucony Guide 17. Max-cushion neutral trainer — softer/higher-stack than the Guide's support build, so expect a different underfoot feel; watch the left patellar tendon over the first ~2 weeks as the legs adapt to the new platform |
 
 ---
 
