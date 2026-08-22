@@ -34,11 +34,47 @@ First run of the new block, and it carried **the first intensity in 12 weeks: 4 
 
 Milestone worth marking: the rehab block ran easy-only from May 25 to Aug 16. These strides are the gate reopening.
 
+**Thu Aug 20 — Easy 3.07 mi @ 10:51, HR 162** (Crockett Park paved trails, flat 30 ft, **Brooks Glycerin 23 debut**)
+
+Midday "Lunch Run" — the only window available — into clear 83 °F / feels 88 °F / 73 % humidity. HR 162, ~12 bpm over the cap. Felt good throughout. No strides, per the deliberate single-variable plan.
+
+**The comparison that matters** — same course, same shoe-agnostic conditions, three data points:
+
+| Date | Feels-like | Pace | Avg HR |
+|---|---|---|---|
+| Jul 2 | 92 °F | 11:03 | 166 |
+| Aug 6 | 84 °F | 10:53 | **169** |
+| **Aug 20** | **88 °F** | **10:51** | **162** |
+
+Today was **7 bpm lower than Aug 6 in 4 °F hotter conditions at the same pace.** That retroactively confirms the Aug 6 read: it was squat DOMS and systemic fatigue, not fitness or overreach. Aerobic trend is intact and improving underneath the heat noise.
+
+**Caveat worth naming:** pace crept to 10:51 — fastest easy pace in a month, 31 sec/mi quicker than Tuesday. Flat terrain (30 ft vs Tuesday's 117 ft) explains part of it, but a flat course should have produced a *slower* pace at the same HR, not a faster one. Some of the 162 is heat; some is pace creep on easy ground. Coaching point logged, not a problem at one run.
+
+VO2 est 41.1 again (humidity-suppressed — ignore).
+
+**Shoe verdict:** cushioning felt great, **but the 10.5 runs a half size short — exchanging for an 11.** Held at 1 run / 3.07 mi pending the exchange.
+
 ### Mobility / recovery
 
 **Wed Aug 19 — 30 min mobility + 20 min sauna.** Felt great. Longest standalone mobility session of the comeback.
 
 **This was a deliberate substitution for the scheduled lower lift** — legs felt overworked, so the athlete swapped to mobility. Correct call, and the timing explains itself: Tuesday's strides were the first elastic/speed loading in 12 weeks, so day-after leg fatigue is the *expected* response, not a warning. Backing off a heavy lower session on top of it is exactly the load management this block is built around. **Week 1 lift count drops to 2** (Mon upper + a lower makeup) rather than forcing three.
+
+**Fri Aug 21 — Mix day** (athlete chose Mix over the recommended Lower makeup — knee-dominant and hinge both got covered anyway)
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 8 | 2× 45 lb |
+| Horizontal pull | 1-arm DB row | 3 × 11 | 55 lb/arm |
+| Squat | Back squat | 3 × 12 | 115 lb |
+| Hinge | Single-leg RDL | 2 × 9 *(stopped short)* | 2× 25 lb |
+| Finisher | Face pulls | 2 × 15 | 30 lb |
+
+- **Back squat 115 × 12,12,12 — GRADUATES.** Top of range clean across all sets. **The ~3s descent is now dropped** (it went optional this block) — normal-tempo squats from here. So the jump vs Aug 5's 115 × 8,10,8 *at ~3s tempo* is partly a tempo effect, not pure strength gain. Next exposure → **120**, rebuild from 3×8. The tendon has tolerated normal-tempo loading; the decline squat test is the check on that.
+- **Incline DB bench** first exposure at the graduated 45 → 8,8,8, the expected reset to the bottom of the range. Chase 3×12.
+- **1-arm DB row** 55 × 11,11,11 (from 10,10,10) — one rep/set from graduating to 60.
+- **Single-leg RDL stopped one set short — lower back began talking on set 2.** Correct call, made at the right moment. Read: this is almost certainly **erector fatigue and form breakdown, not excessive load** — 25 lb/hand is light, and it came directly after 36 reps of 115 lb back squat. The fix is sequencing (hinge before squat, or split them across days) or a supported hinge variant, *not* backing the load down.
+- 20-min sauna after.
 
 ### InBody scan (Wed Aug 19) — logged to `data/inbody.csv`
 
@@ -54,6 +90,8 @@ Milestone worth marking: the rehab block ran easy-only from May 25 to Aug 16. Th
 |---|---|---|
 | Mon Aug 17 | 20 min | Post-lift |
 | Wed Aug 19 | 20 min | Post-mobility |
+| Thu Aug 20 | 20 min | Soon after the run |
+| Fri Aug 21 | 20 min | Post-lift |
 
 ### Week 1 plan adjustments (logged Thu Aug 20)
 
