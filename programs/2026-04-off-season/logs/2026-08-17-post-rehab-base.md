@@ -100,3 +100,71 @@ Two deviations from the plan sheet, both deliberate:
 1. **Wed lower lift → mobility** (athlete's call, post-strides leg fatigue). Lower slides to **Fri Aug 21**; the Fri Mix session drops this week. Two quality lifts > three rushed ones.
 2. **Thu strides pulled.** Plan called for strides ×2 (Tue + Thu); Tuesday's are done, Thursday's are cancelled because Thursday is the **Brooks Glycerin 23 debut**. Stacking first-strides-in-12-weeks against a new shoe platform on a 4-days-post-reassessment tendon confounds the read. Week 1 lands at **1 stride session**, Week 2 resumes ×2.
 3. **Decline squat test due** — the plan calls for it after any *hard or novel* lower session, and Tuesday's strides qualify. Run it before Friday's lower lift.
+
+### Decline squat test (Sat Aug 22)
+
+**L1 / R0** — back to the block-best level, and the first test since the Aug 16 reassessment read L2. That L2 was a loading response to the heaviest lower week of the rehab block; a week later, with a normal-tempo 115 back squat and the first strides in 12 weeks behind it, the tendon has settled back to 1. **Green across the board** — this is the clearance for tempo in Week 3.
+
+### Runs (cont.)
+
+**Sun Aug 23 — Long run 5.00 mi @ 11:22, HR 155** (Smith Park paved trails, hilly 325 ft, **Brooks Glycerin 23 size-11 debut**)
+
+Week 1's long run and the biggest day of the comeback so far: 5.00 mi with **325 ft of vert**, the most climbing since the Jul 12 eight-miler. Clear 78 °F / feels 82 °F / 67 % humidity, 10:27 AM start rather than the 6 am default. HR **155**, ~5 bpm over the cap — reasonable for 57 minutes of rolling hills in midday sun, and pace held at 11:22, identical to Aug 18's rolling-terrain pace in easier conditions. VO2 est 41.3 (humidity-suppressed — ignore).
+
+**The shoe read is the story.** This was the exchanged **size 11**, and it went straight onto a 5-miler. Feet did not feel good afterward; athlete called it a mistake, and that's the right diagnosis. Three variables changed at once versus the Mizuno: a new size, a new platform (max-cushion neutral, higher stack, no medial post), and the longest run in six weeks. Foot fatigue is the expected outcome, not a defect in the shoe. **Correction applied:** break the 11 in at 2–3 mi for the next two or three outings before it takes another long run. Also note the foam-life bookkeeping — the current pair has **5 mi on it, not 8** (the first 3.07 were on the returned 10.5).
+
+### Week 1 close (Aug 17–23)
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 13 | **11.07** |
+| Runs | 3–4 | 3 |
+| Stride sessions | 2 | 1 |
+| Lifts | 3 | 2 *(+ 30 min mobility)* |
+| Long run | 5 | **5.00** ✅ |
+| Sauna | 4 | 4 ✅ |
+
+Landed ~15 % under the mileage target with one fewer stride session and one fewer lift — all from deliberate calls (Wed mobility swap, Thursday strides pulled to keep the shoe read clean). **The right trade for Week 1 of a post-rehab block.** The two things that actually had to land — a 5-mile long run and a quiet tendon — both landed. Decline squat back to L1/R0 confirms the week was absorbed, not just survived.
+
+---
+
+## Week 2 (Aug 24 – Aug 30)
+
+Target ~15 mi across 4 runs, strides ×2, long 5–6. First full three-lift week of the block if the schedule cooperates.
+
+### Lift sessions
+
+**Mon Aug 24 — Upper day (abbreviated — ran out of time)**
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 9 | 2× 45 lb |
+| Vertical press | Seated DB shoulder press | 3 × 10 | 2× 25 lb |
+| ~~Horizontal pull~~ | — | *skipped* | |
+| ~~Vertical pull~~ | — | *skipped* | |
+
+- **Seated DB shoulder press 25 × 10,10,10 — GRADUATES.** The build has been visible for three sessions: Aug 10 (8,9,9) → Aug 17 (9,9,9) → **Aug 24 (10,10,10)**. Next exposure goes to **27.5–30 lb/hand**, rebuild from 3×8.
+- **Incline DB bench 45 × 9,9,9**, up a rep per set from Aug 21's 8,8,8 at the graduated load. Chase 3×12 at 45.
+- **Both skipped slots were pulls.** Not a crisis at one session, but worth naming: this is the second straight week the pulling patterns got the short end (Week 1's lower makeup dropped the Friday mix pull work too). If a session gets cut short again, **cut a push, not a pull** — running posture and a desk job both bias toward the front side already. 20-min sauna after.
+
+### Runs
+
+**Tue Aug 25 — Easy 3.26 mi @ 11:14, HR 151** (Crockett Park paved trails, flat 30 ft, Mizuno)
+
+Clear 78 °F / feels 83 °F / 69 % humidity, morning start. HR **151** — 1 bpm over the cap on flat ground, and the cleanest heat-adjusted run of the block so far:
+
+| Date | Course | Feels-like | Pace | Avg HR |
+|---|---|---|---|---|
+| Aug 6 | Crockett (flat) | 84 °F | 10:53 | 169 |
+| Aug 20 | Crockett (flat) | 88 °F | 10:51 | 162 |
+| **Aug 25** | **Crockett (flat)** | **83 °F** | **11:14** | **151** |
+
+Eleven bpm better than Aug 20 in cooler air — but the honest read is that most of that is **pace discipline**, not a five-day fitness jump: he ran 23 sec/mi slower. That's exactly the correction the Aug 20 entry called for (pace creep on flat ground), applied. VO2 est 41.4, the high of this stretch. Smart rotation back to the Mizuno to rest the feet after Sunday. Strava logged a **5-week streak**.
+
+**No strides reported** — Week 2 calls for ×2, so both remaining sessions land Thu + Sat.
+
+### Sauna sessions
+
+| Date | Duration | Notes |
+|---|---|---|
+| Mon Aug 24 | 20 min | Post-lift |
