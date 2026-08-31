@@ -78,3 +78,28 @@ Progression is **symptom-gated, same as the rehab block**: advance only if the p
 ## Transition Out (Oct 12)
 
 If this block lands clean at ~24 mpw with strides + tempo tolerated and the knee quiet, it flows straight into the **Speed block (5K/10K, Oct 12 – Dec 6)**: VO2max + threshold work, with a late-fall 5K as a fitness check. New plan file at that point. Hills/intervals/downhill unlock once there are **4+ consecutive weeks of full training volume with no symptom flare** (per the rehab reassessment rule) — likely early in the speed block.
+
+---
+
+## Amendment — Aug 30, 2026: tempo slides one week (Week 3 → Week 4)
+
+**What changed:** Week 3 (Aug 31 – Sep 6) runs **strides ×2, no tempo**. Tempo #1 opens **Week 4 (Sep 7–13)**. Everything downstream shifts one week; the Oct 12 speed-block handoff still holds because Week 5 is a deload that can absorb the slip.
+
+**Why:** the block has completed **one stride session in two weeks against a plan of four** (Week 1's were pulled deliberately for a clean new-shoe read; Week 2's simply didn't happen). This plan's own rule is *strides before tempo* — strides are what re-teach the legs elastic loading at low volume before a sustained hard effort demands it. Opening tempo on a leg that has had one stride session in twelve weeks skips the gateway.
+
+**What is explicitly *not* the reason:** the tendon. Decline squat is **L1/R0**, and it has since absorbed a graduated 120 lb back squat and a 145 × 3×10 trap-bar deadlift without complaint. This is a preparation gap, not a symptom gap.
+
+**Green light for tempo in Week 4** if Week 3 lands: both stride sessions completed, knee quiet during and next-morning, and weekly mileage at or near 16.
+
+**Revised remaining progression:**
+
+| Week | Dates | Total | Intensity | Long |
+|---|---|---|---|---|
+| 3 | Aug 31 – Sep 6 | 16 | **Strides ×2** *(tempo held)* | 6 |
+| 4 | Sep 7–13 | 18 | **Tempo #1** (10–12 min) + strides | 7 |
+| 5 | Sep 14–20 | 15 | Strides only *(deload)* | 6 |
+| 6 | Sep 21–27 | 20 | Tempo (12–15 min) | 8 |
+| 7 | Sep 28 – Oct 4 | 22 | Tempo (15–18 min) + strides | 8–9 |
+| 8 | Oct 5–11 | 24 | Tempo (18–20 min) | 9–10 |
+
+**Standing watch item — easy-run pace creep.** Aug 20 and Aug 27 both showed pace drifting faster on flat ground with HR rising in *cooler* conditions. Easy runs are governed by HR, not pace: hold **11:15–11:30** outdoors and let HR settle under 150. Strides are where the speed goes.
