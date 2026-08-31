@@ -247,3 +247,27 @@ That's now **one stride session in the block's first two weeks against a plan of
 Second item: **the decline squat retest called for after Wednesday's novel 120 lb squat did not get reported.** Run it before the next lower session.
 
 Two-week block trend, for the record: **11.07 → 13.50 mi**, four runs achieved, easy-run HR discipline holding at or under the cap in every controlled setting, tendon quiet, and body comp still net-positive. The base is rebuilding on schedule. Intensity is the piece that has slipped, and Week 3 is where it gets caught up.
+
+## Week 3 (Aug 31 – Sep 6)
+
+Volume target ~16 mi over 4 runs, long run ~6. **Tempo held to Week 4** (per the Aug 30 amendment); this week's real assignment is **strides ×2 (Tue + Thu)** — the gateway that has to land before tempo opens. Green light for Week 4 tempo requires both stride sessions completed, knee quiet during and next-morning, and mileage at/near 16.
+
+### Lift sessions
+
+**Mon Aug 31 — Upper day** *(notebook back in hand)*
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Flat DB bench | 3 × 10,11,11 | 2× 45 lb |
+| Vertical press | Seated DB shoulder press | 3 × 8,9,9 | 2× 27.5 lb |
+| Horizontal pull | Chest-supported row | 3 × 12,12,12 | 60 lb/arm |
+| Vertical pull | Lat pulldown | 3 × 10,10,10 | 100 lb |
+| Finisher | Hammer curl / OH triceps ext (superset) | 2 × 10/12 | 25 lb/hand · 30 lb |
+
+- **The best-collected upper day of the block — and it took the notebook coming back.** Three progression events in one session.
+- **Shoulder press is finally off 25.** It earned 27.5–30 on Aug 24, then ran 25 from memory on Aug 28; today it moved to **27.5 and rebuilt clean at 8,9,9**. Chase 3×10 → 3×12 before the next bump.
+- **Two clean graduations.** Row **60 × 12,12,12** (→ 65 next) and pulldown **100 × 10,10,10** (→ 105–110 next). Both had been sitting one rep short for a session; both closed it out.
+- **Flat bench 45 × 10,11,11** — +1 rep over Aug 17, one rep from 3×12 and a jump to 50.
+- Arms: hammer curl bumped 22.5 → **25** (reset to 10s), triceps held 30 × 12. 20-min sauna. ✅
+
+**Now the week turns on the runs — strides Tue + Thu are the whole point of Week 3.** And the decline-squat retest (overdue since the Aug 26 novel 120 squat) should be read **before Wednesday's lower session**.
