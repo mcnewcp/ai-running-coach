@@ -168,3 +168,82 @@ Eleven bpm better than Aug 20 in cooler air — but the honest read is that most
 | Date | Duration | Notes |
 |---|---|---|
 | Mon Aug 24 | 20 min | Post-lift |
+| Fri Aug 28 | 20 min | Post-lift |
+
+### Lift sessions (cont.)
+
+**Wed Aug 26 — Lower day** (the first full lower session of the block)
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Hinge *(sequenced first)* | Trap-bar deadlift | 3 × 10 | 145 lb |
+| Squat | Back squat | 3 × 8 | **120 lb** |
+| Single-leg | DB reverse lunge | 3 × 9/side | 2× 25 lb |
+| Finisher | Copenhagen plank | 2 × 30 s | bodyweight |
+
+- **Trap-bar deadlift 145 × 10,10,10 — GRADUATES.** Hit the 3×10 build target across all sets, up from Aug 12's 3×8. Next exposure → **155**, rebuild from 3×8.
+- **The sequencing fix worked.** Hinge went first this session, per the Aug 21 read that the single-leg RDL back complaint was erector fatigue from 36 preceding reps of back squat, not excessive load. Back stayed quiet through 30 reps at 145. **Diagnosis confirmed — keep hinging before squatting on lower days.**
+- **Back squat 120 × 8,8,8**, clean, exactly the prescribed reset to the bottom of the range at the newly graduated load. Now chase 3×12 at 120.
+- **Reverse lunge 25 × 9,9,9** — one rep/set from 3×10 and a bump to 30/hand.
+- 20-min sauna.
+
+**Fri Aug 28 — Upper day** *(planned Mix → swapped; glutes sore from Wednesday)*
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 8 | 2× 45 lb |
+| Vertical press | Seated DB shoulder press | 3 × 9,10,10 | 2× 25 lb |
+| Horizontal pull | Chest-supported row | 3 × 11,11,12 | 60 lb/arm |
+| Vertical pull | Lat pulldown | 3 × 9,10,10 | 100 lb |
+
+- **Swapping Mix → Upper on sore glutes was the right call** — the Mix day's squat-or-hinge slot would have landed on legs that had just taken the block's heaviest lower session two days prior.
+- **It also accidentally fixed last week's problem.** The two patterns that got cut short on Aug 24 were both pulls; this session hit both. Pulling volume is square for the week.
+- **The notebook stayed home, and it cost one graduation.** Shoulder press earned 27.5–30 on Aug 24 (25 × 10,10,10) but ran at 25 again from memory — 9,10,10. Not a setback, just a repeated week. Incline bench also slid to 8,8,8 from Monday's 9,9,9 at the same load. **Next exposure: shoulder press goes to 27.5–30, rebuild from 3×8.**
+- **Row 60 × 11,11,12** and **pulldown 100 × 9,10,10** are each one rep from graduating (→ 65–70 and 105–110 respectively).
+- 20-min sauna.
+
+### Runs (cont.)
+
+**Thu Aug 27 — Easy 3.23 mi @ 11:03, HR 154** (Crockett Park, flat 33 ft, Mizuno)
+
+The coolest conditions of the block — partly cloudy 72 °F / feels 76 °F — and HR came in at **154**, three bpm *higher* than Tuesday's 151 in feels-83 °F. Pace also ticked back up, 11:03 vs 11:14. That's **pace creep returning**, not a fitness or fatigue signal: on 12 °F cooler ground the HR should have dropped. Humidity at 89 % is the mitigating factor, but the pattern is now visible twice (Aug 20, Aug 27). VO2 est 41.4.
+
+**Sat Aug 29 — Easy 2.00 mi @ 11:04, HR 136** (Peloton Tread, **Brooks size-11, 2nd outing**)
+
+Kids and a busy day forced the treadmill; getting the run in anyway was the right call. HR **136 — 14 bpm under the cap**, the easiest-effort run of the block, at essentially the same pace as outdoor easy runs. Clean illustration of the A/C discount.
+
+**The shoe question is answered: the Brooks "felt much better than last time."** Short and flat was the correct prescription; the Aug 23 complaint was break-in, not a bad shoe.
+
+**Sun Aug 30 — Long run 5.01 mi @ 11:00, HR 147** (treadmill, Mizuno) — closes Week 2
+
+Treadmill again (kids). **HR 147, three bpm under the cap, at an 11:00 pace — the best HR-to-pace ratio of the block.**
+
+| Date | Setting | Distance | Pace | Avg HR |
+|---|---|---|---|---|
+| Aug 23 | Outdoor, 325 ft, midday sun | 5.00 | 11:22 | 155 |
+| **Aug 30** | **Treadmill, flat, A/C** | **5.01** | **11:00** | **147** |
+
+22 sec/mi faster at 8 bpm lower — though flat ground and air conditioning explain most of that, so bank it as a good session rather than a week's worth of fitness. *(Strava tagged it "most time in tempo zone" — that's a zone-model artifact. 147 bpm is squarely Z2. Ignore.)*
+
+### InBody scan (Fri Aug 28) — logged to `data/inbody.csv`
+
+**177.4 / SMM 84.0 / PBF 17.4 / ECW-TBW 0.365.** First well-spaced scan in a while (9 days). SMM **held at 84.0 for the third straight scan** — the block high is sticking. But weight rose 1.7 lb while muscle stayed flat, so **the gain is fat and/or fluid, and PBF ticked 16.9 → 17.4.** ECW/TBW at 0.365 is the highest of the block (still solidly normal) and points at fluid: the scan landed two days after the heaviest lower session of the block and on the same day as an upper session. One scan is not a trend, and the block arc is still strongly positive (**19.1 % → 17.4 % PBF, SMM 82.0 → 84.0**). Watch the next scan for whether PBF settles back.
+
+### Week 2 close (Aug 24–30)
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 15 | **13.50** |
+| Runs | 4 | **4** ✅ |
+| Stride sessions | 2 | **0** ❌ |
+| Lifts | 3 | **2** |
+| Long run | 5–6 | 5.01 |
+| Sauna | 4 | 2 |
+
+Mileage landed 10 % light, the long run a mile short, and two of the four runs went to the treadmill on a kid-heavy weekend — all reasonable. **The one that matters is strides: zero, for the second week running.** Week 1's were pulled deliberately (clean shoe read); Week 2's just didn't happen.
+
+That's now **one stride session in the block's first two weeks against a plan of four**, and Week 3 is scheduled to introduce tempo. The plan's own sequencing rule is *strides before tempo* — strides are the gateway that re-teaches the legs elastic loading at low volume before a sustained hard effort asks for it. **So Week 3 holds tempo and runs strides ×2 instead**, then tempo opens Week 4. The tendon is not the constraint here (decline squat L1/R0, and it has since absorbed a 120 back squat); the missing preparatory step is.
+
+Second item: **the decline squat retest called for after Wednesday's novel 120 lb squat did not get reported.** Run it before the next lower session.
+
+Two-week block trend, for the record: **11.07 → 13.50 mi**, four runs achieved, easy-run HR discipline holding at or under the cap in every controlled setting, tendon quiet, and body comp still net-positive. The base is rebuilding on schedule. Intensity is the piece that has slipped, and Week 3 is where it gets caught up.
