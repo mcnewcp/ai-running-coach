@@ -271,3 +271,32 @@ Volume target ~16 mi over 4 runs, long run ~6. **Tempo held to Week 4** (per the
 - Arms: hammer curl bumped 22.5 → **25** (reset to 10s), triceps held 30 × 12. 20-min sauna. ✅
 
 **Now the week turns on the runs — strides Tue + Thu are the whole point of Week 3.** And the decline-squat retest (overdue since the Aug 26 novel 120 squat) should be read **before Wednesday's lower session**.
+
+**Wed Sep 2 — Lower day** *(decline squat AM: **L1/R0** — back to block-best, and the overdue retest is now caught up)*
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Hinge | Trap-bar deadlift | 3 × 8,8,8 | 155 lb |
+| Squat | Back squat | 3 × 12,12,12 | 120 lb |
+| Squat | DB reverse lunge | 3 × 8,8,8 | 2× 30 lb |
+| Finisher | Copenhagen plank | 2 × 30s | bodyweight |
+
+- **Two graduations collected, one graduation earned.** Deadlift moved to the new **155** (clean 3×8 rebuild, sequenced first per the Aug 21 fix — back stayed quiet again); reverse lunge moved to **30/hand** (clean 3×8). **Back squat 120 × 12,12,12 hit the top of the range across all sets → graduates to 125** next exposure (rebuild from 3×8).
+- **Decline squat L1/R0** the same morning — the tendon absorbed the block's heaviest lower work (155 hinge + 120×36 squat volume) and *improved* the test. The reintroduction of intensity is landing on a genuinely quiet knee.
+- 20-min sauna. ✅
+
+### Runs
+
+**Tue Sep 1 — Easy 3.65 mi @ 11:18, HR 151 — + STRIDE SESSION #1** (Crockett Park, flat 42 ft, **Brooks size-11**, feels-90 °F)
+
+The week's headline finally lands: **4 strides at the end** — the first stride session since Aug 18, and the piece the whole Week 3 → Week 4 tempo decision hinges on. One down, one to go (Thursday).
+
+Two other good signs: **pace discipline is back** — 11:18 sits right in the 11:15–11:30 target, reversing the Aug 20/27 creep — and **HR 151 in feels-90 °F at a 9 am start is well controlled** (1 bpm over cap in genuinely hot, humid air). The Brooks handled a normal outdoor easy run with no foot complaints; break-in is officially done. 15-min sauna after.
+
+### InBody scan (Wed Sep 2) — logged to `data/inbody.csv`
+
+**179.2 / SMM 84.0 / PBF 18.1 / ECW-TBW 0.365.** Clean 5-day spacing from Aug 28.
+
+**The Aug 28 watch-item resolved the wrong way.** SMM held at 84.0 for the **fourth straight scan** (the block high is rock-solid), but PBF has now risen **two scans running — 16.9 (Aug 19) → 17.4 → 18.1** — while muscle stays flat and ECW/TBW is unchanged at 0.365. Last time the +weight had a plausible fluid explanation (post-lower-session, ECW/TBW ticked up); this time ECW/TBW is flat, so the ~3.5 lb gained since Aug 19 is **fat, not fluid or muscle.** That's now a small *real* trend, not noise.
+
+Perspective first: the block arc is still net-positive (**19.1 → 18.1 PBF, 82.0 → 84.0 SMM**), and the muscle floor holding at 84 through a volume-and-intensity rebuild is exactly what we want. But the fat line has quietly turned. Worth a **light nutrition nudge** — likely a calorie creep as training has felt good and appetite followed. Not a diet, just awareness: protein-forward, watch the evening/weekend margins. We'll read the next scan against this.
