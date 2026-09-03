@@ -300,3 +300,30 @@ Two other good signs: **pace discipline is back** — 11:18 sits right in the 11
 **The Aug 28 watch-item resolved the wrong way.** SMM held at 84.0 for the **fourth straight scan** (the block high is rock-solid), but PBF has now risen **two scans running — 16.9 (Aug 19) → 17.4 → 18.1** — while muscle stays flat and ECW/TBW is unchanged at 0.365. Last time the +weight had a plausible fluid explanation (post-lower-session, ECW/TBW ticked up); this time ECW/TBW is flat, so the ~3.5 lb gained since Aug 19 is **fat, not fluid or muscle.** That's now a small *real* trend, not noise.
 
 Perspective first: the block arc is still net-positive (**19.1 → 18.1 PBF, 82.0 → 84.0 SMM**), and the muscle floor holding at 84 through a volume-and-intensity rebuild is exactly what we want. But the fat line has quietly turned. Worth a **light nutrition nudge** — likely a calorie creep as training has felt good and appetite followed. Not a diet, just awareness: protein-forward, watch the evening/weekend margins. We'll read the next scan against this.
+
+**Thu Sep 3 — Easy 4.00 mi @ 10:48, HR 146 — + STRIDE SESSION #2** (treadmill, Mizuno)
+
+Hot outside, so the treadmill — the same correct heat-sidestep as Aug 13/29/30. And with it, **both Week 3 stride sessions are complete.**
+
+**HR 146, four bpm under the cap, at a 10:48 pace.** Strava flagged it as the fastest easy pace in a month, and it is — but it's HR-legal, which is the rule that governs. Indoors in A/C the pace-for-HR relationship shifts hard; the same 10:48 outdoors produced **HR 162 (Aug 20)** and 11:03/154 (Aug 27). So this isn't the pace creep we've been watching, it's the treadmill discount. Best HR-to-pace of the block:
+
+| Date | Setting | Distance | Pace | Avg HR |
+|---|---|---|---|---|
+| Aug 30 | Treadmill | 5.01 | 11:00 | 147 |
+| **Sep 3** | **Treadmill** | **4.00** | **10:48** | **146** |
+
+12 sec/mi faster at 1 bpm lower. 4 strides after; 10-min sauna (short, but it makes **four sauna sessions this week** — target hit).
+
+### ✅ Tempo green light — Week 4 opens with Tempo #1
+
+The Aug 30 amendment set three conditions for opening tempo in Week 4. Status through Thursday:
+
+| Condition | Status |
+|---|---|
+| Both stride sessions completed | ✅ **Sep 1 (4) + Sep 3 (4)** |
+| Knee quiet during and next-morning | ✅ Decline squat **L1/R0** Sep 2, after the block's heaviest lower session |
+| Weekly mileage at or near 16 | 🔄 **7.65 through Thu**; Sat + Sun long run to come |
+
+Two of three are locked. **Week 4 (Sep 7–13) opens with Tempo #1 — one continuous block of 10–12 min at comfortably-hard (HR ~160–165), full easy warm-up and cool-down, on the freshest-leg day (Tue).** The standing rule carries: any knee uptick during or the next morning after a tempo run drops us back to strides-only for a week.
+
+Worth marking that the gateway worked exactly as designed — two stride sessions, a heavy lower session between them, and the tendon test *improved* rather than held. That's the read we wanted before asking for sustained effort.
