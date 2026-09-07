@@ -327,3 +327,56 @@ The Aug 30 amendment set three conditions for opening tempo in Week 4. Status th
 Two of three are locked. **Week 4 (Sep 7–13) opens with Tempo #1 — one continuous block of 10–12 min at comfortably-hard (HR ~160–165), full easy warm-up and cool-down, on the freshest-leg day (Tue).** The standing rule carries: any knee uptick during or the next morning after a tempo run drops us back to strides-only for a week.
 
 Worth marking that the gateway worked exactly as designed — two stride sessions, a heavy lower session between them, and the tendon test *improved* rather than held. That's the read we wanted before asking for sustained effort.
+
+**Fri Sep 4 — Mix day** *(upper-weighted, 2 exercises cut for time at athlete's request)*
+
+| Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|
+| Horizontal push | Incline DB bench | 3 × 10,10,10 | 2× 45 lb |
+| Horizontal pull | 1-arm DB row | 3 × 11,11,12 | 55 lb/arm |
+| Hinge *(light)* | Single-leg RDL | 3 × 8,8,8 | 2× 25 lb |
+| Vertical pull | Lat pulldown | 3 × 8,8,9 | 105 lb |
+
+Session was reshaped on request — short on time, and Wednesday's heavy lower work plus Sunday's long run both argued for keeping legs fresh. **BB overhead press and face pulls were cut** (vertical press had been covered Monday at the newly graduated 27.5; face pulls carry no pending progression). No knee-dominant loading at all.
+
+- **The single-leg RDL diagnostic passed.** Aug 21 stopped at 2×9 with the lower back talking; the read was erector fatigue from sequencing — it followed 36 reps of 115 lb back squat — not the 25 lb load. Today, fresh back and no squat in the session, it ran the **full 3×8 clean**. Diagnosis confirmed; we can stop working around this one.
+- **Incline bench reclaimed its ground:** 45 × 10,10,10, beating the 9,9,9 best (Aug 24) and well past the tired 8,8,8 of Aug 28. Chase 3×12.
+- **Lat pulldown collected Monday's graduation** — first exposure at 105, clean 8,8,9. Chase 3×10.
+- **1-arm row 55 × 11,11,12** — progress on Aug 21's 11,11,11 but **not** a graduation; still one rep short on two sets. Hold 55.
+- 20-min sauna.
+
+### Runs (cont.)
+
+**Sat Sep 5 — Easy 2.43 mi @ 11:07, HR 159** (Smith Park, rolling 111 ft, Brooks, **evening, feels-92 °F**)
+
+The 4th run of the week, taken in the hottest conditions of the block — clear 91 °F, feels-92 °F, 7:24 PM. HR **159, nine bpm over the cap** on a short easy run, and pace at 11:07 came in *faster* than the 11:15–11:30 prescription. In that air it should have been slower.
+
+**Sun Sep 6 — Long run 6.02 mi @ 11:45, HR 160** (Smith Park, **hilly 400 ft**, Mizuno) — closes Week 3
+
+*"Why do I choose to live in this climate?"* — fair question at feels-86 °F and 74 % humidity.
+
+**HR 160 for 70 minutes is the highest long-run HR of the block.** The mitigating factors are real and stack up: 400 ft of vert (most since the Jul 12 eight-miler), longest run since Jul 12, feels-86 °F, and it landed the morning after a feels-92 °F evening run. Critically, **the discipline was there** — pace was correctly backed off to 11:45, which is the response we want.
+
+| Date | Distance | Vert | Feels-like | Pace | Avg HR |
+|---|---|---|---|---|---|
+| Aug 23 | 5.00 | 325 ft | 82 °F | 11:22 | 155 |
+| **Sep 6** | **6.02** | **400 ft** | **86 °F** | **11:45** | **160** |
+
++1 mi, +75 ft, +4 °F → +5 bpm. That's a proportionate progression, not an overreach signal.
+
+### Week 3 close (Aug 31 – Sep 6) — first clean sweep of the block ✅
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 16 | **16.10** ✅ |
+| Runs | 4 | **4** ✅ |
+| Stride sessions | 2 | **2** ✅ |
+| Lifts | 3 | **3** ✅ |
+| Long run | 6 | **6.02** ✅ |
+| Sauna | 4 | **5** ✅ |
+
+Every target met — the first week of the block to go six-for-six, and it came after two weeks where strides were the persistent miss. Progression events: **five load graduations collected** (shoulder press 27.5, row 65-pending, pulldown 105, deadlift 155, lunge 30/hand, back squat → 125 earned), the RDL sequencing question answered, and the tendon reading **L1/R0** after the heaviest lower session of the block.
+
+**All three tempo conditions are met. Week 4 opens with Tempo #1.**
+
+**The one watch item is heat, not fitness.** Four of the week's runs, and both weekend runs especially, ran well above the Z2 cap — 159 and 160 — because September in Tennessee is not cooperating. The runs themselves were fine; the concern is *training quality*: if easy days keep landing at 158–160, the 80/20 balance quietly inverts and the aerobic base stops getting built as intended. That matters more now that a real tempo session is entering the week. **Prescription from here: easy runs move to dawn or the treadmill until the heat breaks**, and Tempo #1 must be run in controlled conditions or its HR target is meaningless.
