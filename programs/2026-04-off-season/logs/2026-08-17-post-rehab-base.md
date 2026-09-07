@@ -408,20 +408,45 @@ The week the block has been building toward. All three green-light conditions fr
 | Sat Sep 12 | Easy 2.5–3 |
 | Sun Sep 13 | Long run 7 |
 
-**Standing prescription — heat.** Week 3 ran four of four runs above the Z2 cap (151/146/159/160) because of September in Tennessee. Easy runs move to **dawn or the treadmill** until the heat breaks, and **Tempo #1 must be run in controlled conditions** — dawn or the tread — or its HR target is meaningless.
+**Standing prescription — heat.** Week 3 ran three of four runs above the Z2 cap (151 / 159 / 160; only the Sep 3 treadmill run, 146, came in under) because of September in Tennessee. Easy runs move to **dawn or the treadmill** until the heat breaks, and **Tempo #1 must be run in controlled conditions** — dawn or the tread — or its HR target is meaningless.
 
 **Standing rule — the tempo tripwire.** Any knee uptick during or the morning after the tempo run → back to strides-only for a week, then retest.
 
 ### Lift sessions
 
-**Mon Sep 7 — Upper day** *(planned)*
+**Mon Sep 7 — Upper day** *(cut short for time; crowded holiday gym forced two substitutions)*
 
-| Pattern | Exercise | Prescription | Load |
-|---|---|---|---|
-| Horizontal push | Flat DB bench | Chase **3 × 12** | 2× 45 lb *(Aug 31: 10,11,11)* |
-| Horizontal pull | Chest-supported row | **NEW LOAD** — rebuild 3 × 8–10 | **65 lb/arm** *(graduated off 60 × 12,12,12)* |
-| Vertical press | Seated DB shoulder press | Chase **3 × 10** | 2× 27.5 lb *(Aug 31: 8,9,9)* |
-| Vertical pull | Lat pulldown | Chase **3 × 10** | 105 lb *(Sep 4: 8,8,9)* |
-| Finisher *(optional)* | Hammer curl / OH triceps ext | Curl chase 2×12; **triceps → 35 lb**, reset to 12s | 25 lb/hand · 35 lb |
+| Pattern | Exercise | Sets × Reps | Load | vs. prescription |
+|---|---|---|---|---|
+| Horizontal push | Flat DB bench | 3 × 12,12,12 | 2× 45 lb | ✅ as prescribed — **GRADUATE** |
+| Horizontal pull | Chest-supported row *(Technogym)* | 3 × 8,8,8 | **70 lb/arm** | prescribed 65 — skipped a rung |
+| Vertical pull | Lat pulldown | 100 × 12, then **120 × 8,8** | 120 lb | prescribed 105 × 3×9 — ramped past it |
+| Vertical press | Seated DB shoulder press | — | — | ❌ **cut for time** |
+| Finisher | Hammer curl / OH triceps ext | — | — | ❌ cut for time |
 
-Two lifts sit one rep from a graduation (**flat bench → 50**, and the pulldown/press pair one step behind); the row collects its Aug 31 graduation today at 65.
+Sauna 19 min.
+
+- **Flat bench graduated.** 45 × 12,12,12 clean, top of range across all sets (Aug 31 was 10,11,11). **Next exposure → 50/hand, rebuild from 3×8.**
+- **Row jumped 60 → 70, skipping 65.** The Aug 31 graduation called for 65; a packed gym meant taking what was free. It held — clean 3×8 at a novel load — so we keep it. **Hold 70, chase 3×10 → 3×12.**
+- **Pulldown ramped to 120.** Opened at 100 (the pre-Sep-4 load) for an easy 12, then jumped to **120 for 8,8**. That's +15 over Friday's 105 × 8,8,9 — the *second* pull-pattern jump in three days, and only two working sets at the new load because the session was cut. **Hold 120 and get three clean sets of 8 before anything else moves.** Two graduations in three days on the same movement is how form quietly degrades; the pulls are running ahead of the double-progression schedule, not behind it.
+
+### ⚠️ Vertical press is the pattern that keeps getting dropped
+
+| Date | Session | Vertical press |
+|---|---|---|
+| Aug 31 | Upper | Seated DB press 27.5 × 8,9,9 |
+| Sep 4 | Mix | ❌ BB OHP cut for time |
+| **Sep 7** | **Upper** | ❌ **cut for time** |
+
+**Nine days and no overhead work**, and 27.5 has had exactly one exposure since graduating off 25. Every other pattern has progressed in that window. **Friday's Mix day leads with vertical press** — it goes first in the session, not last, so it stops being the thing that gets cut.
+
+### Knee note (Mon Sep 7)
+
+Weekend absorbed well overall — *"tired but fine"* — but the **left knee reported a tiny bit fatigued** after the 6.02 mi / 400 ft long run. Not pain, and not a stop signal. But it lands the day before **Tempo #1**, the first sustained hard effort in fifteen weeks.
+
+**Decision: pull the decline squat test forward to Tuesday morning, before the tempo run** (it was slated for Wednesday on the biweekly cadence). Gate:
+
+- **L ≤ 2 and the knee feels normal warming up** → Tempo #1 proceeds as written.
+- **L ≥ 3, or that fatigue is still there** → swap Tuesday to easy + strides, retest Wednesday, tempo moves to Thursday.
+
+Reading the tendon *before* asking it for the hardest effort of the block is worth more than reading it after.
