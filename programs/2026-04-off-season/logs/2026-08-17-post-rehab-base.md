@@ -380,3 +380,48 @@ Every target met — the first week of the block to go six-for-six, and it came 
 **All three tempo conditions are met. Week 4 opens with Tempo #1.**
 
 **The one watch item is heat, not fitness.** Four of the week's runs, and both weekend runs especially, ran well above the Z2 cap — 159 and 160 — because September in Tennessee is not cooperating. The runs themselves were fine; the concern is *training quality*: if easy days keep landing at 158–160, the 80/20 balance quietly inverts and the aerobic base stops getting built as intended. That matters more now that a real tempo session is entering the week. **Prescription from here: easy runs move to dawn or the treadmill until the heat breaks**, and Tempo #1 must be run in controlled conditions or its HR target is meaningless.
+
+---
+
+## Week 4 (Sep 7 – Sep 13) — **Tempo #1 week**
+
+The week the block has been building toward. All three green-light conditions from the Aug 30 amendment were met in Week 3 (both stride sessions ✅, knee L1/R0 ✅, 16.10 mi ✅), so **Tempo #1 opens Tuesday**.
+
+| | Target |
+|---|---|
+| Mileage | **18** (from 16.10) |
+| Runs | 4 |
+| Intensity | **Tempo #1** (10–12 min continuous) + strides ×1 |
+| Long run | **7** |
+| Lifts | 3 (Mon upper / Wed lower / Fri mix) |
+| Sauna | 4 |
+
+**Planned week**
+
+| Day | Session |
+|---|---|
+| Mon Sep 7 | Upper lift *(no run — Labor Day)* |
+| Tue Sep 8 | **Tempo #1** — WU 1.5–2 easy → **10–12 min @ HR 160–165** → CD 1–1.5 easy (~4.5 mi) |
+| Wed Sep 9 | Lower lift *(+ decline squat test AM — biweekly cadence, due)* |
+| Thu Sep 10 | Easy 3.5–4 + strides ×4–6 |
+| Fri Sep 11 | Mix lift |
+| Sat Sep 12 | Easy 2.5–3 |
+| Sun Sep 13 | Long run 7 |
+
+**Standing prescription — heat.** Week 3 ran four of four runs above the Z2 cap (151/146/159/160) because of September in Tennessee. Easy runs move to **dawn or the treadmill** until the heat breaks, and **Tempo #1 must be run in controlled conditions** — dawn or the tread — or its HR target is meaningless.
+
+**Standing rule — the tempo tripwire.** Any knee uptick during or the morning after the tempo run → back to strides-only for a week, then retest.
+
+### Lift sessions
+
+**Mon Sep 7 — Upper day** *(planned)*
+
+| Pattern | Exercise | Prescription | Load |
+|---|---|---|---|
+| Horizontal push | Flat DB bench | Chase **3 × 12** | 2× 45 lb *(Aug 31: 10,11,11)* |
+| Horizontal pull | Chest-supported row | **NEW LOAD** — rebuild 3 × 8–10 | **65 lb/arm** *(graduated off 60 × 12,12,12)* |
+| Vertical press | Seated DB shoulder press | Chase **3 × 10** | 2× 27.5 lb *(Aug 31: 8,9,9)* |
+| Vertical pull | Lat pulldown | Chase **3 × 10** | 105 lb *(Sep 4: 8,8,9)* |
+| Finisher *(optional)* | Hammer curl / OH triceps ext | Curl chase 2×12; **triceps → 35 lb**, reset to 12s | 25 lb/hand · 35 lb |
+
+Two lifts sit one rep from a graduation (**flat bench → 50**, and the pulldown/press pair one step behind); the row collects its Aug 31 graduation today at 65.
