@@ -450,3 +450,29 @@ Weekend absorbed well overall — *"tired but fine"* — but the **left knee rep
 - **L ≥ 3, or that fatigue is still there** → swap Tuesday to easy + strides, retest Wednesday, tempo moves to Thursday.
 
 Reading the tendon *before* asking it for the hardest effort of the block is worth more than reading it after.
+
+### Runs
+
+**Tue Sep 8 — 🎯 TEMPO #1 — 4.50 mi @ 10:29 avg, HR 147 avg** *(Peloton Tread, 11:05 AM, Brooks)*
+
+**Decline squat AM: L1/R0** — passed the pre-tempo gate. First sustained hard effort in **15 weeks**.
+
+| Split | Pace | Avg HR |
+|---|---|---|
+| 1 | 11:08 | 124 |
+| 2 | 10:24 | 143 |
+| **3** | **9:25** | **164** |
+| 4 | 10:36 | 158 |
+| 0.5 | 11:19 | 152 |
+
+**The tempo block ran roughly 2.0 → 3.5 mi: ~1.5 mi in ~14 min at ~9:25–9:45, HR 164 with a ~168 peak.**
+
+**✅ What was excellent — the HR execution.** 164 is dead in the prescribed 160–165 band, and the shape of the curve is exactly right: a flat, controlled plateau, not a climb toward failure. The bookends were genuinely easy — **mile 1 at HR 124** is textbook warm-up discipline, and whole-run avg 147 confirms the easy parts stayed easy. He also ran it on the tread as prescribed, which is the only reason the HR number means anything.
+
+**⚠️ What overshot — the duration.** Prescription was **10–12 min**; he ran **~14**. That's 20–40% long, and it happened for the most predictable reason there is: *it felt good.* Pace beat the 10:15–10:45 estimate by ~45 s/mi too, though a flat tread at 0 % flatters by ~15–30 s/mi, so the outdoor equivalent is nearer 9:45–10:00.
+
+**The read.** Fitness-wise this is a genuinely strong marker — 9:25 at HR 164 against an April half of 10:07 at avg HR 167, with the tread discount acknowledged. But the reintroduction ladder was built deliberately short *because* the tendon is three weeks out of a rehab block, and the first exposure is supposed to be smaller than what he's capable of. Feeling good is precisely the condition under which this goes wrong. **No plan changes and no credit taken forward — the ladder still runs 15 → 18 → 20.**
+
+**Shoes:** Brooks Glycerin 23 (size 11), 5th outing and **first hard effort in them** — no complaints. Pair now at 17.58 mi.
+
+**🔴 Tripwire pending:** the next-morning knee read is the gate. Any uptick → strides-only for a week and retest.
