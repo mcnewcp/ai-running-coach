@@ -476,3 +476,28 @@ Reading the tendon *before* asking it for the hardest effort of the block is wor
 **Shoes:** Brooks Glycerin 23 (size 11), 5th outing and **first hard effort in them** — no complaints. Pair now at 17.58 mi.
 
 **🔴 Tripwire pending:** the next-morning knee read is the gate. Any uptick → strides-only for a week and retest.
+
+**Wed Sep 9 — Lower lift SKIPPED → 30 min mobility + 20 min sauna** *(athlete call: felt tired, lower body wanted rest)*
+
+Planned was the heaviest lower session on the calendar — back squat **125** (first exposure at a novel graduated load) plus trap-bar 155 and reverse lunge 30/hand. He read the fatigue and swapped it for a 30-minute mobility session, which "felt great," plus 20 min sauna.
+
+**This was the right call, and it's the correct reading of Tuesday.** Tempo #1 ran ~40 % longer than prescribed; the cost of that overshoot was always going to surface somewhere, and it surfaced here as systemic lower-body fatigue rather than as tendon pain. Loading a novel 125 back squat on top of it, two days before the longest run of the block, is how a good week turns into a setback. **Self-regulation over plan adherence — this is exactly the judgment the rehab block was supposed to build.**
+
+Note the pattern echo: **Aug 4–6** showed a heavy 115 squat producing HR 169 on the easy run two days later. He is now spotting that mechanism *before* it costs a run rather than after.
+
+**⚠️ Outstanding: the decline squat / knee read was not reported.** It was the explicit gate on Tuesday's overshoot and remains the gate on Thursday's strides. Still needed.
+
+### Week 4 lift plan revised
+
+Two lifts this week instead of three. **Friday becomes a Lower day** (not the planned Mix), sequenced to serve two backlogs at once:
+
+| Order | Pattern | Exercise | Load | Why |
+|---|---|---|---|---|
+| 1 | **Vertical press** | Seated DB shoulder press | 27.5, chase 3×10 | **11 days overdue** — leads the session so it stops being cut |
+| 2 | Hinge | Trap-bar deadlift | 155, chase 3×10 | Carries from Sep 2's 3×8 |
+| 3 | Squat | Back squat | **hold 120** — *not* the graduated 125 | See below |
+| 4 | *(optional)* | Copenhagen plank / glute-med | bodyweight | Standing insurance |
+
+**Back squat holds at 120 rather than debuting 125.** Friday sits two days out from the block's longest run (7 mi), and a novel squat load is precisely what produced the Aug 6 HR spike. **The 125 first exposure moves to Week 5** — the running deload week is the right place to absorb a new heavy load, since the runs around it are smaller. That's better periodization than the calendar had.
+
+**Recovery tally this week:** sauna 19 min (Mon) + 20 min (Wed) = 2 of 4. Mobility: 1 standalone session ✅
