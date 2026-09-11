@@ -502,8 +502,7 @@ Two lifts this week instead of three. **Friday becomes a Lower day** (not the pl
 
 **Recovery tally this week:** sauna 19 min (Mon) + 20 min (Wed) = 2 of 4. Mobility: 1 standalone session ✅
 
-**Fri Sep 11 — Easy 3.93 mi @ 10:56, HR 143 + 4 strides** *(treadmill, Lifetime Franklin, 9:30 AM, Mizuno)*
-*Date assumed from athlete's "today" — correct to Sep 10 if this run was Thursday.*
+**Thu Sep 10 — Easy 3.93 mi @ 10:56, HR 143 + 4 strides** *(treadmill, Lifetime Franklin, 9:30 AM, Mizuno)*
 
 | Split | Pace | Avg HR |
 |---|---|---|
@@ -522,12 +521,14 @@ Pace of 10:56 is faster than the 11:15–11:30 outdoor prescription, but this is
 |---|---|---|
 | Sep 2 | **L1/R0** | morning of the block's heaviest lower session (155 trap-bar + 120 × 12,12,12) |
 | Sep 8 | **L1/R0** | morning of Tempo #1 — passed the gate |
-| **Sep 11** | **L2/R0** | **after Tempo #1** |
+| **Sep 10** | **L2/R0** | two days after Tempo #1; same day as this run |
 
 Still **green** (<3/10, no modification threshold crossed), but it is an uptick, and the standing rule says an uptick after a tempo run means **strides-only for a week, then retest**.
 
 **The tripwire and the plan already agree.** Week 5 (Sep 14–20) is the scheduled deload — **15 mi, strides only, no tempo**. So nothing needs to be rewritten; we simply run Week 5 as written and treat it as the prescribed reset. **Tempo #2 (Week 6) is conditional on the decline squat returning to L1 or better.**
 
-**Strength is NOT what we pull back.** The evidence points the other way: L1 held through the heaviest lower session of the block (Sep 2) and all the way to Sep 8. The only variable that changed between L1 on Sep 8 and L2 on Sep 11 is **the tempo run** — novel elastic/speed loading, not slow heavy loading. Heavy slow resistance is *treatment* for this tendon, not a threat to it. So the **125 back squat debut stays on for Week 5**; it's the running intensity that pauses, not the barbell.
+**What we don't know: why it moved.** Tempo #1 is the most salient candidate, but it is not the only one, and this is a single-point reading on a subjective 0–10 test. Also in the window: today's strides (elastic loading, same day as the test, order not recorded), the Sep 6 hilly 6-miler, cumulative week load, and ordinary day-to-day variation in the test itself. **A one-point tick is not attributable to a specific dose**, and we should not build a dose–response story out of n=1 — doing so would invite both false confidence and needless over-restriction later. What we have is a direction, and the direction is enough to act on.
 
-**Week 4 running:** 8.43 mi / 2 runs through Friday. Sat ~3 + Sun 7 lands ~18.4 vs the 18 target.
+**Strength is not what we pull back**, on the evidence available: L1 held through the block's heaviest lower session (Sep 2) and stayed L1 to Sep 8, and heavy slow resistance is the established *treatment* for this tendon. So the **125 back squat debut stays on for Week 5**; running intensity is what pauses. If the next readings keep climbing, that assumption gets revisited too.
+
+**Week 4 running:** 8.43 mi / 2 runs through Thursday. Sat ~3 + Sun 7 lands ~18.4 vs the 18 target.
