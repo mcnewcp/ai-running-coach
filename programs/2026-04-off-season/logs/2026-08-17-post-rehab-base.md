@@ -501,3 +501,33 @@ Two lifts this week instead of three. **Friday becomes a Lower day** (not the pl
 **Back squat holds at 120 rather than debuting 125.** Friday sits two days out from the block's longest run (7 mi), and a novel squat load is precisely what produced the Aug 6 HR spike. **The 125 first exposure moves to Week 5** — the running deload week is the right place to absorb a new heavy load, since the runs around it are smaller. That's better periodization than the calendar had.
 
 **Recovery tally this week:** sauna 19 min (Mon) + 20 min (Wed) = 2 of 4. Mobility: 1 standalone session ✅
+
+**Fri Sep 11 — Easy 3.93 mi @ 10:56, HR 143 + 4 strides** *(treadmill, Lifetime Franklin, 9:30 AM, Mizuno)*
+*Date assumed from athlete's "today" — correct to Sep 10 if this run was Thursday.*
+
+| Split | Pace | Avg HR |
+|---|---|---|
+| 1 | 11:13 | 132 |
+| 2 | 11:00 | **145** |
+| 3 | 11:02 | **145** |
+| 0.8 *(strides)* | 11:37 | 150 *(max 169)* |
+
+**The cleanest easy-run HR profile of the block.** Avg **143 — seven bpm under the cap** — and the shape is textbook: mile 1 at 132, then a dead-flat 145/145 plateau with **no upward drift at all**. That last part is what matters. Cardiac drift on an easy run is the fatigue tell; there isn't any here. Three days after an overcooked tempo and a skipped lower session, the aerobic system reads fully recovered.
+
+Pace of 10:56 is faster than the 11:15–11:30 outdoor prescription, but this is the treadmill/AC discount, and **HR is the governor** — cf. Sep 3 on the tread at 10:48/146; today is 8 s/mi slower at 3 bpm lower. **Not pace creep.** Strides landed (4, max HR 169 on the surges).
+
+### 🔴 Decline squat L2/R0 — the tempo tripwire fires
+
+| Date | Reading | Context |
+|---|---|---|
+| Sep 2 | **L1/R0** | morning of the block's heaviest lower session (155 trap-bar + 120 × 12,12,12) |
+| Sep 8 | **L1/R0** | morning of Tempo #1 — passed the gate |
+| **Sep 11** | **L2/R0** | **after Tempo #1** |
+
+Still **green** (<3/10, no modification threshold crossed), but it is an uptick, and the standing rule says an uptick after a tempo run means **strides-only for a week, then retest**.
+
+**The tripwire and the plan already agree.** Week 5 (Sep 14–20) is the scheduled deload — **15 mi, strides only, no tempo**. So nothing needs to be rewritten; we simply run Week 5 as written and treat it as the prescribed reset. **Tempo #2 (Week 6) is conditional on the decline squat returning to L1 or better.**
+
+**Strength is NOT what we pull back.** The evidence points the other way: L1 held through the heaviest lower session of the block (Sep 2) and all the way to Sep 8. The only variable that changed between L1 on Sep 8 and L2 on Sep 11 is **the tempo run** — novel elastic/speed loading, not slow heavy loading. Heavy slow resistance is *treatment* for this tendon, not a threat to it. So the **125 back squat debut stays on for Week 5**; it's the running intensity that pauses, not the barbell.
+
+**Week 4 running:** 8.43 mi / 2 runs through Friday. Sat ~3 + Sun 7 lands ~18.4 vs the 18 target.
