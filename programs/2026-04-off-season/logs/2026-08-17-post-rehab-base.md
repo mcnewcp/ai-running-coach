@@ -532,3 +532,38 @@ Still **green** (<3/10, no modification threshold crossed), but it is an uptick,
 **Strength is not what we pull back**, on the evidence available: L1 held through the block's heaviest lower session (Sep 2) and stayed L1 to Sep 8, and heavy slow resistance is the established *treatment* for this tendon. So the **125 back squat debut stays on for Week 5**; running intensity is what pauses. If the next readings keep climbing, that assumption gets revisited too.
 
 **Week 4 running:** 8.43 mi / 2 runs through Thursday. Sat ~3 + Sun 7 lands ~18.4 vs the 18 target.
+
+**Fri Sep 11 — Lower day** *(the revised session: vertical press led, squat held)*
+
+| Order | Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|---|
+| 1 | **Vertical press** | Seated DB shoulder press | 3 × 10,10,10 | 2× 27.5 lb |
+| 2 | Hinge | Trap-bar deadlift | 3 × 10,10,10 | 155 lb |
+| 3 | Squat | Back squat | 3 × 12,12,12 | 120 lb *(held)* |
+| 4 | Finisher | Copenhagen plank | 2 × 30s, 20s | bodyweight |
+
+Sauna 20 min — **3 of 4 for the week**.
+
+- **Vertical press backlog cleared.** Led the session as prescribed and went 27.5 × 10,10,10, up from Aug 31's 8,9,9. Putting it first worked — it had been cut three sessions running.
+- **Trap-bar 155 × 10,10,10**, up from Sep 2's 3×8, sequenced before the squat per the hinge-first fix. Lower back quiet.
+- **Back squat held at 120 and went 3×12 clean** — a second consecutive full-range session at that load. The 125 debut lands in Week 5, the running deload, which is the better slot for a novel load anyway.
+- **Copenhagen slipped to 30s/20s** from the 30s/30s held on Aug 26 and Sep 2. Small, probably end-of-session fatigue — but the side wasn't recorded, and with a left-knee history a left/right asymmetry in glute-med work is worth knowing. **Record the side next time.**
+
+### 📋 Bookkeeping correction — the graduation gate
+
+My own notes have been inconsistent about where a lift graduates. Shoulder press (Aug 24), trap-bar (Aug 26) and lat pulldown (Aug 31) were all called graduations at **3×10**, while chest-supported row (Aug 31) had to reach **3×12**. The durable framework is unambiguous: **mains run 3 × 8–12**, so the top of the range is 12.
+
+**Going forward, 3×12 across all sets is the gate for every main.** That makes today's shoulder press and trap-bar results *progress, not graduations* — both chase 3×12 at their current loads. The early graduations already banked did no harm (each new load was absorbed cleanly), so nothing gets rolled back; the rule is simply applied consistently from here.
+
+### Week 4 status through Friday
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 18 | **8.43** *(Sat + Sun to come)* |
+| Runs | 4 | 2 |
+| Tempo | 1 | **1** ✅ *(overshot to ~14 min)* |
+| Stride sessions | 1 | **1** ✅ |
+| Lifts | 3 | **2** *(Wed swapped for mobility)* |
+| Sauna | 4 | 3 |
+
+Sat ~3 + Sun 7 lands **~18.4** vs the 18 target.
