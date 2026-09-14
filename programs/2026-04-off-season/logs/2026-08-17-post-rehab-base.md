@@ -380,3 +380,272 @@ Every target met — the first week of the block to go six-for-six, and it came 
 **All three tempo conditions are met. Week 4 opens with Tempo #1.**
 
 **The one watch item is heat, not fitness.** Four of the week's runs, and both weekend runs especially, ran well above the Z2 cap — 159 and 160 — because September in Tennessee is not cooperating. The runs themselves were fine; the concern is *training quality*: if easy days keep landing at 158–160, the 80/20 balance quietly inverts and the aerobic base stops getting built as intended. That matters more now that a real tempo session is entering the week. **Prescription from here: easy runs move to dawn or the treadmill until the heat breaks**, and Tempo #1 must be run in controlled conditions or its HR target is meaningless.
+
+---
+
+## Week 4 (Sep 7 – Sep 13) — **Tempo #1 week**
+
+The week the block has been building toward. All three green-light conditions from the Aug 30 amendment were met in Week 3 (both stride sessions ✅, knee L1/R0 ✅, 16.10 mi ✅), so **Tempo #1 opens Tuesday**.
+
+| | Target |
+|---|---|
+| Mileage | **18** (from 16.10) |
+| Runs | 4 |
+| Intensity | **Tempo #1** (10–12 min continuous) + strides ×1 |
+| Long run | **7** |
+| Lifts | 3 (Mon upper / Wed lower / Fri mix) |
+| Sauna | 4 |
+
+**Planned week**
+
+| Day | Session |
+|---|---|
+| Mon Sep 7 | Upper lift *(no run — Labor Day)* |
+| Tue Sep 8 | **Tempo #1** — WU 1.5–2 easy → **10–12 min @ HR 160–165** → CD 1–1.5 easy (~4.5 mi) |
+| Wed Sep 9 | Lower lift *(+ decline squat test AM — biweekly cadence, due)* |
+| Thu Sep 10 | Easy 3.5–4 + strides ×4–6 |
+| Fri Sep 11 | Mix lift |
+| Sat Sep 12 | Easy 2.5–3 |
+| Sun Sep 13 | Long run 7 |
+
+**Standing prescription — heat.** Week 3 ran three of four runs above the Z2 cap (151 / 159 / 160; only the Sep 3 treadmill run, 146, came in under) because of September in Tennessee. Easy runs move to **dawn or the treadmill** until the heat breaks, and **Tempo #1 must be run in controlled conditions** — dawn or the tread — or its HR target is meaningless.
+
+**Standing rule — the tempo tripwire.** Any knee uptick during or the morning after the tempo run → back to strides-only for a week, then retest.
+
+### Lift sessions
+
+**Mon Sep 7 — Upper day** *(cut short for time; crowded holiday gym forced two substitutions)*
+
+| Pattern | Exercise | Sets × Reps | Load | vs. prescription |
+|---|---|---|---|---|
+| Horizontal push | Flat DB bench | 3 × 12,12,12 | 2× 45 lb | ✅ as prescribed — **GRADUATE** |
+| Horizontal pull | Chest-supported row *(Technogym)* | 3 × 8,8,8 | **70 lb/arm** | prescribed 65 — skipped a rung |
+| Vertical pull | Lat pulldown | 100 × 12, then **120 × 8,8** | 120 lb | prescribed 105 × 3×9 — ramped past it |
+| Vertical press | Seated DB shoulder press | — | — | ❌ **cut for time** |
+| Finisher | Hammer curl / OH triceps ext | — | — | ❌ cut for time |
+
+Sauna 19 min.
+
+- **Flat bench graduated.** 45 × 12,12,12 clean, top of range across all sets (Aug 31 was 10,11,11). **Next exposure → 50/hand, rebuild from 3×8.**
+- **Row jumped 60 → 70, skipping 65.** The Aug 31 graduation called for 65; a packed gym meant taking what was free. It held — clean 3×8 at a novel load — so we keep it. **Hold 70, chase 3×10 → 3×12.**
+- **Pulldown ramped to 120.** Opened at 100 (the pre-Sep-4 load) for an easy 12, then jumped to **120 for 8,8**. That's +15 over Friday's 105 × 8,8,9 — the *second* pull-pattern jump in three days, and only two working sets at the new load because the session was cut. **Hold 120 and get three clean sets of 8 before anything else moves.** Two graduations in three days on the same movement is how form quietly degrades; the pulls are running ahead of the double-progression schedule, not behind it.
+
+### ⚠️ Vertical press is the pattern that keeps getting dropped
+
+| Date | Session | Vertical press |
+|---|---|---|
+| Aug 31 | Upper | Seated DB press 27.5 × 8,9,9 |
+| Sep 4 | Mix | ❌ BB OHP cut for time |
+| **Sep 7** | **Upper** | ❌ **cut for time** |
+
+**Nine days and no overhead work**, and 27.5 has had exactly one exposure since graduating off 25. Every other pattern has progressed in that window. **Friday's Mix day leads with vertical press** — it goes first in the session, not last, so it stops being the thing that gets cut.
+
+### Knee note (Mon Sep 7)
+
+Weekend absorbed well overall — *"tired but fine"* — but the **left knee reported a tiny bit fatigued** after the 6.02 mi / 400 ft long run. Not pain, and not a stop signal. But it lands the day before **Tempo #1**, the first sustained hard effort in fifteen weeks.
+
+**Decision: pull the decline squat test forward to Tuesday morning, before the tempo run** (it was slated for Wednesday on the biweekly cadence). Gate:
+
+- **L ≤ 2 and the knee feels normal warming up** → Tempo #1 proceeds as written.
+- **L ≥ 3, or that fatigue is still there** → swap Tuesday to easy + strides, retest Wednesday, tempo moves to Thursday.
+
+Reading the tendon *before* asking it for the hardest effort of the block is worth more than reading it after.
+
+### Runs
+
+**Tue Sep 8 — 🎯 TEMPO #1 — 4.50 mi @ 10:29 avg, HR 147 avg** *(Peloton Tread, 11:05 AM, Brooks)*
+
+**Decline squat AM: L1/R0** — passed the pre-tempo gate. First sustained hard effort in **15 weeks**.
+
+| Split | Pace | Avg HR |
+|---|---|---|
+| 1 | 11:08 | 124 |
+| 2 | 10:24 | 143 |
+| **3** | **9:25** | **164** |
+| 4 | 10:36 | 158 |
+| 0.5 | 11:19 | 152 |
+
+**The tempo block ran roughly 2.0 → 3.5 mi: ~1.5 mi in ~14 min at ~9:25–9:45, HR 164 with a ~168 peak.**
+
+**✅ What was excellent — the HR execution.** 164 is dead in the prescribed 160–165 band, and the shape of the curve is exactly right: a flat, controlled plateau, not a climb toward failure. The bookends were genuinely easy — **mile 1 at HR 124** is textbook warm-up discipline, and whole-run avg 147 confirms the easy parts stayed easy. He also ran it on the tread as prescribed, which is the only reason the HR number means anything.
+
+**⚠️ What overshot — the duration.** Prescription was **10–12 min**; he ran **~14**. That's 20–40% long, and it happened for the most predictable reason there is: *it felt good.* Pace beat the 10:15–10:45 estimate by ~45 s/mi too, though a flat tread at 0 % flatters by ~15–30 s/mi, so the outdoor equivalent is nearer 9:45–10:00.
+
+**The read.** Fitness-wise this is a genuinely strong marker — 9:25 at HR 164 against an April half of 10:07 at avg HR 167, with the tread discount acknowledged. But the reintroduction ladder was built deliberately short *because* the tendon is three weeks out of a rehab block, and the first exposure is supposed to be smaller than what he's capable of. Feeling good is precisely the condition under which this goes wrong. **No plan changes and no credit taken forward — the ladder still runs 15 → 18 → 20.**
+
+**Shoes:** Brooks Glycerin 23 (size 11), 5th outing and **first hard effort in them** — no complaints. Pair now at 17.58 mi.
+
+**🔴 Tripwire pending:** the next-morning knee read is the gate. Any uptick → strides-only for a week and retest.
+
+**Wed Sep 9 — Lower lift SKIPPED → 30 min mobility + 20 min sauna** *(athlete call: felt tired, lower body wanted rest)*
+
+Planned was the heaviest lower session on the calendar — back squat **125** (first exposure at a novel graduated load) plus trap-bar 155 and reverse lunge 30/hand. He read the fatigue and swapped it for a 30-minute mobility session, which "felt great," plus 20 min sauna.
+
+**This was the right call, and it's the correct reading of Tuesday.** Tempo #1 ran ~40 % longer than prescribed; the cost of that overshoot was always going to surface somewhere, and it surfaced here as systemic lower-body fatigue rather than as tendon pain. Loading a novel 125 back squat on top of it, two days before the longest run of the block, is how a good week turns into a setback. **Self-regulation over plan adherence — this is exactly the judgment the rehab block was supposed to build.**
+
+Note the pattern echo: **Aug 4–6** showed a heavy 115 squat producing HR 169 on the easy run two days later. He is now spotting that mechanism *before* it costs a run rather than after.
+
+**⚠️ Outstanding: the decline squat / knee read was not reported.** It was the explicit gate on Tuesday's overshoot and remains the gate on Thursday's strides. Still needed.
+
+### Week 4 lift plan revised
+
+Two lifts this week instead of three. **Friday becomes a Lower day** (not the planned Mix), sequenced to serve two backlogs at once:
+
+| Order | Pattern | Exercise | Load | Why |
+|---|---|---|---|---|
+| 1 | **Vertical press** | Seated DB shoulder press | 27.5, chase 3×10 | **11 days overdue** — leads the session so it stops being cut |
+| 2 | Hinge | Trap-bar deadlift | 155, chase 3×10 | Carries from Sep 2's 3×8 |
+| 3 | Squat | Back squat | **hold 120** — *not* the graduated 125 | See below |
+| 4 | *(optional)* | Copenhagen plank / glute-med | bodyweight | Standing insurance |
+
+**Back squat holds at 120 rather than debuting 125.** Friday sits two days out from the block's longest run (7 mi), and a novel squat load is precisely what produced the Aug 6 HR spike. **The 125 first exposure moves to Week 5** — the running deload week is the right place to absorb a new heavy load, since the runs around it are smaller. That's better periodization than the calendar had.
+
+**Recovery tally this week:** sauna 19 min (Mon) + 20 min (Wed) = 2 of 4. Mobility: 1 standalone session ✅
+
+**Thu Sep 10 — Easy 3.93 mi @ 10:56, HR 143 + 4 strides** *(treadmill, Lifetime Franklin, 9:30 AM, Mizuno)*
+
+| Split | Pace | Avg HR |
+|---|---|---|
+| 1 | 11:13 | 132 |
+| 2 | 11:00 | **145** |
+| 3 | 11:02 | **145** |
+| 0.8 *(strides)* | 11:37 | 150 *(max 169)* |
+
+**The cleanest easy-run HR profile of the block.** Avg **143 — seven bpm under the cap** — and the shape is textbook: mile 1 at 132, then a dead-flat 145/145 plateau with **no upward drift at all**. That last part is what matters. Cardiac drift on an easy run is the fatigue tell; there isn't any here. Three days after an overcooked tempo and a skipped lower session, the aerobic system reads fully recovered.
+
+Pace of 10:56 is faster than the 11:15–11:30 outdoor prescription, but this is the treadmill/AC discount, and **HR is the governor** — cf. Sep 3 on the tread at 10:48/146; today is 8 s/mi slower at 3 bpm lower. **Not pace creep.** Strides landed (4, max HR 169 on the surges).
+
+### 🔴 Decline squat L2/R0 — the tempo tripwire fires
+
+| Date | Reading | Context |
+|---|---|---|
+| Sep 2 | **L1/R0** | morning of the block's heaviest lower session (155 trap-bar + 120 × 12,12,12) |
+| Sep 8 | **L1/R0** | morning of Tempo #1 — passed the gate |
+| **Sep 10** | **L2/R0** | two days after Tempo #1; same day as this run |
+
+Still **green** (<3/10, no modification threshold crossed), but it is an uptick, and the standing rule says an uptick after a tempo run means **strides-only for a week, then retest**.
+
+**The tripwire and the plan already agree.** Week 5 (Sep 14–20) is the scheduled deload — **15 mi, strides only, no tempo**. So nothing needs to be rewritten; we simply run Week 5 as written and treat it as the prescribed reset. **Tempo #2 (Week 6) is conditional on the decline squat returning to L1 or better.**
+
+**What we don't know: why it moved.** Tempo #1 is the most salient candidate, but it is not the only one, and this is a single-point reading on a subjective 0–10 test. Also in the window: today's strides (elastic loading, same day as the test, order not recorded), the Sep 6 hilly 6-miler, cumulative week load, and ordinary day-to-day variation in the test itself. **A one-point tick is not attributable to a specific dose**, and we should not build a dose–response story out of n=1 — doing so would invite both false confidence and needless over-restriction later. What we have is a direction, and the direction is enough to act on.
+
+**Strength is not what we pull back**, on the evidence available: L1 held through the block's heaviest lower session (Sep 2) and stayed L1 to Sep 8, and heavy slow resistance is the established *treatment* for this tendon. So the **125 back squat debut stays on for Week 5**; running intensity is what pauses. If the next readings keep climbing, that assumption gets revisited too.
+
+**Week 4 running:** 8.43 mi / 2 runs through Thursday. Sat ~3 + Sun 7 lands ~18.4 vs the 18 target.
+
+**Fri Sep 11 — Lower day** *(the revised session: vertical press led, squat held)*
+
+| Order | Pattern | Exercise | Sets × Reps | Load |
+|---|---|---|---|---|
+| 1 | **Vertical press** | Seated DB shoulder press | 3 × 10,10,10 | 2× 27.5 lb |
+| 2 | Hinge | Trap-bar deadlift | 3 × 10,10,10 | 155 lb |
+| 3 | Squat | Back squat | 3 × 12,12,12 | 120 lb *(held)* |
+| 4 | Finisher | Copenhagen plank | 2 × 30s, 20s | bodyweight |
+
+Sauna 20 min — **3 of 4 for the week**.
+
+- **Vertical press backlog cleared.** Led the session as prescribed and went 27.5 × 10,10,10, up from Aug 31's 8,9,9. Putting it first worked — it had been cut three sessions running.
+- **Trap-bar 155 × 10,10,10**, up from Sep 2's 3×8, sequenced before the squat per the hinge-first fix. Lower back quiet.
+- **Back squat held at 120 and went 3×12 clean** — a second consecutive full-range session at that load. The 125 debut lands in Week 5, the running deload, which is the better slot for a novel load anyway.
+- **Copenhagen slipped to 30s/20s** from the 30s/30s held on Aug 26 and Sep 2. Small, probably end-of-session fatigue — but the side wasn't recorded, and with a left-knee history a left/right asymmetry in glute-med work is worth knowing. **Record the side next time.**
+
+### 📋 Bookkeeping correction — the graduation gate
+
+My own notes have been inconsistent about where a lift graduates. Shoulder press (Aug 24), trap-bar (Aug 26) and lat pulldown (Aug 31) were all called graduations at **3×10**, while chest-supported row (Aug 31) had to reach **3×12**. The durable framework is unambiguous: **mains run 3 × 8–12**, so the top of the range is 12.
+
+**Going forward, 3×12 across all sets is the gate for every main.** That makes today's shoulder press and trap-bar results *progress, not graduations* — both chase 3×12 at their current loads. The early graduations already banked did no harm (each new load was absorbed cleanly), so nothing gets rolled back; the rule is simply applied consistently from here.
+
+### Week 4 status through Friday
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 18 | **8.43** *(Sat + Sun to come)* |
+| Runs | 4 | 2 |
+| Tempo | 1 | **1** ✅ *(overshot to ~14 min)* |
+| Stride sessions | 1 | **1** ✅ |
+| Lifts | 3 | **2** *(Wed swapped for mobility)* |
+| Sauna | 4 | 3 |
+
+Sat ~3 + Sun 7 lands **~18.4** vs the 18 target.
+
+**Sat Sep 12 — Easy 3.00 mi @ 10:43, HR 138** *(treadmill at home, 5:11 PM, Brooks)*
+
+| Split | Pace | Avg HR |
+|---|---|---|
+| 1 | 11:19 | 127 |
+| 2 | 10:46 | 141 |
+| 0.9 | 10:46 | 146 |
+
+**Avg 138 — twelve bpm under the cap, and the lowest average HR of any run in the block.** Strava put it at 87.5 % Z2. There is mild upward drift across the run (127 → 141 → 146, peak 154), which is normal for a treadmill run and nowhere near a concern — every split was legal and the whole thing sat comfortably inside Z2. Same treadmill/AC pace discount as always; HR governs, and HR was excellent.
+
+**15-min sauna after — that's 4 for the week, target hit** ✅
+
+**Shoes:** Brooks size-11 pair crossed **20 mi** on this run (6th outing). Break-in fully resolved and it now rotates evenly with the Mizuno, long runs included.
+
+### InBody — Fri Sep 11 *(logged to `data/inbody.csv`)*
+
+| | Sep 2 | **Sep 11** | Δ |
+|---|---|---|---|
+| Weight | 179.2 | **176.4** | −2.8 |
+| SMM | 84.0 | **83.1** | −0.9 |
+| PBF | 18.1 | **18.2** | +0.1 |
+| ECW/TBW | 0.365 | **0.361** | −0.004 |
+
+**The Sep 2 watch item did not continue.** PBF had risen two scans running (16.9 → 17.4 → 18.1); it has now **stalled at 18.2** rather than climbing further. That's the useful signal.
+
+**But this is not a fat-loss scan either.** The 2.8 lb came off with PBF *unchanged* and SMM down — proportional across tissue, which is not what real fat loss looks like. The simultaneous ECW/TBW drop (0.365 → 0.361) points to a **fluid/hydration shift** as the likeliest explanation for most of the move. SMM stepping off the 84.0 plateau after four straight scans there is worth noting but is well inside InBody's noise band on a single reading.
+
+**Read: mostly noise, not a body-comp event.** Block arc remains net-positive (PBF 19.1 → 18.2, SMM 82.0 → 83.1). Next scan tells us whether SMM returns to 84.
+
+**Sun Sep 13 — LONG RUN 7.20 mi @ 11:11, HR 154** *(outdoor, Smith ↔ Crockett paved trails, 314 ft, 8:51 AM, Mizuno)* — closes Week 4
+
+Clear 71 °F, feels-75 °F, 86 % humidity — **the coolest conditions of the block by about 7 °F.** Longest run of the block and longest in 28 days. VO₂ est **41.7 — a block high**.
+
+| Split | Pace | Elev | Avg HR |
+|---|---|---|---|
+| 1 | 11:05 | −73 | 135 |
+| 2 | 11:11 | −1 | 151 |
+| 3 | 11:08 | −23 | 155 |
+| 4 | 11:08 | −17 | 154 |
+| 5 | 11:02 | +7 | 150 |
+| 6 | 11:22 | +16 | **163** |
+| 7 | 11:08 | +17 | **166** |
+| 0.2 | 11:05 | −3 | **173** |
+
+**The pacing was exceptional.** Every mile between 11:02 and 11:22 — a **20-second spread across seven miles**. That is hard to do and it is exactly the skill a long run is supposed to build.
+
+**And the run-to-run comparison is clearly positive:**
+
+| | Sep 6 | **Sep 13** |
+|---|---|---|
+| Distance | 6.02 | **7.20** |
+| Elev | 400 ft | 314 ft |
+| Feels-like | 86 °F | **75 °F** |
+| Pace | 11:45 | **11:11** |
+| Avg HR | 160 | **154** |
+
+**+1.18 mi, 34 s/mi faster, 6 bpm lower.** Longer, quicker, cheaper.
+
+### ⚠️ Watch item — back-half cardiac drift
+
+HR climbed roughly **30 bpm at constant pace**: 135 → ~150–155 through mile 5, then **163, 166, and a 173 finish**. The final third ran above Z2, which dilutes what a long run is for.
+
+**Partly explained:** miles 1–4 were net **−114 ft** (downhill) while miles 5–7 were net **+40 ft** (climbing), so the back half was working harder for the same pace. Add 86 % humidity — which impairs sweat evaporation and drives HR regardless of the modest heat index — and the longest run of the block, and a good share of the drift is accounted for.
+
+**The coaching point stands anyway:** on an HR-governed long run, the correct response to drifting past 160 is to *slow down*. On Sep 6 he did exactly that (backed off to 11:45) and it was the right call. This week he held pace through miles 6–7 instead. Mile 6 was the moment to ease off. Not a problem in a single run — the overall numbers are better than last week's — but the even-pacing instinct and the HR-governed instinct pulled against each other here, and HR wins on easy days.
+
+### Week 4 close (Sep 7–13) ✅
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 18 | **18.63** ✅ |
+| Runs | 4 | **4** ✅ |
+| Tempo | 1 | **1** ✅ *(ran ~14 min vs 10–12)* |
+| Stride sessions | 1 | **1** ✅ |
+| Long run | 7 | **7.20** ✅ |
+| Lifts | 3 | **2** *(Wed swapped for mobility)* |
+| Sauna | 4 | **4** ✅ |
+
+**Six of seven, and the one miss was a deliberate, correct call.** Highlights: Tempo #1 completed with HR dead in band, a block-high VO₂ estimate, the lowest easy-run HR of the block (Sat, 138), and the longest run of the block run faster and cheaper than the shorter one before it.
+
+**Open item carried into Week 5:** decline squat read **L2/R0** on Sep 10, up from the L1 that held Sep 2–8. Week 5 is the scheduled deload and doubles as the prescribed reset. **Tempo #2 (Week 6) is conditional on a return to L1 or better.**
