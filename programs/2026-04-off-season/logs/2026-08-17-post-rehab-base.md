@@ -649,3 +649,33 @@ HR climbed roughly **30 bpm at constant pace**: 135 → ~150–155 through mile 
 **Six of seven, and the one miss was a deliberate, correct call.** Highlights: Tempo #1 completed with HR dead in band, a block-high VO₂ estimate, the lowest easy-run HR of the block (Sat, 138), and the longest run of the block run faster and cheaper than the shorter one before it.
 
 **Open item carried into Week 5:** decline squat read **L2/R0** on Sep 10, up from the L1 that held Sep 2–8. Week 5 is the scheduled deload and doubles as the prescribed reset. **Tempo #2 (Week 6) is conditional on a return to L1 or better.**
+
+---
+
+## Week 5 (Sep 14 – Sep 20) — **Deload + strides-only reset**
+
+Plan: **15 mi / 4 runs / strides ×2 / long 6 / no tempo.** This week is the scheduled deload *and* the prescribed strides-only reset for the Sep 10 decline-squat uptick (L2/R0). **Tempo #2 in Week 6 is conditional on a return to L1 or better** — Saturday is the decisive read.
+
+### Mon Sep 14 — UPPER LIFT ✅ *(logged to `data/lifts.csv`)*
+
+| Pattern | Exercise | Prescribed | Achieved | Read |
+|---|---|---|---|---|
+| Horizontal push | Flat DB bench | 50 × 3×8 | **50 × 8,8,8** | ✅ clean rebuild at the new load |
+| Vertical press | Seated DB press | 27.5 × 3×12 | **28.5 × 12,12,12** | 🎓 **GRADUATE** (+1 lb over prescription) |
+| Horizontal pull | Chest-supported row | 70 × 3×9–10 | **70 × 8,9,10** | ✅ beat the top of the target |
+| Vertical pull | Lat pulldown | 120 × 3×8 | **120 × 8,8,8** | ✅ 120 now confirmed |
+| Sauna | — | 20 min | **20 min** | ✅ |
+
+**Four for four on a deload Monday.** Every prescription met or beaten, and two of them close out open items that had been hanging over the block.
+
+**1. Bench collected its graduation cleanly.** First exposure at 50/hand off the Sep 7 45×12,12,12. Three flat sets of 8 at a novel load is exactly the right shape — no rep-chasing on debut. Chase 3×10 → 3×12 at 50.
+
+**2. The vertical press problem is solved.** This pattern was cut three sessions running (an 11-day gap) before the sequence-it-first fix. It has now been hit twice in four days and **graduated**: 28.5 × 12/12/12, top of the range across all sets. He also ran 28.5 rather than the prescribed 27.5 — the gym's next dumbbell up — so it was +1 lb/hand *and* a full rep-tier jump. Next exposure → **30–32.5/hand, rebuild from 3×8**.
+
+**3. Row confirms the accidental double jump held.** Sep 7 forced a skip of 65 straight to 70 in a crowded holiday gym, and it went 8,8,8. Today's ascending **8/9/10** says 70 has settled and wasn't a load he was merely surviving.
+
+**4. Lat pulldown 120 is now real.** Sep 7 was cut to two working sets for time, which left 120 provisional after a +15 jump. Three clean sets of 8 today converts it to an established load. Chase 3×10 before bumping.
+
+**Caveat worth naming:** that's a graduation *and* two loads confirmed, on the Monday of a deload week, one day after the longest run of the block. The point of a deload is to absorb load, not to add it. Nothing here was excessive — but Wednesday's Lower session is the one that matters for the knee, and it should stay conservative.
+
+**Open:** finishers (hammer curl / OH triceps) not reported. Decline squat test not reported.
