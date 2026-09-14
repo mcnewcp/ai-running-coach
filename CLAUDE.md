@@ -33,7 +33,7 @@ The goal of the off-season cycle is annual aerobic volume + raised VO2max ceilin
 ## Runner Profile
 
 ### Biometric Data
-- **Age**: 39 years old
+- **Age**: 40 (born Jul 24, 1986) — turned 40 during the 2026 rehab block. **Race age group is now 40–44**, a change from the 30–39 bracket he raced Music City 2026 in.
 - **Height**: 5'9"
 - **Weight**: 171 lbs
 - **Body Fat**: 15.5%
