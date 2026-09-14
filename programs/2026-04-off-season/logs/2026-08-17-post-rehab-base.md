@@ -567,3 +567,32 @@ My own notes have been inconsistent about where a lift graduates. Shoulder press
 | Sauna | 4 | 3 |
 
 Sat ~3 + Sun 7 lands **~18.4** vs the 18 target.
+
+**Sat Sep 12 — Easy 3.00 mi @ 10:43, HR 138** *(treadmill at home, 5:11 PM, Brooks)*
+
+| Split | Pace | Avg HR |
+|---|---|---|
+| 1 | 11:19 | 127 |
+| 2 | 10:46 | 141 |
+| 0.9 | 10:46 | 146 |
+
+**Avg 138 — twelve bpm under the cap, and the lowest average HR of any run in the block.** Strava put it at 87.5 % Z2. There is mild upward drift across the run (127 → 141 → 146, peak 154), which is normal for a treadmill run and nowhere near a concern — every split was legal and the whole thing sat comfortably inside Z2. Same treadmill/AC pace discount as always; HR governs, and HR was excellent.
+
+**15-min sauna after — that's 4 for the week, target hit** ✅
+
+**Shoes:** Brooks size-11 pair crossed **20 mi** on this run (6th outing). Break-in fully resolved and it now rotates evenly with the Mizuno, long runs included.
+
+### InBody — Fri Sep 11 *(logged to `data/inbody.csv`)*
+
+| | Sep 2 | **Sep 11** | Δ |
+|---|---|---|---|
+| Weight | 179.2 | **176.4** | −2.8 |
+| SMM | 84.0 | **83.1** | −0.9 |
+| PBF | 18.1 | **18.2** | +0.1 |
+| ECW/TBW | 0.365 | **0.361** | −0.004 |
+
+**The Sep 2 watch item did not continue.** PBF had risen two scans running (16.9 → 17.4 → 18.1); it has now **stalled at 18.2** rather than climbing further. That's the useful signal.
+
+**But this is not a fat-loss scan either.** The 2.8 lb came off with PBF *unchanged* and SMM down — proportional across tissue, which is not what real fat loss looks like. The simultaneous ECW/TBW drop (0.365 → 0.361) points to a **fluid/hydration shift** as the likeliest explanation for most of the move. SMM stepping off the 84.0 plateau after four straight scans there is worth noting but is well inside InBody's noise band on a single reading.
+
+**Read: mostly noise, not a body-comp event.** Block arc remains net-positive (PBF 19.1 → 18.2, SMM 82.0 → 83.1). Next scan tells us whether SMM returns to 84.
