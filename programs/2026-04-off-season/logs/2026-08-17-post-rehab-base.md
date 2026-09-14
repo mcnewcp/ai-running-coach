@@ -596,3 +596,56 @@ Sat ~3 + Sun 7 lands **~18.4** vs the 18 target.
 **But this is not a fat-loss scan either.** The 2.8 lb came off with PBF *unchanged* and SMM down — proportional across tissue, which is not what real fat loss looks like. The simultaneous ECW/TBW drop (0.365 → 0.361) points to a **fluid/hydration shift** as the likeliest explanation for most of the move. SMM stepping off the 84.0 plateau after four straight scans there is worth noting but is well inside InBody's noise band on a single reading.
 
 **Read: mostly noise, not a body-comp event.** Block arc remains net-positive (PBF 19.1 → 18.2, SMM 82.0 → 83.1). Next scan tells us whether SMM returns to 84.
+
+**Sun Sep 13 — LONG RUN 7.20 mi @ 11:11, HR 154** *(outdoor, Smith ↔ Crockett paved trails, 314 ft, 8:51 AM, Mizuno)* — closes Week 4
+
+Clear 71 °F, feels-75 °F, 86 % humidity — **the coolest conditions of the block by about 7 °F.** Longest run of the block and longest in 28 days. VO₂ est **41.7 — a block high**.
+
+| Split | Pace | Elev | Avg HR |
+|---|---|---|---|
+| 1 | 11:05 | −73 | 135 |
+| 2 | 11:11 | −1 | 151 |
+| 3 | 11:08 | −23 | 155 |
+| 4 | 11:08 | −17 | 154 |
+| 5 | 11:02 | +7 | 150 |
+| 6 | 11:22 | +16 | **163** |
+| 7 | 11:08 | +17 | **166** |
+| 0.2 | 11:05 | −3 | **173** |
+
+**The pacing was exceptional.** Every mile between 11:02 and 11:22 — a **20-second spread across seven miles**. That is hard to do and it is exactly the skill a long run is supposed to build.
+
+**And the run-to-run comparison is clearly positive:**
+
+| | Sep 6 | **Sep 13** |
+|---|---|---|
+| Distance | 6.02 | **7.20** |
+| Elev | 400 ft | 314 ft |
+| Feels-like | 86 °F | **75 °F** |
+| Pace | 11:45 | **11:11** |
+| Avg HR | 160 | **154** |
+
+**+1.18 mi, 34 s/mi faster, 6 bpm lower.** Longer, quicker, cheaper.
+
+### ⚠️ Watch item — back-half cardiac drift
+
+HR climbed roughly **30 bpm at constant pace**: 135 → ~150–155 through mile 5, then **163, 166, and a 173 finish**. The final third ran above Z2, which dilutes what a long run is for.
+
+**Partly explained:** miles 1–4 were net **−114 ft** (downhill) while miles 5–7 were net **+40 ft** (climbing), so the back half was working harder for the same pace. Add 86 % humidity — which impairs sweat evaporation and drives HR regardless of the modest heat index — and the longest run of the block, and a good share of the drift is accounted for.
+
+**The coaching point stands anyway:** on an HR-governed long run, the correct response to drifting past 160 is to *slow down*. On Sep 6 he did exactly that (backed off to 11:45) and it was the right call. This week he held pace through miles 6–7 instead. Mile 6 was the moment to ease off. Not a problem in a single run — the overall numbers are better than last week's — but the even-pacing instinct and the HR-governed instinct pulled against each other here, and HR wins on easy days.
+
+### Week 4 close (Sep 7–13) ✅
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 18 | **18.63** ✅ |
+| Runs | 4 | **4** ✅ |
+| Tempo | 1 | **1** ✅ *(ran ~14 min vs 10–12)* |
+| Stride sessions | 1 | **1** ✅ |
+| Long run | 7 | **7.20** ✅ |
+| Lifts | 3 | **2** *(Wed swapped for mobility)* |
+| Sauna | 4 | **4** ✅ |
+
+**Six of seven, and the one miss was a deliberate, correct call.** Highlights: Tempo #1 completed with HR dead in band, a block-high VO₂ estimate, the lowest easy-run HR of the block (Sat, 138), and the longest run of the block run faster and cheaper than the shorter one before it.
+
+**Open item carried into Week 5:** decline squat read **L2/R0** on Sep 10, up from the L1 that held Sep 2–8. Week 5 is the scheduled deload and doubles as the prescribed reset. **Tempo #2 (Week 6) is conditional on a return to L1 or better.**
