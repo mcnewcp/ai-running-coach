@@ -661,16 +661,19 @@ Plan: **15 mi / 4 runs / strides ×2 / long 6 / no tempo.** This week is the sch
 | Pattern | Exercise | Prescribed | Achieved | Read |
 |---|---|---|---|---|
 | Horizontal push | Flat DB bench | 50 × 3×8 | **50 × 8,8,8** | ✅ clean rebuild at the new load |
-| Vertical press | Seated DB press | 27.5 × 3×12 | **28.5 × 12,12,12** | 🎓 **GRADUATE** (+1 lb over prescription) |
+| Vertical press | Seated DB press | 27.5 × 3×12 | **27.5 × 12,12,12** | 🎓 **GRADUATE** |
 | Horizontal pull | Chest-supported row | 70 × 3×9–10 | **70 × 8,9,10** | ✅ beat the top of the target |
 | Vertical pull | Lat pulldown | 120 × 3×8 | **120 × 8,8,8** | ✅ 120 now confirmed |
+| Finisher | Hammer curl / OH triceps | 2×12 | **not done** | ❌ out of time |
 | Sauna | — | 20 min | **20 min** | ✅ |
 
-**Four for four on a deload Monday.** Every prescription met or beaten, and two of them close out open items that had been hanging over the block.
+**Four for four on the mains** (finishers skipped for time — the correct thing to drop). Every main prescription met or beaten, and two of them close out open items that had been hanging over the block.
 
 **1. Bench collected its graduation cleanly.** First exposure at 50/hand off the Sep 7 45×12,12,12. Three flat sets of 8 at a novel load is exactly the right shape — no rep-chasing on debut. Chase 3×10 → 3×12 at 50.
 
-**2. The vertical press problem is solved.** This pattern was cut three sessions running (an 11-day gap) before the sequence-it-first fix. It has now been hit twice in four days and **graduated**: 28.5 × 12/12/12, top of the range across all sets. He also ran 28.5 rather than the prescribed 27.5 — the gym's next dumbbell up — so it was +1 lb/hand *and* a full rep-tier jump. Next exposure → **30–32.5/hand, rebuild from 3×8**.
+**2. The vertical press problem is solved.** This pattern was cut three sessions running (an 11-day gap) before the sequence-it-first fix. It has now been hit twice in four days and **graduated**: 27.5 × 12/12/12, top of the range across all sets, up from Sep 11's 27.5 × 10/10/10. Next exposure → **30/hand, rebuild from 3×8**.
+
+*(Correction, Sep 15: this was first logged at 28.5 from the athlete's session table — a typo on his end. Actual load 27.5. The graduation is unaffected; the gate is 3×12, not the load.)*
 
 **3. Row confirms the accidental double jump held.** Sep 7 forced a skip of 65 straight to 70 in a crowded holiday gym, and it went 8,8,8. Today's ascending **8/9/10** says 70 has settled and wasn't a load he was merely surviving.
 
@@ -678,4 +681,26 @@ Plan: **15 mi / 4 runs / strides ×2 / long 6 / no tempo.** This week is the sch
 
 **Caveat worth naming:** that's a graduation *and* two loads confirmed, on the Monday of a deload week, one day after the longest run of the block. The point of a deload is to absorb load, not to add it. Nothing here was excessive — but Wednesday's Lower session is the one that matters for the knee, and it should stay conservative.
 
-**Open:** finishers (hammer curl / OH triceps) not reported. Decline squat test not reported.
+**Finishers skipped** — ran out of time. Right call on a deload Monday: the mains are the session, the arms are the garnish. Not a make-up item.
+
+### ✅ Tue Sep 15 — Decline squat **L1/R0**: the tripwire clears
+
+| Date | Read | Context |
+|---|---|---|
+| Sep 2 – Sep 8 | L1/R0 | Stable baseline, held through Tempo #1's pre-gate |
+| **Sep 10** | **L2/R0** 🔴 | Fired the tempo tripwire — cause never isolated |
+| **Sep 15** | **L1/R0** ✅ | Back to baseline after 5 days incl. a 7.2 mi long run |
+
+**The L2 was a blip, not a trend.** It has now reverted to the block baseline having absorbed, in between, the longest run of the block (7.2 mi, Sep 13) and a full upper session. That is the read we wanted: the tendon took the week's biggest running dose and still came back to L1.
+
+**This confirms the Week 6 tempo green light** — it does *not* pull tempo into Week 5. See the ruling below.
+
+### Ruling — no tempo in Week 5. Tempo #2 holds for Week 6 (Tue Sep 22)
+
+Athlete asked, reasonably, whether the L1 read unlocks tempo today. It does not, for three reasons:
+
+1. **The reset week is the treatment, not the test.** The block plan's rule reads: *"if the knee gives any uptick after a tempo run, drop back to strides-only for a week and retest."* A good read on **day 2 of 7** doesn't mean the week has been served — it means the week is working. Retest comes after the strides-only week, not at its start.
+2. **The deload has a second job unrelated to the knee.** Week 6 steps to **20 mi with a longer tempo (12–15 min) and an 8 mi long run** — the biggest jump in the block. Week 5's 15 mi is what makes that absorbable. Spending the deload on a hard effort borrows from exactly the week it's meant to fund.
+3. **Strides are still the on-ramp.** The Aug 30 amendment slid tempo a week precisely because strides had been skipped. Week 5 has two stride sessions on the card and none completed yet.
+
+**Tempo #2: Tue Sep 22, 12–15 min continuous, HR 160–165.** One further note for it — Tempo #1 ran ~14 min against a 10–12 min prescription. The 12–15 min band is a ceiling, not a target to beat.
