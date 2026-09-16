@@ -704,3 +704,34 @@ Athlete asked, reasonably, whether the L1 read unlocks tempo today. It does not,
 3. **Strides are still the on-ramp.** The Aug 30 amendment slid tempo a week precisely because strides had been skipped. Week 5 has two stride sessions on the card and none completed yet.
 
 **Tempo #2: Tue Sep 22, 12–15 min continuous, HR 160–165.** One further note for it — Tempo #1 ran ~14 min against a 10–12 min prescription. The 12–15 min band is a ceiling, not a target to beat.
+
+### Wed Sep 16 — EASY 3.89 mi @ 10:58, HR 146 + **strides ×4** *(Lifetime treadmill, 9:59 AM, Brooks)*
+
+**Ran Wednesday, not Tuesday.** Week 5 opened a day late — see the schedule note below.
+
+**Tracking artifact:** pausing the treadmill for a bathroom break at ~2.5 mi ended the workout, so Strava has this as two activities. Merged into one row in `data/runs.csv`, which is correct — it was one session.
+
+| | Distance | Time | Pace | Avg HR |
+|---|---|---|---|---|
+| Seg 1 (pre-break) | 2.46 | 26:44 | 10:52 | 144 *(max 155)* |
+| Seg 2 (**strides**) | 1.43 | 15:56 | 11:09 | 150 |
+| **Combined** | **3.89** | **42:40** | **10:58** | **146** |
+
+Seg 1 splits 11:05/137 · 10:41/149 · 0.4 @ 10:44/151. Seg 2 splits 10:54/147 · 0.3 @ 12:57/156.
+
+**HR 146 — four under the cap.** Exactly what a deload easy run should look like. The 10:58 pace reads quicker than the 11:15–11:30 outdoor prescription, but that's the treadmill/AC discount again and HR is the governor (cf. Sep 10 tread: 10:56 @ 143). Not pace creep.
+
+**The strides are legible in the data and that's the useful part.** Seg 2 ran 6 bpm hotter than seg 1 (150 vs 144) with HR spikes to ~168, and its closing 0.3 split at 12:57 is stride surges plus walk-back recoveries averaged together — a fast-slow sawtooth, not a slow jog. That's the protocol executed correctly: hard surge, *full* recovery.
+
+**Ignore the "tempo zone" labels.** Strava tagged both segments tempo/threshold. Same zone-model artifact flagged on Aug 30 — a time-weighted 146 avg is squarely Z2.
+
+**Stride count: 1 of 2 for Week 5.** First stride session in the Brooks (7th outing) — no complaints, so that pair has now cleared easy, long, tempo *and* strides.
+
+### 📅 Schedule note — Week 5 opened a day late
+
+Tuesday's run didn't happen; it landed Wednesday instead, which is the Lower lift day. Two consequences:
+
+1. **The Wed lower lift is displaced** — unreported as of this entry. It should land Thu or Fri, not be stacked on today after the run.
+2. **Stride session #2 needs a slot.** With Thu/Fri now carrying lifts, the cleanest fit is **Fri easy + strides**, keeping Sat easy and Sun long 6.
+
+**Revised Week 5 back half:** Thu lower lift · Fri easy ~3.5 + strides ×4–6 · Sat easy ~2 · Sun long 6. That totals **~15.4 mi**, on target, with two stride sessions and the deload intact. Decline squat retest still Saturday.
