@@ -705,9 +705,7 @@ Athlete asked, reasonably, whether the L1 read unlocks tempo today. It does not,
 
 **Tempo #2: Tue Sep 22, 12–15 min continuous, HR 160–165.** One further note for it — Tempo #1 ran ~14 min against a 10–12 min prescription. The 12–15 min band is a ceiling, not a target to beat.
 
-### Wed Sep 16 — EASY 3.89 mi @ 10:58, HR 146 + **strides ×4** *(Lifetime treadmill, 9:59 AM, Brooks)*
-
-**Ran Wednesday, not Tuesday.** Week 5 opened a day late — see the schedule note below.
+### Tue Sep 15 — EASY 3.89 mi @ 10:58, HR 146 + **strides ×4** *(Lifetime treadmill, 9:59 AM, Brooks)*
 
 **Tracking artifact:** pausing the treadmill for a bathroom break at ~2.5 mi ended the workout, so Strava has this as two activities. Merged into one row in `data/runs.csv`, which is correct — it was one session.
 
@@ -727,11 +725,31 @@ Seg 1 splits 11:05/137 · 10:41/149 · 0.4 @ 10:44/151. Seg 2 splits 10:54/147 �
 
 **Stride count: 1 of 2 for Week 5.** First stride session in the Brooks (7th outing) — no complaints, so that pair has now cleared easy, long, tempo *and* strides.
 
-### 📅 Schedule note — Week 5 opened a day late
+**15-min sauna after.**
 
-Tuesday's run didn't happen; it landed Wednesday instead, which is the Lower lift day. Two consequences:
+### 🤒 Wed Sep 16 — ILLNESS. Lower lift pulled; mobility + 20 min sauna instead
 
-1. **The Wed lower lift is displaced** — unreported as of this entry. It should land Thu or Fri, not be stacked on today after the run.
-2. **Stride session #2 needs a slot.** With Thu/Fri now carrying lifts, the cleanest fit is **Fri easy + strides**, keeping Sat easy and Sun long 6.
+Woke up feeling sick. Swapped the scheduled lower lift for a **mobility session + 20-min sauna**.
 
-**Revised Week 5 back half:** Thu lower lift · Fri easy ~3.5 + strides ×4–6 · Sat easy ~2 · Sun long 6. That totals **~15.4 mi**, on target, with two stride sessions and the deload intact. Decline squat retest still Saturday.
+**That is the correct call and it was made without prompting.** The relevant precedent is the **mid-July illness that cost ~2 weeks and reset the running ramp from ~16 mpw back to ~11** — the single largest setback of this block, and the reason the post-rehab block opened at 13 mi instead of the 24 the original phase map had penciled. Training through the front end of an illness is how a three-day bug becomes a two-week hole.
+
+**The timing is about as lucky as it gets.** This is the **deload week** — the one week in the block whose entire purpose is to *reduce* load. There is no session here worth defending. Missing Wednesday's lift costs nothing; the mileage target (15) is a default, not a mandate, and a short week now is indistinguishable from a deload that worked.
+
+**Week 5 revised (athlete's plan, endorsed):**
+
+| Day | Session |
+|---|---|
+| Wed Sep 16 | ~~Lower lift~~ → **mobility + sauna** ✅ |
+| Thu Sep 17 | Easy ~3.5 + **strides #2** — *conditional, see neck check* |
+| Fri Sep 18 | Lift, **mostly lower body** |
+| Sat Sep 19 | Easy ~2 · **decline squat retest** |
+| Sun Sep 20 | Long 6 |
+
+**Neck check governs Thursday**, not the calendar:
+- **Above the neck only** (runny nose, sneezing, mild sore throat), no fever → the easy run is fine. **Drop the strides** — surges are the first thing to go when the immune system is busy.
+- **Below the neck** (chest congestion, body aches, hacking cough) **or any fever** → no running, no lifting. Rest, fluids, sleep. And **no sauna with a fever** — it adds heat load to a body already fighting one.
+
+**Illness tells to watch on Thursday's run:** elevated HR at easy pace in controlled (indoor/AC) conditions is the tell this block already learned once — the Aug 6 vs Aug 9 lesson. If HR runs 8–10 bpm above the recent treadmill baseline (~143–146 at ~10:55) at the same pace and effort, **stop the run**, regardless of how it feels. Same for Sunday's long run: it is the most expendable session on the card, not the most important.
+
+**Sauna:** 2 of 4 for the week (Tue 15 min, Wed 20 min) — fine to keep using it *if there's no fever*; it's a health/BP asset, not a training stressor.
+
