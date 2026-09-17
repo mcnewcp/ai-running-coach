@@ -753,3 +753,36 @@ Woke up feeling sick. Swapped the scheduled lower lift for a **mobility session 
 
 **Sauna:** 2 of 4 for the week (Tue 15 min, Wed 20 min) — fine to keep using it *if there's no fever*; it's a health/BP asset, not a training stressor.
 
+
+### ✅ Thu Sep 17 — EASY 4.00 mi @ 10:52, HR 143 + **strides ×5** *(Lifetime treadmill, Brooks)*
+
+**The illness check passed, and it wasn't close.**
+
+| Date | Distance | Pace | Avg HR |
+|---|---|---|---|
+| Sep 3 (tread) | 4.00 | 10:48 | 146 |
+| Sep 10 (tread) | 3.93 | 10:56 | 143 |
+| Sep 15 (tread) | 3.89 | 10:58 | 146 |
+| **Sep 17 (tread)** | **4.00** | **10:52** | **143** |
+
+The prescribed tripwire was *8–10 bpm above the recent treadmill baseline at the same pace and effort → stop the run*. It never came near firing: HR landed at the **bottom** of the four-run baseline band while running slightly quicker than two of them. Running the morning after a sick day is the moment a suppressed system shows itself in HR, and there is **no cardiovascular cost visible at all**.
+
+Splits **11:08/129 · 10:49/145 · 10:57/145 · 0.9 @ 11:46/152**. Mile 1 at 129 is a textbook easy opening, and miles 2–3 are a **flat 145/145 plateau with zero upward drift** — the same clean profile as Sep 10. The closing 0.9 at 11:46/152 is the stride sawtooth again (surges plus full walk-backs averaged together, Strava reporting a ~171 peak on the surges). Five strides, in the 4–6 band, up from four on Tuesday.
+
+**Stride sessions: 2 of 2 for Week 5 ✅** — and that clears the last standing prerequisite from the Aug 30 amendment, whose green-light condition was *both stride sessions completed + knee quiet + mileage near target*.
+
+**Week 5 running total: 7.89 mi** (Tue 3.89 + Thu 4.00). With Sat ~2 and Sun 6 that lands ~15.9 against a 15 target — on plan, deload intact, despite losing Wednesday.
+
+**Brooks:** 8th outing, 31.54 mi total (28.47 on the size-11 pair).
+
+### Week 6 tempo gate — status
+
+| Condition | Status |
+|---|---|
+| Both Week 5 stride sessions completed | ✅ 2/2 |
+| Weekly mileage at/near target | ✅ tracking ~15.9 vs 15 |
+| Knee quiet during and after runs | ✅ no complaints reported |
+| **Decline squat L1 or better** | ⏳ **Sat Sep 19 retest** |
+| Illness resolved | ⏳ monitor through the weekend |
+
+Three of five confirmed. Saturday's decline squat is the decisive one; the illness needs to stay gone rather than merely be quiet for a day.
