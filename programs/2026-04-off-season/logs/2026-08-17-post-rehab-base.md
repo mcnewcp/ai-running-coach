@@ -812,3 +812,48 @@ Three constraints stack on this session, and they all point the same way:
 **Trap-bar 155 is the one graduation worth chasing today:** it's an established load with three exposures (8,8,8 → 10,10,10), so there's no novelty risk to tomorrow's test, and 3×12 closes it out.
 
 **Vertical press collects its 30/hand debut** — no knee involvement, so it's free progress on a day when lower-body novelty is off the table. Keeps momentum on the pattern that was getting cut three sessions running.
+
+### ✅ Fri Sep 18 — lower-focused lift completed *(logged to `data/lifts.csv`)*
+
+| Exercise | Prescribed | Achieved | Read |
+|---|---|---|---|
+| Trap-bar deadlift | 155 × 3×11–12 | **155 × 10,10,10** | ➡️ clean hold (worked to a 3×10 target) |
+| Back squat | 120 × 2×10 | **120 × 10,10** | ✅ volume cut executed |
+| DB reverse lunge | 30 × 3×9–10/side | **30 × 9,9,9** | ✅ +1 rep/set vs Sep 2 |
+| Seated DB press | 30 × 3×8 | **30 × 8,8,8** | 🎓 **graduation collected** |
+| Copenhagen | 2 × 30s | **25s, 30s** | ⚠️ 2nd session short |
+| Sauna | 20 min | **15 min** | ✅ **4 of 4 for the week** |
+
+**The squat volume cut was executed exactly.** Two sets of ten at 120, no improvising toward 125 because the bar felt light. That's the session doing its job — tomorrow's decline squat test now has a clean input rather than a novel-load confound.
+
+**The vertical press graduation landed.** 30/hand × 3×8, a textbook rebuild at a new load. That's **three clean vertical-press sessions in eight days** on a pattern that was getting cut three sessions running before it moved to the front of the order. The fix held. Chase 3×10 → 3×12 at 30.
+
+**Reverse lunge is one rep from graduating** — 30 × 9,9,9, up from the 8,8,8 of Sep 2 (its only prior exposure at 30). Next exposure should close 3×10.
+
+**Trap-bar was a hold, not a miss.** He worked to a 3×10 target rather than the prescribed 3×11–12 graduation attempt, so 155 × 10,10,10 repeats Sep 11 exactly. On a deload week that's a fine outcome — no load was lost and nothing was risked the day before the gate test. **155 × 3×12 stays on the board** as the next graduation.
+
+### ⚠️ Copenhagen plank — a two-session trend worth naming
+
+| Date | Held |
+|---|---|
+| Aug 26 | 30s / 30s |
+| Sep 2 | 30s / 30s |
+| Sep 11 | 30s / **20s** |
+| Sep 18 | **25s** / 30s |
+
+Two consecutive sessions short of the 30/30 standard after two clean ones. Individually each is trivial — it's the last movement of the session and fatigue is the obvious explanation. But this is the **glute-med/adductor insurance policy for a left-sided patellar tendinopathy**, and **the side has never been recorded**.
+
+**Action: start recording which side each hold is on.** If the short set is consistently the left, that is a signal and not fatigue — and it's the kind of thing that shows up in the decline squat test weeks later. If it alternates, it's genuinely end-of-session fatigue and the fix is simply to sequence the Copenhagen earlier.
+
+### Week 5 status through Friday
+
+| | Planned | Actual |
+|---|---|---|
+| Mileage | 15 | **7.89** *(Sat + Sun to come)* |
+| Runs | 4 | **2** *(2 to come)* |
+| Stride sessions | 2 | **2** ✅ |
+| Tempo | 0 | **0** ✅ *(deload held)* |
+| Lifts | 3 | **2** *(Wed lost to illness)* |
+| Sauna | 4 | **4** ✅ |
+
+**Tomorrow: easy ~2 mi + the decline squat retest** — the decisive input for the Week 6 tempo gate. Report L and R.
