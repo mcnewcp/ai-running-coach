@@ -547,7 +547,7 @@ Sauna 20 min — **3 of 4 for the week**.
 - **Vertical press backlog cleared.** Led the session as prescribed and went 27.5 × 10,10,10, up from Aug 31's 8,9,9. Putting it first worked — it had been cut three sessions running.
 - **Trap-bar 155 × 10,10,10**, up from Sep 2's 3×8, sequenced before the squat per the hinge-first fix. Lower back quiet.
 - **Back squat held at 120 and went 3×12 clean** — a second consecutive full-range session at that load. The 125 debut lands in Week 5, the running deload, which is the better slot for a novel load anyway.
-- **Copenhagen slipped to 30s/20s** from the 30s/30s held on Aug 26 and Sep 2. Small, probably end-of-session fatigue — but the side wasn't recorded, and with a left-knee history a left/right asymmetry in glute-med work is worth knowing. **Record the side next time.**
+- **Copenhagen slipped to 30s/20s** from the 30s/30s held on Aug 26 and Sep 2 — i.e. set 1 at 30s per side, set 2 at 20s per side. Small, and the descending shape fits end-of-session fatigue. *(Corrected Sep 19: these values are per-set holds applied to both sides, not a left/right pair, so no asymmetry can be read from them.)*
 
 ### 📋 Bookkeeping correction — the graduation gate
 
@@ -821,7 +821,7 @@ Three constraints stack on this session, and they all point the same way:
 | Back squat | 120 × 2×10 | **120 × 10,10** | ✅ volume cut executed |
 | DB reverse lunge | 30 × 3×9–10/side | **30 × 9,9,9** | ✅ +1 rep/set vs Sep 2 |
 | Seated DB press | 30 × 3×8 | **30 × 8,8,8** | 🎓 **graduation collected** |
-| Copenhagen | 2 × 30s | **25s, 30s** | ⚠️ 2nd session short |
+| Copenhagen | 2 × 30s | **25s, 30s** | ◐ opener short, finished at standard |
 | Sauna | 20 min | **15 min** | ✅ **4 of 4 for the week** |
 
 **The squat volume cut was executed exactly.** Two sets of ten at 120, no improvising toward 125 because the bar felt light. That's the session doing its job — tomorrow's decline squat test now has a clean input rather than a novel-load confound.
@@ -832,18 +832,20 @@ Three constraints stack on this session, and they all point the same way:
 
 **Trap-bar was a hold, not a miss.** He worked to a 3×10 target rather than the prescribed 3×11–12 graduation attempt, so 155 × 10,10,10 repeats Sep 11 exactly. On a deload week that's a fine outcome — no load was lost and nothing was risked the day before the gate test. **155 × 3×12 stays on the board** as the next graduation.
 
-### ⚠️ Copenhagen plank — a two-session trend worth naming
+### Copenhagen plank — notation clarified, earlier read withdrawn
 
-| Date | Held |
-|---|---|
-| Aug 26 | 30s / 30s |
-| Sep 2 | 30s / 30s |
-| Sep 11 | 30s / **20s** |
-| Sep 18 | **25s** / 30s |
+**Each logged value is the hold applied to BOTH sides in that set**, not a left/right pair. So "25s, 30s" means set 1 at 25s per side, set 2 at 30s per side.
 
-Two consecutive sessions short of the 30/30 standard after two clean ones. Individually each is trivial — it's the last movement of the session and fatigue is the obvious explanation. But this is the **glute-med/adductor insurance policy for a left-sided patellar tendinopathy**, and **the side has never been recorded**.
+| Date | Set 1 | Set 2 | Shape |
+|---|---|---|---|
+| Aug 26 | 30s | 30s | flat |
+| Sep 2 | 30s | 30s | flat |
+| Sep 11 | 30s | **20s** | descending |
+| Sep 18 | **25s** | 30s | **ascending** |
 
-**Action: start recording which side each hold is on.** If the short set is consistently the left, that is a signal and not fatigue — and it's the kind of thing that shows up in the decline squat test weeks later. If it alternates, it's genuinely end-of-session fatigue and the fix is simply to sequence the Copenhagen earlier.
+**The "two-session decline" read was wrong and is withdrawn.** Sep 18 *ascended* and finished **at** the 30s standard — set 1 reads as a conservative opener, not fatigue. The only genuine short hold in the series is Sep 11's second set, whose descending shape does fit end-of-session fatigue.
+
+**No left/right asymmetry data exists for this movement as performed**, since both sides get the same prescribed hold every set. The earlier "start recording which side" action is therefore moot and is dropped. The only thing worth flagging in future is if one side ever has to be cut short *relative to the other* — that would be a signal. Otherwise: hold 30s per side on both sets and carry on.
 
 ### Week 5 status through Friday
 
