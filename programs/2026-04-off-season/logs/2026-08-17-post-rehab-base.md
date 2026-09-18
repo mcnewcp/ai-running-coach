@@ -773,6 +773,8 @@ Splits **11:08/129 · 10:49/145 · 10:57/145 · 0.9 @ 11:46/152**. Mile 1 at 129
 
 **Week 5 running total: 7.89 mi** (Tue 3.89 + Thu 4.00). With Sat ~2 and Sun 6 that lands ~15.9 against a 15 target — on plan, deload intact, despite losing Wednesday.
 
+**20-min sauna after** — 3 of 4 for the week (Tue 15, Wed 20, Thu 20). One more lands the target.
+
 **Brooks:** 8th outing, 31.54 mi total (28.47 on the size-11 pair).
 
 ### Week 6 tempo gate — status
@@ -786,3 +788,27 @@ Splits **11:08/129 · 10:49/145 · 10:57/145 · 0.9 @ 11:46/152**. Mile 1 at 129
 | Illness resolved | ⏳ monitor through the weekend |
 
 Three of five confirmed. Saturday's decline squat is the decisive one; the illness needs to stay gone rather than merely be quiet for a day.
+
+### Fri Sep 18 — lower-focused lift **prescribed** *(athlete requested "mostly lower body")*
+
+Three constraints stack on this session, and they all point the same way:
+
+1. **Tomorrow is the decline squat retest — the Week 6 tempo gate.** A novel heavy squat load today is the single most likely way to manufacture a false L2 tomorrow. This exact mechanism is already in the record: the Aug 16 rehab reassessment ticked L1 → L2 as a *loading response from the heaviest lower week*, not a symptom.
+2. **Sunday is a 6 mi long run** — the same 2-day gap that justified the Sep 11 hold.
+3. **Wednesday was a sick day**, two days ago.
+
+**Ruling: hold back squat at 120 and CUT VOLUME to 2×10.** This is the third session at 120 despite 125 being earned twice (Sep 2 and Sep 11, both 3×12), and a third straight hold at full volume would be a genuine stall. So the deload is expressed as **less volume at the same load**, not the same volume — which is what a deload actually is — and **125 debuts Wed Sep 23**, once tomorrow's test is banked and the long run is clear.
+
+| # | Pattern | Exercise | Load | Target |
+|---|---|---|---|---|
+| 1 | Hinge | Trap-bar deadlift | 155 | 3 × 11–12 *(graduation attempt)* |
+| 2 | Squat | Back squat | **120 (hold)** | **2 × 10** *(volume cut)* |
+| 3 | Squat (SL) | DB reverse lunge | 30/hand | 3 × 9–10 per side |
+| 4 | Vertical press | Seated DB press | **30/hand** ⬆️ | 3 × 8 |
+| 5 | Finisher | Copenhagen plank + glute-med | BW | 2 × 30s per side |
+
+**Hinge sequenced first** per the standing Aug 21 fix. **Single-leg RDL deliberately omitted** — redundant with the trap-bar and historically the movement that irritates the lower back when stacked behind squats.
+
+**Trap-bar 155 is the one graduation worth chasing today:** it's an established load with three exposures (8,8,8 → 10,10,10), so there's no novelty risk to tomorrow's test, and 3×12 closes it out.
+
+**Vertical press collects its 30/hand debut** — no knee involvement, so it's free progress on a day when lower-body novelty is off the table. Keeps momentum on the pattern that was getting cut three sessions running.
