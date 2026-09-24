@@ -1,0 +1,3 @@
+# Program and Phase membership is derived from the date
+
+Runs, Strength Sessions and Check-ins are never stored with a Program or Phase label. Their Phase is whichever Phase's window contains their date. Programs tile the calendar and Phases tile their Program, so every day belongs to exactly one Phase. We chose this because the old free-text `training_goal` column drifted: Program names during one build, Phase names during the next. It also means restructuring a phase map (e.g., when an injury forces a mid-Program rebuild) re-attributes history automatically. Don't add a `phase_id` column to recorded sessions.
