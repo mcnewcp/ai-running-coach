@@ -1,0 +1,31 @@
+{
+  "name": "ai-running-coach",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "wrangler types --check && tsc",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "agents": "^0.24.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.22.0",
+    "@modelcontextprotocol/client": "2.0.0",
+    "@types/node": "^24.13.6",
+    "typescript": "^5.9.3",
+    "vitest": "~4.1.11",
+    "wrangler": "^4.139.0"
+  },
+  "allowScripts": {
+    "workerd": true,
+    "esbuild": true,
+    "core-js-pure": false
+  }
+}

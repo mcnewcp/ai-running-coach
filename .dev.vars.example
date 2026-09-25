@@ -1,0 +1,3 @@
+# Copy to .dev.vars for `npm run dev`. .dev.vars is gitignored.
+# The athlete's IANA timezone. Record dates and Monday–Sunday weeks use it.
+ATHLETE_TIMEZONE=America/New_York

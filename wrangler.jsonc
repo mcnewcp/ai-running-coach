@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-running-coach",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+  // The structured Athlete Record (ADR 0002). Schema lives in migrations/.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ai-running-coach",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // The Athlete Record's documents, as markdown (ADR 0002).
+  "r2_buckets": [
+    {
+      "binding": "DOCUMENTS",
+      "bucket_name": "ai-running-coach-documents"
+    }
+  ],
+  // Settings about the athlete stay out of this public repo (ADR 0001):
+  // .dev.vars locally, `wrangler secret put` when deployed.
+  "secrets": {
+    "required": ["ATHLETE_TIMEZONE"]
+  }
+}
