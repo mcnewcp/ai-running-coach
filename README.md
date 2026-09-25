@@ -49,8 +49,9 @@ npm run typecheck   # check types, and that worker-configuration.d.ts is current
 
 CI runs the typecheck and the tests on every pull request.
 
-Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions.
+Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. The one exception is [`test/harness.test.ts`](test/harness.test.ts), which checks the harness itself.
 
 - [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect(settings?)` returns a connected client (optionally with overridden settings), `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message.
 - To test anything that depends on the current time, fake only the clock with `vi.useFakeTimers({ toFake: ["Date"] })` and set it with `vi.setSystemTime(...)`. The Worker runs in the same isolate as the tests, so it sees the fake clock. See [`test/today.test.ts`](test/today.test.ts).
+- Tests use the synthetic settings in [`vitest.config.ts`](vitest.config.ts), never your `.dev.vars`. Pass `connect({ ATHLETE_TIMEZONE: ... })` to try another value.
 - All test data is synthetic. Real Athlete Record data never goes in fixtures, tests, logs or issues.
