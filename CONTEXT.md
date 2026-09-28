@@ -18,6 +18,10 @@ _Avoid_: data, user data, personal files
 The athlete's durable description — biometrics, medical history, lifestyle, logistics, and training psychology. Part of the Athlete Record, read at the start of every coaching session.
 _Avoid_: bio, athlete config
 
+**Home Timezone**:
+The IANA timezone where the athlete normally lives, held in the Runner Profile. It decides what day it is unless the coach passes the athlete's current timezone while they're away (ADR 0004).
+_Avoid_: athlete timezone, timezone setting
+
 ### Training structure
 
 **Program**:

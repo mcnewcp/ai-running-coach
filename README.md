@@ -17,13 +17,9 @@ A TypeScript [Cloudflare Worker](https://developers.cloudflare.com/workers/) ser
 - [`src/mcp.ts`](src/mcp.ts): the MCP tools, a thin wrapper over the core.
 - [`src/index.ts`](src/index.ts): the Worker entry point.
 
-### Settings
+### Time
 
-| Setting            | What it is                                                                                                                        |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| `ATHLETE_TIMEZONE` | The athlete's IANA timezone, e.g. `America/New_York`. Every record date is a local date in it, and weeks run Monday–Sunday in it. |
-
-Settings describe the athlete, so they stay out of this repo: locally in `.dev.vars` (gitignored), and on Cloudflare as Worker secrets (`npx wrangler secret put ATHLETE_TIMEZONE`).
+Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner. It uses the **Home Timezone** unless the coach passes the runner's current timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). Until the Runner Profile holds the Home Timezone (#8, #9), it's a temporary default in [`src/core/calendar.ts`](src/core/calendar.ts).
 
 ### Local development
 
@@ -31,8 +27,7 @@ Needs Node.js 24.
 
 ```sh
 npm install
-cp .dev.vars.example .dev.vars   # then set your own values
-npm run dev                      # serves http://localhost:8787/mcp
+npm run dev   # serves http://localhost:8787/mcp
 ```
 
 Any MCP client can connect to `http://localhost:8787/mcp`. For example, the MCP Inspector (`npx @modelcontextprotocol/inspector`) with the Streamable HTTP transport. Locally there's no OAuth, and D1 and R2 are simulated in `.wrangler/`.
@@ -51,7 +46,6 @@ CI runs the typecheck and the tests on every pull request.
 
 Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. The one exception is [`test/harness.test.ts`](test/harness.test.ts), which checks the harness itself.
 
-- [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect(settings?)` returns a connected client (optionally with overridden settings), `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message.
+- [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect()` returns a connected client, `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message.
 - To test anything that depends on the current time, fake only the clock with `vi.useFakeTimers({ toFake: ["Date"] })` and set it with `vi.setSystemTime(...)`. The Worker runs in the same isolate as the tests, so it sees the fake clock. See [`test/today.test.ts`](test/today.test.ts).
-- Tests use the synthetic settings in [`vitest.config.ts`](vitest.config.ts), never your `.dev.vars`. Pass `connect({ ATHLETE_TIMEZONE: ... })` to try another value.
 - All test data is synthetic. Real Athlete Record data never goes in fixtures, tests, logs or issues.

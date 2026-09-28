@@ -8,20 +8,17 @@ import { env } from "cloudflare:workers";
 import { onTestFinished } from "vitest";
 import { mcpApi } from "../src/mcp";
 
-export type Settings = Partial<Pick<Env, "ATHLETE_TIMEZONE">>;
-
 /**
- * Connects an MCP client to the Worker. `settings` override Worker settings
- * for this connection only. The client is closed when the test finishes.
+ * Connects an MCP client to the Worker. The client is closed when the test
+ * finishes.
  */
-export async function connect(settings: Settings = {}): Promise<Client> {
-  const testEnv: Env = { ...env, ...settings };
+export async function connect(): Promise<Client> {
   const transport = new StreamableHTTPClientTransport(new URL("http://localhost/mcp"), {
     fetch: (input, init) => {
       const request = new Request(input, init) as Request<unknown, IncomingRequestCfProperties>;
       // Real incoming requests always carry Host; the MCP handler checks it.
       request.headers.set("Host", new URL(request.url).host);
-      return mcpApi.fetch(request, testEnv, createExecutionContext());
+      return mcpApi.fetch(request, env, createExecutionContext());
     },
   });
   const client = new Client({ name: "test-client", version: "0.0.0" });

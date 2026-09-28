@@ -18,10 +18,5 @@
       "binding": "DOCUMENTS",
       "bucket_name": "ai-running-coach-documents"
     }
-  ],
-  // Settings about the athlete stay out of this public repo (ADR 0001):
-  // .dev.vars locally, `wrangler secret put` when deployed.
-  "secrets": {
-    "required": ["ATHLETE_TIMEZONE"]
-  }
+  ]
 }
