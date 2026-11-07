@@ -1,0 +1,5 @@
+date,sleep_duration,sleep_quality,resting_hr,knee_pain_l,knee_pain_r,energy,motivation,life_stress,body_weight_lbs,body_fat_pct,notes,source_file,source_line,source_heading,date_basis
+2031-01-20,7:30,good,55,1,0,7,8,3,,,,programs/2031-01-synthetic-half/logs/week-01.md,10,"Monday, January 20",as written
+2031-01-21,6:05,poor,58,2.5,0,5,6,6,171.4,18.5,Late night; work deadline,programs/2031-01-synthetic-half/logs/week-01.md,40,"Tuesday, January 21",as written
+2031-01-22,,ok,,,,,,,,,Partial report,programs/2031-01-synthetic-half/logs/week-01.md,70,"Wednesday, January 22",as written
+2031-01-23,10:00,excellent,54,0,0,8,8,2,,,,programs/2031-01-synthetic-half/logs/week-01.md,99,"Thursday, January 23",corrected: heading said Friday

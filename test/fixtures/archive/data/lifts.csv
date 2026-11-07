@@ -1,0 +1,6 @@
+date,training_goal,session,pattern,exercise,load_lb,load_basis,sets,reps,notes
+2031-05-01,Synthetic base,Lower,Squat,Goblet squat,35,total,3,"10,10,10",
+2031-05-01,Synthetic base,Lower,Hinge,Romanian deadlift,25,per_hand,3,"8,8,8",Slow eccentric
+2031-05-01,Synthetic base,Lower,Finisher,Side plank,,bodyweight,2,"30s,30s",
+2031-05-05,Synthetic strength,Upper,Horizontal push,Push-up,,bodyweight,3,"12,10,8",
+2031-05-05,Synthetic base,Upper,Vertical pull,Lat pulldown,70,total,3,"10,10,10",
