@@ -1,0 +1,15 @@
+{
+  "runnerProfile": {
+    "timezone": "Europe/London",
+    "parts": [
+      { "from": "CLAUDE.md", "section": ["Runner Profile"], "heading": false },
+      { "from": "CLAUDE.md", "section": ["Reminders", "What Works"] },
+      { "from": "extraction/runner-profile.md" }
+    ]
+  },
+  "resources": [{ "from": "resources/synthetic-rehab.md" }],
+  "links": {
+    "resources/generic-mobility.md": "https://example.com/framework/resources/generic-mobility.md",
+    "data/goal-notes.md": { "note": "structured record: Programs and Phases" }
+  }
+}

@@ -1,6 +1,7 @@
 import { env } from "cloudflare:workers";
 import { beforeEach, describe, expect, it } from "vitest";
-import { type ArchiveSource, dumpStatements, rebuildStructuredRecord } from "../src/import";
+import { dumpStatements, rebuildStructuredRecord } from "../src/import";
+import { fixture } from "./archive-fixture";
 import { callTool, callToolExpectingError, connect, resetDatabase } from "./mcp";
 
 // The import rebuilds D1 from a checkout of the private archive. These tests
@@ -9,17 +10,6 @@ import { callTool, callToolExpectingError, connect, resetDatabase } from "./mcp"
 // MCP tools.
 
 beforeEach(resetDatabase);
-
-const fixtureFiles = import.meta.glob("./fixtures/archive/**/*", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-}) as Record<string, string>;
-
-/** The synthetic archive, read from test/fixtures/archive. */
-const fixture: ArchiveSource = {
-  read: (path) => fixtureFiles[`./fixtures/archive/${path}`] ?? null,
-};
 
 async function importFixture() {
   return rebuildStructuredRecord(env.DB, fixture);

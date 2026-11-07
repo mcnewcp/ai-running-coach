@@ -26,6 +26,7 @@ import { type Verification, verify } from "./verify";
 // It's deterministic: running it twice gives identical results.
 
 export type { ArchiveSource } from "./archive";
+export { type DocumentsReport, mirrorDocuments, rebuildDocuments } from "./documents";
 export { dumpStatements } from "./tables";
 
 /** A record the import couldn't write, and why. */

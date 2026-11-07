@@ -5,6 +5,7 @@ import type { RunInput } from "../core/runs";
 import type { StrengthSessionInput } from "../core/strength-sessions";
 import { type ArchiveSource, readRequired } from "./archive";
 import { parseCsv } from "./csv";
+import { type Excerpt, relevel } from "./markdown";
 
 // Readers for the archive's legacy files. Each turns a file into the inputs
 // the domain core takes, keeping where every record came from so the report
@@ -161,29 +162,77 @@ function hours(value: string | undefined): number | null {
  * document) are kept in the notes.
  */
 export function readRaceResults(archive: ArchiveSource): Sourced<RaceResultInput>[] {
-  const results: Sourced<RaceResultInput>[] = [];
+  return raceEntries(archive).map((race) => toRaceResult(race.line, race.name, race.date, race.distance, race.fields));
+}
+
+/** A race's narrative document: its entry in the race history, as markdown. */
+export type RaceNarrative = {
+  /** Its vault path, the one its Race Result links to. */
+  path: string;
+  /** The entry's lines, from its heading to the next heading or `---` rule. */
+  excerpt: Excerpt;
+  /** The anchors a link to the race history could use for this entry, lowercased. */
+  anchors: string[];
+};
+
+/** The narrative documents for the races in the race history. */
+export function readRaceNarratives(archive: ArchiveSource): RaceNarrative[] {
+  return raceEntries(archive).map((race) => ({
+    path: raceNarrativePath(race.date, race.name),
+    excerpt: { firstLine: race.line, lines: relevel(race.lines, 1) },
+    anchors: [race.heading.toLowerCase(), githubAnchor(race.heading)],
+  }));
+}
+
+type RaceEntry = {
+  line: number;
+  heading: string;
+  name: string;
+  date: string;
+  distance: string;
+  fields: [string, string][];
+  lines: string[];
+};
+
+function raceEntries(archive: ArchiveSource): RaceEntry[] {
+  const races: RaceEntry[] = [];
   let distance = "";
-  let race: { line: number; name: string; date: string; fields: [string, string][] } | null = null;
-  const finish = () => {
-    if (race) results.push(toRaceResult(race.line, race.name, race.date, distance, race.fields));
-    race = null;
-  };
+  let race: RaceEntry | null = null;
   for (const [index, row] of readRequired(archive, RACE_HISTORY_PATH).split(/\r?\n/).entries()) {
     const section = /^##\s+(?!#)(.+)$/.exec(row);
-    const heading = /^###\s+(.+?)\s+[—–-]\s+(.+)$/.exec(row);
+    const heading = /^###\s+((.+?)\s+[—–-]\s+(.+))$/.exec(row);
     const bullet = /^\s*[-*]\s+\*\*(.+?)\*\*:?\s*(.*)$/.exec(row);
+    if (section || heading || /^#{1,3}\s/.test(row) || /^\s*---+\s*$/.test(row)) race = null;
     if (section) {
-      finish();
       distance = section[1]!.trim();
     } else if (heading) {
-      finish();
-      race = { line: index + 1, name: heading[1]!.trim(), date: parseLongDate(heading[2]!.trim()), fields: [] };
+      race = {
+        line: index + 1,
+        heading: heading[1]!.trim(),
+        name: heading[2]!.trim(),
+        date: parseLongDate(heading[3]!.trim()),
+        distance,
+        fields: [],
+        lines: [],
+      };
+      races.push(race);
     } else if (bullet && race) {
-      (race as { fields: [string, string][] }).fields.push([bullet[1]!.replace(/:$/, "").trim(), bullet[2]!.trim()]);
+      race.fields.push([bullet[1]!.replace(/:$/, "").trim(), bullet[2]!.trim()]);
     }
+    race?.lines.push(row);
   }
-  finish();
-  return results;
+  for (const entry of races) {
+    while (entry.lines.length > 0 && entry.lines.at(-1)!.trim() === "") entry.lines.pop();
+  }
+  return races;
+}
+
+/** The anchor GitHub gives a heading: lowercased, punctuation dropped, spaces as hyphens. */
+function githubAnchor(heading: string): string {
+  return heading
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N} _-]/gu, "")
+    .replaceAll(" ", "-");
 }
 
 function toRaceResult(line: number, name: string, date: string, distance: string, fields: [string, string][]): Sourced<RaceResultInput> {

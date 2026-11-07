@@ -113,11 +113,48 @@ npm run import -- <archive> [--extraction <dir>] [--remote] [--yes]
 
 - `<archive>` is a checkout of the private archive repo. It's only read.
 - `--extraction <dir>` is the folder of reviewed extraction files, if it isn't `<archive>/extraction`.
-- Without `--remote`, it rebuilds the local D1 that `npm run dev` uses. With `--remote`, it rebuilds the local D1 first, then makes the remote D1 an exact copy (applying migrations first) and checks the remote row counts. If anything didn't match, it asks before touching the remote D1, unless you pass `--yes`.
+- Without `--remote`, it rebuilds the local D1 and R2 that `npm run dev` uses. With `--remote`, it rebuilds the local stores first, then makes the remote D1 an exact copy (applying migrations first) and checks the remote row counts, and makes the remote R2's documents an exact copy of the local ones (through a remote binding, so you need `npx wrangler login`) and checks they match. If anything didn't match, it asks before touching the remote stores, unless you pass `--yes`.
+- Wiping R2 deletes every document in the vault, including the runner's own Obsidian edits, but leaves anything that isn't a document (like the `.obsidian/` settings Remotely Save syncs) alone. Remotely Save then mirrors the rebuilt vault, so don't edit the vault until the final import.
 
-Every record is written through the domain core ([`src/import/`](src/import/)), so the import follows the same rules as the tools. It reads Shoes, Runs, Strength Sessions, Body-comp Scans and Race Results from the archive's `data/` files, and the reviewed pre-build Runs and Daily Check-ins from the extraction folder. A record the core rejects, e.g. one dated outside every Phase, isn't dropped silently: the report lists it as unresolved. The report then compares counts and totals with the archive's files: Runs, total miles, miles per Shoe, Strength Sessions and their entries, Body-comp Scans, Daily Check-ins and Race Results. The command exits non-zero unless everything was imported and matched. **The report holds Athlete Record data, so keep it out of issues, PRs and logs.**
+Every record is written through the domain core ([`src/import/`](src/import/)), so the import follows the same rules as the tools. It reads Shoes, Runs, Strength Sessions, Body-comp Scans and Race Results from the archive's `data/` files, and the reviewed pre-build Runs and Daily Check-ins from the extraction folder. A record the core rejects, e.g. one dated outside every Phase, isn't dropped silently: the report lists it as unresolved. The report then compares counts and totals with the archive's files: Runs, total miles, miles per Shoe, Strength Sessions and their entries, Body-comp Scans, Daily Check-ins and Race Results. The command exits non-zero unless everything was imported and matched.
 
-Anything that takes judgement about one runner lives in the archive, not here. The extraction folder's `structure.json` gives every Program with its Phases, as `upsert_program` takes them (including each Phase's `planPath`). It also maps each legacy free-text `training_goal` label to a Program, and optionally a Phase (`legacyLabels`), and rates each sleep-quality word in the extracted Check-ins from 0 to 10 (`checkIns.sleepQuality`). Records are placed in Phases by date (ADR 0003). The labels are only a cross-check: the report warns where a label disagrees with the Phase a record's date falls in. [`test/fixtures/archive/`](test/fixtures/archive/) is a synthetic archive with the same shape.
+The same command rebuilds the vault in R2 ([`src/import/documents.ts`](src/import/documents.ts)), writing each document through the domain core, laid out as in [Documents](#documents):
+
+- The **Runner Profile**, made only of the athlete-specific parts the vault config names, with the Home Timezone as its `timezone` property.
+- Every **Plan and Log**: `programs/<name>/plans/…` and `programs/<name>/logs/…` become `Programs/<name>/Plans/…` and `Programs/<name>/Logs/…`, keeping the folder and file names. So each Phase's `planPath` in `structure.json` should name its Plan's path in that layout.
+- A **race narrative** for each race in `data/race-history.md`: its entry, at `Races/<YYYY-MM-DD>-<race>.md`, the path its Race Result links.
+- The athlete-specific **resources** the vault config names, under `Resources/`.
+
+Markdown links that pointed into the archive's layout are rewritten to the vault path of the document they pointed at, relative to the linking document. A link to one of the legacy data files becomes a note pointing at the structured record instead, e.g. `runs (structured record: Runs)`, and a link to a race's entry in the race history points at its narrative. The document report lists every link it couldn't rewrite (left as it was), and any Phase's Plan or Race Result's narrative that isn't in the vault. The command exits non-zero unless the report is empty. **The reports hold Athlete Record data, so keep them out of issues, PRs and logs.**
+
+Anything that takes judgement about one runner lives in the archive, not here. The extraction folder's `structure.json` gives every Program with its Phases, as `upsert_program` takes them (including each Phase's `planPath`). It also maps each legacy free-text `training_goal` label to a Program, and optionally a Phase (`legacyLabels`), and rates each sleep-quality word in the extracted Check-ins from 0 to 10 (`checkIns.sleepQuality`). Records are placed in Phases by date (ADR 0003). The labels are only a cross-check: the report warns where a label disagrees with the Phase a record's date falls in.
+
+The extraction folder's `vault.json` says what goes into the vault ([`src/import/vault-config.ts`](src/import/vault-config.ts)):
+
+```json
+{
+  "runnerProfile": {
+    "timezone": "America/Chicago",
+    "parts": [
+      { "from": "CLAUDE.md", "section": ["Runner Profile"], "heading": false },
+      { "from": "CLAUDE.md", "section": ["Reminders", "What Works"] },
+      { "from": "extraction/runner-profile.md" }
+    ]
+  },
+  "resources": [{ "from": "resources/my-rehab.md" }],
+  "links": {
+    "resources/generic.md": "https://github.com/<you>/ai-running-coach/blob/main/resources/generic.md",
+    "data/old-notes.md": { "note": "structured record: Programs and Phases" }
+  }
+}
+```
+
+- `runnerProfile.timezone` is the Home Timezone, an IANA name. It's required: without it, `today` can't work.
+- `runnerProfile.parts` are the archive text the Runner Profile is made of, in order: a whole file, or one `section` named by its heading path (each heading nested under the one before, matched ignoring case), with or without its own `heading`. Headings move so each part's top heading is at level 2. For athlete-specific lines inside otherwise generic sections, copy them into a reviewed file in the extraction folder and name it as a part.
+- `resources` are copied whole, to `to` if given, else `Resources/<file name>`.
+- `links` says where links to archive files that aren't in the vault go: a vault path, a web URL, or a `note` that replaces the link.
+
+[`test/fixtures/archive/`](test/fixtures/archive/) is a synthetic archive with the same shape.
 
 ### Local development
 
@@ -152,7 +189,7 @@ npm run typecheck   # check types, and that worker-configuration.d.ts is current
 
 CI runs the typecheck and the tests on every pull request.
 
-Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. [`test/documents.test.ts`](test/documents.test.ts) does write to the R2 bucket directly, but only to stand in for the runner's Obsidian vault, which Remotely Save syncs straight to the bucket. Beyond that there are two exceptions. [`test/harness.test.ts`](test/harness.test.ts) checks the harness itself. [`test/oauth.test.ts`](test/oauth.test.ts) goes through the Worker's entry point and walks the whole sign-in like an MCP client does, with GitHub faked and the synthetic allowlist from [`vitest.config.ts`](vitest.config.ts). [`test/coaching-framework.test.ts`](test/coaching-framework.test.ts) checks the Coaching Framework against the tools: every tool, parameter, field and value it names in a code span must exist in the tool list, and its links must resolve. `vitest.config.ts` reads the documents from disk and passes them in as the `FRAMEWORK` binding, so when you rename a tool or field, update `CLAUDE.md` and `resources/` too.
+Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. [`test/documents.test.ts`](test/documents.test.ts) does write to the R2 bucket directly, but only to stand in for the runner's Obsidian vault, which Remotely Save syncs straight to the bucket. [`test/import-documents.test.ts`](test/import-documents.test.ts) does the same, and uses a second bucket (`REMOTE_DOCUMENTS`) to stand in for the remote one the import copies the vault to. Beyond that there are two exceptions. [`test/harness.test.ts`](test/harness.test.ts) checks the harness itself. [`test/oauth.test.ts`](test/oauth.test.ts) goes through the Worker's entry point and walks the whole sign-in like an MCP client does, with GitHub faked and the synthetic allowlist from [`vitest.config.ts`](vitest.config.ts). [`test/coaching-framework.test.ts`](test/coaching-framework.test.ts) checks the Coaching Framework against the tools: every tool, parameter, field and value it names in a code span must exist in the tool list, and its links must resolve. `vitest.config.ts` reads the documents from disk and passes them in as the `FRAMEWORK` binding, so when you rename a tool or field, update `CLAUDE.md` and `resources/` too.
 
 - [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect()` returns a connected client, `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message. Tests in one file share storage, so `resetDatabase()` (in `beforeEach`) empties every D1 table for tests that need a blank Athlete Record.
 - To test anything that depends on the current time, fake only the clock with `vi.useFakeTimers({ toFake: ["Date"] })` and set it with `vi.setSystemTime(...)`. The Worker runs in the same isolate as the tests, so it sees the fake clock. See [`test/today.test.ts`](test/today.test.ts).
