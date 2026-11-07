@@ -5,6 +5,9 @@ import { today, WEEKDAYS } from "./core/calendar";
 import { PHASE_KINDS, placeDate, PROGRAM_KINDS, upsertPhase, upsertProgram } from "./core/programs";
 import { listDocuments, readDocument, writeDocument } from "./core/documents";
 import { DomainError } from "./core/errors";
+import { registerRunTools } from "./tools/runs";
+import { date, structured } from "./tools/shared";
+import { registerShoeTools } from "./tools/shoes";
 
 /**
  * The MCP tools. Each is a thin wrapper over the domain core, named in the
@@ -120,13 +123,11 @@ export function createServer(env: Env): McpServer {
     },
     async ({ date }) => structured(await placeDate(env.DB, date)),
   );
+  registerRunTools(server, env.DB);
+  registerShoeTools(server, env.DB);
   registerDocumentTools(server, env.DOCUMENTS);
 
   return server;
-}
-
-function date(description: string) {
-  return z.string().describe(`${description}: a local calendar date, YYYY-MM-DD`);
 }
 
 const aRaceSchema = z.object({
@@ -264,13 +265,6 @@ function registerDocumentTools(server: McpServer, bucket: R2Bucket) {
       return structured(await writeDocument(bucket, { path, content, condition }));
     },
   );
-}
-
-function structured<T extends Record<string, unknown>>(output: T) {
-  return {
-    content: [{ type: "text" as const, text: JSON.stringify(output) }],
-    structuredContent: output,
-  };
 }
 
 /** The MCP API: the Worker's `/mcp` route, behind OAuth (src/auth). Tests call it directly. */

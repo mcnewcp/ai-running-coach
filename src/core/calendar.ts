@@ -95,6 +95,16 @@ export function addDays(date: string, days: number): string {
   return isoDate(result);
 }
 
+/** A Monday–Sunday week, both ends included. */
+export type Week = { start: string; end: string };
+
+/** The Monday–Sunday week containing the calendar date `date`. */
+export function weekOf(date: string): Week {
+  const daysSinceMonday = (new Date(`${date}T00:00:00Z`).getUTCDay() + 6) % 7;
+  const start = addDays(date, -daysSinceMonday);
+  return { start, end: addDays(start, 6) };
+}
+
 function isoDate(date: Date): string {
   return date.toISOString().slice(0, 10);
 }
