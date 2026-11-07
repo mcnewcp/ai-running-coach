@@ -2,7 +2,7 @@ import type { McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod";
 import { deleteRun, logRun, updateRun } from "../core/runs";
 import { checkProposedWeek } from "../core/session";
-import { date, phaseSchema, programSchema, structured } from "./shared";
+import { attributed, date, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
 /** The Run tools: logging, correcting and deleting Runs. */
@@ -149,9 +149,4 @@ const runEffects = {
     .describe("The Run's Shoe with its mileage after this write, or null if it has none. Mention it if nearingReplacement."),
 };
 
-const runWriteSchema = z.object({
-  run: runSchema,
-  program: programSchema.omit({ phases: true }).describe("The Program the Run's date falls in"),
-  phase: phaseSchema.describe("The Phase the Run's date falls in"),
-  ...runEffects,
-});
+const runWriteSchema = z.object({ run: runSchema, ...attributed, ...runEffects });

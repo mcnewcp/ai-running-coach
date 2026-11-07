@@ -27,6 +27,13 @@ export const phaseSchema = z.object({
     .describe("The vault path of the Phase's Plan document, or null if none is linked. The document may not be written yet."),
 });
 
+/** A document as read, with the version to pass back when writing it. */
+export const documentSchema = z.object({
+  path: z.string(),
+  content: z.string().describe("The whole markdown document"),
+  version: z.string().describe("The document's version. Pass it to write_document as expected_version to update the document."),
+});
+
 export const programSchema = z.object({
   name: z.string(),
   kind: z.enum(PROGRAM_KINDS),

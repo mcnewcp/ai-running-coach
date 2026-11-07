@@ -1,7 +1,7 @@
 import { parseDate } from "./calendar";
 import { checkPath } from "./documents";
-import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, merge, notFound, optionalText, requiredText } from "./records";
+import { formatDuration, parseDuration } from "./durations";
+import { attribute, type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, requiredText } from "./records";
 
 // Race Results: the official outcome of one race, linked to its narrative
 // document. Belongs to a Phase by its date (ADR 0003). Whether it's an A-race
@@ -110,10 +110,10 @@ function check(fields: Fields): Fields {
     date: parseDate(fields.date),
     name: requiredText(fields.name, "name"),
     distance: requiredText(fields.distance, "distance"),
-    officialTime: formatTime(parseTime(fields.officialTime)),
+    officialTime: formatDuration(parseDuration(fields.officialTime, "officialTime")),
     pace: optionalText(fields.pace),
     conditions: optionalText(fields.conditions),
-    avgHr: checkNumber(fields.avgHr, "avgHr", { min: 1, max: 250, integer: true }),
+    avgHr: checkNumber(fields.avgHr, "avgHr", HEART_RATE),
     placement: optionalText(fields.placement),
     narrativePath,
     notes: optionalText(fields.notes),
@@ -122,29 +122,6 @@ function check(fields: Fields): Fields {
 
 function distanceKey(distance: string): string {
   return distance.toLowerCase().replace(/\s+/g, "");
-}
-
-/**
- * Seconds in an official time written H:MM:SS or M:SS. A fraction of a
- * second rounds up to the next whole second, as official road times do.
- */
-function parseTime(value: string): number {
-  const match = /^(?:(\d+):([0-5]\d)|(\d+)):([0-5]\d)(?:\.(\d+))?$/.exec(value.trim());
-  if (!match) {
-    throw new DomainError(`officialTime "${value}" is not a time. Use H:MM:SS or M:SS, e.g. 1:42:05 or 21:30.`);
-  }
-  const [, hours, minutesAfterHours, minutesOnly, seconds, fraction] = match;
-  const minutes = hours === undefined ? Number(minutesOnly) : Number(hours) * 60 + Number(minutesAfterHours);
-  const total = minutes * 60 + Number(seconds) + (fraction && Number(fraction) > 0 ? 1 : 0);
-  if (total === 0) throw new DomainError("officialTime must be more than zero.");
-  return total;
-}
-
-function formatTime(seconds: number): string {
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = String(seconds % 60).padStart(2, "0");
-  return h > 0 ? `${h}:${String(m).padStart(2, "0")}:${s}` : `${m}:${s}`;
 }
 
 // --- Storage -----------------------------------------------------------------
@@ -180,7 +157,7 @@ function values(result: Fields): unknown[] {
     result.date,
     result.name,
     result.distance,
-    parseTime(result.officialTime),
+    parseDuration(result.officialTime, "officialTime"),
     result.pace,
     result.conditions,
     result.avgHr,
@@ -203,7 +180,7 @@ function fromRow(row: RaceResultRow): RaceResult {
     date: row.date,
     name: row.name,
     distance: row.distance,
-    officialTime: formatTime(row.official_time_seconds),
+    officialTime: formatDuration(row.official_time_seconds),
     pace: row.pace,
     conditions: row.conditions,
     avgHr: row.avg_hr,

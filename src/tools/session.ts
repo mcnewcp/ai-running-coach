@@ -3,7 +3,7 @@ import { z } from "zod";
 import { WEEKDAYS } from "../core/calendar";
 import { getCoachingContext, RECENT_RUN_DAYS, today } from "../core/session";
 import { runSchema, weekStandingSchema } from "./runs";
-import { phaseSchema, programSchema, structured } from "./shared";
+import { documentSchema, phaseSchema, programSchema, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
 /** The session tools: what day it is, and what a coaching session starts from. */
@@ -37,11 +37,8 @@ export function registerSessionTools(server: McpServer, env: Env) {
       inputSchema: z.object({ timezone }),
       outputSchema: z.object({
         today: localDaySchema,
-        runnerProfile: z
-          .object({
-            path: z.string(),
-            content: z.string().describe("The whole markdown document"),
-            version: z.string().describe("Pass it to write_document as expected_version to update the Runner Profile"),
+        runnerProfile: documentSchema
+          .extend({
             properties: z
               .record(z.string(), z.string())
               .describe("The frontmatter's properties, e.g. timezone, the Home Timezone"),
@@ -50,8 +47,7 @@ export function registerSessionTools(server: McpServer, env: Env) {
           .describe("The Runner Profile: history, injuries, logistics. Null if the vault doesn't have one yet"),
         program: programSchema.nullable().describe("The Program today falls in, with its Phases; null if none covers today"),
         phase: phaseSchema.nullable().describe("The Phase today falls in; null if none covers today"),
-        plan: z
-          .object({ path: z.string(), content: z.string(), version: z.string() })
+        plan: documentSchema
           .nullable()
           .describe(
             "The active Phase's Plan, the document at its planPath: read today's workout and the week's total from it. " +

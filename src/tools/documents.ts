@@ -1,7 +1,7 @@
 import type { McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod";
 import { listDocuments, readDocument, writeCondition, writeDocument } from "../core/documents";
-import { structured } from "./shared";
+import { documentSchema, structured } from "./shared";
 
 /**
  * The documents tools: the Athlete Record's markdown documents in R2 (Runner
@@ -16,7 +16,6 @@ export function registerDocumentTools(server: McpServer, env: Env) {
   const path = z
     .string()
     .describe('The document\'s path in the vault, ending in .md, e.g. "Programs/2026-01-base/Plans/week-01.md".');
-  const version = z.string().describe("The document's version. Pass it to write_document to update the document.");
 
   server.registerTool(
     "list_documents",
@@ -46,7 +45,7 @@ export function registerDocumentTools(server: McpServer, env: Env) {
         "Reads one of the runner's markdown documents (Runner Profile, Plan, Log, race narrative, resource). " +
         `Returns its content and version. Read a document before you update it. ${vaultLayout}`,
       inputSchema: z.object({ path }),
-      outputSchema: z.object({ path: z.string(), content: z.string(), version }),
+      outputSchema: documentSchema,
       annotations: { readOnlyHint: true },
     },
     async ({ path }) => structured(await readDocument(bucket, path)),

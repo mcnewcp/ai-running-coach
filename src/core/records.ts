@@ -20,6 +20,12 @@ export async function attribute(db: D1Database, date: string): Promise<Attribute
 
 type NumberRule = { min?: number; max?: number; integer?: boolean };
 
+/** A 0-10 rating: pain, sleep quality, energy, motivation, life stress. */
+export const RATING: NumberRule = { min: 0, max: 10 };
+
+/** A heart rate in bpm: average or resting. */
+export const HEART_RATE: NumberRule = { min: 1, max: 250, integer: true };
+
 /**
  * Returns `value` (or null if it's missing) if it's a finite number within
  * the rule, or fails naming the `field`.

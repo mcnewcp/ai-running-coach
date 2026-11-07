@@ -1,6 +1,6 @@
 import { parseDate } from "./calendar";
 import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, merge, optionalText } from "./records";
+import { attribute, type Attributed, checkNumber, HEART_RATE, merge, optionalText, RATING } from "./records";
 
 // Daily Check-ins: the runner's morning wellness report for one day. There's
 // at most one per date: a later report for the same date updates it.
@@ -42,8 +42,6 @@ const EMPTY: Omit<CheckIn, "date"> = {
   bodyWeight: null,
   notes: null,
 };
-
-const RATING = { min: 0, max: 10 };
 
 /**
  * Records the Daily Check-in for a date, or merges the report into the
@@ -95,7 +93,7 @@ function check(checkIn: CheckIn): CheckIn {
     date: checkIn.date,
     sleepHours: checkNumber(checkIn.sleepHours, "sleepHours", { min: 0, max: 24 }),
     sleepQuality: checkNumber(checkIn.sleepQuality, "sleepQuality", RATING),
-    restingHr: checkNumber(checkIn.restingHr, "restingHr", { min: 1, max: 250, integer: true }),
+    restingHr: checkNumber(checkIn.restingHr, "restingHr", HEART_RATE),
     leftKneePain: checkNumber(checkIn.leftKneePain, "leftKneePain", RATING),
     rightKneePain: checkNumber(checkIn.rightKneePain, "rightKneePain", RATING),
     energy: checkNumber(checkIn.energy, "energy", RATING),
