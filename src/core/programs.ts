@@ -479,8 +479,61 @@ async function loadPrograms(db: D1Database, where = "", params: unknown[] = []):
   }));
 }
 
-/** Writes Programs and their whole Phase layouts, all or nothing. */
+/** The dated records, as [table, singular, plural]. Each belongs to the Phase its date falls in. */
+const DATED_RECORDS = [
+  ["runs", "Run", "Runs"],
+  ["strength_sessions", "Strength Session", "Strength Sessions"],
+  ["check_ins", "Daily Check-in", "Daily Check-ins"],
+  ["body_comp_scans", "Body-comp Scan", "Body-comp Scans"],
+  ["race_results", "Race Result", "Race Results"],
+] as const;
+
+/**
+ * Fails if writing `changed` would leave a record that a Phase covers now
+ * dated outside every Phase, saying how many of each kind and their dates.
+ * Programs tile the calendar and Phases tile their Program, so the Phases
+ * cover exactly the days from the first Program's start to the last's end.
+ */
+async function checkNothingStranded(db: D1Database, changed: Program[]): Promise<void> {
+  const { results } = await db
+    .prepare("SELECT name, start_date AS startDate, end_date AS endDate FROM programs")
+    .all<Window & { name: string }>();
+  if (results.length === 0) return;
+  const span = (windows: Window[]) => ({
+    startDate: windows.map((w) => w.startDate).reduce((a, b) => (a < b ? a : b)),
+    endDate: windows.map((w) => w.endDate).reduce((a, b) => (a > b ? a : b)),
+  });
+  const before = span(results);
+  const after = span([...results.filter((p) => !changed.some((c) => c.name === p.name)), ...changed]);
+  const { results: stranded } = await db
+    .prepare(
+      DATED_RECORDS.map(
+        ([table], index) =>
+          `SELECT ${index} AS kind, COUNT(*) AS count, MIN(date) AS first, MAX(date) AS last FROM ${table}
+           WHERE date BETWEEN ?1 AND ?2 AND (date < ?3 OR date > ?4)`,
+      ).join(" UNION ALL "),
+    )
+    .bind(before.startDate, before.endDate, after.startDate, after.endDate)
+    .all<{ kind: number; count: number; first: string | null; last: string | null }>();
+  const found = stranded.filter((row) => row.count > 0).sort((a, b) => a.kind - b.kind);
+  if (found.length === 0) return;
+  const counts = found.map(({ kind, count }) => {
+    const [, singular, plural] = DATED_RECORDS[kind]!;
+    return `${count} ${count === 1 ? singular : plural}`;
+  });
+  const dates = span(found.map((row) => ({ startDate: row.first!, endDate: row.last! })));
+  throw new DomainError(
+    `That would leave records dated outside every Phase: ${counts.join(", ")}, from ${describe(dates)}. ` +
+      "Keep their dates covered, or correct or delete those records first.",
+  );
+}
+
+/**
+ * Writes Programs and their whole Phase layouts, all or nothing. Fails,
+ * writing nothing, if that would strand a record outside every Phase.
+ */
 async function savePrograms(db: D1Database, programs: Program[]): Promise<void> {
+  await checkNothingStranded(db, programs);
   const programId = "(SELECT id FROM programs WHERE name = ?)";
   await db.batch(
     programs.flatMap((program) => [

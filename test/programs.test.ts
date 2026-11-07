@@ -403,6 +403,52 @@ describe("moving a neighbour's edge needs moveNeighbours", () => {
   });
 });
 
+describe("a structure change never strands a record", () => {
+  async function season(): Promise<Client> {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    await callTool(client, "upsert_program", springHalf);
+    return client;
+  }
+
+  it("rejects shrinking the first Program past records, saying how many of each and their dates", async () => {
+    const client = await season();
+    await callTool(client, "log_run", { date: "2026-11-03", distance: 3 });
+    await callTool(client, "log_run", { date: "2026-11-04", distance: 2 });
+    await callTool(client, "log_strength_session", { date: "2026-11-04", entries: [{ exercise: "Goblet squat" }] });
+    await callTool(client, "log_check_in", { date: "2026-11-05", energy: 7 });
+    await callTool(client, "log_run", { date: "2026-11-09", distance: 4 });
+    const error = await callToolExpectingError(client, "upsert_program", { ...offSeason, startDate: "2026-11-09", phases: undefined });
+    expect(error).toMatch(
+      /would leave records dated outside every Phase: 2 Runs, 1 Strength Session, 1 Daily Check-in, from 2026-11-03 to 2026-11-05\./,
+    );
+    expect(await placement(client, "2026-11-03")).toBe("2026 Off-season / Recovery");
+  });
+
+  it("rejects cutting the calendar's last day past records", async () => {
+    const client = await season();
+    await callTool(client, "log_body_comp_scan", { date: "2027-04-08", weight: 150 });
+    await callTool(client, "log_race_result", {
+      date: "2027-04-11", name: "Synthetic City Half", distance: "Half Marathon", officialTime: "1:45:00",
+    });
+    const error = await callToolExpectingError(client, "upsert_program", {
+      ...springHalf,
+      endDate: "2027-04-04",
+      aRace: { name: "Synthetic City Half", date: "2027-04-04" },
+      phases: undefined,
+    });
+    expect(error).toMatch(/outside every Phase: 1 Body-comp Scan, 1 Race Result, from 2027-04-08 to 2027-04-11\./);
+    expect(await placement(client, "2027-04-11")).toBe("2027 Spring Half / Race");
+  });
+
+  it("accepts the same change once no record would be stranded", async () => {
+    const client = await season();
+    await callTool(client, "log_run", { date: "2026-11-09", distance: 4 });
+    await callTool(client, "upsert_program", { ...offSeason, startDate: "2026-11-09", phases: undefined });
+    expect(await placement(client, "2026-11-09")).toBe("2026 Off-season / Recovery");
+  });
+});
+
 describe("upsert_phase", () => {
   async function season(): Promise<Client> {
     const client = await connect();

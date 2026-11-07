@@ -31,7 +31,8 @@ export function createServer(env: Env): McpServer {
         "Programs tile the calendar (each starts the day after the one before it ends), and Phases tile their Program. " +
         "A race build names its A-race and ends on that day with a one-day Race Phase; a bridge has neither. " +
         "A new Program must start the day after the last one ends (or end the day before the first starts). " +
-        "Writes that would leave a gap or overlap are rejected. " +
+        "Writes that would leave a gap or overlap, or leave a recorded Run, Strength Session, Check-in, scan or Race Result " +
+        "dated outside every Phase (by shrinking the calendar's first or last Program), are rejected. " +
         "If changing an existing Program's window would move a neighbouring Program's edge, the write is rejected, naming exactly what would move, " +
         "unless you pass moveNeighbours: true (only once the runner has agreed). Then the Programs either side keep meeting it: " +
         "their adjoining edge, and the Phase on that edge, move with it, and they're returned in `adjusted`. " +
