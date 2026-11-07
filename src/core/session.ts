@@ -1,6 +1,6 @@
 import { addDays, type LocalDay, localDay, parseTimezone } from "./calendar";
 import { type Document, findDocument } from "./documents";
-import { type WeekStanding, weekStanding } from "./mileage-cap";
+import { checkMileageCap, type MileageCapCheck, type WeekStanding, weekStanding } from "./mileage-cap";
 import { findPlacement, findProgram, type Phase, type Program } from "./programs";
 import { homeTimezone, type RunnerProfile, readRunnerProfile } from "./runner-profile";
 import { listRuns, type Run } from "./runs";
@@ -72,6 +72,20 @@ export async function getCoachingContext(
     recentRuns: await listRuns(db, { from: addDays(day.date, 1 - RECENT_RUN_DAYS), to: day.date }),
     shoes: await listShoes(db),
   };
+}
+
+/**
+ * Whether `proposedMiles` exceeds the Mileage Cap of the Monday–Sunday week
+ * containing `week`, or of this week if it's omitted, with today worked out
+ * as `today` does (in `timezone` if given, else the Home Timezone).
+ */
+export async function checkProposedWeek(
+  store: { db: D1Database; bucket: R2Bucket },
+  now: Date,
+  proposedMiles: number,
+  { week, timezone }: { week?: string; timezone?: string } = {},
+): Promise<MileageCapCheck> {
+  return checkMileageCap(store.db, proposedMiles, week ?? (await today(store.bucket, now, timezone)).date);
 }
 
 /** Like `today`, reading the Runner Profile with `profile` only if no timezone is given. */

@@ -80,7 +80,7 @@ The runner usually opens a fresh chat each day.
    - A Run: `log_run`, leaving out anything not reported. Ask for the Shoe if they didn't say. If it's a new pair, `add_shoe` first.
    - A gym session: `log_strength_session`, one entry per exercise.
    - A body-composition scan: `log_body_comp_scan`, with only the metrics the printout shows.
-   - A race: `log_race_result`, and write its narrative in `Races/` (see [Documents](#documents)).
+   - A race: `log_race_result` (for the A-race, use the name its Program gives it, so it shows as the `a_race`), and write its narrative in `Races/` (see [Documents](#documents)).
 3. Report what the write returns. For a Run, say where the week stands (e.g. "14.1 of 14.3 mi this week") and flag the Shoe if it's `nearingReplacement`.
 4. Update the week's Log with the session, how it went and any decision made.
 
@@ -109,7 +109,7 @@ The Mileage Cap is a **guideline** that never blocks anything: the previous Mond
 
 ### Structure
 
-Programs and Phases hold the season's structure: `upsert_program` lays out a Program with its Phases, and `upsert_phase` changes one Phase (e.g. extending a rehab Phase after an injury). Every record belongs to the Phase its date falls in, so changing a window re-attributes past records by itself. `phase_for_date` answers which Phase a date is in.
+Programs and Phases hold the season's structure: `upsert_program` lays out a Program with its Phases, and `upsert_phase` changes one Phase (e.g. extending a rehab Phase after an injury). If a change would move a neighbouring Program's or Phase's edge, the tool refuses and says what would move: tell the runner, and once they agree, call again with `moveNeighbours`, then report the moved neighbours in `adjusted`. Every record belongs to the Phase its date falls in, so changing a window re-attributes past records by itself. `phase_for_date` answers which Phase a date is in.
 
 ### Documents
 

@@ -1,9 +1,8 @@
 import type { McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod";
-import { checkMileageCap } from "../core/mileage-cap";
 import { deleteRun, logRun, updateRun } from "../core/runs";
-import { today } from "../core/session";
-import { date, phaseSchema, programSchema, structured } from "./shared";
+import { checkProposedWeek } from "../core/session";
+import { attributed, date, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
 /** The Run tools: logging, correcting and deleting Runs. */
@@ -16,7 +15,7 @@ export function registerRunTools(server: McpServer, env: Env) {
       description:
         "Records one completed Run. Its Phase and Program are worked out from its date, never given. " +
         "Leave out anything the runner didn't report (e.g. VO2 max on a treadmill): it stays empty. " +
-        "Rejected if no Phase covers the date, the Shoe is unknown, or the distance isn't positive.",
+        "Rejected if no Phase covers the date, the Shoe is unknown or was retired before the Run's date, or the distance isn't positive.",
       inputSchema: z.object(runFields),
       outputSchema: runWriteSchema,
     },
@@ -70,7 +69,8 @@ export function registerRunTools(server: McpServer, env: Env) {
       description:
         "Whether a proposed week's mileage exceeds that week's Mileage Cap: the previous Monday–Sunday week's actual miles × 1.10. " +
         "Check it whenever a week's mileage is set or changed, in a Plan or in chat. It never blocks anything: " +
-        "if the proposal exceeds the cap, tell the runner plainly (proposed vs. cap) and ask them to confirm. The decision is theirs.",
+        "if the proposal exceeds the cap, tell the runner plainly (proposed vs. cap) and ask them to confirm. The decision is theirs. " +
+        "Omit week for this week, worked out in the runner's Home Timezone, or in timezone if you pass their current one while they're away.",
       inputSchema: z.object({
         proposed_week_miles: z.number().describe("The week's total miles as proposed, including miles already run"),
         week: date("Any day of the Monday–Sunday week to check")
@@ -95,7 +95,7 @@ export function registerRunTools(server: McpServer, env: Env) {
     },
     async ({ proposed_week_miles, week, timezone }) =>
       structured(
-        await checkMileageCap(db, proposed_week_miles, week ?? (await today(env.DOCUMENTS, new Date(), timezone)).date),
+        await checkProposedWeek({ db, bucket: env.DOCUMENTS }, new Date(), proposed_week_miles, { week, timezone }),
       ),
   );
 }
@@ -149,9 +149,4 @@ const runEffects = {
     .describe("The Run's Shoe with its mileage after this write, or null if it has none. Mention it if nearingReplacement."),
 };
 
-const runWriteSchema = z.object({
-  run: runSchema,
-  program: programSchema.omit({ phases: true }).describe("The Program the Run's date falls in"),
-  phase: phaseSchema.describe("The Phase the Run's date falls in"),
-  ...runEffects,
-});
+const runWriteSchema = z.object({ run: runSchema, ...attributed, ...runEffects });

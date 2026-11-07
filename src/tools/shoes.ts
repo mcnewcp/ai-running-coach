@@ -4,7 +4,8 @@ import { addShoe, DEFAULT_WARN_AT_MILES, listShoes, retireShoe, SHOE_STATUSES } 
 import { date, structured } from "./shared";
 
 /** The Shoe tools: adding, retiring and listing pairs of running shoes. */
-export function registerShoeTools(server: McpServer, db: D1Database) {
+export function registerShoeTools(server: McpServer, env: Env) {
+  const db = env.DB;
   server.registerTool(
     "add_shoe",
     {

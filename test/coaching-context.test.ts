@@ -114,6 +114,39 @@ describe("get_coaching_context", () => {
     expect((context.recentRuns as { date: string }[]).map((run) => run.date)).toEqual(["2026-11-25", "2026-11-12"]);
   });
 
+  it("re-attributes a recorded Run when upsert_phase moves its Phase's window", async () => {
+    const client = await season();
+    const logged = await callTool(client, "log_run", { date: "2026-11-24", distance: 4 });
+    expect(logged.phase).toMatchObject({ name: "Base" });
+    const runId = (logged.run as { id: number }).id;
+    const runPhase = async () =>
+      (
+        await callTool(client, "query", {
+          sql: `SELECT ph.name FROM runs r JOIN phases ph ON r.date BETWEEN ph.start_date AND ph.end_date WHERE r.id = ${runId}`,
+        })
+      ).rows;
+    expect(await runPhase()).toEqual([["Base"]]);
+
+    // Recovery is extended to the end of the week, taking the Run and today with it.
+    await callTool(client, "upsert_phase", {
+      program: "2026 Off-season",
+      name: "Recovery",
+      startDate: "2026-11-02",
+      endDate: "2026-11-29",
+      moveNeighbours: true,
+    });
+
+    expect(await runPhase()).toEqual([["Recovery"]]);
+    const context = await coachingContext(client);
+    expect(context.phase).toMatchObject({ name: "Recovery", startDate: "2026-11-02", endDate: "2026-11-29" });
+    expect((context.recentRuns as { id: number }[]).map((run) => run.id)).toEqual([runId]);
+    expect(await callTool(client, "update_run", { id: runId, notes: "Easy" })).toMatchObject({
+      run: { id: runId, notes: "Easy" },
+      phase: { name: "Recovery" },
+    });
+    expect(await callTool(client, "log_run", { date: "2026-11-25", distance: 3 })).toMatchObject({ phase: { name: "Recovery" } });
+  });
+
   describe("handles missing pieces without failing", () => {
     it("no Runs this week or before, and no Shoes", async () => {
       const context = await coachingContext(await season());

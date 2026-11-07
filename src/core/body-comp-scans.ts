@@ -1,6 +1,7 @@
 import { parseDate } from "./calendar";
 import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, merge, notFound, optionalText } from "./records";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, merge, notFound, optionalText } from "./records";
 
 // Body-comp Scans: one body-composition measurement. Only the metrics the
 // printout shows are recorded; the rest stay empty. Belongs to a Phase by its
@@ -39,7 +40,7 @@ const COLUMNS = METRICS.map(([, column]) => column);
 export async function logBodyCompScan(db: D1Database, input: BodyCompScanInput): Promise<BodyCompScanWrite> {
   const empty = Object.fromEntries(METRICS.map(([field]) => [field, null])) as Record<Metric, number | null>;
   const scan = check(merge<BodyCompScan>({ id: 0, date: input.date, notes: null, ...empty }, input));
-  const attributed = await attribute(db, scan.date);
+  const { program, phase } = await placeDate(db, scan.date);
   const row = await db
     .prepare(
       `INSERT INTO body_comp_scans (date, notes, ${COLUMNS.join(", ")})
@@ -47,7 +48,7 @@ export async function logBodyCompScan(db: D1Database, input: BodyCompScanInput):
     )
     .bind(scan.date, scan.notes, ...METRICS.map(([field]) => scan[field]))
     .first<{ id: number }>();
-  return { bodyCompScan: { ...scan, id: row!.id }, ...attributed };
+  return { bodyCompScan: { ...scan, id: row!.id }, program, phase };
 }
 
 /** Corrects a Body-comp Scan. Fails if no Phase covers the new date. */
@@ -56,7 +57,7 @@ export async function updateBodyCompScan(
   correction: BodyCompScanCorrection,
 ): Promise<BodyCompScanWrite> {
   const scan = check(merge(await loadScan(db, correction.id), correction));
-  const attributed = await attribute(db, scan.date);
+  const { program, phase } = await placeDate(db, scan.date);
   await db
     .prepare(
       `UPDATE body_comp_scans SET date = ?, notes = ?, ${COLUMNS.map((column) => `${column} = ?`).join(", ")}
@@ -64,7 +65,7 @@ export async function updateBodyCompScan(
     )
     .bind(scan.date, scan.notes, ...METRICS.map(([field]) => scan[field]), scan.id)
     .run();
-  return { bodyCompScan: scan, ...attributed };
+  return { bodyCompScan: scan, program, phase };
 }
 
 /** Deletes a Body-comp Scan. Returns what was deleted. */

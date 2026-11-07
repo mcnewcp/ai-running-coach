@@ -284,6 +284,7 @@ describe("the structured import", () => {
     // Stand in for the remote D1: one holding something else entirely.
     await resetDatabase();
     await callTool(client, "add_shoe", { id: "stray-pair" });
+    // A named exception to the one seam (README, Testing): this stands in for `wrangler d1 execute` on the remote D1.
     for (const statement of statements) await env.DB.prepare(statement).run();
     expect(await everything()).toEqual(imported);
   });

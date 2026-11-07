@@ -1,14 +1,15 @@
 import { parseDate } from "./calendar";
 import { checkPath } from "./documents";
-import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, merge, notFound, optionalText, requiredText } from "./records";
+import { formatDuration, parseDuration } from "./durations";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, requiredText } from "./records";
 
 // Race Results: the official outcome of one race, linked to its narrative
 // document. Belongs to a Phase by its date (ADR 0003). Whether it's an A-race
 // or a Tune-up Race is derived from the Programs, and PRs are derived from
 // Race Results: neither is ever stored.
 
-/** a_race: the A-race a Program names (on its last day). tune_up: any other race. */
+/** a_race: the A-race a Program names (on its last day, by name). tune_up: any other race. */
 export type RaceKind = "a_race" | "tune_up";
 
 export type RaceResult = {
@@ -47,7 +48,7 @@ const EMPTY = { pace: null, conditions: null, avgHr: null, placement: null, narr
 /** Records a Race Result. Fails if no Phase covers its date. */
 export async function logRaceResult(db: D1Database, input: RaceResultInput): Promise<RaceResultWrite> {
   const result = check(merge<Fields>({ ...input, ...EMPTY }, input));
-  const attributed = await attribute(db, result.date);
+  const { program, phase } = await placeDate(db, result.date);
   const row = await db
     .prepare(
       `INSERT INTO race_results (date, name, distance, official_time_seconds, pace, conditions, avg_hr,
@@ -56,7 +57,7 @@ export async function logRaceResult(db: D1Database, input: RaceResultInput): Pro
     )
     .bind(...values(result))
     .first<{ id: number }>();
-  return { raceResult: await loadResult(db, row!.id), ...attributed };
+  return { raceResult: await loadResult(db, row!.id), program, phase };
 }
 
 /** Corrects a Race Result. Fails if no Phase covers the new date. */
@@ -64,7 +65,7 @@ export async function updateRaceResult(db: D1Database, correction: RaceResultCor
   const { id, kind: _, ...current } = await loadResult(db, correction.id);
   const { id: __, ...changes } = correction;
   const result = check(merge(current, changes));
-  const attributed = await attribute(db, result.date);
+  const { program, phase } = await placeDate(db, result.date);
   await db
     .prepare(
       `UPDATE race_results SET date = ?, name = ?, distance = ?, official_time_seconds = ?, pace = ?,
@@ -73,7 +74,7 @@ export async function updateRaceResult(db: D1Database, correction: RaceResultCor
     )
     .bind(...values(result), id)
     .run();
-  return { raceResult: await loadResult(db, id), ...attributed };
+  return { raceResult: await loadResult(db, id), program, phase };
 }
 
 /** Deletes a Race Result. Returns what was deleted. */
@@ -81,6 +82,12 @@ export async function deleteRaceResult(db: D1Database, id: number): Promise<{ de
   const result = await loadResult(db, id);
   await db.prepare("DELETE FROM race_results WHERE id = ?").bind(id).run();
   return { deleted: result };
+}
+
+/** Every Race Result, in date order. */
+export async function listRaceResults(db: D1Database): Promise<RaceResult[]> {
+  const { results } = await db.prepare(`${SELECT_RESULTS} ORDER BY date, id`).all<RaceResultRow>();
+  return results.map(fromRow);
 }
 
 /**
@@ -110,10 +117,10 @@ function check(fields: Fields): Fields {
     date: parseDate(fields.date),
     name: requiredText(fields.name, "name"),
     distance: requiredText(fields.distance, "distance"),
-    officialTime: formatTime(parseTime(fields.officialTime)),
+    officialTime: formatDuration(parseDuration(fields.officialTime, "officialTime")),
     pace: optionalText(fields.pace),
     conditions: optionalText(fields.conditions),
-    avgHr: checkNumber(fields.avgHr, "avgHr", { min: 1, max: 250, integer: true }),
+    avgHr: checkNumber(fields.avgHr, "avgHr", HEART_RATE),
     placement: optionalText(fields.placement),
     narrativePath,
     notes: optionalText(fields.notes),
@@ -124,37 +131,16 @@ function distanceKey(distance: string): string {
   return distance.toLowerCase().replace(/\s+/g, "");
 }
 
-/**
- * Seconds in an official time written H:MM:SS or M:SS. A fraction of a
- * second rounds up to the next whole second, as official road times do.
- */
-function parseTime(value: string): number {
-  const match = /^(?:(\d+):([0-5]\d)|(\d+)):([0-5]\d)(?:\.(\d+))?$/.exec(value.trim());
-  if (!match) {
-    throw new DomainError(`officialTime "${value}" is not a time. Use H:MM:SS or M:SS, e.g. 1:42:05 or 21:30.`);
-  }
-  const [, hours, minutesAfterHours, minutesOnly, seconds, fraction] = match;
-  const minutes = hours === undefined ? Number(minutesOnly) : Number(hours) * 60 + Number(minutesAfterHours);
-  const total = minutes * 60 + Number(seconds) + (fraction && Number(fraction) > 0 ? 1 : 0);
-  if (total === 0) throw new DomainError("officialTime must be more than zero.");
-  return total;
-}
-
-function formatTime(seconds: number): string {
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = String(seconds % 60).padStart(2, "0");
-  return h > 0 ? `${h}:${String(m).padStart(2, "0")}:${s}` : `${m}:${s}`;
-}
-
 // --- Storage -----------------------------------------------------------------
 
 /**
  * Every Race Result with whether a Program names it as its A-race: a race
- * build ends on its A-race day.
+ * build ends on its A-race day, and the names match ignoring case and
+ * surrounding spaces.
  */
 const SELECT_RESULTS = `SELECT r.*, EXISTS (
-    SELECT 1 FROM programs p WHERE p.a_race_name IS NOT NULL AND p.end_date = r.date
+    SELECT 1 FROM programs p
+    WHERE p.a_race_name IS NOT NULL AND p.end_date = r.date AND LOWER(TRIM(p.a_race_name)) = LOWER(TRIM(r.name))
   ) AS is_a_race
   FROM race_results r`;
 
@@ -178,7 +164,7 @@ function values(result: Fields): unknown[] {
     result.date,
     result.name,
     result.distance,
-    parseTime(result.officialTime),
+    parseDuration(result.officialTime, "officialTime"),
     result.pace,
     result.conditions,
     result.avgHr,
@@ -201,7 +187,7 @@ function fromRow(row: RaceResultRow): RaceResult {
     date: row.date,
     name: row.name,
     distance: row.distance,
-    officialTime: formatTime(row.official_time_seconds),
+    officialTime: formatDuration(row.official_time_seconds),
     pace: row.pace,
     conditions: row.conditions,
     avgHr: row.avg_hr,

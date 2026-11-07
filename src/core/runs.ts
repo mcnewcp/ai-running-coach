@@ -1,7 +1,9 @@
 import { parseDate, weekOf } from "./calendar";
+import { formatDuration, parseDuration } from "./durations";
 import { DomainError } from "./errors";
 import { type WeekStanding, weekStanding } from "./mileage-cap";
-import { attribute, type Attributed, checkNumber, notFound, optionalText } from "./records";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, RATING } from "./records";
 import { checkShoeForRun, getShoe, type Shoe } from "./shoes";
 
 // Runs: one completed run each. A Run's Phase and Program are derived from
@@ -56,13 +58,14 @@ export type RunWrite = Attributed & RunEffects & { run: Run };
 
 /** Records a Run. Fails if no Phase covers its date, or its Shoe is unknown or retired by then. */
 export async function logRun(db: D1Database, input: RunInput): Promise<RunWrite> {
-  const fields = await checkFields(db, mergeFields(emptyFields(input), input));
-  const columns = Object.keys(fields);
-  const row = await db
+  const fields = await checkFields(db, merge<RunFields>({ date: input.date, distance: input.distance, ...EMPTY }, input));
+  const row = toRow(fields);
+  const columns = Object.keys(row);
+  const inserted = await db
     .prepare(`INSERT INTO runs (${columns.join(", ")}) VALUES (${columns.map(() => "?").join(", ")}) RETURNING id`)
-    .bind(...Object.values(fields))
+    .bind(...Object.values(row))
     .first<{ id: number }>();
-  return written(db, await getRun(db, row!.id));
+  return written(db, await getRun(db, inserted!.id));
 }
 
 /** A correction to a Run: omitted fields are kept, and null clears an optional one. */
@@ -84,22 +87,23 @@ export type RunCorrectionWrite = RunWrite & {
  */
 export async function updateRun(db: D1Database, correction: RunCorrection): Promise<RunCorrectionWrite> {
   const { id, ...changes } = correction;
-  const before = await getRunFields(db, id);
-  const fields = await checkFields(db, mergeFields(before, changes));
-  const columns = Object.keys(fields);
+  const { id: _, pace: __, ...before } = await getRun(db, id);
+  const fields = await checkFields(db, merge(before, changes));
+  const row = toRow(fields);
+  const columns = Object.keys(row);
   await db
     .prepare(`UPDATE runs SET ${columns.map((column) => `${column} = ?`).join(", ")} WHERE id = ?`)
-    .bind(...Object.values(fields), id)
+    .bind(...Object.values(row), id)
     .run();
   const write = await written(db, await getRun(db, id));
   const oldWeek = weekOf(before.date);
   const movedWeek = oldWeek.start !== write.week.start;
-  const movedShoe = before.shoe_id !== null && before.shoe_id !== fields.shoe_id;
+  const movedShoe = before.shoe !== null && before.shoe !== fields.shoe;
   return {
     ...write,
     movedFrom: {
       week: movedWeek ? await weekStanding(db, oldWeek.start) : null,
-      shoe: movedShoe ? await getShoe(db, before.shoe_id!) : null,
+      shoe: movedShoe ? await getShoe(db, before.shoe!) : null,
     },
   };
 }
@@ -147,11 +151,14 @@ export async function listRuns(
 
 /** The Run with `id`. Fails if there's none. */
 export async function getRun(db: D1Database, id: number): Promise<Run> {
-  return toRun({ id, ...(await getRunFields(db, id)) });
+  const row = await db.prepare("SELECT * FROM runs WHERE id = ?").bind(id).first<RunRow>();
+  if (!row) notFound("Run", id);
+  return toRun(row);
 }
 
 async function written(db: D1Database, run: Run): Promise<RunWrite> {
-  return { run, ...(await attribute(db, run.date)), ...(await effects(db, run)) };
+  const { program, phase } = await placeDate(db, run.date);
+  return { run, program, phase, ...(await effects(db, run)) };
 }
 
 async function effects(db: D1Database, run: Run): Promise<RunEffects> {
@@ -175,69 +182,60 @@ type RunRow = {
   notes: string | null;
 };
 
-/** A Run's stored fields: everything but its id. */
-type RunFields = Omit<RunRow, "id">;
+/** A Run's own fields, as reported: everything but its id and its derived pace. */
+type RunFields = Omit<Run, "id" | "pace">;
 
-function emptyFields({ date, distance }: RunInput): RunFields {
-  return {
-    date,
-    type: null,
-    distance_miles: distance,
-    duration_seconds: null,
-    avg_hr: null,
-    vo2_max: null,
-    shoe_id: null,
-    left_knee_pain: null,
-    right_knee_pain: null,
-    notes: null,
-  };
-}
-
-/** `base` with `changes` applied: omitted fields are kept, and null clears one. */
-function mergeFields(base: RunFields, changes: Partial<RunInput>): RunFields {
-  const pick = <T>(change: T | null | undefined, current: T | null): T | null =>
-    change === undefined ? current : change;
-  const duration = changes.duration;
-  return {
-    date: changes.date ?? base.date,
-    type: changes.type === undefined ? base.type : optionalText(changes.type),
-    distance_miles: changes.distance ?? base.distance_miles,
-    duration_seconds: duration === undefined ? base.duration_seconds : duration === null ? null : parseDuration(duration),
-    avg_hr: pick(changes.avgHr, base.avg_hr),
-    vo2_max: pick(changes.vo2Max, base.vo2_max),
-    shoe_id: changes.shoe === undefined ? base.shoe_id : optionalText(changes.shoe),
-    left_knee_pain: pick(changes.leftKneePain, base.left_knee_pain),
-    right_knee_pain: pick(changes.rightKneePain, base.right_knee_pain),
-    notes: changes.notes === undefined ? base.notes : optionalText(changes.notes),
-  };
-}
-
-async function getRunFields(db: D1Database, id: number): Promise<RunFields> {
-  const row = await db.prepare("SELECT * FROM runs WHERE id = ?").bind(id).first<RunRow>();
-  if (!row) notFound("Run", id);
-  const { id: _, ...fields } = row;
-  return fields;
-}
-
-const RATING = { min: 0, max: 10 };
+const EMPTY = {
+  type: null,
+  duration: null,
+  avgHr: null,
+  vo2Max: null,
+  shoe: null,
+  leftKneePain: null,
+  rightKneePain: null,
+  notes: null,
+} satisfies Omit<RunFields, "date" | "distance">;
 
 /**
- * Returns `fields` if they make a valid Run, or fails with the reason: no
- * Phase covers the date, the Shoe is unknown or retired by then, or a measure
- * is out of range.
+ * Returns `fields`, normalised, if they make a valid Run, or fails with the
+ * reason: no Phase covers the date, the Shoe is unknown or retired by then,
+ * or a measure is out of range.
  */
 async function checkFields(db: D1Database, fields: RunFields): Promise<RunFields> {
   parseDate(fields.date);
-  if (!(Number.isFinite(fields.distance_miles) && fields.distance_miles > 0)) {
-    throw new DomainError(`distance must be more than 0 miles, not ${fields.distance_miles}.`);
+  if (!(Number.isFinite(fields.distance) && fields.distance > 0)) {
+    throw new DomainError(`distance must be more than 0 miles, not ${fields.distance}.`);
   }
-  checkNumber(fields.avg_hr, "avgHr", { min: 1, max: 250, integer: true });
-  checkNumber(fields.vo2_max, "vo2Max", { min: 1, max: 100 });
-  checkNumber(fields.left_knee_pain, "leftKneePain", RATING);
-  checkNumber(fields.right_knee_pain, "rightKneePain", RATING);
-  await attribute(db, fields.date);
-  if (fields.shoe_id !== null) await checkShoeForRun(db, fields.shoe_id, fields.date);
-  return fields;
+  const checked: RunFields = {
+    date: fields.date,
+    type: optionalText(fields.type),
+    distance: fields.distance,
+    duration: fields.duration === null ? null : formatDuration(parseDuration(fields.duration, "duration")),
+    avgHr: checkNumber(fields.avgHr, "avgHr", HEART_RATE),
+    vo2Max: checkNumber(fields.vo2Max, "vo2Max", { min: 1, max: 100 }),
+    shoe: optionalText(fields.shoe),
+    leftKneePain: checkNumber(fields.leftKneePain, "leftKneePain", RATING),
+    rightKneePain: checkNumber(fields.rightKneePain, "rightKneePain", RATING),
+    notes: optionalText(fields.notes),
+  };
+  await placeDate(db, checked.date);
+  if (checked.shoe !== null) await checkShoeForRun(db, checked.shoe, checked.date);
+  return checked;
+}
+
+function toRow(fields: RunFields): Omit<RunRow, "id"> {
+  return {
+    date: fields.date,
+    type: fields.type,
+    distance_miles: fields.distance,
+    duration_seconds: fields.duration === null ? null : parseDuration(fields.duration, "duration"),
+    avg_hr: fields.avgHr,
+    vo2_max: fields.vo2Max,
+    shoe_id: fields.shoe,
+    left_knee_pain: fields.leftKneePain,
+    right_knee_pain: fields.rightKneePain,
+    notes: fields.notes,
+  };
 }
 
 function toRun(row: RunRow): Run {
@@ -255,28 +253,4 @@ function toRun(row: RunRow): Run {
     rightKneePain: row.right_knee_pain,
     notes: row.notes,
   };
-}
-
-/**
- * Seconds from an `h:mm:ss` or `m:ss` duration. Fails naming the `field` if
- * it isn't one, or is zero.
- */
-export function parseDuration(value: string, field = "duration"): number {
-  const match = /^(?:(\d+):)?(\d{1,2}):(\d{2})$/.exec(value.trim());
-  const invalid = new DomainError(`${field} "${value}" isn't a duration. Use h:mm:ss or m:ss, e.g. 1:05:30 or 27:45.`);
-  if (!match) throw invalid;
-  const [hours, minutes, seconds] = [match[1] ?? "0", match[2]!, match[3]!].map(Number) as [number, number, number];
-  if (seconds > 59 || (match[1] !== undefined && minutes > 59)) throw invalid;
-  const total = hours * 3600 + minutes * 60 + seconds;
-  if (total === 0) throw new DomainError(`${field} "${value}" is zero. Use h:mm:ss or m:ss, e.g. 27:45.`);
-  return total;
-}
-
-/** `h:mm:ss`, or `m:ss` under an hour, to the nearest second. */
-export function formatDuration(totalSeconds: number): string {
-  const seconds = Math.round(totalSeconds);
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = String(seconds % 60).padStart(2, "0");
-  return h > 0 ? `${h}:${String(m).padStart(2, "0")}:${s}` : `${m}:${s}`;
 }

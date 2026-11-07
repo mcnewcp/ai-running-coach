@@ -62,6 +62,8 @@ export type ProgramInput = Window & {
   aRace?: ARace | null;
   /** The whole Phase layout. Required for a new Program; if omitted, the existing Phases are kept. */
   phases?: PhaseInput[];
+  /** true to let the change move neighbouring Programs' edges. Without it, such a change is rejected. */
+  moveNeighbours?: boolean;
 };
 
 export type UpsertPhaseInput = Window & {
@@ -76,6 +78,8 @@ export type UpsertPhaseInput = Window & {
   mileageTarget?: string | null;
   /** Omit to keep the current value; null clears it. */
   planPath?: string | null;
+  /** true to let the change move neighbouring Phases' edges. Without it, such a change is rejected. */
+  moveNeighbours?: boolean;
 };
 
 // --- Resolving dates -------------------------------------------------------
@@ -115,6 +119,11 @@ export async function placeDate(db: D1Database, date: string): Promise<Placement
   throw new DomainError(`No Phase covers ${date}. ${covered} Add or extend a Program with upsert_program first.`);
 }
 
+/** Every Program, with its Phases, in date order. */
+export async function listPrograms(db: D1Database): Promise<Program[]> {
+  return loadPrograms(db);
+}
+
 /** The Program named `name`, with its Phases, or null if there's none. */
 export async function findProgram(db: D1Database, name: string): Promise<Program | null> {
   return (await loadPrograms(db, "WHERE name = ?", [name]))[0] ?? null;
@@ -125,9 +134,10 @@ export async function findProgram(db: D1Database, name: string): Promise<Program
 /**
  * Creates or changes a Program (matched by name), with its whole Phase
  * layout if given. A new Program must meet the existing ones without
- * overlapping them. If an existing Program's window changes, the Programs
- * either side keep meeting it: their adjoining edge, and the Phase on that
- * edge, move with it.
+ * overlapping them. If an existing Program's window changes so that the
+ * Programs either side would have to move to keep meeting it, the change is
+ * rejected, naming what would move, unless `moveNeighbours` is set: then
+ * their adjoining edge, and the Phase on that edge, move with it.
  * Fails if the result would leave a gap or overlap, or break a Program's
  * layout rules. Returns the Program and any neighbours that moved.
  */
@@ -171,19 +181,37 @@ export async function upsertProgram(
     adjusted.push(moved);
   }
   checkTiling([...fitted, program], "Program", "Programs tile the calendar: each starts the day after the one before it ends.");
+  if (!input.moveNeighbours) {
+    checkNoneMoved(
+      adjusted.flatMap((moved) => {
+        const before = others.find((p) => p.name === moved.name)!;
+        return [
+          ...edgeMoves(`Program ${moved.name}`, before, moved),
+          ...moved.phases.flatMap((phase) =>
+            edgeMoves(`Phase ${phase.name} (${moved.name})`, before.phases.find((p) => p.name === phase.name)!, phase),
+          ),
+        ];
+      }),
+    );
+  }
 
   await savePrograms(db, [program, ...adjusted]);
   return { program, adjusted };
 }
 
 /**
- * Creates or changes one Phase (matched by name) of an existing Program. The
- * Phases either side keep meeting it: one it overlaps is trimmed, and one
- * that met its old window is stretched to meet the new one. Fails if the
- * result would leave a gap or overlap, swallow or split another Phase, or
- * break the Program's layout rules. Returns the whole Program.
+ * Creates or changes one Phase (matched by name) of an existing Program. If
+ * the Phases either side would have to move to keep meeting it, the change is
+ * rejected, naming what would move, unless `moveNeighbours` is set: then one
+ * it overlaps is trimmed, and one that met its old window is stretched to
+ * meet the new one. Fails if the result would leave a gap or overlap, swallow
+ * or split another Phase, or break the Program's layout rules. Returns the
+ * whole Program and any neighbouring Phases that moved.
  */
-export async function upsertPhase(db: D1Database, input: UpsertPhaseInput): Promise<{ program: Program }> {
+export async function upsertPhase(
+  db: D1Database,
+  input: UpsertPhaseInput,
+): Promise<{ program: Program; adjusted: Phase[] }> {
   const window = parseWindow(input, `Phase ${input.name}`);
   const program = (await loadPrograms(db, "WHERE name = ?", [input.program]))[0];
   if (!program) {
@@ -199,11 +227,13 @@ export async function upsertPhase(db: D1Database, input: UpsertPhaseInput): Prom
     planPath: input.planPath === undefined ? (existing?.planPath ?? null) : parsePlanPath(input.planPath),
   };
   const others = program.phases.filter((p) => p !== existing);
-  const phases = [...fitAmong(others, existing, phase, "Phase"), phase].sort(byStart);
-  const changed = { ...program, phases };
+  const fitted = fitAmong(others, existing, phase, "Phase");
+  const changed = { ...program, phases: [...fitted, phase].sort(byStart) };
   checkLayout(changed);
+  const moves = fitted.map((p, index) => edgeMoves(`Phase ${p.name}`, others[index]!, p));
+  if (!input.moveNeighbours) checkNoneMoved(moves.flat());
   await savePrograms(db, [changed]);
-  return { program: changed };
+  return { program: changed, adjusted: fitted.filter((_, index) => moves[index]!.length > 0) };
 }
 
 // --- Rules -------------------------------------------------------------------
@@ -245,6 +275,26 @@ function fitAmong<T extends Window & { name: string }>(
     }
     return fitted;
   });
+}
+
+/** How `what`'s window would move from `before` to `after`, one entry per edge. */
+function edgeMoves(what: string, before: Window, after: Window): string[] {
+  const moves: string[] = [];
+  if (before.startDate !== after.startDate) moves.push(`${what}'s start from ${before.startDate} to ${after.startDate}`);
+  if (before.endDate !== after.endDate) moves.push(`${what}'s end from ${before.endDate} to ${after.endDate}`);
+  return moves;
+}
+
+/**
+ * Fails, naming each move, if a change would move a neighbour's edge without
+ * the caller opting in, so a typo can never reshape a neighbour silently.
+ */
+function checkNoneMoved(moves: string[]): void {
+  if (moves.length === 0) return;
+  throw new DomainError(
+    `That would move ${moves.join("; ")}. Pass moveNeighbours: true to move ${moves.length === 1 ? "it" : "them"}, ` +
+      "or choose a window that meets the neighbours as they are.",
+  );
 }
 
 /**
@@ -434,8 +484,61 @@ async function loadPrograms(db: D1Database, where = "", params: unknown[] = []):
   }));
 }
 
-/** Writes Programs and their whole Phase layouts, all or nothing. */
+/** The dated records, as [table, singular, plural]. Each belongs to the Phase its date falls in. */
+const DATED_RECORDS = [
+  ["runs", "Run", "Runs"],
+  ["strength_sessions", "Strength Session", "Strength Sessions"],
+  ["check_ins", "Daily Check-in", "Daily Check-ins"],
+  ["body_comp_scans", "Body-comp Scan", "Body-comp Scans"],
+  ["race_results", "Race Result", "Race Results"],
+] as const;
+
+/**
+ * Fails if writing `changed` would leave a record that a Phase covers now
+ * dated outside every Phase, saying how many of each kind and their dates.
+ * Programs tile the calendar and Phases tile their Program, so the Phases
+ * cover exactly the days from the first Program's start to the last's end.
+ */
+async function checkNothingStranded(db: D1Database, changed: Program[]): Promise<void> {
+  const { results } = await db
+    .prepare("SELECT name, start_date AS startDate, end_date AS endDate FROM programs")
+    .all<Window & { name: string }>();
+  if (results.length === 0) return;
+  const span = (windows: Window[]) => ({
+    startDate: windows.map((w) => w.startDate).reduce((a, b) => (a < b ? a : b)),
+    endDate: windows.map((w) => w.endDate).reduce((a, b) => (a > b ? a : b)),
+  });
+  const before = span(results);
+  const after = span([...results.filter((p) => !changed.some((c) => c.name === p.name)), ...changed]);
+  const { results: stranded } = await db
+    .prepare(
+      DATED_RECORDS.map(
+        ([table], index) =>
+          `SELECT ${index} AS kind, COUNT(*) AS count, MIN(date) AS first, MAX(date) AS last FROM ${table}
+           WHERE date BETWEEN ?1 AND ?2 AND (date < ?3 OR date > ?4)`,
+      ).join(" UNION ALL "),
+    )
+    .bind(before.startDate, before.endDate, after.startDate, after.endDate)
+    .all<{ kind: number; count: number; first: string | null; last: string | null }>();
+  const found = stranded.filter((row) => row.count > 0).sort((a, b) => a.kind - b.kind);
+  if (found.length === 0) return;
+  const counts = found.map(({ kind, count }) => {
+    const [, singular, plural] = DATED_RECORDS[kind]!;
+    return `${count} ${count === 1 ? singular : plural}`;
+  });
+  const dates = span(found.map((row) => ({ startDate: row.first!, endDate: row.last! })));
+  throw new DomainError(
+    `That would leave records dated outside every Phase: ${counts.join(", ")}, from ${describe(dates)}. ` +
+      "Keep their dates covered, or correct or delete those records first.",
+  );
+}
+
+/**
+ * Writes Programs and their whole Phase layouts, all or nothing. Fails,
+ * writing nothing, if that would strand a record outside every Phase.
+ */
 async function savePrograms(db: D1Database, programs: Program[]): Promise<void> {
+  await checkNothingStranded(db, programs);
   const programId = "(SELECT id FROM programs WHERE name = ?)";
   await db.batch(
     programs.flatMap((program) => [

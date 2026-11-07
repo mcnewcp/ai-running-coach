@@ -253,6 +253,7 @@ describe("the document import", () => {
     await env.DOCUMENTS.put(".obsidian/app.json", "{}");
     await importArchive();
     expect(await callTool(client, "list_documents", { prefix: "Stray/" })).toMatchObject({ documents: [] });
+    // A named exception to the one seam (README, Testing): the tools refuse hidden paths, so read R2 directly.
     expect(await env.DOCUMENTS.get(".obsidian/app.json")).not.toBeNull();
   });
 

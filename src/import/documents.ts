@@ -1,4 +1,6 @@
 import { listDocuments, writeDocument } from "../core/documents";
+import { listPrograms } from "../core/programs";
+import { listRaceResults } from "../core/race-results";
 import { RUNNER_PROFILE_PATH } from "../core/runner-profile";
 import { type ArchiveSource, readRequired } from "./archive";
 import {
@@ -149,29 +151,22 @@ export async function rebuildDocuments(
  * Plan or a Race Result's narrative that isn't among the `written` paths.
  */
 async function unresolvedLinks(db: D1Database, written: Set<string>): Promise<DocumentsReport["missing"]> {
-  const { results: plans } = await db
-    .prepare(
-      "SELECT programs.name AS program, phases.name AS phase, plan_path AS path FROM phases " +
-        "JOIN programs ON programs.id = phases.program_id WHERE plan_path IS NOT NULL ORDER BY phases.start_date",
-    )
-    .all<{ program: string; phase: string; path: string }>();
-  const { results: narratives } = await db
-    .prepare("SELECT date, name, narrative_path AS path FROM race_results WHERE narrative_path IS NOT NULL ORDER BY date, id")
-    .all<{ date: string; name: string; path: string }>();
-  return [
-    ...plans
-      .filter(({ path }) => !written.has(path))
-      .map(({ program, phase, path }) => ({
+  const missing = (path: string | null): path is string => path !== null && !written.has(path);
+  const plans = (await listPrograms(db)).flatMap((program) =>
+    program.phases
+      .filter((phase) => missing(phase.planPath))
+      .map((phase) => ({
         source: STRUCTURE_PATH,
-        message: `${program} / ${phase} links the Plan ${path}, which isn't in the vault.`,
+        message: `${program.name} / ${phase.name} links the Plan ${phase.planPath}, which isn't in the vault.`,
       })),
-    ...narratives
-      .filter(({ path }) => !written.has(path))
-      .map(({ date, name, path }) => ({
-        source: RACE_HISTORY_PATH,
-        message: `The Race Result ${name} on ${date} links the narrative ${path}, which isn't in the vault.`,
-      })),
-  ];
+  );
+  const narratives = (await listRaceResults(db))
+    .filter((result) => missing(result.narrativePath))
+    .map(({ date, name, narrativePath }) => ({
+      source: RACE_HISTORY_PATH,
+      message: `The Race Result ${name} on ${date} links the narrative ${narrativePath}, which isn't in the vault.`,
+    }));
+  return [...plans, ...narratives];
 }
 
 /** programs/<name>/plans/<file> → Programs/<name>/Plans/<file>, and the same for logs/. Null if it isn't markdown. */

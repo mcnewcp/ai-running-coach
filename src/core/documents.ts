@@ -109,6 +109,22 @@ export async function findDocument(bucket: R2Bucket, path: string): Promise<Docu
 export type WriteCondition = { createOnly: true } | { expectedVersion: string };
 
 /**
+ * The condition a write asks for: `createOnly: true` to create a document, or
+ * the `expectedVersion` it read to update one. Fails unless exactly one is
+ * given, so a write can never skip the check by giving neither.
+ */
+export function writeCondition(request: { createOnly?: boolean; expectedVersion?: string }): WriteCondition {
+  const creating = request.createOnly === true;
+  if (creating === (request.expectedVersion !== undefined)) {
+    throw new DomainError(
+      "Pass exactly one of create_only: true (to create a new document) or " +
+        "expected_version (to update one, with the version you read).",
+    );
+  }
+  return creating ? { createOnly: true } : { expectedVersion: request.expectedVersion! };
+}
+
+/**
  * Writes the document at `path` if `condition` holds, else writes nothing and
  * returns a conflict with the current document, so the caller can merge and
  * retry. This is what keeps the runner's Obsidian edits from being silently

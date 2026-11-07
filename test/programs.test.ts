@@ -285,6 +285,7 @@ describe("changing windows re-attributes dates", () => {
       name: "Base",
       startDate: "2026-12-28",
       endDate: "2027-02-14",
+      moveNeighbours: true,
     });
     expect(windows(output.program)).toEqual([
       "Base 2026-12-28..2027-02-14 training Aerobic base",
@@ -295,7 +296,9 @@ describe("changing windows re-attributes dates", () => {
     expect(await placement(client, "2027-02-10")).toBe("2027 Spring Half / Base");
 
     // And back again, stretching Build to meet it.
-    await callTool(client, "upsert_phase", { program: "2027 Spring Half", name: "Base", startDate: "2026-12-28", endDate: "2027-01-31" });
+    await callTool(client, "upsert_phase", {
+      program: "2027 Spring Half", name: "Base", startDate: "2026-12-28", endDate: "2027-01-31", moveNeighbours: true,
+    });
     expect(await placement(client, "2027-02-01")).toBe("2027 Spring Half / Build");
   });
 
@@ -305,6 +308,7 @@ describe("changing windows re-attributes dates", () => {
       ...offSeason,
       endDate: "2027-01-03",
       phases: undefined,
+      moveNeighbours: true,
     });
     expect(windows(output.program)).toEqual([
       "Recovery 2026-11-02..2026-11-15 training Rest",
@@ -341,6 +345,7 @@ describe("changing windows re-attributes dates", () => {
       kind: "bridge",
       startDate: "2027-04-10",
       endDate: "2027-06-06",
+      moveNeighbours: true,
     });
     expect(error).toMatch(/would move the A-race day of Program 2027 Spring Half \(2027-04-11\)/);
   });
@@ -351,9 +356,96 @@ describe("changing windows re-attributes dates", () => {
       ...offSeason,
       endDate: "2027-02-07",
       phases: undefined,
+      moveNeighbours: true,
     });
     expect(error).toMatch(/Program 2027 Spring Half would become 2027-02-08 to 2027-04-11, but then: Phase Base would have no days/);
     expect(await placement(client, "2027-01-15")).toBe("2027 Spring Half / Base");
+  });
+});
+
+describe("moving a neighbour's edge needs moveNeighbours", () => {
+  async function season(): Promise<Client> {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    await callTool(client, "upsert_program", springHalf);
+    return client;
+  }
+  const longerBase = { program: "2027 Spring Half", name: "Base", startDate: "2026-12-28", endDate: "2027-02-14" };
+
+  it("rejects a Phase change that would move another Phase, saying exactly what would move", async () => {
+    const client = await season();
+    const error = await callToolExpectingError(client, "upsert_phase", longerBase);
+    expect(error).toMatch(/would move Phase Build's start from 2027-02-08 to 2027-02-15\b/);
+    expect(error).toMatch(/moveNeighbours: true/);
+    expect(await placement(client, "2027-02-10")).toBe("2027 Spring Half / Build");
+  });
+
+  it("applies the move with moveNeighbours, returning the moved Phases in adjusted", async () => {
+    const client = await season();
+    const output = await callTool(client, "upsert_phase", { ...longerBase, moveNeighbours: true });
+    expect(output.adjusted).toEqual([expect.objectContaining({ name: "Build", startDate: "2027-02-15", endDate: "2027-03-28" })]);
+    expect(await placement(client, "2027-02-10")).toBe("2027 Spring Half / Base");
+  });
+
+  it("returns no adjusted Phases when nothing else moves", async () => {
+    const client = await season();
+    const output = await callTool(client, "upsert_phase", { ...longerBase, endDate: "2027-02-07", focus: "Easy miles" });
+    expect(output.adjusted).toEqual([]);
+  });
+
+  it("rejects a Program change that would move another Program, saying exactly what would move", async () => {
+    const client = await season();
+    const error = await callToolExpectingError(client, "upsert_program", { ...offSeason, endDate: "2027-01-03", phases: undefined });
+    expect(error).toMatch(/would move Program 2027 Spring Half's start from 2026-12-28 to 2027-01-04/);
+    expect(error).toMatch(/Phase Base \(2027 Spring Half\)'s start from 2026-12-28 to 2027-01-04/);
+    expect(error).toMatch(/moveNeighbours: true/);
+    expect(await placement(client, "2026-12-30")).toBe("2027 Spring Half / Base");
+  });
+});
+
+describe("a structure change never strands a record", () => {
+  async function season(): Promise<Client> {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    await callTool(client, "upsert_program", springHalf);
+    return client;
+  }
+
+  it("rejects shrinking the first Program past records, saying how many of each and their dates", async () => {
+    const client = await season();
+    await callTool(client, "log_run", { date: "2026-11-03", distance: 3 });
+    await callTool(client, "log_run", { date: "2026-11-04", distance: 2 });
+    await callTool(client, "log_strength_session", { date: "2026-11-04", entries: [{ exercise: "Goblet squat" }] });
+    await callTool(client, "log_check_in", { date: "2026-11-05", energy: 7 });
+    await callTool(client, "log_run", { date: "2026-11-09", distance: 4 });
+    const error = await callToolExpectingError(client, "upsert_program", { ...offSeason, startDate: "2026-11-09", phases: undefined });
+    expect(error).toMatch(
+      /would leave records dated outside every Phase: 2 Runs, 1 Strength Session, 1 Daily Check-in, from 2026-11-03 to 2026-11-05\./,
+    );
+    expect(await placement(client, "2026-11-03")).toBe("2026 Off-season / Recovery");
+  });
+
+  it("rejects cutting the calendar's last day past records", async () => {
+    const client = await season();
+    await callTool(client, "log_body_comp_scan", { date: "2027-04-08", weight: 150 });
+    await callTool(client, "log_race_result", {
+      date: "2027-04-11", name: "Synthetic City Half", distance: "Half Marathon", officialTime: "1:45:00",
+    });
+    const error = await callToolExpectingError(client, "upsert_program", {
+      ...springHalf,
+      endDate: "2027-04-04",
+      aRace: { name: "Synthetic City Half", date: "2027-04-04" },
+      phases: undefined,
+    });
+    expect(error).toMatch(/outside every Phase: 1 Body-comp Scan, 1 Race Result, from 2027-04-08 to 2027-04-11\./);
+    expect(await placement(client, "2027-04-11")).toBe("2027 Spring Half / Race");
+  });
+
+  it("accepts the same change once no record would be stranded", async () => {
+    const client = await season();
+    await callTool(client, "log_run", { date: "2026-11-09", distance: 4 });
+    await callTool(client, "upsert_program", { ...offSeason, startDate: "2026-11-09", phases: undefined });
+    expect(await placement(client, "2026-11-09")).toBe("2026 Off-season / Recovery");
   });
 });
 
@@ -382,7 +474,7 @@ describe("upsert_phase", () => {
 
   it("adds a Phase at the edge of another, trimming it", async () => {
     const client = await season();
-    const output = await callTool(client, "upsert_phase", change({ name: "Rehab", startDate: "2027-03-15", endDate: "2027-03-28", focus: "Cross-training" }));
+    const output = await callTool(client, "upsert_phase", change({ name: "Rehab", startDate: "2027-03-15", endDate: "2027-03-28", focus: "Cross-training", moveNeighbours: true }));
     expect(windows(output.program)).toEqual([
       "Base 2026-12-28..2027-02-07 training Aerobic base",
       "Build 2027-02-08..2027-03-14 training Threshold",
@@ -444,7 +536,7 @@ describe("a Phase's Plan", () => {
     });
     expect(plans(set.program)).toContain(`Taper: ${taperPlan}`);
     const kept = await callTool(client, "upsert_phase", {
-      program: "2027 Spring Half", name: "Base", startDate: "2026-12-28", endDate: "2027-02-14",
+      program: "2027 Spring Half", name: "Base", startDate: "2026-12-28", endDate: "2027-02-14", moveNeighbours: true,
     });
     expect(plans(kept.program)).toEqual([`Base: ${basePlan}`, `Build: ${buildPlan}`, `Taper: ${taperPlan}`, "Race: null"]);
     const cleared = await callTool(client, "upsert_phase", {
