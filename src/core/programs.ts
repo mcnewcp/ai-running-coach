@@ -1,4 +1,5 @@
 import { addDays, parseDate } from "./calendar";
+import { checkPath } from "./documents";
 import { DomainError } from "./errors";
 
 // Programs and Phases: how the season is structured. Programs tile the
@@ -22,6 +23,11 @@ export type Phase = Window & {
   focus: string | null;
   /** Free text, e.g. "20-25 mi/wk". */
   mileageTarget: string | null;
+  /**
+   * The vault path of the Phase's Plan, the document describing its intended
+   * training, or null if none is linked. The document may not exist yet.
+   */
+  planPath: string | null;
 };
 
 export type ARace = { name: string; date: string };
@@ -46,6 +52,8 @@ export type PhaseInput = Window & {
   kind?: PhaseKind;
   focus?: string | null;
   mileageTarget?: string | null;
+  /** Omit to keep the Plan of the existing Phase with this name, if any; null clears it. */
+  planPath?: string | null;
 };
 
 export type ProgramInput = Window & {
@@ -66,6 +74,8 @@ export type UpsertPhaseInput = Window & {
   focus?: string | null;
   /** Omit to keep the current value; null clears it. */
   mileageTarget?: string | null;
+  /** Omit to keep the current value; null clears it. */
+  planPath?: string | null;
 };
 
 // --- Resolving dates -------------------------------------------------------
@@ -105,6 +115,11 @@ export async function placeDate(db: D1Database, date: string): Promise<Placement
   throw new DomainError(`No Phase covers ${date}. ${covered} Add or extend a Program with upsert_program first.`);
 }
 
+/** The Program named `name`, with its Phases, or null if there's none. */
+export async function findProgram(db: D1Database, name: string): Promise<Program | null> {
+  return (await loadPrograms(db, "WHERE name = ?", [name]))[0] ?? null;
+}
+
 // --- Changing the structure --------------------------------------------------
 
 /**
@@ -127,7 +142,8 @@ export async function upsertProgram(
 
   let phases: Phase[];
   if (input.phases) {
-    phases = input.phases.map((phase) => toPhase(phase)).sort(byStart);
+    const previous = existing?.phases ?? [];
+    phases = input.phases.map((phase) => toPhase(phase, previous.find((p) => p.name === phase.name))).sort(byStart);
   } else if (existing) {
     phases = moveEdges(existing.phases, window);
   } else {
@@ -180,6 +196,7 @@ export async function upsertPhase(db: D1Database, input: UpsertPhaseInput): Prom
     ...window,
     focus: input.focus === undefined ? (existing?.focus ?? null) : input.focus,
     mileageTarget: input.mileageTarget === undefined ? (existing?.mileageTarget ?? null) : input.mileageTarget,
+    planPath: input.planPath === undefined ? (existing?.planPath ?? null) : parsePlanPath(input.planPath),
   };
   const others = program.phases.filter((p) => p !== existing);
   const phases = [...fitAmong(others, existing, phase, "Phase"), phase].sort(byStart);
@@ -330,14 +347,26 @@ function parseARace(input: ProgramInput): ARace | null {
   return { name: input.aRace.name, date };
 }
 
-function toPhase(input: PhaseInput): Phase {
+/**
+ * A Phase from its input. `previous` is the existing Phase with the same
+ * name, whose Plan it keeps unless the input says otherwise.
+ */
+function toPhase(input: PhaseInput, previous: Phase | undefined): Phase {
   return {
     name: input.name,
     kind: input.kind ?? "training",
     ...parseWindow(input, `Phase ${input.name}`),
     focus: input.focus ?? null,
     mileageTarget: input.mileageTarget ?? null,
+    planPath: input.planPath === undefined ? (previous?.planPath ?? null) : parsePlanPath(input.planPath),
   };
+}
+
+/** A Plan's vault path, or null. Fails if it isn't a document path. */
+function parsePlanPath(path: string | null): string | null {
+  if (path === null) return null;
+  checkPath(path);
+  return path;
 }
 
 function contains(window: Window, date: string): boolean {
@@ -371,6 +400,7 @@ type PhaseRow = {
   end_date: string;
   focus: string | null;
   mileage_target: string | null;
+  plan_path: string | null;
 };
 
 async function loadPrograms(db: D1Database, where = "", params: unknown[] = []): Promise<Program[]> {
@@ -399,6 +429,7 @@ async function loadPrograms(db: D1Database, where = "", params: unknown[] = []):
         endDate: phase.end_date,
         focus: phase.focus,
         mileageTarget: phase.mileage_target,
+        planPath: phase.plan_path,
       })),
   }));
 }
@@ -419,10 +450,19 @@ async function savePrograms(db: D1Database, programs: Program[]): Promise<void> 
       ...program.phases.map((phase) =>
         db
           .prepare(
-            `INSERT INTO phases (program_id, name, kind, start_date, end_date, focus, mileage_target)
-             VALUES (${programId}, ?, ?, ?, ?, ?, ?)`,
+            `INSERT INTO phases (program_id, name, kind, start_date, end_date, focus, mileage_target, plan_path)
+             VALUES (${programId}, ?, ?, ?, ?, ?, ?, ?)`,
           )
-          .bind(program.name, phase.name, phase.kind, phase.startDate, phase.endDate, phase.focus, phase.mileageTarget),
+          .bind(
+            program.name,
+            phase.name,
+            phase.kind,
+            phase.startDate,
+            phase.endDate,
+            phase.focus,
+            phase.mileageTarget,
+            phase.planPath,
+          ),
       ),
     ]),
   );

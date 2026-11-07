@@ -28,11 +28,19 @@ The Worker asks GitHub for no scopes and keeps only the username. OAuth clients,
 
 ### Time
 
-Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner. It uses the **Home Timezone** unless the coach passes the runner's current timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). Until the Runner Profile holds the Home Timezone (#8, #9), it's a temporary default in [`src/core/calendar.ts`](src/core/calendar.ts).
+Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner, and so do `get_coaching_context` and `check_mileage_cap` (when it isn't given a week). Each uses the **Home Timezone**, the `timezone` property of the Runner Profile (see [Documents](#documents)), unless the coach passes the runner's current IANA timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). `today` and `get_coaching_context` report the `timezone` they used and its `timezoneSource`: `home` or `given`. Timezone abbreviations like `CST` are rejected.
+
+If no timezone is passed and there's no Runner Profile, or its `timezone` is missing or isn't an IANA timezone, these tools fail with a message saying what to fix. They never guess the day. In the core, `today(bucket, now, timezone?)` in [`src/core/session.ts`](src/core/session.ts) does this, and `homeTimezone(profile)` in [`src/core/runner-profile.ts`](src/core/runner-profile.ts) reads the Home Timezone.
+
+### Starting a coaching session
+
+`get_coaching_context(timezone?)` returns, in one call, everything a coaching session starts from: `today` (as the `today` tool gives it), the `runnerProfile` (content, version and frontmatter `properties`), the active `program` (with its Phases) and `phase`, the active Phase's `plan` document (see [Programs and Phases](#programs-and-phases)), this Monday–Sunday `week`'s miles so far against its Mileage Cap, `recentRuns` (the 14 days ending today, newest first) and the active `shoes` with their mileage. Missing pieces come back empty rather than failing: no Runner Profile (when a timezone is given), no Program covering today, no Plan linked or written, no Runs. In the core it's `getCoachingContext` in [`src/core/session.ts`](src/core/session.ts).
 
 ### Programs and Phases
 
 `upsert_program` and `upsert_phase` define how the season is structured. Programs tile the calendar and Phases tile their Program, so every day belongs to exactly one Phase. A race build ends on its A-race day with a one-day Race Phase. A bridge has neither. Writes that would leave a gap or overlap are rejected. When an existing window changes, the neighbour on each side moves its shared edge to keep meeting it. A change that would swallow or split a neighbour, or move a neighbouring race build's A-race day, is rejected instead.
+
+Each Phase can link its **Plan**, the document describing its intended training, by vault path (`planPath`, e.g. `Programs/2026-12-spring-half/Plans/base.md`). That link is what decides which Plan belongs to a Phase: nothing is inferred from file names, so the runner can name and arrange Plans however they like. The document doesn't have to exist yet. `upsert_phase` sets it (omit it to keep it, `null` to clear it). In `upsert_program`, a Phase that leaves it out keeps the Plan of the existing Phase with the same name, so relaying the Phases doesn't drop their Plans. `get_coaching_context` returns the active Phase's Plan.
 
 Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membership-is-derived-from-date.md)). They belong to whichever Phase their date falls in. `phase_for_date` answers that over MCP. In the core, `placeDate(db, date)` returns the Program and Phase, or fails with a clear message if no Phase covers the date. `findPlacement(db, date)` returns `null` instead. Both are in [`src/core/programs.ts`](src/core/programs.ts). Use them to validate and attribute any dated record.
 
@@ -52,6 +60,18 @@ Each of these is dated, so each write returns the record with the Program and Ph
 - **Daily Check-ins:** `log_check_in` and `delete_check_in`. There's at most one Check-in per date. A later `log_check_in` for the same date merges into it and reports `status: "updated"`, so it doubles as the correction tool.
 - **Body-comp Scans:** `log_body_comp_scan`, `update_body_comp_scan` and `delete_body_comp_scan`. A scan holds only the metrics its printout shows, and needs at least one.
 - **Race Results:** `log_race_result`, `update_race_result` and `delete_race_result`. Each links to its narrative document by vault path. Its `kind` is derived, never stored: `a_race` if a Program names it (a race build ends on its A-race day), otherwise `tune_up`. `list_prs` derives the fastest official time at each distance, matching distances ignoring case and spaces.
+
+### Analysis
+
+`query(sql)` runs one read-only SQL `SELECT` (or `WITH … SELECT`) against the structured Athlete Record in D1, so the coach can answer ad-hoc questions without a tool for each. It returns the `columns`, up to 1,000 `rows` and whether it `truncated` the rest. Its tool description documents the schema, one `- table(columns): notes` line per table, and a test checks those lines match the database. So when a migration changes the schema, update `SCHEMA` in [`src/tools/query.ts`](src/tools/query.ts) too.
+
+D1 has no read-only mode, and it runs every statement in the string it's given, so a query is guarded in layers ([`src/core/query.ts`](src/core/query.ts)):
+
+1. A validator scans the SQL the way SQLite tokenizes it (strings, quoted names, comments). It rejects anything but a single statement starting with `SELECT` or `WITH`: a second statement, unbalanced parentheses, or any keyword that writes or changes the connection (`INSERT`, `UPDATE`, `DELETE`, `REPLACE`, `CREATE`, `DROP`, `ALTER`, `PRAGMA`, `ATTACH`, `BEGIN` and so on), including a write after a CTE.
+2. The checked query runs as a subquery, `SELECT * FROM (<query>) LIMIT 1001`. SQLite's grammar only admits a `SELECT` there, so a write, a `PRAGMA` statement or a second statement is a syntax error and nothing runs.
+3. D1 itself refuses `ATTACH` and most `PRAGMA`s.
+
+Read-only table-valued functions like `pragma_table_info('runs')` still work, for reading the schema.
 
 ### Documents
 
