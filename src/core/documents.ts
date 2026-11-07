@@ -32,7 +32,7 @@ export type WriteResult =
  * `/`-separated, with no empty, `.`, `..` or hidden segments (which keeps
  * Obsidian's own `.obsidian/` settings out of reach), and ending in `.md`.
  */
-function checkPath(path: string): void {
+export function checkPath(path: string): void {
   const problem = pathProblem(path);
   if (problem !== undefined) {
     throw new DomainError(
