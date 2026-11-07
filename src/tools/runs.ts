@@ -2,7 +2,7 @@ import type { McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod";
 import { today } from "../core/calendar";
 import { checkMileageCap } from "../core/mileage-cap";
-import { logRun } from "../core/runs";
+import { deleteRun, logRun, updateRun } from "../core/runs";
 import { date, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
@@ -20,6 +20,45 @@ export function registerRunTools(server: McpServer, db: D1Database) {
       outputSchema: runWriteSchema,
     },
     async (input) => structured(await logRun(db, input)),
+  );
+
+  server.registerTool(
+    "update_run",
+    {
+      title: "Correct a Run",
+      description:
+        "Corrects a logged Run, e.g. a wrong distance, Shoe or date. Give only the fields to change: " +
+        "omitted fields are kept, and null clears an optional one. Its Phase and Program follow its date. " +
+        "The same rules as log_run apply. Also returns the week and Shoe the Run moved out of, if it did.",
+      inputSchema: z.object({
+        id: z.number().describe("The Run's id, from log_run or query"),
+        ...runFields,
+        date: runFields.date.optional(),
+        distance: runFields.distance.optional(),
+      }),
+      outputSchema: runWriteSchema.extend({
+        movedFrom: z.object({
+          week: weekStandingSchema.nullable().describe("The week the Run moved out of, now without it; null if it stayed in its week"),
+          shoe: shoeSchema.nullable().describe("The Shoe the Run was taken off, now without it; null if its Shoe didn't change"),
+        }),
+      }),
+    },
+    async (input) => structured(await updateRun(db, input)),
+  );
+
+  server.registerTool(
+    "delete_run",
+    {
+      title: "Delete a Run",
+      description:
+        "Deletes a Run logged by mistake, e.g. a duplicate. Returns the deleted Run, and its week and Shoe as they stand without it.",
+      inputSchema: z.object({ id: z.number().describe("The Run's id, from log_run or query") }),
+      outputSchema: runWriteSchema.extend({
+        run: runSchema.describe("The deleted Run"),
+      }),
+      annotations: { destructiveHint: true },
+    },
+    async ({ id }) => structured(await deleteRun(db, id)),
   );
 
   server.registerTool(

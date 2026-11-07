@@ -1,4 +1,4 @@
-import { parseDate } from "./calendar";
+import { parseDate, weekOf } from "./calendar";
 import { DomainError } from "./errors";
 import { type WeekStanding, weekStanding } from "./mileage-cap";
 import { placeDate } from "./programs";
@@ -69,19 +69,69 @@ async function written(db: D1Database, run: Run): Promise<RunWrite> {
   };
 }
 
+/** A correction to a Run: omitted fields are kept, and null clears an optional one. */
+export type RunCorrection = Partial<RunInput> & { id: number };
+
+/** What a correction returns: also the week and Shoe the Run moved out of, if it did. */
+export type RunCorrectionWrite = RunWrite & {
+  movedFrom: {
+    /** The week the Run was in, if the correction moved it to another week. */
+    week: WeekStanding | null;
+    /** The Shoe the Run was worn in, if the correction changed or removed it. */
+    shoe: Shoe | null;
+  };
+};
+
+/**
+ * Corrects a Run, e.g. a wrong distance, Shoe or date. The same rules as
+ * logging apply to the corrected Run. Fails if there's no Run with the id.
+ */
+export async function updateRun(db: D1Database, correction: RunCorrection): Promise<RunCorrectionWrite> {
+  const { id, ...changes } = correction;
+  const before = await getRunFields(db, id);
+  const fields = await checkFields(db, mergeFields(before, changes));
+  const columns = Object.keys(fields);
+  await db
+    .prepare(`UPDATE runs SET ${columns.map((column) => `${column} = ?`).join(", ")} WHERE id = ?`)
+    .bind(...Object.values(fields), id)
+    .run();
+  const write = await written(db, await getRun(db, id));
+  const oldWeek = weekOf(before.date);
+  const movedWeek = oldWeek.start !== weekOf(fields.date).start;
+  const movedShoe = before.shoe_id !== null && before.shoe_id !== fields.shoe_id;
+  return {
+    ...write,
+    movedFrom: {
+      week: movedWeek ? await weekStanding(db, oldWeek.start) : null,
+      shoe: movedShoe ? await getShoe(db, before.shoe_id!) : null,
+    },
+  };
+}
+
+/**
+ * Deletes a Run logged by mistake. Returns the deleted Run, and its week and
+ * Shoe as they stand without it. Fails if there's no Run with the id.
+ */
+export async function deleteRun(db: D1Database, id: number): Promise<RunWrite> {
+  const run = await getRun(db, id);
+  await db.prepare("DELETE FROM runs WHERE id = ?").bind(id).run();
+  return written(db, run);
+}
+
 async function insertRun(db: D1Database, input: RunInput): Promise<Run> {
-  const fields = await checkFields(db, {
+  const empty: RunFields = {
     date: input.date,
-    type: input.type ?? null,
+    type: null,
     distance_miles: input.distance,
-    duration_seconds: input.duration == null ? null : parseDuration(input.duration),
-    avg_hr: input.avgHr ?? null,
-    vo2_max: input.vo2Max ?? null,
-    shoe_id: input.shoe ?? null,
-    left_knee_pain: input.leftKneePain ?? null,
-    right_knee_pain: input.rightKneePain ?? null,
-    notes: input.notes ?? null,
-  });
+    duration_seconds: null,
+    avg_hr: null,
+    vo2_max: null,
+    shoe_id: null,
+    left_knee_pain: null,
+    right_knee_pain: null,
+    notes: null,
+  };
+  const fields = await checkFields(db, mergeFields(empty, input));
   const columns = Object.keys(fields);
   const row = await db
     .prepare(
@@ -94,6 +144,36 @@ async function insertRun(db: D1Database, input: RunInput): Promise<Run> {
 
 /** A Run's stored fields: everything but its id. */
 type RunFields = Omit<RunRow, "id" | "program" | "phase">;
+
+/** `base` with `changes` applied: omitted fields are kept, and null clears one. */
+function mergeFields(base: RunFields, changes: Partial<RunInput>): RunFields {
+  const pick = <T>(change: T | null | undefined, current: T | null): T | null =>
+    change === undefined ? current : change;
+  return {
+    date: changes.date ?? base.date,
+    type: pick(changes.type, base.type),
+    distance_miles: changes.distance ?? base.distance_miles,
+    duration_seconds:
+      changes.duration === undefined
+        ? base.duration_seconds
+        : changes.duration === null
+          ? null
+          : parseDuration(changes.duration),
+    avg_hr: pick(changes.avgHr, base.avg_hr),
+    vo2_max: pick(changes.vo2Max, base.vo2_max),
+    shoe_id: pick(changes.shoe, base.shoe_id),
+    left_knee_pain: pick(changes.leftKneePain, base.left_knee_pain),
+    right_knee_pain: pick(changes.rightKneePain, base.right_knee_pain),
+    notes: pick(changes.notes, base.notes),
+  };
+}
+
+async function getRunFields(db: D1Database, id: number): Promise<RunFields> {
+  const row = await db.prepare("SELECT * FROM runs WHERE id = ?").bind(id).first<RunRow>();
+  if (!row) throw new DomainError(`There's no Run with id ${id}.`);
+  const { id: _, ...fields } = row;
+  return fields;
+}
 
 /**
  * Returns `fields` if they make a valid Run, or fails with the reason: no
@@ -121,6 +201,29 @@ async function checkFields(db: D1Database, fields: RunFields): Promise<RunFields
   await placeDate(db, fields.date);
   if (fields.shoe_id !== null) await checkShoeForRun(db, fields.shoe_id, fields.date);
   return fields;
+}
+
+/**
+ * Runs dated from `from` to `to` (both included, either optional), newest
+ * first, at most `limit` of them, each with its Phase and Program. For recent
+ * Runs, pass today's local date as `to`.
+ */
+export async function listRuns(
+  db: D1Database,
+  { from, to, limit }: { from?: string; to?: string; limit?: number } = {},
+): Promise<Run[]> {
+  const conditions: string[] = [];
+  const binds: string[] = [];
+  if (from !== undefined) {
+    conditions.push("r.date >= ?");
+    binds.push(parseDate(from, "from"));
+  }
+  if (to !== undefined) {
+    conditions.push("r.date <= ?");
+    binds.push(parseDate(to, "to"));
+  }
+  const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
+  return selectRuns(db, where, binds, limit);
 }
 
 /** The Run with `id`. Fails if there's none. */
@@ -156,9 +259,9 @@ async function selectRuns(db: D1Database, where: string, binds: unknown[], limit
        LEFT JOIN programs pr ON pr.id = ph.program_id
        ${where}
        ORDER BY r.date DESC, r.id DESC
-       ${limit === undefined ? "" : `LIMIT ${Math.trunc(limit)}`}`,
+       ${limit === undefined ? "" : "LIMIT ?"}`,
     )
-    .bind(...binds)
+    .bind(...binds, ...(limit === undefined ? [] : [limit]))
     .all<RunRow>();
   return results.map(toRun);
 }

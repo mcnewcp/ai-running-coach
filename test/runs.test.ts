@@ -141,6 +141,129 @@ describe("log_run", () => {
   });
 });
 
+describe("update_run", () => {
+  async function logged(client: Client, args: Record<string, unknown>): Promise<number> {
+    const output = await callTool(client, "log_run", args);
+    return (output.run as { id: number }).id;
+  }
+
+  it("corrects the given fields, keeps omitted ones and clears nulled ones", async () => {
+    const client = await season();
+    const id = await logged(client, {
+      date: "2026-11-03",
+      type: "Easy",
+      distance: 3,
+      duration: "30:00",
+      avgHr: 140,
+      notes: "Windy",
+    });
+    const output = await callTool(client, "update_run", { id, distance: 4, notes: null });
+    expect(output.run).toMatchObject({
+      id,
+      date: "2026-11-03",
+      type: "Easy",
+      distance: 4,
+      duration: "30:00",
+      pace: "7:30",
+      avgHr: 140,
+      notes: null,
+    });
+    expect(output.week).toMatchObject({ start: "2026-11-02", miles: 4 });
+    expect(output.movedFrom).toEqual({ week: null, shoe: null });
+  });
+
+  it("re-derives the Phase when the date moves into another", async () => {
+    const client = await season();
+    const id = await logged(client, { date: "2026-11-02", distance: 3 });
+    const output = await callTool(client, "update_run", { id, date: "2026-11-01" });
+    expect(output.run).toMatchObject({ date: "2026-11-01", program: "2026 Fall Base", phase: "Rebuild" });
+  });
+
+  it("moves the Run's miles across weeks, and reports both weeks", async () => {
+    const client = await season();
+    await logRuns(client, [["2026-11-02", 5]]);
+    const id = await logged(client, { date: "2026-11-08", distance: 3 });
+    await logRuns(client, [["2026-11-10", 4]]);
+    expect(await weekMiles(client, "2026-11-02")).toBe(8);
+
+    // Sunday's Run was really on Monday.
+    const output = await callTool(client, "update_run", { id, date: "2026-11-09" });
+    expect(output.week).toEqual({ start: "2026-11-09", end: "2026-11-15", miles: 7, previousWeekMiles: 5, cap: 5.5 });
+    expect(output.movedFrom).toMatchObject({ week: { start: "2026-11-02", miles: 5 }, shoe: null });
+    expect(await weekMiles(client, "2026-11-02")).toBe(5);
+    expect(await weekMiles(client, "2026-11-09")).toBe(7);
+  });
+
+  it("moves the Run's miles across Shoes, and reports both Shoes", async () => {
+    const client = await season();
+    await callTool(client, "add_shoe", { id: "trainer-blue" });
+    await callTool(client, "add_shoe", { id: "racer-red" });
+    await logged(client, { date: "2026-11-02", distance: 2, shoe: "trainer-blue" });
+    const id = await logged(client, { date: "2026-11-04", distance: 6, shoe: "trainer-blue" });
+
+    const output = await callTool(client, "update_run", { id, shoe: "racer-red" });
+    expect(output.shoe).toMatchObject({ id: "racer-red", mileage: 6, firstRun: "2026-11-04", lastRun: "2026-11-04" });
+    expect(output.movedFrom).toMatchObject({
+      week: null,
+      shoe: { id: "trainer-blue", mileage: 2, runs: 1, lastRun: "2026-11-02" },
+    });
+  });
+
+  it("can take the Shoe off a Run", async () => {
+    const client = await season();
+    await callTool(client, "add_shoe", { id: "trainer-blue" });
+    const id = await logged(client, { date: "2026-11-04", distance: 6, shoe: "trainer-blue" });
+    const output = await callTool(client, "update_run", { id, shoe: null });
+    expect(output.shoe).toBeNull();
+    expect(output.movedFrom).toMatchObject({ shoe: { id: "trainer-blue", mileage: 0, firstRun: null } });
+  });
+
+  it.each([
+    ["a date outside every Phase", { date: "2027-01-04" }, /No Phase covers 2027-01-04/],
+    ["an unknown Shoe", { shoe: "mystery-pair" }, /There's no Shoe mystery-pair/],
+    ["a non-positive distance", { distance: 0 }, /distance must be more than 0 miles/],
+  ])("rejects a correction to %s, changing nothing", async (_, change, error) => {
+    const client = await season();
+    const id = await logged(client, { date: "2026-11-03", distance: 3 });
+    expect(await callToolExpectingError(client, "update_run", { id, ...change })).toMatch(error);
+    expect(await weekMiles(client, "2026-11-03")).toBe(3);
+  });
+
+  it("rejects an unknown Run", async () => {
+    const client = await season();
+    expect(await callToolExpectingError(client, "update_run", { id: 999, distance: 3 })).toMatch(/There's no Run with id 999/);
+  });
+});
+
+describe("delete_run", () => {
+  it("removes the Run from its week, the next week's cap and its Shoe", async () => {
+    const client = await season();
+    await callTool(client, "add_shoe", { id: "trainer-blue" });
+    await callTool(client, "log_run", { date: "2026-11-03", distance: 4, shoe: "trainer-blue" });
+    const logged = await callTool(client, "log_run", { date: "2026-11-05", distance: 4, shoe: "trainer-blue" });
+    const { id } = logged.run as { id: number };
+
+    const output = await callTool(client, "delete_run", { id });
+    expect(output.run).toEqual(logged.run);
+    expect(output.week).toMatchObject({ start: "2026-11-02", miles: 4 });
+    expect(output.shoe).toMatchObject({ id: "trainer-blue", mileage: 4, runs: 1, lastRun: "2026-11-03" });
+    const nextWeek = await callTool(client, "check_mileage_cap", { proposed_week_miles: 5, week: "2026-11-09" });
+    expect(nextWeek).toMatchObject({ cap: 4.4, exceeds: true });
+  });
+
+  it("rejects an unknown Run", async () => {
+    const client = await season();
+    expect(await callToolExpectingError(client, "delete_run", { id: 999 })).toMatch(/There's no Run with id 999/);
+  });
+
+  it("can't delete the same Run twice", async () => {
+    const client = await season();
+    const { run } = (await callTool(client, "log_run", { date: "2026-11-03", distance: 4 })) as { run: { id: number } };
+    await callTool(client, "delete_run", { id: run.id });
+    expect(await callToolExpectingError(client, "delete_run", { id: run.id })).toMatch(/There's no Run with id/);
+  });
+});
+
 describe("weeks and the Mileage Cap", () => {
   it("counts Monday through Sunday, and nothing either side", async () => {
     const client = await season();
