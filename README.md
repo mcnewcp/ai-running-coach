@@ -36,6 +36,8 @@ If no timezone is passed and there's no Runner Profile, or its `timezone` is mis
 
 `upsert_program` and `upsert_phase` define how the season is structured. Programs tile the calendar and Phases tile their Program, so every day belongs to exactly one Phase. A race build ends on its A-race day with a one-day Race Phase. A bridge has neither. Writes that would leave a gap or overlap are rejected. When an existing window changes, the neighbour on each side moves its shared edge to keep meeting it. A change that would swallow or split a neighbour, or move a neighbouring race build's A-race day, is rejected instead.
 
+Each Phase can link its **Plan**, the document describing its intended training, by vault path (`planPath`, e.g. `Programs/2026-12-spring-half/Plans/base.md`). That link is what decides which Plan belongs to a Phase: nothing is inferred from file names, so the runner can name and arrange Plans however they like. The document doesn't have to exist yet. `upsert_phase` sets it (omit it to keep it, `null` to clear it). In `upsert_program`, a Phase that leaves it out keeps the Plan of the existing Phase with the same name, so relaying the Phases doesn't drop their Plans. `get_coaching_context` returns the active Phase's Plan.
+
 Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membership-is-derived-from-date.md)). They belong to whichever Phase their date falls in. `phase_for_date` answers that over MCP. In the core, `placeDate(db, date)` returns the Program and Phase, or fails with a clear message if no Phase covers the date. `findPlacement(db, date)` returns `null` instead. Both are in [`src/core/programs.ts`](src/core/programs.ts). Use them to validate and attribute any dated record.
 
 ### Runs, Shoes and the Mileage Cap

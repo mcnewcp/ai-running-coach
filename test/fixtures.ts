@@ -43,6 +43,7 @@ export const recoveryPhase = {
   endDate: "2026-11-15",
   focus: "Rest",
   mileageTarget: "10-15 mi/wk",
+  planPath: null,
 };
 
 /** A synthetic Runner Profile, with `frontmatter` as its properties block. */

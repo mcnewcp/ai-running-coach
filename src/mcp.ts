@@ -106,6 +106,7 @@ export function createServer(env: Env): McpServer {
         endDate: date("The Phase's last day"),
         focus: z.string().nullish().describe("Omit to keep the current focus; null clears it"),
         mileageTarget: z.string().nullish().describe("Free text, e.g. 20-25 mi/wk. Omit to keep it; null clears it"),
+        planPath: planPath.describe(`${planPathMeaning} Omit to keep the current one; null clears it.`),
       }),
       outputSchema: z.object({ program: programSchema }),
     },
@@ -137,6 +138,12 @@ export function createServer(env: Env): McpServer {
   return server;
 }
 
+const planPathMeaning =
+  "The vault path of the Phase's Plan, the document describing its intended training, " +
+  'e.g. "Programs/2026-12-spring-half/Plans/base.md". get_coaching_context returns it for the active Phase. ' +
+  "It may be written later.";
+const planPath = z.string().nullish();
+
 const aRaceSchema = z.object({
   name: z.string().min(1).describe("The A-race's name"),
   date: date("The A-race day"),
@@ -152,6 +159,9 @@ const phaseInput = z.object({
   endDate: date("The Phase's last day"),
   focus: z.string().nullish().describe("The Phase's single focus, e.g. Aerobic base"),
   mileageTarget: z.string().nullish().describe("Free text, e.g. 20-25 mi/wk"),
+  planPath: planPath.describe(
+    `${planPathMeaning} Omit to keep the Plan of the existing Phase with this name, if any; null clears it.`,
+  ),
 });
 
 /**

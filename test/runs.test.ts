@@ -69,6 +69,7 @@ describe("log_run", () => {
       endDate: "2026-12-27",
       focus: "Easy aerobic",
       mileageTarget: null,
+      planPath: null,
     });
   });
 

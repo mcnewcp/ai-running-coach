@@ -21,6 +21,10 @@ export const phaseSchema = z.object({
   endDate: z.string(),
   focus: z.string().nullable(),
   mileageTarget: z.string().nullable(),
+  planPath: z
+    .string()
+    .nullable()
+    .describe("The vault path of the Phase's Plan document, or null if none is linked. The document may not be written yet."),
 });
 
 export const programSchema = z.object({
