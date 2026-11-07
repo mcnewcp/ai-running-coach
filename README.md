@@ -30,6 +30,35 @@ The Worker asks GitHub for no scopes and keeps only the username. OAuth clients,
 
 Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner. It uses the **Home Timezone** unless the coach passes the runner's current timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). Until the Runner Profile holds the Home Timezone (#8, #9), it's a temporary default in [`src/core/calendar.ts`](src/core/calendar.ts).
 
+### Documents
+
+The unstructured Athlete Record (the Runner Profile, Plans, Logs and race narratives) is plain markdown in the R2 bucket. The runner browses and occasionally edits it as an Obsidian vault, synced to the same bucket by the Remotely Save plugin ([ADR 0002](docs/adr/0002-cloudflare-worker-d1-r2-with-obsidian-via-remotely-save.md)). A document's R2 key is its path in the vault. The vault is laid out like this:
+
+```text
+Runner Profile.md
+Programs/
+  <YYYY-MM-name>/          e.g. 2026-01-spring-half
+    Plans/…                the Program's and its Phases' Plans
+    Logs/…                 weekly and Phase Logs
+Races/
+  <YYYY-MM-DD>-<race>.md   race narratives, linked from their Race Results
+Resources/…                resources specific to this runner. Generic protocols stay in this repo.
+```
+
+The Runner Profile holds the **Home Timezone** as a property in its frontmatter, so the runner can change it in Obsidian:
+
+```markdown
+---
+timezone: America/Chicago
+---
+# Runner Profile
+…
+```
+
+The tools are `list_documents(prefix)`, `read_document(path)` and `write_document(path, content, …)`. A document path is relative, `/`-separated and ends in `.md`. Paths that would leave the vault (`..`), absolute paths, and hidden folders or files (anything starting with `.`, like Obsidian's `.obsidian/` settings) are rejected, and `list_documents` leaves out anything that isn't a document.
+
+Writes never silently overwrite the runner's edits. `read_document` returns a version (the R2 ETag), and `write_document` either updates with `expected_version`, the version it read, or creates with `create_only: true`. R2 checks that condition atomically as it writes. If it fails (the document changed or was deleted since, or already exists when creating), nothing is written and the result is a `conflict` with the current content and version, so the coach can merge and retry.
+
 ### Local development
 
 Needs Node.js 24.
@@ -63,7 +92,7 @@ npm run typecheck   # check types, and that worker-configuration.d.ts is current
 
 CI runs the typecheck and the tests on every pull request.
 
-Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. There are two exceptions. [`test/harness.test.ts`](test/harness.test.ts) checks the harness itself. [`test/oauth.test.ts`](test/oauth.test.ts) goes through the Worker's entry point and walks the whole sign-in like an MCP client does, with GitHub faked and the synthetic allowlist from [`vitest.config.ts`](vitest.config.ts).
+Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. [`test/documents.test.ts`](test/documents.test.ts) does write to the R2 bucket directly, but only to stand in for the runner's Obsidian vault, which Remotely Save syncs straight to the bucket. Beyond that there are two exceptions. [`test/harness.test.ts`](test/harness.test.ts) checks the harness itself. [`test/oauth.test.ts`](test/oauth.test.ts) goes through the Worker's entry point and walks the whole sign-in like an MCP client does, with GitHub faked and the synthetic allowlist from [`vitest.config.ts`](vitest.config.ts).
 
 - [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect()` returns a connected client, `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message.
 - To test anything that depends on the current time, fake only the clock with `vi.useFakeTimers({ toFake: ["Date"] })` and set it with `vi.setSystemTime(...)`. The Worker runs in the same isolate as the tests, so it sees the fake clock. See [`test/today.test.ts`](test/today.test.ts).
