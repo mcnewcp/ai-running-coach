@@ -36,6 +36,15 @@ Record dates are local calendar dates, and weeks run Monday–Sunday over those 
 
 Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membership-is-derived-from-date.md)). They belong to whichever Phase their date falls in. `phase_for_date` answers that over MCP. In the core, `placeDate(db, date)` returns the Program and Phase, or fails with a clear message if no Phase covers the date. `findPlacement(db, date)` returns `null` instead. Both are in [`src/core/programs.ts`](src/core/programs.ts). Use them to validate and attribute any dated record.
 
+### Strength Sessions, Daily Check-ins, Body-comp Scans and Race Results
+
+Each of these is dated, so each write returns the record with the Program and Phase its date falls in, and a record dated outside every Phase is rejected. Anything the runner didn't report stays empty. Corrections keep the fields they leave out, and `null` clears one.
+
+- **Strength Sessions:** `log_strength_session`, `update_strength_session` and `delete_strength_session`. A session holds one entry per exercise (pattern, exercise, load, load basis, sets, reps per set, notes). A correction that gives `entries` replaces the whole list.
+- **Daily Check-ins:** `log_check_in` and `delete_check_in`. There's at most one Check-in per date. A later `log_check_in` for the same date merges into it and reports `status: "updated"`, so it doubles as the correction tool.
+- **Body-comp Scans:** `log_body_comp_scan`, `update_body_comp_scan` and `delete_body_comp_scan`. A scan holds only the metrics its printout shows, and needs at least one.
+- **Race Results:** `log_race_result`, `update_race_result` and `delete_race_result`. Each links to its narrative document by vault path. Its `kind` is derived, never stored: `a_race` if a Program names it (a race build ends on its A-race day), otherwise `tune_up`. `list_prs` derives the fastest official time at each distance, matching distances ignoring case and spaces.
+
 ### Documents
 
 The unstructured Athlete Record (the Runner Profile, Plans, Logs and race narratives) is plain markdown in the R2 bucket. The runner browses and occasionally edits it as an Obsidian vault, synced to the same bucket by the Remotely Save plugin ([ADR 0002](docs/adr/0002-cloudflare-worker-d1-r2-with-obsidian-via-remotely-save.md)). A document's R2 key is its path in the vault. The vault is laid out like this:

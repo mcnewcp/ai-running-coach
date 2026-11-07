@@ -1,6 +1,6 @@
 import { parseDate } from "./calendar";
 import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, optionalText, requiredText } from "./records";
+import { attribute, type Attributed, checkNumber, notFound, optionalText, requiredText } from "./records";
 
 // Strength Sessions: one completed gym session, made up of one entry per
 // exercise performed. Belongs to a Phase by its date (ADR 0003).
@@ -145,7 +145,7 @@ type EntryRow = {
 
 async function loadSession(db: D1Database, id: number): Promise<StrengthSession> {
   const row = await db.prepare("SELECT * FROM strength_sessions WHERE id = ?").bind(id).first<SessionRow>();
-  if (!row) throw new DomainError(`There's no Strength Session ${id}.`);
+  if (!row) notFound("Strength Session", id);
   const entries = await db
     .prepare("SELECT * FROM exercise_entries WHERE session_id = ? ORDER BY position")
     .bind(id)
