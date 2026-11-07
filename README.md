@@ -38,7 +38,7 @@ Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membershi
 
 ### Runs, Shoes and the Mileage Cap
 
-`log_run`, `update_run` and `delete_run` record Runs. A Run is rejected if no Phase covers its date, its Shoe is unknown (or was retired before that date), or its distance isn't positive. Fields the runner didn't report stay empty, and pace is derived from distance and duration. `update_run` takes the Run's `id` and only the fields to change: omitted fields are kept, and `null` clears one. Every write returns the Run with its derived Phase and Program, where its Monday–Sunday week stands against the Mileage Cap, and its Shoe's mileage. A correction also returns the week and Shoe the Run moved out of, if it did.
+`log_run`, `update_run` and `delete_run` record Runs. A Run is rejected if no Phase covers its date, its Shoe is unknown (or was retired before that date), or its distance isn't positive. Fields the runner didn't report stay empty, and pace is derived from distance and duration. `update_run` takes the Run's `id` and only the fields to change: omitted fields are kept, and `null` clears one. Like the other dated records, `log_run` and `update_run` return the Run with the Program and Phase its date falls in, and `delete_run` returns it as `deleted`. Each also returns where the Run's Monday–Sunday week stands against the Mileage Cap (`week`) and its Shoe's mileage (`shoe`). A correction also returns the week and Shoe the Run moved out of, if it did.
 
 `add_shoe`, `retire_shoe` and `list_shoes` track Shoes. A Shoe's mileage and first and last Run dates are always derived from its Runs. Each pair is flagged as `nearingReplacement` once its mileage reaches `warnAtMiles`, 300 unless set when it's added.
 

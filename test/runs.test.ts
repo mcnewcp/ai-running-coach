@@ -53,8 +53,21 @@ describe("log_run", () => {
       leftKneePain: null,
       rightKneePain: null,
       notes: null,
-      program: "2026 Fall Base",
-      phase: "Base",
+    });
+    expect(output.program).toEqual({
+      name: "2026 Fall Base",
+      kind: "bridge",
+      startDate: "2026-10-05",
+      endDate: "2026-12-27",
+      aRace: null,
+    });
+    expect(output.phase).toEqual({
+      name: "Base",
+      kind: "training",
+      startDate: "2026-11-02",
+      endDate: "2026-12-27",
+      focus: "Easy aerobic",
+      mileageTarget: null,
     });
   });
 
@@ -82,8 +95,8 @@ describe("log_run", () => {
       leftKneePain: 1,
       rightKneePain: 0,
       notes: "Felt smooth",
-      phase: "Rebuild",
     });
+    expect(output.phase).toMatchObject({ name: "Rebuild" });
   });
 
   it.each([
@@ -103,9 +116,10 @@ describe("log_run", () => {
     ["an unknown Shoe", { shoe: "mystery-pair" }, /There's no Shoe mystery-pair. Add it with add_shoe first/],
     ["a zero distance", { distance: 0 }, /distance must be more than 0 miles/],
     ["a negative distance", { distance: -2 }, /distance must be more than 0 miles/],
-    ["a pain rating above 10", { leftKneePain: 11 }, /leftKneePain must be 0-10/],
-    ["a negative pain rating", { rightKneePain: -1 }, /rightKneePain must be 0-10/],
-    ["a non-positive heart rate", { avgHr: 0 }, /avgHr must be more than 0/],
+    ["a pain rating above 10", { leftKneePain: 11 }, /leftKneePain must be between 0 and 10, not 11/],
+    ["a negative pain rating", { rightKneePain: -1 }, /rightKneePain must be between 0 and 10, not -1/],
+    ["a zero heart rate", { avgHr: 0 }, /avgHr must be between 1 and 250, not 0/],
+    ["a fractional heart rate", { avgHr: 140.5 }, /avgHr must be a whole number/],
   ])("rejects %s, recording nothing", async (_, change, error) => {
     const client = await season();
     expect(await callToolExpectingError(client, "log_run", { date: "2026-11-03", distance: 3, ...change })).toMatch(error);
@@ -176,7 +190,9 @@ describe("update_run", () => {
     const client = await season();
     const id = await logged(client, { date: "2026-11-02", distance: 3 });
     const output = await callTool(client, "update_run", { id, date: "2026-11-01" });
-    expect(output.run).toMatchObject({ date: "2026-11-01", program: "2026 Fall Base", phase: "Rebuild" });
+    expect(output.run).toMatchObject({ date: "2026-11-01" });
+    expect(output.program).toMatchObject({ name: "2026 Fall Base" });
+    expect(output.phase).toMatchObject({ name: "Rebuild" });
   });
 
   it("moves the Run's miles across weeks, and reports both weeks", async () => {
@@ -231,7 +247,7 @@ describe("update_run", () => {
 
   it("rejects an unknown Run", async () => {
     const client = await season();
-    expect(await callToolExpectingError(client, "update_run", { id: 999, distance: 3 })).toMatch(/There's no Run with id 999/);
+    expect(await callToolExpectingError(client, "update_run", { id: 999, distance: 3 })).toMatch(/There's no Run 999/);
   });
 });
 
@@ -244,7 +260,7 @@ describe("delete_run", () => {
     const { id } = logged.run as { id: number };
 
     const output = await callTool(client, "delete_run", { id });
-    expect(output.run).toEqual(logged.run);
+    expect(output.deleted).toEqual(logged.run);
     expect(output.week).toMatchObject({ start: "2026-11-02", miles: 4 });
     expect(output.shoe).toMatchObject({ id: "trainer-blue", mileage: 4, runs: 1, lastRun: "2026-11-03" });
     const nextWeek = await callTool(client, "check_mileage_cap", { proposed_week_miles: 5, week: "2026-11-09" });
@@ -253,14 +269,14 @@ describe("delete_run", () => {
 
   it("rejects an unknown Run", async () => {
     const client = await season();
-    expect(await callToolExpectingError(client, "delete_run", { id: 999 })).toMatch(/There's no Run with id 999/);
+    expect(await callToolExpectingError(client, "delete_run", { id: 999 })).toMatch(/There's no Run 999/);
   });
 
   it("can't delete the same Run twice", async () => {
     const client = await season();
     const { run } = (await callTool(client, "log_run", { date: "2026-11-03", distance: 4 })) as { run: { id: number } };
     await callTool(client, "delete_run", { id: run.id });
-    expect(await callToolExpectingError(client, "delete_run", { id: run.id })).toMatch(/There's no Run with id/);
+    expect(await callToolExpectingError(client, "delete_run", { id: run.id })).toMatch(/There's no Run /);
   });
 });
 

@@ -3,7 +3,7 @@ import { z } from "zod";
 import { today } from "../core/calendar";
 import { checkMileageCap } from "../core/mileage-cap";
 import { deleteRun, logRun, updateRun } from "../core/runs";
-import { date, structured } from "./shared";
+import { date, phaseSchema, programSchema, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
 /** The Run tools: logging, correcting and deleting Runs. */
@@ -31,7 +31,7 @@ export function registerRunTools(server: McpServer, db: D1Database) {
         "omitted fields are kept, and null clears an optional one. Its Phase and Program follow its date. " +
         "The same rules as log_run apply. Also returns the week and Shoe the Run moved out of, if it did.",
       inputSchema: z.object({
-        id: z.number().describe("The Run's id, from log_run or query"),
+        id: runId,
         ...runFields,
         date: runFields.date.optional(),
         distance: runFields.distance.optional(),
@@ -52,9 +52,10 @@ export function registerRunTools(server: McpServer, db: D1Database) {
       title: "Delete a Run",
       description:
         "Deletes a Run logged by mistake, e.g. a duplicate. Returns the deleted Run, and its week and Shoe as they stand without it.",
-      inputSchema: z.object({ id: z.number().describe("The Run's id, from log_run or query") }),
-      outputSchema: runWriteSchema.extend({
-        run: runSchema.describe("The deleted Run"),
+      inputSchema: z.object({ id: runId }),
+      outputSchema: z.object({
+        deleted: runSchema.describe("The deleted Run"),
+        ...runEffects,
       }),
       annotations: { destructiveHint: true },
     },
@@ -132,14 +133,22 @@ const runSchema = z.object({
   leftKneePain: z.number().nullable(),
   rightKneePain: z.number().nullable(),
   notes: z.string().nullable(),
-  program: z.string().nullable().describe("The Program its date falls in"),
-  phase: z.string().nullable().describe("The Phase its date falls in"),
 });
 
-const runWriteSchema = z.object({
-  run: runSchema,
+const runId = z.number().int().describe("The Run's id, as returned when it was logged");
+
+const runEffects = {
   week: weekStandingSchema.describe(
     "Where the Run's week stands against its Mileage Cap after this write. Report it (e.g. 14.1 of 14.3); don't lecture about miles already run.",
   ),
-  shoe: shoeSchema.nullable().describe("The Run's Shoe with its mileage after this write, or null if it has none"),
+  shoe: shoeSchema
+    .nullable()
+    .describe("The Run's Shoe with its mileage after this write, or null if it has none. Mention it if nearingReplacement."),
+};
+
+const runWriteSchema = z.object({
+  run: runSchema,
+  program: programSchema.omit({ phases: true }).describe("The Program the Run's date falls in"),
+  phase: phaseSchema.describe("The Phase the Run's date falls in"),
+  ...runEffects,
 });
