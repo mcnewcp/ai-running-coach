@@ -75,3 +75,26 @@ function localDay(instant: Date, timezone: string, timezoneSource: TimezoneSourc
     timezoneSource,
   };
 }
+
+/**
+ * Returns `value` if it's a real ISO 8601 calendar date (`YYYY-MM-DD`), or
+ * fails naming the `field` it came from.
+ */
+export function parseDate(value: string, field = "date"): string {
+  const date = new Date(`${value}T00:00:00Z`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || Number.isNaN(date.getTime()) || isoDate(date) !== value) {
+    throw new DomainError(`${field} "${value}" is not a calendar date. Use YYYY-MM-DD, e.g. 2026-09-24.`);
+  }
+  return value;
+}
+
+/** The calendar date `days` days after `date` (before it, if negative). */
+export function addDays(date: string, days: number): string {
+  const result = new Date(`${date}T00:00:00Z`);
+  result.setUTCDate(result.getUTCDate() + days);
+  return isoDate(result);
+}
+
+function isoDate(date: Date): string {
+  return date.toISOString().slice(0, 10);
+}

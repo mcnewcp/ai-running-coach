@@ -27,6 +27,23 @@ export async function connect(): Promise<Client> {
   return client;
 }
 
+/**
+ * Empties every table in D1, keeping the schema. Storage is shared by the
+ * tests in one file, so call it in `beforeEach` when tests need a blank
+ * Athlete Record. It names no tables, so it stays out of the schema's way.
+ */
+export async function resetDatabase(): Promise<void> {
+  const { results } = await env.DB.prepare(
+    "SELECT name FROM sqlite_master WHERE type = 'table' " +
+      "AND name NOT LIKE 'sqlite_%' AND name NOT LIKE '_cf_%' AND name <> 'd1_migrations'",
+  ).all<{ name: string }>();
+  if (results.length === 0) return;
+  await env.DB.batch([
+    env.DB.prepare("PRAGMA defer_foreign_keys = on"),
+    ...results.map(({ name }) => env.DB.prepare(`DELETE FROM "${name}"`)),
+  ]);
+}
+
 /** Calls a tool that is expected to succeed and returns its structured output. */
 export async function callTool(
   client: Client,
