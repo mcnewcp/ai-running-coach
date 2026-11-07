@@ -2,8 +2,7 @@ import { McpServer } from "@modelcontextprotocol/server";
 import { createMcpHandler } from "agents/mcp/server";
 import { z } from "zod";
 import { PHASE_KINDS, placeDate, PROGRAM_KINDS, upsertPhase, upsertProgram } from "./core/programs";
-import { listDocuments, readDocument, writeDocument } from "./core/documents";
-import { DomainError } from "./core/errors";
+import { listDocuments, readDocument, writeCondition, writeDocument } from "./core/documents";
 import { deleteBodyCompScan, logBodyCompScan, updateBodyCompScan } from "./core/body-comp-scans";
 import { deleteCheckIn, logCheckIn } from "./core/check-ins";
 import { deleteRaceResult, listPRs, logRaceResult, updateRaceResult } from "./core/race-results";
@@ -241,17 +240,14 @@ function registerDocumentTools(server: McpServer, bucket: R2Bucket) {
         message: z.string().optional().describe("conflict only: what happened"),
       }),
     },
-    async ({ path, content, create_only, expected_version }) => {
-      const creating = create_only === true;
-      if (creating === (expected_version !== undefined)) {
-        throw new DomainError(
-          "Pass exactly one of create_only: true (to create a new document) or " +
-            "expected_version (to update one, with the version you read).",
-        );
-      }
-      const condition = creating ? { createOnly: true as const } : { expectedVersion: expected_version! };
-      return structured(await writeDocument(bucket, { path, content, condition }));
-    },
+    async ({ path, content, create_only, expected_version }) =>
+      structured(
+        await writeDocument(bucket, {
+          path,
+          content,
+          condition: writeCondition({ createOnly: create_only, expectedVersion: expected_version }),
+        }),
+      ),
   );
 }
 

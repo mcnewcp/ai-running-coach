@@ -51,7 +51,7 @@ Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membershi
 
 `add_shoe`, `retire_shoe` and `list_shoes` track Shoes. A Shoe's mileage and first and last Run dates are always derived from its Runs. Each pair is flagged as `nearingReplacement` once its mileage reaches `warnAtMiles`, 300 unless set when it's added.
 
-The Mileage Cap is the previous Monday–Sunday week's actual miles × 1.10. `check_mileage_cap(proposed_week_miles, week?)` answers whether a proposed week exceeds it, and never blocks anything: the runner decides. In the core, `weekStanding(db, date)` and `checkMileageCap(db, proposed, date)` in [`src/core/mileage-cap.ts`](src/core/mileage-cap.ts) do that arithmetic. For "this week", pass today's local date.
+The Mileage Cap is the previous Monday–Sunday week's actual miles × 1.10. `check_mileage_cap(proposed_week_miles, week?)` answers whether a proposed week exceeds it, and never blocks anything: the runner decides. In the core, `weekStanding(db, date)` and `checkMileageCap(db, proposed, date)` in [`src/core/mileage-cap.ts`](src/core/mileage-cap.ts) do that arithmetic. For "this week", pass today's local date, or use `checkProposedWeek` in [`src/core/session.ts`](src/core/session.ts), which works it out as `today` does when no week is given.
 
 ### Strength Sessions, Daily Check-ins, Body-comp Scans and Race Results
 

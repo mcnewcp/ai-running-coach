@@ -1,8 +1,7 @@
 import type { McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod";
-import { checkMileageCap } from "../core/mileage-cap";
 import { deleteRun, logRun, updateRun } from "../core/runs";
-import { today } from "../core/session";
+import { checkProposedWeek } from "../core/session";
 import { date, phaseSchema, programSchema, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
@@ -96,7 +95,7 @@ export function registerRunTools(server: McpServer, env: Env) {
     },
     async ({ proposed_week_miles, week, timezone }) =>
       structured(
-        await checkMileageCap(db, proposed_week_miles, week ?? (await today(env.DOCUMENTS, new Date(), timezone)).date),
+        await checkProposedWeek({ db, bucket: env.DOCUMENTS }, new Date(), proposed_week_miles, { week, timezone }),
       ),
   );
 }
