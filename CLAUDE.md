@@ -80,7 +80,7 @@ The runner usually opens a fresh chat each day.
    - A Run: `log_run`, leaving out anything not reported. Ask for the Shoe if they didn't say. If it's a new pair, `add_shoe` first.
    - A gym session: `log_strength_session`, one entry per exercise.
    - A body-composition scan: `log_body_comp_scan`, with only the metrics the printout shows.
-   - A race: `log_race_result`, and write its narrative in `Races/` (see [Documents](#documents)).
+   - A race: `log_race_result` (for the A-race, use the name its Program gives it, so it shows as the `a_race`), and write its narrative in `Races/` (see [Documents](#documents)).
 3. Report what the write returns. For a Run, say where the week stands (e.g. "14.1 of 14.3 mi this week") and flag the Shoe if it's `nearingReplacement`.
 4. Update the week's Log with the session, how it went and any decision made.
 

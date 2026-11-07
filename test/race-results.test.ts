@@ -76,6 +76,24 @@ describe("log_race_result", () => {
     expect(output.program.name).toBe("2027 Spring Half");
   });
 
+  it("shows only the race the Program names as the A-race when two results share its day", async () => {
+    const client = await withSeason();
+    const aRace = await logRace(client, {
+      date: "2027-04-11",
+      name: "  synthetic CITY half ",
+      distance: "Half Marathon",
+      officialTime: "1:42:05",
+    });
+    const fiveK = await logRace(client, { date: "2027-04-11", name: "Synthetic City 5K", distance: "5K", officialTime: "22:10" });
+    expect(aRace).toMatchObject({ kind: "a_race", name: "synthetic CITY half" });
+    expect(fiveK.kind).toBe("tune_up");
+    const { prs } = (await callTool(client, "list_prs")) as { prs: { raceResult: RaceResult }[] };
+    expect(prs.map(({ raceResult }) => [raceResult.name, raceResult.kind])).toEqual([
+      ["Synthetic City 5K", "tune_up"],
+      ["synthetic CITY half", "a_race"],
+    ]);
+  });
+
   it("writes official times consistently", async () => {
     const client = await withSeason();
     expect((await logRace(client, { ...turkeyTrot, officialTime: "0:21:30" })).officialTime).toBe("21:30");
@@ -103,7 +121,7 @@ describe("log_race_result", () => {
 });
 
 describe("correcting and deleting a Race Result", () => {
-  it("corrects a result, re-deriving its kind and Phase from the new date", async () => {
+  it("corrects a result, re-deriving its kind and Phase from the new date and name", async () => {
     const client = await withSeason();
     const { id } = await logRace(client, { ...turkeyTrot, date: "2027-04-04" });
     const output = await callTool(client, "update_race_result", {
@@ -113,9 +131,11 @@ describe("correcting and deleting a Race Result", () => {
       placement: null,
     });
     expect(output).toMatchObject({
-      raceResult: { id, kind: "a_race", date: "2027-04-11", officialTime: "21:10", placement: null, pace: "6:55/mi" },
+      raceResult: { id, kind: "tune_up", date: "2027-04-11", officialTime: "21:10", placement: null, pace: "6:55/mi" },
       phase: { name: "Race" },
     });
+    const renamed = await callTool(client, "update_race_result", { id, name: "Synthetic City Half" });
+    expect(renamed).toMatchObject({ raceResult: { id, kind: "a_race", name: "Synthetic City Half" } });
   });
 
   it("deletes a result, after which it can't be corrected", async () => {

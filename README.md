@@ -60,7 +60,7 @@ Each of these is dated, so each write returns the record with the Program and Ph
 - **Strength Sessions:** `log_strength_session`, `update_strength_session` and `delete_strength_session`. A session holds one entry per exercise (pattern, exercise, load, load basis, sets, reps per set, notes). A correction that gives `entries` replaces the whole list.
 - **Daily Check-ins:** `log_check_in` and `delete_check_in`. There's at most one Check-in per date. A later `log_check_in` for the same date merges into it and reports `status: "updated"`, so it doubles as the correction tool.
 - **Body-comp Scans:** `log_body_comp_scan`, `update_body_comp_scan` and `delete_body_comp_scan`. A scan holds only the metrics its printout shows, and needs at least one.
-- **Race Results:** `log_race_result`, `update_race_result` and `delete_race_result`. Each links to its narrative document by vault path. Its `kind` is derived, never stored: `a_race` if a Program names it (a race build ends on its A-race day), otherwise `tune_up`. `list_prs` derives the fastest official time at each distance, matching distances ignoring case and spaces.
+- **Race Results:** `log_race_result`, `update_race_result` and `delete_race_result`. Each links to its narrative document by vault path. Its `kind` is derived, never stored: `a_race` if a Program names it (a race build that ends on the result's date with an A-race of the same name, ignoring case and surrounding spaces), otherwise `tune_up`. `list_prs` derives the fastest official time at each distance, matching distances ignoring case and spaces.
 
 ### Analysis
 

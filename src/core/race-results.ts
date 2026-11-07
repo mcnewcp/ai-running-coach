@@ -8,7 +8,7 @@ import { attribute, type Attributed, checkNumber, merge, notFound, optionalText,
 // or a Tune-up Race is derived from the Programs, and PRs are derived from
 // Race Results: neither is ever stored.
 
-/** a_race: the A-race a Program names (on its last day). tune_up: any other race. */
+/** a_race: the A-race a Program names (on its last day, by name). tune_up: any other race. */
 export type RaceKind = "a_race" | "tune_up";
 
 export type RaceResult = {
@@ -151,10 +151,12 @@ function formatTime(seconds: number): string {
 
 /**
  * Every Race Result with whether a Program names it as its A-race: a race
- * build ends on its A-race day.
+ * build ends on its A-race day, and the names match ignoring case and
+ * surrounding spaces.
  */
 const SELECT_RESULTS = `SELECT r.*, EXISTS (
-    SELECT 1 FROM programs p WHERE p.a_race_name IS NOT NULL AND p.end_date = r.date
+    SELECT 1 FROM programs p
+    WHERE p.a_race_name IS NOT NULL AND p.end_date = r.date AND LOWER(TRIM(p.a_race_name)) = LOWER(TRIM(r.name))
   ) AS is_a_race
   FROM race_results r`;
 

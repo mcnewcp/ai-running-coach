@@ -17,7 +17,7 @@ const SCHEMA = `Schema (SQLite). Dates are local calendar dates, TEXT YYYY-MM-DD
 - exercise_entries(id, session_id, position, pattern, exercise, load, load_basis, sets, reps_per_set, notes): one per exercise; session_id references strength_sessions.id, position orders them from 0. reps_per_set is free text.
 - check_ins(id, date, sleep_hours, sleep_quality, resting_hr, left_knee_pain, right_knee_pain, energy, motivation, life_stress, body_weight, notes): the Daily Check-ins, at most one per date. Ratings are 0-10.
 - body_comp_scans(id, date, weight, skeletal_muscle_mass, body_fat_mass, body_fat_percent, bmi, total_body_water, lean_body_mass, visceral_fat_level, basal_metabolic_rate, score, notes)
-- race_results(id, date, name, distance, official_time_seconds, pace, conditions, avg_hr, placement, narrative_path, notes): distance is as named (5K, Half Marathon…). It's the A-race if a race-build Program ends on its date with a_race_name = name; otherwise a Tune-up Race.
+- race_results(id, date, name, distance, official_time_seconds, pace, conditions, avg_hr, placement, narrative_path, notes): distance is as named (5K, Half Marathon…). It's the A-race if a race-build Program ends on its date and LOWER(TRIM(a_race_name)) = LOWER(TRIM(name)); otherwise a Tune-up Race.
 No record stores its Phase or Program: join on the date, e.g. JOIN phases ph ON r.date BETWEEN ph.start_date AND ph.end_date. Weeks run Monday–Sunday: date(r.date, 'weekday 0', '-6 days') is a date's Monday.`;
 
 /** The analysis tool: read-only SQL over the structured Athlete Record. */

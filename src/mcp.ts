@@ -509,7 +509,7 @@ function registerOtherRecordTools(server: McpServer, db: D1Database) {
     id: z.number(),
     kind: z
       .enum(["a_race", "tune_up"])
-      .describe("a_race: the A-race a Program names (it ends on that day). tune_up: any other race"),
+      .describe("a_race: the A-race a Program names (on the Program's last day, with the same name). tune_up: any other race"),
     date: z.string(),
     name: z.string(),
     distance: z.string(),
@@ -523,7 +523,8 @@ function registerOtherRecordTools(server: McpServer, db: D1Database) {
   });
   const raceResultWrite = z.object({ raceResult: raceResultSchema, ...attributed });
   const raceKinds =
-    "Whether it's an A-race or a Tune-up Race is derived: it's the A-race if a Program names it (a race build ends on its A-race day). " +
+    "Whether it's an A-race or a Tune-up Race is derived: it's the A-race if a race-build Program names it, i.e. the Program ends on its date " +
+    "and its A-race has the same name (ignoring case and surrounding spaces). So name the A-race's result as the Program names it. " +
     "A Tune-up Race stays inside whatever Phase it falls in.";
 
   server.registerTool(
