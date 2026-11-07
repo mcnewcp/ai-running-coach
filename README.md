@@ -30,6 +30,12 @@ The Worker asks GitHub for no scopes and keeps only the username. OAuth clients,
 
 Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner. It uses the **Home Timezone** unless the coach passes the runner's current timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). Until the Runner Profile holds the Home Timezone (#8, #9), it's a temporary default in [`src/core/calendar.ts`](src/core/calendar.ts).
 
+### Programs and Phases
+
+`upsert_program` and `upsert_phase` define how the season is structured. Programs tile the calendar and Phases tile their Program, so every day belongs to exactly one Phase. A race build ends on its A-race day with a one-day Race Phase. A bridge has neither. Writes that would leave a gap or overlap are rejected. When an existing window changes, the neighbour on each side moves its shared edge to keep meeting it. A change that would swallow or split a neighbour, or move a neighbouring race build's A-race day, is rejected instead.
+
+Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membership-is-derived-from-date.md)). They belong to whichever Phase their date falls in. `phase_for_date` answers that over MCP. In the core, `placeDate(db, date)` returns the Program and Phase, or fails with a clear message if no Phase covers the date. `findPlacement(db, date)` returns `null` instead. Both are in [`src/core/programs.ts`](src/core/programs.ts). Use them to validate and attribute any dated record.
+
 ### Local development
 
 Needs Node.js 24.
@@ -65,7 +71,7 @@ CI runs the typecheck and the tests on every pull request.
 
 Tests have **one seam: MCP tool calls.** Each test connects a real MCP client over Streamable HTTP to the Worker's MCP handler, running in the Workers runtime through the [Workers Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/). D1 (with every migration applied) and R2 are local, and each test file gets its own storage. OAuth is skipped. Tests assert on tool outputs and on what later tool calls observe, never on tables or internal functions. There are two exceptions. [`test/harness.test.ts`](test/harness.test.ts) checks the harness itself. [`test/oauth.test.ts`](test/oauth.test.ts) goes through the Worker's entry point and walks the whole sign-in like an MCP client does, with GitHub faked and the synthetic allowlist from [`vitest.config.ts`](vitest.config.ts).
 
-- [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect()` returns a connected client, `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message.
+- [`test/mcp.ts`](test/mcp.ts) has the helpers: `connect()` returns a connected client, `callTool` returns a tool's structured output, and `callToolExpectingError` returns a tool's error message. Tests in one file share storage, so `resetDatabase()` (in `beforeEach`) empties every D1 table for tests that need a blank Athlete Record.
 - To test anything that depends on the current time, fake only the clock with `vi.useFakeTimers({ toFake: ["Date"] })` and set it with `vi.setSystemTime(...)`. The Worker runs in the same isolate as the tests, so it sees the fake clock. See [`test/today.test.ts`](test/today.test.ts).
 - All test data is synthetic. Real Athlete Record data never goes in fixtures, tests, logs or issues.
 
