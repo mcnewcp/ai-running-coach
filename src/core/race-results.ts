@@ -84,6 +84,12 @@ export async function deleteRaceResult(db: D1Database, id: number): Promise<{ de
   return { deleted: result };
 }
 
+/** Every Race Result, in date order. */
+export async function listRaceResults(db: D1Database): Promise<RaceResult[]> {
+  const { results } = await db.prepare(`${SELECT_RESULTS} ORDER BY date, id`).all<RaceResultRow>();
+  return results.map(fromRow);
+}
+
 /**
  * The PR at each distance: its fastest Race Result, the earlier one on a tie.
  * Distances match ignoring case and spaces, so "5K" and "5 k" are one
