@@ -1,0 +1,11 @@
+date,training_goal,type,distance_mi,duration,pace_per_mi,avg_hr,vo2max,shoes,knee_pain_l,knee_pain_r,notes
+2030-12-30,,Easy,2.00,24:00,12:00,140,,trainer-blue,,,Logged before any Program existed
+2031-01-21,2031 Synthetic Spring Half,Easy,3.10,33:15,10:44,141,44.1,trainer-blue,1,0,First run of the build
+2031-01-23,2031 Synthetic Spring Half,Easy,3.00,32:10,10:43,139,,trainer-blue,0,0,
+2031-01-25,2031 Synthetic Spring Half,Long Run,5.25,58:30,11:09,145,44.3,trainer-red,1,1,"Hilly loop, felt strong"
+2031-02-26,2031 Synthetic Spring Half,Tempo,4.00,38:40,9:40,158,44.8,trainer-red,0,0,"20 min at ""comfortably hard"""
+2031-03-29,2031 Synthetic Spring Half,Long Run,10.00,1:45:00,10:30,150,45.0,trainer-red,0,0,
+2031-04-12,2031 Synthetic Spring Half,Half Marathon Race,13.20,2:05:10,9:29,168,45.6,trainer-red,1,1,A-race
+2031-04-20,Synthetic recovery,Easy,2.50,28:00,11:12,136,,old-pair,0,0,Shakeout in an old pair
+2031-05-03,Synthetic base,Easy,3.40,36:30,10:44,140,,trainer-red,0,0,
+2031-05-10,Synthetic recovery,5K Race,3.12,26:05,8:22,172,45.2,trainer-red,,,Tune-up
