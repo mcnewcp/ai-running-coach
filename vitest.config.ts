@@ -8,6 +8,8 @@ export default defineConfig(async () => {
       cloudflareTest({
         wrangler: { configPath: "./wrangler.jsonc" },
         miniflare: {
+          // Stands in for the remote bucket in test/import-documents.test.ts.
+          r2Buckets: ["REMOTE_DOCUMENTS"],
           bindings: {
             TEST_MIGRATIONS: migrations,
             // Synthetic sign-in settings; test/oauth.test.ts fakes GitHub.

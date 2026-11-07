@@ -6,6 +6,8 @@
 export interface ArchiveSource {
   /** The file's text, or null if the archive has no such file. */
   read(path: string): string | null;
+  /** The paths of every file under the `prefix` folder (e.g. "programs/"), at any depth, sorted. */
+  list(prefix: string): string[];
 }
 
 /** The file's text. Fails naming the file if the archive doesn't have it. */
