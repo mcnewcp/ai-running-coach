@@ -5,6 +5,7 @@ import { today, WEEKDAYS } from "./core/calendar";
 import { PHASE_KINDS, placeDate, PROGRAM_KINDS, upsertPhase, upsertProgram } from "./core/programs";
 import { listDocuments, readDocument, writeDocument } from "./core/documents";
 import { DomainError } from "./core/errors";
+import { deleteStrengthSession, logStrengthSession, updateStrengthSession } from "./core/strength-sessions";
 
 /**
  * The MCP tools. Each is a thin wrapper over the domain core, named in the
@@ -121,6 +122,7 @@ export function createServer(env: Env): McpServer {
     async ({ date }) => structured(await placeDate(env.DB, date)),
   );
   registerDocumentTools(server, env.DOCUMENTS);
+  registerOtherRecordTools(server, env.DB);
 
   return server;
 }
@@ -263,6 +265,103 @@ function registerDocumentTools(server: McpServer, bucket: R2Bucket) {
       const condition = creating ? { createOnly: true as const } : { expectedVersion: expected_version! };
       return structured(await writeDocument(bucket, { path, content, condition }));
     },
+  );
+}
+
+/**
+ * The tools for the other recorded sessions and measurements: Strength
+ * Sessions, Daily Check-ins, Body-comp Scans and Race Results. Each belongs to
+ * the Phase its date falls in, so writes return that Phase and its Program.
+ */
+function registerOtherRecordTools(server: McpServer, db: D1Database) {
+  const attribution =
+    "Records are never labelled with a Phase: the write returns the Program and Phase the date falls in, " +
+    "and is rejected if no Phase covers it. Leave out anything the runner didn't report: it stays empty.";
+  const attributed = {
+    program: programSchema.omit({ phases: true }).describe("The Program the record's date falls in"),
+    phase: phaseSchema.describe("The Phase the record's date falls in"),
+  };
+  const id = (noun: string) => z.number().int().describe(`The ${noun}'s id, as returned when it was logged`);
+  const text = (description: string) => z.string().nullish().describe(description);
+  const number = (description: string) => z.number().nullish().describe(description);
+
+  // --- Strength Sessions ---
+
+  const entryInput = z.object({
+    pattern: text("The movement pattern, e.g. Squat, Hinge, Push, Pull, Carry, Core"),
+    exercise: z.string().min(1).describe("The exercise, e.g. Goblet squat"),
+    load: number("The load, in the runner's usual unit (e.g. lb). Omit for bodyweight-only work"),
+    loadBasis: text('What the load means, e.g. "per hand", "total", "bodyweight", "band"'),
+    sets: z.number().int().nullish().describe("How many sets"),
+    repsPerSet: text('Reps in each set, as free text, e.g. "10", "8 each side", "30 s", "10/8/8"'),
+    notes: text("Notes on this exercise"),
+  });
+  const entrySchema = z.object({
+    pattern: z.string().nullable(),
+    exercise: z.string(),
+    load: z.number().nullable(),
+    loadBasis: z.string().nullable(),
+    sets: z.number().nullable(),
+    repsPerSet: z.string().nullable(),
+    notes: z.string().nullable(),
+  });
+  const strengthSessionSchema = z.object({
+    id: z.number(),
+    date: z.string(),
+    sessionType: z.string().nullable(),
+    notes: z.string().nullable(),
+    entries: z.array(entrySchema).describe("One per exercise, in the order performed"),
+  });
+  const strengthSessionWrite = z.object({ strengthSession: strengthSessionSchema, ...attributed });
+
+  server.registerTool(
+    "log_strength_session",
+    {
+      title: "Log a Strength Session",
+      description:
+        "Records one completed gym session, with one entry per exercise performed (pattern, exercise, load, load basis, sets, reps per set, notes). " +
+        attribution,
+      inputSchema: z.object({
+        date: date("The day of the session"),
+        sessionType: text("e.g. Upper, Lower or Mix"),
+        notes: text("Notes on the whole session"),
+        entries: z.array(entryInput).describe("One per exercise, in the order performed"),
+      }),
+      outputSchema: strengthSessionWrite,
+    },
+    async (input) => structured(await logStrengthSession(db, input)),
+  );
+
+  server.registerTool(
+    "update_strength_session",
+    {
+      title: "Correct a Strength Session",
+      description:
+        "Corrects a logged Strength Session. Fields you leave out keep their value; null clears one. " +
+        "entries, if given, replaces the session's whole list of entries. " +
+        attribution,
+      inputSchema: z.object({
+        id: id("Strength Session"),
+        date: date("The corrected day of the session").optional(),
+        sessionType: text("e.g. Upper, Lower or Mix"),
+        notes: text("Notes on the whole session"),
+        entries: z.array(entryInput).optional().describe("The whole corrected list of entries, in the order performed"),
+      }),
+      outputSchema: strengthSessionWrite,
+    },
+    async (input) => structured(await updateStrengthSession(db, input)),
+  );
+
+  server.registerTool(
+    "delete_strength_session",
+    {
+      title: "Delete a Strength Session",
+      description: "Deletes a Strength Session logged by mistake, with its entries. Returns what was deleted.",
+      inputSchema: z.object({ id: id("Strength Session") }),
+      outputSchema: z.object({ deleted: strengthSessionSchema }),
+      annotations: { destructiveHint: true },
+    },
+    async ({ id }) => structured(await deleteStrengthSession(db, id)),
   );
 }
 
