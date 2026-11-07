@@ -32,7 +32,7 @@ export function authorizeUrl(app: GitHubApp, state: string, codeChallenge: strin
 }
 
 /** Exchanges GitHub's code for the signed-in user. */
-export async function signedInUser(app: GitHubApp, code: string, codeVerifier: string): Promise<GitHubUser> {
+export async function exchangeCodeForUser(app: GitHubApp, code: string, codeVerifier: string): Promise<GitHubUser> {
   const tokenResponse = await fetch(TOKEN_URL, {
     method: "POST",
     headers: { Accept: "application/json", "Content-Type": "application/x-www-form-urlencoded" },

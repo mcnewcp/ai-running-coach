@@ -5,7 +5,7 @@ import {
   OAuthProvider,
   type OAuthHelpers,
 } from "@cloudflare/workers-oauth-provider";
-import { authorizeUrl, GitHubError, GitHubUnavailable, pkcePair, signedInUser, type GitHubApp } from "./github";
+import { authorizeUrl, exchangeCodeForUser, GitHubError, GitHubUnavailable, pkcePair, type GitHubApp } from "./github";
 import { consentPage, errorPage } from "./pages";
 
 /**
@@ -62,7 +62,7 @@ function createProvider(origin: string, api: ExportedHandlerWithFetch): OAuthPro
         return api.fetch(request, env, ctx);
       },
     },
-    defaultHandler: { fetch: (request, env) => signIn(request, env as AuthEnv) },
+    defaultHandler: { fetch: (request, env) => routeSignIn(request, env as AuthEnv) },
     authorizeEndpoint: "/authorize",
     tokenEndpoint: "/token",
     clientRegistrationEndpoint: "/register",
@@ -74,8 +74,12 @@ function createProvider(origin: string, api: ExportedHandlerWithFetch): OAuthPro
   });
 }
 
-/** Whether a GitHub login is on the comma-separated allowlist. Logins are case-insensitive. */
-export function isAllowed(allowlist: string, login: string): boolean {
+/**
+ * Whether a GitHub login is on the comma-separated allowlist. Logins are
+ * case-insensitive. Logins can change, unlike numeric ids: after a rename the
+ * old name is free for anyone to take (see README, Sign-in).
+ */
+function isAllowed(allowlist: string, login: string): boolean {
   return allowlist
     .split(",")
     .map((entry) => entry.trim().toLowerCase())
@@ -83,19 +87,20 @@ export function isAllowed(allowlist: string, login: string): boolean {
     .includes(login.toLowerCase());
 }
 
-async function signIn(request: Request, env: AuthEnv): Promise<Response> {
+/** The sign-in routes: everything outside `/mcp` that the provider doesn't serve itself. */
+async function routeSignIn(request: Request, env: AuthEnv): Promise<Response> {
   const { pathname } = new URL(request.url);
   try {
     if (pathname === "/authorize" && request.method === "GET") return await showConsent(request, env);
-    if (pathname === "/authorize" && request.method === "POST") return await decide(request, env);
+    if (pathname === "/authorize" && request.method === "POST") return await decideConsent(request, env);
     if (pathname === "/callback" && request.method === "GET") return await finishSignIn(request, env);
   } catch (error) {
     // Redirect back to the client only when the library validated where to.
-    if (error instanceof AuthorizationError && error.redirectTo) return redirect(error.redirectTo);
+    if (error instanceof AuthorizationError && error.redirectTo) return redirect(new Headers(), error.redirectTo);
     if (error instanceof AuthorizationError) return errorPage(error.description, 400);
     if (error instanceof CimdFetchError) return errorPage("This app couldn't be verified.", 400);
     if (error instanceof GitHubUnavailable) {
-      console.warn(`GitHub refused the token exchange with 429 (Retry-After ${error.retryAfterSeconds}s)`);
+      console.warn(`GitHub answered 429 during sign-in (Retry-After ${error.retryAfterSeconds}s)`);
       return errorPage(error.message, 503, { "Retry-After": String(error.retryAfterSeconds) });
     }
     if (error instanceof GitHubError) return errorPage(error.message, 502);
@@ -115,16 +120,16 @@ async function showConsent(request: Request, env: AuthEnv): Promise<Response> {
 }
 
 /** POST /authorize: denied goes back to the client; approved goes to GitHub. */
-async function decide(request: Request, env: AuthEnv): Promise<Response> {
+async function decideConsent(request: Request, env: AuthEnv): Promise<Response> {
   const oauth = env.OAUTH_PROVIDER;
   const form = await request.formData();
   const handle = String(form.get("handle") ?? "");
   if (form.get("decision") !== "approve") {
     const denied = await oauth.denyConsent(request, handle);
-    return new Response(null, { status: 302, headers: denied.headers });
+    return redirect(denied.headers);
   }
   const github = gitHubApp(request, env);
-  if (!github) return errorPage("Sign-in isn't configured: the GitHub OAuth app secrets are missing.", 500);
+  if (!github) return notConfigured();
 
   const approved = await oauth.approveConsent(request, handle);
   const pkce = await pkcePair();
@@ -132,8 +137,7 @@ async function decide(request: Request, env: AuthEnv): Promise<Response> {
     data: { verifier: pkce.verifier } satisfies UpstreamData,
     headers: approved.headers,
   });
-  headers.set("Location", authorizeUrl(github, state, pkce.challenge));
-  return new Response(null, { status: 302, headers });
+  return redirect(headers, authorizeUrl(github, state, pkce.challenge));
 }
 
 interface UpstreamData {
@@ -147,18 +151,16 @@ async function finishSignIn(request: Request, env: AuthEnv): Promise<Response> {
   const params = new URL(request.url).searchParams;
   const code = params.get("code");
   if (params.get("error") || !code) {
-    headers.set("Location", authorizationErrorRedirect(original, "access_denied", "GitHub sign-in didn't complete"));
-    return new Response(null, { status: 302, headers });
+    return redirect(headers, authorizationErrorRedirect(original, "access_denied", "GitHub sign-in didn't complete"));
   }
   const github = gitHubApp(request, env);
-  if (!github) return errorPage("Sign-in isn't configured: the GitHub OAuth app secrets are missing.", 500);
+  if (!github) return notConfigured();
 
-  const user = await signedInUser(github, code, data.verifier);
+  const user = await exchangeCodeForUser(github, code, data.verifier);
   if (!isAllowed(env.ALLOWED_GITHUB_USERS, user.login)) {
     console.warn(`Refused sign-in from GitHub user ${user.login}: not on the allowlist`);
     const description = `GitHub user ${user.login} isn't allowed to use this server`;
-    headers.set("Location", authorizationErrorRedirect(original, "access_denied", description));
-    return new Response(null, { status: 302, headers });
+    return redirect(headers, authorizationErrorRedirect(original, "access_denied", description));
   }
 
   const { redirectTo } = await oauth.completeAuthorization({
@@ -168,8 +170,7 @@ async function finishSignIn(request: Request, env: AuthEnv): Promise<Response> {
     scope: original.scope,
     props: { login: user.login } satisfies AuthProps,
   });
-  headers.set("Location", redirectTo);
-  return new Response(null, { status: 302, headers });
+  return redirect(headers, redirectTo);
 }
 
 function gitHubApp(request: Request, env: Env): GitHubApp | undefined {
@@ -181,6 +182,12 @@ function gitHubApp(request: Request, env: Env): GitHubApp | undefined {
   };
 }
 
-function redirect(location: string): Response {
-  return new Response(null, { status: 302, headers: { Location: location } });
+function notConfigured(): Response {
+  return errorPage("Sign-in isn't configured: the GitHub OAuth app secrets are missing.", 500);
+}
+
+/** A 302 carrying the provider's cookies. Without `location`, `headers` must already set it. */
+function redirect(headers: Headers, location?: string): Response {
+  if (location) headers.set("Location", location);
+  return new Response(null, { status: 302, headers });
 }

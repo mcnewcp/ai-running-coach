@@ -15,7 +15,7 @@ export function consentPage(details: ConsentDescription, handle: string): string
     ? `<p class="warn"><strong>This sends access to an app on your computer.</strong> Continue only if you just started connecting from it.</p>`
     : "";
   return page(
-    `Allow ${name}?`,
+    `Allow ${details.clientName}?`,
     `<h1>Allow ${name} to use your AI Running Coach?</h1>
 <p>It will be able to read and change your Athlete Record.</p>
 <p>${origin} Access will be sent to <strong>${escape(details.redirectHost)}</strong>.</p>
@@ -36,12 +36,13 @@ export function errorPage(message: string, status: number, headers: Record<strin
   });
 }
 
+/** `title` is escaped here; `body` is HTML, so callers escape what goes into it. */
 function page(title: string, body: string): string {
   return `<!doctype html>
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${title}</title>
+<title>${escape(title)}</title>
 <style>
   body { font: 16px/1.5 system-ui, sans-serif; max-width: 34rem; margin: 3rem auto; padding: 0 1rem; color: #1b1b1b; background: #fff; }
   h1 { font-size: 1.4rem; }

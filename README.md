@@ -22,6 +22,8 @@ A TypeScript [Cloudflare Worker](https://developers.cloudflare.com/workers/) ser
 
 The Worker is its own OAuth authorization server for MCP clients, built on [`@cloudflare/workers-oauth-provider`](https://github.com/cloudflare/workers-oauth-provider), and GitHub is the identity step. A client like claude.ai registers itself and sends the runner to `/authorize`. That shows a consent page, then hands over to GitHub, and `/callback` gives out a grant only to a GitHub user on the allowlist. The allowlist is `ALLOWED_GITHUB_USERS` in [`wrangler.jsonc`](wrangler.jsonc), a comma-separated list of GitHub usernames. Every `/mcp` request checks it again, so removing someone cuts off the tokens they already hold.
 
+The allowlist matches GitHub usernames, which can change, not numeric user ids, which can't. If an allowlisted user renames their GitHub account, the tokens they already hold keep working, and anyone who then registers the old username can sign in. After a rename, update the allowlist straight away.
+
 The Worker asks GitHub for no scopes and keeps only the username. OAuth clients, grants and tokens (stored only as hashes) live in KV (binding `OAUTH_KV`). A connection lasts while it's used: it ends after 90 days without any use.
 
 ### Time
