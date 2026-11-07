@@ -61,6 +61,18 @@ Each of these is dated, so each write returns the record with the Program and Ph
 - **Body-comp Scans:** `log_body_comp_scan`, `update_body_comp_scan` and `delete_body_comp_scan`. A scan holds only the metrics its printout shows, and needs at least one.
 - **Race Results:** `log_race_result`, `update_race_result` and `delete_race_result`. Each links to its narrative document by vault path. Its `kind` is derived, never stored: `a_race` if a Program names it (a race build ends on its A-race day), otherwise `tune_up`. `list_prs` derives the fastest official time at each distance, matching distances ignoring case and spaces.
 
+### Analysis
+
+`query(sql)` runs one read-only SQL `SELECT` (or `WITH … SELECT`) against the structured Athlete Record in D1, so the coach can answer ad-hoc questions without a tool for each. It returns the `columns`, up to 1,000 `rows` and whether it `truncated` the rest. Its tool description documents the schema, one `- table(columns): notes` line per table, and a test checks those lines match the database. So when a migration changes the schema, update `SCHEMA` in [`src/tools/query.ts`](src/tools/query.ts) too.
+
+D1 has no read-only mode, and it runs every statement in the string it's given, so a query is guarded in layers ([`src/core/query.ts`](src/core/query.ts)):
+
+1. A validator scans the SQL the way SQLite tokenizes it (strings, quoted names, comments). It rejects anything but a single statement starting with `SELECT` or `WITH`: a second statement, unbalanced parentheses, or any keyword that writes or changes the connection (`INSERT`, `UPDATE`, `DELETE`, `REPLACE`, `CREATE`, `DROP`, `ALTER`, `PRAGMA`, `ATTACH`, `BEGIN` and so on), including a write after a CTE.
+2. The checked query runs as a subquery, `SELECT * FROM (<query>) LIMIT 1001`. SQLite's grammar only admits a `SELECT` there, so a write, a `PRAGMA` statement or a second statement is a syntax error and nothing runs.
+3. D1 itself refuses `ATTACH` and most `PRAGMA`s.
+
+Read-only table-valued functions like `pragma_table_info('runs')` still work, for reading the schema.
+
 ### Documents
 
 The unstructured Athlete Record (the Runner Profile, Plans, Logs and race narratives) is plain markdown in the R2 bucket. The runner browses and occasionally edits it as an Obsidian vault, synced to the same bucket by the Remotely Save plugin ([ADR 0002](docs/adr/0002-cloudflare-worker-d1-r2-with-obsidian-via-remotely-save.md)). A document's R2 key is its path in the vault. The vault is laid out like this:

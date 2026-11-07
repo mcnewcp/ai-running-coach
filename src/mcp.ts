@@ -8,6 +8,7 @@ import { deleteBodyCompScan, logBodyCompScan, updateBodyCompScan } from "./core/
 import { deleteCheckIn, logCheckIn } from "./core/check-ins";
 import { deleteRaceResult, listPRs, logRaceResult, updateRaceResult } from "./core/race-results";
 import { deleteStrengthSession, logStrengthSession, updateStrengthSession } from "./core/strength-sessions";
+import { registerQueryTools } from "./tools/query";
 import { registerRunTools } from "./tools/runs";
 import { registerSessionTools } from "./tools/session";
 import { date, phaseSchema, programSchema, structured } from "./tools/shared";
@@ -103,6 +104,7 @@ export function createServer(env: Env): McpServer {
   registerShoeTools(server, env.DB);
   registerDocumentTools(server, env.DOCUMENTS);
   registerOtherRecordTools(server, env.DB);
+  registerQueryTools(server, env.DB);
 
   return server;
 }
