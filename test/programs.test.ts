@@ -34,6 +34,7 @@ describe("upsert_program", () => {
             endDate: "2026-11-15",
             focus: "Rest",
             mileageTarget: "10-15 mi/wk",
+            planPath: null,
           },
           {
             name: "Base",
@@ -42,6 +43,7 @@ describe("upsert_program", () => {
             endDate: "2026-12-27",
             focus: "Easy aerobic",
             mileageTarget: "15-20 mi/wk",
+            planPath: null,
           },
         ],
       },
@@ -103,7 +105,7 @@ describe("phase_for_date", () => {
         endDate: "2027-04-11",
         aRace: { name: "Synthetic City Half", date: "2027-04-11" },
       },
-      phase: { name: "Race", kind: "race", startDate: "2027-04-11", endDate: "2027-04-11", focus: null, mileageTarget: null },
+      phase: { name: "Race", kind: "race", startDate: "2027-04-11", endDate: "2027-04-11", focus: null, mileageTarget: null, planPath: null },
     });
   });
 
@@ -374,6 +376,7 @@ describe("upsert_phase", () => {
       endDate: "2027-03-28",
       focus: "Threshold",
       mileageTarget: "28-32 mi/wk",
+      planPath: null,
     });
   });
 
@@ -406,6 +409,75 @@ describe("upsert_phase", () => {
   it("rejects a Phase for a Program that doesn't exist", async () => {
     const error = await callToolExpectingError(await connect(), "upsert_phase", change({ name: "Base", startDate: "2026-12-28", endDate: "2027-02-07" }));
     expect(error).toMatch(/no Program named 2027 Spring Half/);
+  });
+});
+
+describe("a Phase's Plan", () => {
+  const basePlan = "Programs/2026-12-spring-half/Plans/base.md";
+  const buildPlan = "Programs/2026-12-spring-half/Plans/build.md";
+  const withPlans = {
+    ...springHalf,
+    phases: springHalf.phases.map((phase) =>
+      phase.name === "Base" ? { ...phase, planPath: basePlan } : phase.name === "Build" ? { ...phase, planPath: buildPlan } : phase,
+    ),
+  };
+  const plans = (program: unknown) =>
+    (program as { phases: { name: string; planPath: string | null }[] }).phases.map((p) => `${p.name}: ${p.planPath}`);
+
+  it("is linked by vault path when the layout is given, and none by default", async () => {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    const { program } = await callTool(client, "upsert_program", withPlans);
+    expect(plans(program)).toEqual([`Base: ${basePlan}`, `Build: ${buildPlan}`, "Taper: null", "Race: null"]);
+    expect(await callTool(client, "phase_for_date", { date: "2027-01-10" })).toMatchObject({
+      phase: { name: "Base", planPath: basePlan },
+    });
+  });
+
+  it("is set, kept and cleared by upsert_phase", async () => {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    await callTool(client, "upsert_program", withPlans);
+    const taperPlan = "Programs/2026-12-spring-half/Plans/taper.md";
+    const set = await callTool(client, "upsert_phase", {
+      program: "2027 Spring Half", name: "Taper", startDate: "2027-03-29", endDate: "2027-04-10", planPath: taperPlan,
+    });
+    expect(plans(set.program)).toContain(`Taper: ${taperPlan}`);
+    const kept = await callTool(client, "upsert_phase", {
+      program: "2027 Spring Half", name: "Base", startDate: "2026-12-28", endDate: "2027-02-14",
+    });
+    expect(plans(kept.program)).toEqual([`Base: ${basePlan}`, `Build: ${buildPlan}`, `Taper: ${taperPlan}`, "Race: null"]);
+    const cleared = await callTool(client, "upsert_phase", {
+      program: "2027 Spring Half", name: "Build", startDate: "2027-02-15", endDate: "2027-03-28", planPath: null,
+    });
+    expect(plans(cleared.program)).toContain("Build: null");
+  });
+
+  it("is kept for a same-named Phase when a new layout leaves it out, and cleared by null", async () => {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    await callTool(client, "upsert_program", withPlans);
+    const relaid = await callTool(client, "upsert_program", {
+      ...springHalf,
+      phases: [
+        { name: "Base", startDate: "2026-12-28", endDate: "2027-01-31" },
+        { name: "Build", startDate: "2027-02-01", endDate: "2027-03-28", planPath: null },
+        { name: "Taper", startDate: "2027-03-29", endDate: "2027-04-10" },
+        { name: "Race", kind: "race", startDate: "2027-04-11", endDate: "2027-04-11" },
+      ],
+    });
+    expect(plans(relaid.program)).toEqual([`Base: ${basePlan}`, "Build: null", "Taper: null", "Race: null"]);
+  });
+
+  it("must be a document path in the vault", async () => {
+    const client = await connect();
+    await callTool(client, "upsert_program", offSeason);
+    for (const planPath of ["../outside.md", "Programs/plan.txt", "/Programs/plan.md"]) {
+      const error = await callToolExpectingError(client, "upsert_phase", {
+        program: "2026 Off-season", name: "Base", startDate: "2026-11-16", endDate: "2026-12-27", planPath,
+      });
+      expect(error).toMatch(/not a valid document path/);
+    }
   });
 });
 

@@ -45,6 +45,7 @@ describe("log_race_result", () => {
         endDate: "2026-12-27",
         focus: "Easy aerobic",
         mileageTarget: "15-20 mi/wk",
+        planPath: null,
       },
     });
   });

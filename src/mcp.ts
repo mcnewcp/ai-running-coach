@@ -1,7 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/server";
 import { createMcpHandler } from "agents/mcp/server";
 import { z } from "zod";
-import { today, WEEKDAYS } from "./core/calendar";
 import { PHASE_KINDS, placeDate, PROGRAM_KINDS, upsertPhase, upsertProgram } from "./core/programs";
 import { listDocuments, readDocument, writeDocument } from "./core/documents";
 import { DomainError } from "./core/errors";
@@ -9,7 +8,9 @@ import { deleteBodyCompScan, logBodyCompScan, updateBodyCompScan } from "./core/
 import { deleteCheckIn, logCheckIn } from "./core/check-ins";
 import { deleteRaceResult, listPRs, logRaceResult, updateRaceResult } from "./core/race-results";
 import { deleteStrengthSession, logStrengthSession, updateStrengthSession } from "./core/strength-sessions";
+import { registerQueryTools } from "./tools/query";
 import { registerRunTools } from "./tools/runs";
+import { registerSessionTools } from "./tools/session";
 import { date, phaseSchema, programSchema, structured } from "./tools/shared";
 import { registerShoeTools } from "./tools/shoes";
 
@@ -19,36 +20,7 @@ import { registerShoeTools } from "./tools/shoes";
  */
 export function createServer(env: Env): McpServer {
   const server = new McpServer({ name: "ai-running-coach", version: "0.1.0" });
-
-  server.registerTool(
-    "today",
-    {
-      title: "Today",
-      description:
-        "What day it is for the runner: today's local calendar date and weekday. " +
-        "Call it instead of assuming the date. It uses the runner's Home Timezone unless you pass " +
-        "the runner's current timezone, e.g. while they're travelling.",
-      inputSchema: z.object({
-        timezone: z
-          .string()
-          .optional()
-          .describe(
-            "The runner's current IANA timezone (e.g. Europe/London), when you know they're away from home. " +
-              "Omit it to use the Home Timezone. Abbreviations like CST are rejected.",
-          ),
-      }),
-      outputSchema: z.object({
-        date: z.string().describe("ISO 8601 calendar date, e.g. 2026-09-24"),
-        weekday: z.enum(WEEKDAYS),
-        timezone: z.string().describe("The IANA timezone the date is local to"),
-        timezoneSource: z
-          .enum(["home", "given"])
-          .describe("home: the Home Timezone. given: the timezone you passed"),
-      }),
-      annotations: { readOnlyHint: true },
-    },
-    async ({ timezone }) => structured(today(new Date(), timezone)),
-  );
+  registerSessionTools(server, env);
 
   server.registerTool(
     "upsert_program",
@@ -104,6 +76,7 @@ export function createServer(env: Env): McpServer {
         endDate: date("The Phase's last day"),
         focus: z.string().nullish().describe("Omit to keep the current focus; null clears it"),
         mileageTarget: z.string().nullish().describe("Free text, e.g. 20-25 mi/wk. Omit to keep it; null clears it"),
+        planPath: planPath.describe(`${planPathMeaning} Omit to keep the current one; null clears it.`),
       }),
       outputSchema: z.object({ program: programSchema }),
     },
@@ -127,13 +100,20 @@ export function createServer(env: Env): McpServer {
     },
     async ({ date }) => structured(await placeDate(env.DB, date)),
   );
-  registerRunTools(server, env.DB);
+  registerRunTools(server, env);
   registerShoeTools(server, env.DB);
   registerDocumentTools(server, env.DOCUMENTS);
   registerOtherRecordTools(server, env.DB);
+  registerQueryTools(server, env.DB);
 
   return server;
 }
+
+const planPathMeaning =
+  "The vault path of the Phase's Plan, the document describing its intended training, " +
+  'e.g. "Programs/2026-12-spring-half/Plans/base.md". get_coaching_context returns it for the active Phase. ' +
+  "It may be written later.";
+const planPath = z.string().nullish();
 
 const aRaceSchema = z.object({
   name: z.string().min(1).describe("The A-race's name"),
@@ -150,6 +130,9 @@ const phaseInput = z.object({
   endDate: date("The Phase's last day"),
   focus: z.string().nullish().describe("The Phase's single focus, e.g. Aerobic base"),
   mileageTarget: z.string().nullish().describe("Free text, e.g. 20-25 mi/wk"),
+  planPath: planPath.describe(
+    `${planPathMeaning} Omit to keep the Plan of the existing Phase with this name, if any; null clears it.`,
+  ),
 });
 
 /**

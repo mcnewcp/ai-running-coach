@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { callTool, callToolExpectingError, connect, resetDatabase } from "./mcp";
+import { runnerProfile } from "./fixtures";
+import { callTool, callToolExpectingError, connect, resetDatabase, writeRunnerProfile } from "./mcp";
 
 // All Programs, Runs and Shoes here are synthetic.
 
@@ -68,6 +69,7 @@ describe("log_run", () => {
       endDate: "2026-12-27",
       focus: "Easy aerobic",
       mileageTarget: null,
+      planPath: null,
     });
   });
 
@@ -345,7 +347,8 @@ describe("check_mileage_cap", () => {
   });
 
   describe("without a week", () => {
-    beforeEach(() => {
+    beforeEach(async () => {
+      await writeRunnerProfile(await connect(), runnerProfile("timezone: America/Chicago"));
       vi.useFakeTimers({ toFake: ["Date"] });
       // Sunday 2026-11-08, 21:00 in the Home Timezone (America/Chicago); already Monday in London.
       vi.setSystemTime(new Date("2026-11-09T03:00:00Z"));
@@ -364,6 +367,14 @@ describe("check_mileage_cap", () => {
       const client = await season();
       const output = await callTool(client, "check_mileage_cap", { proposed_week_miles: 10, timezone: "Europe/London" });
       expect(output.week).toMatchObject({ start: "2026-11-09", end: "2026-11-15" });
+    });
+
+    it("fails clearly when the Runner Profile has no valid Home Timezone", async () => {
+      const client = await season();
+      await writeRunnerProfile(client, runnerProfile("timezone: CST"));
+      expect(await callToolExpectingError(client, "check_mileage_cap", { proposed_week_miles: 10 })).toMatch(
+        /"CST" is not an IANA timezone/,
+      );
     });
   });
 
