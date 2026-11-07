@@ -31,8 +31,10 @@ export function createServer(env: Env): McpServer {
         "Programs tile the calendar (each starts the day after the one before it ends), and Phases tile their Program. " +
         "A race build names its A-race and ends on that day with a one-day Race Phase; a bridge has neither. " +
         "A new Program must start the day after the last one ends (or end the day before the first starts). " +
-        "If an existing Program's window changes, the Programs either side keep meeting it: their adjoining edge, and the Phase on that edge, " +
-        "move with it, and they're returned in `adjusted`. Writes that would leave a gap or overlap are rejected. " +
+        "Writes that would leave a gap or overlap are rejected. " +
+        "If changing an existing Program's window would move a neighbouring Program's edge, the write is rejected, naming exactly what would move, " +
+        "unless you pass moveNeighbours: true (only once the runner has agreed). Then the Programs either side keep meeting it: " +
+        "their adjoining edge, and the Phase on that edge, move with it, and they're returned in `adjusted`. " +
         "Records are never labelled with a Phase: they belong to whichever Phase their date falls in, so changing windows re-attributes them.",
       inputSchema: z.object({
         name: z.string().min(1).describe("The Program's name, e.g. 2027 Spring Half. It identifies the Program."),
@@ -49,6 +51,7 @@ export function createServer(env: Env): McpServer {
             "The whole Phase layout, replacing any existing one. Required for a new Program. " +
               "Omit it to keep the existing Phases, with the first and last following the Program's new edges.",
           ),
+        moveNeighbours,
       }),
       outputSchema: z.object({
         program: programSchema,
@@ -64,7 +67,9 @@ export function createServer(env: Env): McpServer {
       title: "Create or change a Phase",
       description:
         "Creates or changes one Phase (matched by name) of an existing Program, e.g. extending a Rehab Phase after an injury. " +
-        "The Phases either side keep meeting it: one it overlaps is trimmed, and one that met its old window is stretched. " +
+        "If the change would move a neighbouring Phase's edge, it's rejected, naming exactly what would move, unless you pass moveNeighbours: true. " +
+        "Then the Phases either side keep meeting it: one it overlaps is trimmed, one that met its old window is stretched, " +
+        "and the moved Phases are returned in `adjusted`. " +
         "Rejected if it would leave a gap or overlap, fall outside the Program, swallow or split another Phase, or break the Race Phase rule. " +
         "To restructure more than that, give the whole layout with upsert_program. Returns the whole Program. " +
         "Records belong to whichever Phase their date falls in, so this re-attributes them.",
@@ -77,8 +82,12 @@ export function createServer(env: Env): McpServer {
         focus: z.string().nullish().describe("Omit to keep the current focus; null clears it"),
         mileageTarget: z.string().nullish().describe("Free text, e.g. 20-25 mi/wk. Omit to keep it; null clears it"),
         planPath: planPath.describe(`${planPathMeaning} Omit to keep the current one; null clears it.`),
+        moveNeighbours,
       }),
-      outputSchema: z.object({ program: programSchema }),
+      outputSchema: z.object({
+        program: programSchema,
+        adjusted: z.array(phaseSchema).describe("Neighbouring Phases whose windows moved to keep Phases tiling"),
+      }),
     },
     async (input) => structured(await upsertPhase(env.DB, input)),
   );
@@ -114,6 +123,14 @@ const planPathMeaning =
   'e.g. "Programs/2026-12-spring-half/Plans/base.md". get_coaching_context returns it for the active Phase. ' +
   "It may be written later.";
 const planPath = z.string().nullish();
+
+const moveNeighbours = z
+  .boolean()
+  .optional()
+  .describe(
+    "true to let this change move the shared edge of a neighbouring window to keep them tiling. " +
+      "Without it, a change that would move a neighbour is rejected with what would move, so nothing moves by mistake.",
+  );
 
 const aRaceSchema = z.object({
   name: z.string().min(1).describe("The A-race's name"),

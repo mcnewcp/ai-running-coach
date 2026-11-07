@@ -62,6 +62,8 @@ export type ProgramInput = Window & {
   aRace?: ARace | null;
   /** The whole Phase layout. Required for a new Program; if omitted, the existing Phases are kept. */
   phases?: PhaseInput[];
+  /** true to let the change move neighbouring Programs' edges. Without it, such a change is rejected. */
+  moveNeighbours?: boolean;
 };
 
 export type UpsertPhaseInput = Window & {
@@ -76,6 +78,8 @@ export type UpsertPhaseInput = Window & {
   mileageTarget?: string | null;
   /** Omit to keep the current value; null clears it. */
   planPath?: string | null;
+  /** true to let the change move neighbouring Phases' edges. Without it, such a change is rejected. */
+  moveNeighbours?: boolean;
 };
 
 // --- Resolving dates -------------------------------------------------------
@@ -125,9 +129,10 @@ export async function findProgram(db: D1Database, name: string): Promise<Program
 /**
  * Creates or changes a Program (matched by name), with its whole Phase
  * layout if given. A new Program must meet the existing ones without
- * overlapping them. If an existing Program's window changes, the Programs
- * either side keep meeting it: their adjoining edge, and the Phase on that
- * edge, move with it.
+ * overlapping them. If an existing Program's window changes so that the
+ * Programs either side would have to move to keep meeting it, the change is
+ * rejected, naming what would move, unless `moveNeighbours` is set: then
+ * their adjoining edge, and the Phase on that edge, move with it.
  * Fails if the result would leave a gap or overlap, or break a Program's
  * layout rules. Returns the Program and any neighbours that moved.
  */
@@ -171,19 +176,37 @@ export async function upsertProgram(
     adjusted.push(moved);
   }
   checkTiling([...fitted, program], "Program", "Programs tile the calendar: each starts the day after the one before it ends.");
+  if (!input.moveNeighbours) {
+    checkNoneMoved(
+      adjusted.flatMap((moved) => {
+        const before = others.find((p) => p.name === moved.name)!;
+        return [
+          ...edgeMoves(`Program ${moved.name}`, before, moved),
+          ...moved.phases.flatMap((phase) =>
+            edgeMoves(`Phase ${phase.name} (${moved.name})`, before.phases.find((p) => p.name === phase.name)!, phase),
+          ),
+        ];
+      }),
+    );
+  }
 
   await savePrograms(db, [program, ...adjusted]);
   return { program, adjusted };
 }
 
 /**
- * Creates or changes one Phase (matched by name) of an existing Program. The
- * Phases either side keep meeting it: one it overlaps is trimmed, and one
- * that met its old window is stretched to meet the new one. Fails if the
- * result would leave a gap or overlap, swallow or split another Phase, or
- * break the Program's layout rules. Returns the whole Program.
+ * Creates or changes one Phase (matched by name) of an existing Program. If
+ * the Phases either side would have to move to keep meeting it, the change is
+ * rejected, naming what would move, unless `moveNeighbours` is set: then one
+ * it overlaps is trimmed, and one that met its old window is stretched to
+ * meet the new one. Fails if the result would leave a gap or overlap, swallow
+ * or split another Phase, or break the Program's layout rules. Returns the
+ * whole Program and any neighbouring Phases that moved.
  */
-export async function upsertPhase(db: D1Database, input: UpsertPhaseInput): Promise<{ program: Program }> {
+export async function upsertPhase(
+  db: D1Database,
+  input: UpsertPhaseInput,
+): Promise<{ program: Program; adjusted: Phase[] }> {
   const window = parseWindow(input, `Phase ${input.name}`);
   const program = (await loadPrograms(db, "WHERE name = ?", [input.program]))[0];
   if (!program) {
@@ -199,11 +222,13 @@ export async function upsertPhase(db: D1Database, input: UpsertPhaseInput): Prom
     planPath: input.planPath === undefined ? (existing?.planPath ?? null) : parsePlanPath(input.planPath),
   };
   const others = program.phases.filter((p) => p !== existing);
-  const phases = [...fitAmong(others, existing, phase, "Phase"), phase].sort(byStart);
-  const changed = { ...program, phases };
+  const fitted = fitAmong(others, existing, phase, "Phase");
+  const changed = { ...program, phases: [...fitted, phase].sort(byStart) };
   checkLayout(changed);
+  const moves = fitted.map((p, index) => edgeMoves(`Phase ${p.name}`, others[index]!, p));
+  if (!input.moveNeighbours) checkNoneMoved(moves.flat());
   await savePrograms(db, [changed]);
-  return { program: changed };
+  return { program: changed, adjusted: fitted.filter((_, index) => moves[index]!.length > 0) };
 }
 
 // --- Rules -------------------------------------------------------------------
@@ -245,6 +270,26 @@ function fitAmong<T extends Window & { name: string }>(
     }
     return fitted;
   });
+}
+
+/** How `what`'s window would move from `before` to `after`, one entry per edge. */
+function edgeMoves(what: string, before: Window, after: Window): string[] {
+  const moves: string[] = [];
+  if (before.startDate !== after.startDate) moves.push(`${what}'s start from ${before.startDate} to ${after.startDate}`);
+  if (before.endDate !== after.endDate) moves.push(`${what}'s end from ${before.endDate} to ${after.endDate}`);
+  return moves;
+}
+
+/**
+ * Fails, naming each move, if a change would move a neighbour's edge without
+ * the caller opting in, so a typo can never reshape a neighbour silently.
+ */
+function checkNoneMoved(moves: string[]): void {
+  if (moves.length === 0) return;
+  throw new DomainError(
+    `That would move ${moves.join("; ")}. Pass moveNeighbours: true to move ${moves.length === 1 ? "it" : "them"}, ` +
+      "or choose a window that meets the neighbours as they are.",
+  );
 }
 
 /**

@@ -109,7 +109,7 @@ The Mileage Cap is a **guideline** that never blocks anything: the previous Mond
 
 ### Structure
 
-Programs and Phases hold the season's structure: `upsert_program` lays out a Program with its Phases, and `upsert_phase` changes one Phase (e.g. extending a rehab Phase after an injury). Every record belongs to the Phase its date falls in, so changing a window re-attributes past records by itself. `phase_for_date` answers which Phase a date is in.
+Programs and Phases hold the season's structure: `upsert_program` lays out a Program with its Phases, and `upsert_phase` changes one Phase (e.g. extending a rehab Phase after an injury). If a change would move a neighbouring Program's or Phase's edge, the tool refuses and says what would move: tell the runner, and once they agree, call again with `moveNeighbours`, then report the moved neighbours in `adjusted`. Every record belongs to the Phase its date falls in, so changing a window re-attributes past records by itself. `phase_for_date` answers which Phase a date is in.
 
 ### Documents
 
