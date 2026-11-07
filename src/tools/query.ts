@@ -21,7 +21,8 @@ const SCHEMA = `Schema (SQLite). Dates are local calendar dates, TEXT YYYY-MM-DD
 No record stores its Phase or Program: join on the date, e.g. JOIN phases ph ON r.date BETWEEN ph.start_date AND ph.end_date. Weeks run Monday–Sunday: date(r.date, 'weekday 0', '-6 days') is a date's Monday.`;
 
 /** The analysis tool: read-only SQL over the structured Athlete Record. */
-export function registerQueryTools(server: McpServer, db: D1Database) {
+export function registerQueryTools(server: McpServer, env: Env) {
+  const db = env.DB;
   server.registerTool(
     "query",
     {

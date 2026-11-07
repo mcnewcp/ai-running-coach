@@ -15,7 +15,7 @@ This repo holds the **Coaching Framework** (the coaching method, which isn't abo
 A TypeScript [Cloudflare Worker](https://developers.cloudflare.com/workers/) serves the MCP tools over Streamable HTTP on `/mcp` ([ADR 0002](docs/adr/0002-cloudflare-worker-d1-r2-with-obsidian-via-remotely-save.md)). The structured Athlete Record lives in D1 (binding `DB`, schema in [`migrations/`](migrations/)) and the documents in R2 (binding `DOCUMENTS`).
 
 - [`src/core/`](src/core/): the domain core, which holds the business logic.
-- [`src/mcp.ts`](src/mcp.ts) and [`src/tools/`](src/tools/): the MCP tools, a thin wrapper over the core.
+- [`src/tools/`](src/tools/): the MCP tools, a thin wrapper over the core, one module per area, each with a `register…Tools(server, env)`. [`src/mcp.ts`](src/mcp.ts) composes them into the server.
 - [`src/auth/`](src/auth/): OAuth in front of `/mcp`, signing in with GitHub.
 - [`src/index.ts`](src/index.ts): the Worker entry point.
 
