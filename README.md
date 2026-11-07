@@ -14,7 +14,7 @@ This repo holds the **Coaching Framework** (the coaching method, which isn't abo
 A TypeScript [Cloudflare Worker](https://developers.cloudflare.com/workers/) serves the MCP tools over Streamable HTTP on `/mcp` ([ADR 0002](docs/adr/0002-cloudflare-worker-d1-r2-with-obsidian-via-remotely-save.md)). The structured Athlete Record lives in D1 (binding `DB`, schema in [`migrations/`](migrations/)) and the documents in R2 (binding `DOCUMENTS`).
 
 - [`src/core/`](src/core/): the domain core, which holds the business logic.
-- [`src/mcp.ts`](src/mcp.ts): the MCP tools, a thin wrapper over the core.
+- [`src/mcp.ts`](src/mcp.ts) and [`src/tools/`](src/tools/): the MCP tools, a thin wrapper over the core.
 - [`src/auth/`](src/auth/): OAuth in front of `/mcp`, signing in with GitHub.
 - [`src/index.ts`](src/index.ts): the Worker entry point.
 
@@ -35,6 +35,14 @@ Record dates are local calendar dates, and weeks run Monday–Sunday over those 
 `upsert_program` and `upsert_phase` define how the season is structured. Programs tile the calendar and Phases tile their Program, so every day belongs to exactly one Phase. A race build ends on its A-race day with a one-day Race Phase. A bridge has neither. Writes that would leave a gap or overlap are rejected. When an existing window changes, the neighbour on each side moves its shared edge to keep meeting it. A change that would swallow or split a neighbour, or move a neighbouring race build's A-race day, is rejected instead.
 
 Records never store a Phase or Program ([ADR 0003](docs/adr/0003-phase-membership-is-derived-from-date.md)). They belong to whichever Phase their date falls in. `phase_for_date` answers that over MCP. In the core, `placeDate(db, date)` returns the Program and Phase, or fails with a clear message if no Phase covers the date. `findPlacement(db, date)` returns `null` instead. Both are in [`src/core/programs.ts`](src/core/programs.ts). Use them to validate and attribute any dated record.
+
+### Runs, Shoes and the Mileage Cap
+
+`log_run`, `update_run` and `delete_run` record Runs. A Run is rejected if no Phase covers its date, its Shoe is unknown (or was retired before that date), or its distance isn't positive. Fields the runner didn't report stay empty, and pace is derived from distance and duration. `update_run` takes the Run's `id` and only the fields to change: omitted fields are kept, and `null` clears one. Like the other dated records, `log_run` and `update_run` return the Run with the Program and Phase its date falls in, and `delete_run` returns it as `deleted`. Each also returns where the Run's Monday–Sunday week stands against the Mileage Cap (`week`) and its Shoe's mileage (`shoe`). A correction also returns the week and Shoe the Run moved out of, if it did.
+
+`add_shoe`, `retire_shoe` and `list_shoes` track Shoes. A Shoe's mileage and first and last Run dates are always derived from its Runs. Each pair is flagged as `nearingReplacement` once its mileage reaches `warnAtMiles`, 300 unless set when it's added.
+
+The Mileage Cap is the previous Monday–Sunday week's actual miles × 1.10. `check_mileage_cap(proposed_week_miles, week?)` answers whether a proposed week exceeds it, and never blocks anything: the runner decides. In the core, `weekStanding(db, date)` and `checkMileageCap(db, proposed, date)` in [`src/core/mileage-cap.ts`](src/core/mileage-cap.ts) do that arithmetic. For "this week", pass today's local date.
 
 ### Strength Sessions, Daily Check-ins, Body-comp Scans and Race Results
 

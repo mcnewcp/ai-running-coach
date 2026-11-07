@@ -9,6 +9,9 @@ import { deleteBodyCompScan, logBodyCompScan, updateBodyCompScan } from "./core/
 import { deleteCheckIn, logCheckIn } from "./core/check-ins";
 import { deleteRaceResult, listPRs, logRaceResult, updateRaceResult } from "./core/race-results";
 import { deleteStrengthSession, logStrengthSession, updateStrengthSession } from "./core/strength-sessions";
+import { registerRunTools } from "./tools/runs";
+import { date, phaseSchema, programSchema, structured } from "./tools/shared";
+import { registerShoeTools } from "./tools/shoes";
 
 /**
  * The MCP tools. Each is a thin wrapper over the domain core, named in the
@@ -124,14 +127,12 @@ export function createServer(env: Env): McpServer {
     },
     async ({ date }) => structured(await placeDate(env.DB, date)),
   );
+  registerRunTools(server, env.DB);
+  registerShoeTools(server, env.DB);
   registerDocumentTools(server, env.DOCUMENTS);
   registerOtherRecordTools(server, env.DB);
 
   return server;
-}
-
-function date(description: string) {
-  return z.string().describe(`${description}: a local calendar date, YYYY-MM-DD`);
 }
 
 const aRaceSchema = z.object({
@@ -149,24 +150,6 @@ const phaseInput = z.object({
   endDate: date("The Phase's last day"),
   focus: z.string().nullish().describe("The Phase's single focus, e.g. Aerobic base"),
   mileageTarget: z.string().nullish().describe("Free text, e.g. 20-25 mi/wk"),
-});
-
-const phaseSchema = z.object({
-  name: z.string(),
-  kind: z.enum(PHASE_KINDS),
-  startDate: z.string(),
-  endDate: z.string(),
-  focus: z.string().nullable(),
-  mileageTarget: z.string().nullable(),
-});
-
-const programSchema = z.object({
-  name: z.string(),
-  kind: z.enum(PROGRAM_KINDS),
-  startDate: z.string(),
-  endDate: z.string(),
-  aRace: z.object({ name: z.string(), date: z.string() }).nullable(),
-  phases: z.array(phaseSchema).describe("In date order"),
 });
 
 /**
@@ -606,13 +589,6 @@ function registerOtherRecordTools(server: McpServer, db: D1Database) {
     },
     async () => structured(await listPRs(db)),
   );
-}
-
-function structured<T extends Record<string, unknown>>(output: T) {
-  return {
-    content: [{ type: "text" as const, text: JSON.stringify(output) }],
-    structuredContent: output,
-  };
 }
 
 /** The MCP API: the Worker's `/mcp` route, behind OAuth (src/auth). Tests call it directly. */
