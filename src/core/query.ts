@@ -6,8 +6,11 @@ import { DomainError } from "./errors";
 //
 // 1. `checkReadOnly` scans it as SQLite does (strings, quoted names and
 //    comments) and rejects anything but one SELECT (or WITH … SELECT)
-//    statement: more than one statement, unbalanced parentheses, or any
-//    keyword that writes or changes the connection (INSERT, PRAGMA, ATTACH …).
+//    statement: more than one statement, unbalanced parentheses, a statement
+//    starting with anything else (INSERT, PRAGMA, ATTACH …), or a WITH clause
+//    followed by anything but SELECT (a write after a CTE). It looks at the
+//    statement's structure rather than banning words, so names that happen
+//    to be keywords (a column aliased `release`, say) are fine.
 // 2. The checked query runs as a subquery, `SELECT * FROM (<query>)`, where
 //    SQLite's grammar only admits a SELECT: a write, a PRAGMA or a second
 //    statement there is a syntax error, so nothing runs.
@@ -50,34 +53,6 @@ export async function runQuery(db: D1Database, sql: string): Promise<QueryResult
   };
 }
 
-/**
- * Keywords that write, change the schema or change the connection. None can
- * appear in a read-only SELECT. REPLACE is also a string function, so it only
- * counts when it isn't called like one.
- */
-const FORBIDDEN = new Set([
-  "INSERT",
-  "UPDATE",
-  "DELETE",
-  "REPLACE",
-  "UPSERT",
-  "CREATE",
-  "DROP",
-  "ALTER",
-  "ATTACH",
-  "DETACH",
-  "PRAGMA",
-  "VACUUM",
-  "REINDEX",
-  "ANALYZE",
-  "BEGIN",
-  "COMMIT",
-  "ROLLBACK",
-  "SAVEPOINT",
-  "RELEASE",
-  "TRANSACTION",
-]);
-
 const HINT = "Write one read-only SELECT statement (WITH … SELECT is fine).";
 
 /**
@@ -86,7 +61,7 @@ const HINT = "Write one read-only SELECT statement (WITH … SELECT is fine).";
  * Otherwise fails, saying why.
  */
 export function checkReadOnly(sql: string): string {
-  const { text, words, statementEnds, parenthesesBalanced } = scan(sql);
+  const { text, tokens, statementEnds, parenthesesBalanced } = scan(sql);
   let clean = text.trimEnd();
   if (statementEnds.length > 0 && statementEnds.at(-1) === clean.length - 1) {
     statementEnds.pop();
@@ -97,15 +72,25 @@ export function checkReadOnly(sql: string): string {
     throw new DomainError(`The query must be a single statement, but it has more than one statement. ${HINT}`);
   }
   if (!parenthesesBalanced) throw new DomainError(`The query has unbalanced parentheses. ${HINT}`);
-  for (const word of words) {
-    const upper = word.text.toUpperCase();
-    if (!FORBIDDEN.has(upper)) continue;
-    if (upper === "REPLACE" && clean.slice(word.end).trimStart().startsWith("(")) continue;
-    throw new DomainError(`The query is read-only: ${upper} isn't allowed. ${HINT}`);
-  }
-  const first = words[0]?.text.toUpperCase();
+  // Only the statement's own keywords matter, not those inside parentheses.
+  const top = tokens.filter((token) => token.depth === 0);
+  const first = top[0]?.text.toUpperCase();
   if (first !== "SELECT" && first !== "WITH" && first !== "VALUES") {
-    throw new DomainError(`The query is read-only, so it must start with SELECT or WITH. ${HINT}`);
+    const start = top[0]?.text ?? clean.trim().split(/\s+/)[0];
+    throw new DomainError(`The query is read-only, so it must start with SELECT or WITH, not ${start}. ${HINT}`);
+  }
+  if (first === "WITH") {
+    // Each CTE's body is in parentheses, so the main statement's keyword is
+    // the first word straight after a closing parenthesis, other than the AS
+    // in `name(columns) AS (…)`.
+    const main = top.find(
+      (token, index) => token.kind === "word" && top[index - 1]?.text === ")" && token.text.toUpperCase() !== "AS",
+    );
+    if (main?.text.toUpperCase() !== "SELECT") {
+      throw new DomainError(
+        `The query is read-only, so after its WITH clause it must be a SELECT, not ${main?.text.toUpperCase() ?? "nothing"}. ${HINT}`,
+      );
+    }
   }
   return clean;
 }
@@ -113,8 +98,12 @@ export function checkReadOnly(sql: string): string {
 type Scan = {
   /** `sql` with each comment replaced by a space. */
   text: string;
-  /** Bare words (keywords and unquoted names) outside strings, quoted names and comments, with their end in `text`. */
-  words: { text: string; end: number }[];
+  /**
+   * Bare words (keywords and unquoted names) and parentheses outside strings,
+   * quoted names and comments, in order, each with how many parentheses
+   * enclose it.
+   */
+  tokens: { kind: "word" | "parenthesis"; text: string; depth: number }[];
   /** Where each `;` outside strings, quoted names and comments is in `text`. */
   statementEnds: number[];
   /** Whether parentheses outside strings, quoted names and comments nest properly. */
@@ -129,7 +118,7 @@ type Scan = {
  */
 function scan(sql: string): Scan {
   let text = "";
-  const words: Scan["words"] = [];
+  const tokens: Scan["tokens"] = [];
   const statementEnds: number[] = [];
   let depth = 0;
   let balanced = true;
@@ -166,15 +155,18 @@ function scan(sql: string): Scan {
     } else if (/[A-Za-z_\u0080-￿]/.test(char)) {
       const match = /^[A-Za-z0-9_$\u0080-￿]+/.exec(sql.slice(i))!;
       text += match[0];
-      words.push({ text: match[0], end: text.length });
+      tokens.push({ kind: "word", text: match[0], depth });
       i += match[0].length;
     } else {
       if (char === ";") statementEnds.push(text.length);
-      if (char === "(") depth++;
-      if (char === ")" && --depth < 0) balanced = false;
+      if (char === "(") tokens.push({ kind: "parenthesis", text: char, depth: depth++ });
+      if (char === ")") {
+        if (--depth < 0) balanced = false;
+        tokens.push({ kind: "parenthesis", text: char, depth });
+      }
       text += char;
       i++;
     }
   }
-  return { text, words, statementEnds, parenthesesBalanced: balanced && depth === 0 };
+  return { text, tokens, statementEnds, parenthesesBalanced: balanced && depth === 0 };
 }

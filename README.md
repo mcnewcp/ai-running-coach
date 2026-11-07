@@ -68,7 +68,7 @@ Each of these is dated, so each write returns the record with the Program and Ph
 
 D1 has no read-only mode, and it runs every statement in the string it's given, so a query is guarded in layers ([`src/core/query.ts`](src/core/query.ts)):
 
-1. A validator scans the SQL the way SQLite tokenizes it (strings, quoted names, comments). It rejects anything but a single statement starting with `SELECT` or `WITH`: a second statement, unbalanced parentheses, or any keyword that writes or changes the connection (`INSERT`, `UPDATE`, `DELETE`, `REPLACE`, `CREATE`, `DROP`, `ALTER`, `PRAGMA`, `ATTACH`, `BEGIN` and so on), including a write after a CTE.
+1. A validator scans the SQL the way SQLite tokenizes it (strings, quoted names, comments). It rejects anything but a single statement starting with `SELECT` or `WITH`: a second statement, unbalanced parentheses, a statement starting with anything else (`INSERT`, `UPDATE`, `DELETE`, `REPLACE`, `CREATE`, `DROP`, `ALTER`, `PRAGMA`, `ATTACH`, `BEGIN` and so on), or a `WITH` clause followed by anything but `SELECT` (a write after a CTE). It checks the statement's structure rather than banning words, so a name that happens to be a keyword, like a column aliased `release` or `analyze`, or the `replace()` function, is fine.
 2. The checked query runs as a subquery, `SELECT * FROM (<query>) LIMIT 1001`. SQLite's grammar only admits a `SELECT` there, so a write, a `PRAGMA` statement or a second statement is a syntax error and nothing runs.
 3. D1 itself refuses `ATTACH` and most `PRAGMA`s.
 

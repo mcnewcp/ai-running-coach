@@ -75,6 +75,16 @@ describe("query", () => {
     expect(output.truncated).toBe(true);
   });
 
+  it("accepts names that happen to be keywords, e.g. release, analyze or replace", async () => {
+    const client = await season();
+    const output = await callTool(client, "query", {
+      sql: `WITH release AS (SELECT date AS analyze, distance_miles AS replace, notes AS pragma FROM runs)
+            SELECT COUNT(*) AS vacuum, SUM(replace) AS savepoint, REPLACE('a-b', '-', '') AS begin
+            FROM release WHERE analyze >= '2026-11-04'`,
+    });
+    expect(output).toEqual({ columns: ["vacuum", "savepoint", "begin"], rows: [[2, 9, "ab"]], truncated: false });
+  });
+
   it("can read the schema", async () => {
     const client = await connect();
     const output = await callTool(client, "query", { sql: "SELECT name FROM pragma_table_info('runs') ORDER BY cid" });
@@ -92,6 +102,15 @@ describe("query", () => {
       ["an ALTER", "ALTER TABLE runs ADD COLUMN x"],
       ["a write hidden behind a CTE", "WITH doomed AS (SELECT id FROM runs) DELETE FROM runs WHERE id IN doomed"],
       ["an UPDATE behind a CTE", "WITH x AS (SELECT 1) UPDATE runs SET notes = 'x'"],
+      ["a write behind a CTE named like a keyword", "WITH release AS (SELECT 1) DELETE FROM runs"],
+      [
+        "an INSERT behind several CTEs",
+        "WITH a AS (SELECT 1), b(x) AS (SELECT 2) INSERT INTO shoes (id, status, warn_at_miles) SELECT 'x', 'active', 300",
+      ],
+      ["a REPLACE behind a CTE", "WITH a AS (SELECT 1) REPLACE INTO shoes (id, status, warn_at_miles) VALUES ('x', 'active', 300)"],
+      ["a write behind a recursive CTE", "WITH RECURSIVE a(x) AS (SELECT 1) UPDATE runs SET notes = 'x'"],
+      ["a write behind a materialized CTE", "WITH a AS NOT MATERIALIZED (SELECT 1) DELETE FROM runs"],
+      ["a write behind a CTE, after a comment", "WITH a AS (SELECT 1) /* SELECT */ DELETE FROM runs"],
       ["a PRAGMA", "PRAGMA foreign_keys = OFF"],
       ["a reading PRAGMA statement", "PRAGMA table_info(runs)"],
       ["an ATTACH", "ATTACH DATABASE ':memory:' AS other"],
