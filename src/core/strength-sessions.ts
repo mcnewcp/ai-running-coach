@@ -1,6 +1,7 @@
 import { parseDate } from "./calendar";
 import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, notFound, optionalText, requiredText } from "./records";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, notFound, optionalText, requiredText } from "./records";
 
 // Strength Sessions: one completed gym session, made up of one entry per
 // exercise performed. Belongs to a Phase by its date (ADR 0003).
@@ -60,7 +61,7 @@ export type StrengthSessionWrite = Attributed & { strengthSession: StrengthSessi
 /** Records a Strength Session. Fails if no Phase covers its date. */
 export async function logStrengthSession(db: D1Database, input: StrengthSessionInput): Promise<StrengthSessionWrite> {
   const session = toSession(0, input);
-  const attributed = await attribute(db, session.date);
+  const { program, phase } = await placeDate(db, session.date);
   // One transaction: the new session has the highest id, so its entries can find it.
   const [inserted] = await db.batch([
     db
@@ -69,7 +70,7 @@ export async function logStrengthSession(db: D1Database, input: StrengthSessionI
     ...insertEntries(db, "(SELECT MAX(id) FROM strength_sessions)", session.entries),
   ]);
   session.id = (inserted!.results[0] as { id: number }).id;
-  return { strengthSession: session, ...attributed };
+  return { strengthSession: session, program, phase };
 }
 
 /**
@@ -87,7 +88,7 @@ export async function updateStrengthSession(
     notes: correction.notes === undefined ? current.notes : correction.notes,
     entries: correction.entries ?? current.entries,
   });
-  const attributed = await attribute(db, session.date);
+  const { program, phase } = await placeDate(db, session.date);
   await db.batch([
     db
       .prepare("UPDATE strength_sessions SET date = ?, session_type = ?, notes = ? WHERE id = ?")
@@ -95,7 +96,7 @@ export async function updateStrengthSession(
     db.prepare("DELETE FROM exercise_entries WHERE session_id = ?").bind(session.id),
     ...insertEntries(db, "?", session.entries, session.id),
   ]);
-  return { strengthSession: session, ...attributed };
+  return { strengthSession: session, program, phase };
 }
 
 /** Deletes a Strength Session and its entries. Returns what was deleted. */

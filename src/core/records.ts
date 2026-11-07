@@ -1,22 +1,13 @@
 import { DomainError } from "./errors";
-import { placeDate, type Placement } from "./programs";
+import type { Placement } from "./programs";
 
-// Helpers shared by the dated records (Strength Sessions, Daily Check-ins,
-// Body-comp Scans, Race Results). Each record belongs to the Phase its date
-// falls in (ADR 0003): it's never stored, only derived when the record is
-// written or read.
+// Helpers shared by the dated records (Runs, Strength Sessions, Daily
+// Check-ins, Body-comp Scans, Race Results). Each record belongs to the Phase
+// its date falls in (ADR 0003): it's never stored, only derived with
+// `placeDate` when the record is written or read.
 
-/** A record as a write returns it: the record, plus the Program and Phase its date falls in. */
+/** What a dated record's write returns besides the record: the Program and Phase its date falls in. */
 export type Attributed = Pick<Placement, "program" | "phase">;
-
-/**
- * The Program and Phase `date` falls in. Fails with a clear message if the
- * date isn't a calendar date or no Phase covers it.
- */
-export async function attribute(db: D1Database, date: string): Promise<Attributed> {
-  const { program, phase } = await placeDate(db, date);
-  return { program, phase };
-}
 
 type NumberRule = { min?: number; max?: number; integer?: boolean };
 

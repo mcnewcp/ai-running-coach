@@ -1,7 +1,8 @@
 import { parseDate } from "./calendar";
 import { checkPath } from "./documents";
 import { formatDuration, parseDuration } from "./durations";
-import { attribute, type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, requiredText } from "./records";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, requiredText } from "./records";
 
 // Race Results: the official outcome of one race, linked to its narrative
 // document. Belongs to a Phase by its date (ADR 0003). Whether it's an A-race
@@ -47,7 +48,7 @@ const EMPTY = { pace: null, conditions: null, avgHr: null, placement: null, narr
 /** Records a Race Result. Fails if no Phase covers its date. */
 export async function logRaceResult(db: D1Database, input: RaceResultInput): Promise<RaceResultWrite> {
   const result = check(merge<Fields>({ ...input, ...EMPTY }, input));
-  const attributed = await attribute(db, result.date);
+  const { program, phase } = await placeDate(db, result.date);
   const row = await db
     .prepare(
       `INSERT INTO race_results (date, name, distance, official_time_seconds, pace, conditions, avg_hr,
@@ -56,7 +57,7 @@ export async function logRaceResult(db: D1Database, input: RaceResultInput): Pro
     )
     .bind(...values(result))
     .first<{ id: number }>();
-  return { raceResult: await loadResult(db, row!.id), ...attributed };
+  return { raceResult: await loadResult(db, row!.id), program, phase };
 }
 
 /** Corrects a Race Result. Fails if no Phase covers the new date. */
@@ -64,7 +65,7 @@ export async function updateRaceResult(db: D1Database, correction: RaceResultCor
   const { id, kind: _, ...current } = await loadResult(db, correction.id);
   const { id: __, ...changes } = correction;
   const result = check(merge(current, changes));
-  const attributed = await attribute(db, result.date);
+  const { program, phase } = await placeDate(db, result.date);
   await db
     .prepare(
       `UPDATE race_results SET date = ?, name = ?, distance = ?, official_time_seconds = ?, pace = ?,
@@ -73,7 +74,7 @@ export async function updateRaceResult(db: D1Database, correction: RaceResultCor
     )
     .bind(...values(result), id)
     .run();
-  return { raceResult: await loadResult(db, id), ...attributed };
+  return { raceResult: await loadResult(db, id), program, phase };
 }
 
 /** Deletes a Race Result. Returns what was deleted. */

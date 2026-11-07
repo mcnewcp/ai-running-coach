@@ -1,6 +1,7 @@
 import { parseDate } from "./calendar";
 import { DomainError } from "./errors";
-import { attribute, type Attributed, checkNumber, HEART_RATE, merge, optionalText, RATING } from "./records";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, HEART_RATE, merge, optionalText, RATING } from "./records";
 
 // Daily Check-ins: the runner's morning wellness report for one day. There's
 // at most one per date: a later report for the same date updates it.
@@ -43,7 +44,7 @@ const COLUMNS = ["date", ...MEASURES.map(([, column]) => column), "notes"];
  */
 export async function logCheckIn(db: D1Database, input: CheckInInput): Promise<CheckInWrite> {
   const date = parseDate(input.date);
-  const attributed = await attribute(db, date);
+  const { program, phase } = await placeDate(db, date);
   const current = await findCheckIn(db, date);
   const empty = Object.fromEntries(MEASURES.map(([field]) => [field, null])) as Record<Measure, number | null>;
   const checkIn = check(merge<CheckIn>(current ?? { date, notes: null, ...empty }, input));
@@ -55,7 +56,7 @@ export async function logCheckIn(db: D1Database, input: CheckInInput): Promise<C
     )
     .bind(checkIn.date, ...MEASURES.map(([field]) => checkIn[field]), checkIn.notes)
     .run();
-  return { status: current ? "updated" : "created", checkIn, ...attributed };
+  return { status: current ? "updated" : "created", checkIn, program, phase };
 }
 
 /** Deletes the Daily Check-in for a date. Returns what was deleted. */

@@ -2,7 +2,8 @@ import { parseDate, weekOf } from "./calendar";
 import { formatDuration, parseDuration } from "./durations";
 import { DomainError } from "./errors";
 import { type WeekStanding, weekStanding } from "./mileage-cap";
-import { attribute, type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, RATING } from "./records";
+import { placeDate } from "./programs";
+import { type Attributed, checkNumber, HEART_RATE, merge, notFound, optionalText, RATING } from "./records";
 import { checkShoeForRun, getShoe, type Shoe } from "./shoes";
 
 // Runs: one completed run each. A Run's Phase and Program are derived from
@@ -156,7 +157,8 @@ export async function getRun(db: D1Database, id: number): Promise<Run> {
 }
 
 async function written(db: D1Database, run: Run): Promise<RunWrite> {
-  return { run, ...(await attribute(db, run.date)), ...(await effects(db, run)) };
+  const { program, phase } = await placeDate(db, run.date);
+  return { run, program, phase, ...(await effects(db, run)) };
 }
 
 async function effects(db: D1Database, run: Run): Promise<RunEffects> {
@@ -216,7 +218,7 @@ async function checkFields(db: D1Database, fields: RunFields): Promise<RunFields
     rightKneePain: checkNumber(fields.rightKneePain, "rightKneePain", RATING),
     notes: optionalText(fields.notes),
   };
-  await attribute(db, checked.date);
+  await placeDate(db, checked.date);
   if (checked.shoe !== null) await checkShoeForRun(db, checked.shoe, checked.date);
   return checked;
 }
