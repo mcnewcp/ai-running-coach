@@ -1,6 +1,6 @@
 import { env } from "cloudflare:workers";
 import { beforeEach, describe, expect, it } from "vitest";
-import { type ArchiveSource, rebuildStructuredRecord } from "../src/import";
+import { type ArchiveSource, dumpStatements, rebuildStructuredRecord } from "../src/import";
 import { callTool, callToolExpectingError, connect, resetDatabase } from "./mcp";
 
 // The import rebuilds D1 from a checkout of the private archive. These tests
@@ -25,6 +25,11 @@ async function importFixture() {
   return rebuildStructuredRecord(env.DB, fixture);
 }
 
+/** The rows of a read-only query, through the query tool. */
+async function query(client: Awaited<ReturnType<typeof connect>>, sql: string): Promise<unknown[][]> {
+  return ((await callTool(client, "query", { sql })) as { rows: unknown[][] }).rows;
+}
+
 describe("the structured import", () => {
   it("builds the Programs and Phases, including the pre-build Program and the A-race's Race Phase", async () => {
     await importFixture();
@@ -40,6 +45,15 @@ describe("the structured import", () => {
     expect(await placed("2031-03-01")).toEqual(["2031 Synthetic Spring Half", "Build", "training"]);
     expect(await placed("2031-04-12")).toEqual(["2031 Synthetic Spring Half", "Race", "race"]);
     expect(await placed("2031-06-29")).toEqual(["2031 Synthetic Off-season", "Base", "training"]);
+  });
+
+  it("links each Phase to the vault path of its Plan, where the structure file names one", async () => {
+    await importFixture();
+    const client = await connect();
+    const planOf = async (date: string) =>
+      ((await callTool(client, "phase_for_date", { date })) as { phase: { planPath: string | null } }).phase.planPath;
+    expect(await planOf("2031-02-01")).toBe("Programs/2031-01-synthetic-spring-half/Plans/phase-1-base.md");
+    expect(await planOf("2031-04-05")).toBeNull();
   });
 
   it("loads the Shoes from the shoe log and the Runs worn in them, retiring a retired pair on its last Run", async () => {
@@ -87,78 +101,54 @@ describe("the structured import", () => {
   it("loads each day's lift rows as one Strength Session, with an entry per exercise", async () => {
     await importFixture();
     const client = await connect();
-    // A correction that changes nothing returns the session as stored. Until
-    // the query tool exists, that's how a test can read one back.
-    const session = async (id: number) =>
-      ((await callTool(client, "update_strength_session", { id })) as { strengthSession: unknown }).strengthSession;
-    expect(await session(1)).toEqual({
-      id: 1,
-      date: "2031-05-01",
-      sessionType: "Lower",
-      notes: null,
-      entries: [
-        { pattern: "Squat", exercise: "Goblet squat", load: 35, loadBasis: "total", sets: 3, repsPerSet: "10,10,10", notes: null },
-        {
-          pattern: "Hinge",
-          exercise: "Romanian deadlift",
-          load: 25,
-          loadBasis: "per_hand",
-          sets: 3,
-          repsPerSet: "8,8,8",
-          notes: "Slow eccentric",
-        },
-        { pattern: "Finisher", exercise: "Side plank", load: null, loadBasis: "bodyweight", sets: 2, repsPerSet: "30s,30s", notes: null },
-      ],
-    });
-    expect(await session(2)).toMatchObject({ date: "2031-05-05", sessionType: "Upper", entries: [{ exercise: "Push-up" }, { exercise: "Lat pulldown" }] });
+    expect(
+      await query(
+        client,
+        `SELECT s.date, s.session_type, s.notes AS session_notes, e.pattern, e.exercise, e.load, e.load_basis, e.sets,
+           e.reps_per_set, e.notes
+         FROM strength_sessions s JOIN exercise_entries e ON e.session_id = s.id ORDER BY s.date, e.position`,
+      ),
+    ).toEqual([
+      ["2031-05-01", "Lower", null, "Squat", "Goblet squat", 35, "total", 3, "10,10,10", null],
+      ["2031-05-01", "Lower", null, "Hinge", "Romanian deadlift", 25, "per_hand", 3, "8,8,8", "Slow eccentric"],
+      ["2031-05-01", "Lower", null, "Finisher", "Side plank", null, "bodyweight", 2, "30s,30s", null],
+      ["2031-05-05", "Upper", null, "Horizontal push", "Push-up", null, "bodyweight", 3, "12,10,8", null],
+      ["2031-05-05", "Upper", null, "Vertical pull", "Lat pulldown", 70, "total", 3, "10,10,10", null],
+    ]);
   });
 
   it("loads the Body-comp Scans, keeping the ECW/TBW ratio (which has no column) in the notes", async () => {
     await importFixture();
     const client = await connect();
-    const scan = async (id: number) =>
-      ((await callTool(client, "update_body_comp_scan", { id })) as { bodyCompScan: unknown }).bodyCompScan;
-    expect(await scan(1)).toEqual({
-      id: 1,
-      date: "2031-02-01",
-      weight: 172,
-      skeletalMuscleMass: 78.5,
-      bodyFatMass: null,
-      bodyFatPercent: 19.2,
-      bmi: null,
-      totalBodyWater: null,
-      leanBodyMass: null,
-      visceralFatLevel: null,
-      basalMetabolicRate: null,
-      score: null,
-      notes: "Morning scan; ECW/TBW: 0.381",
-    });
-    expect(await scan(2)).toMatchObject({ date: "2031-05-02", bodyFatMass: 30.2, bmi: 24.1, visceralFatLevel: 6, basalMetabolicRate: 1720, notes: "ECW/TBW: 0.379" });
+    expect(
+      await query(
+        client,
+        `SELECT date, weight, skeletal_muscle_mass, body_fat_mass, body_fat_percent, bmi, total_body_water,
+           lean_body_mass, visceral_fat_level, basal_metabolic_rate, score, notes
+         FROM body_comp_scans ORDER BY date`,
+      ),
+    ).toEqual([
+      ["2031-02-01", 172, 78.5, null, 19.2, null, null, null, null, null, null, "Morning scan; ECW/TBW: 0.381"],
+      ["2031-05-02", 169.6, 79.1, 30.2, 17.8, 24.1, null, null, 6, 1720, null, "ECW/TBW: 0.379"],
+    ]);
   });
 
   it("loads the reviewed Daily Check-ins, rating sleep quality on the structure file's scale", async () => {
     await importFixture();
     const client = await connect();
-    // A report that changes nothing returns the date's Check-in as stored.
-    const checkIn = async (date: string) =>
-      (await callTool(client, "log_check_in", { date })) as { status: string; checkIn: Record<string, unknown> };
-    const tuesday = await checkIn("2031-01-21");
-    expect(tuesday.status).toBe("updated");
-    expect(tuesday.checkIn).toEqual({
-      date: "2031-01-21",
-      sleepHours: expect.closeTo(6 + 5 / 60, 6),
-      sleepQuality: 2,
-      restingHr: 58,
-      leftKneePain: 2.5,
-      rightKneePain: 0,
-      energy: 5,
-      motivation: 6,
-      lifeStress: 6,
-      bodyWeight: 171.4,
-      notes: "Late night; work deadline; Body fat: 18.5%",
-    });
-    expect((await checkIn("2031-01-22")).checkIn).toMatchObject({ sleepHours: null, sleepQuality: 6, restingHr: null, notes: "Partial report" });
-    expect((await checkIn("2031-01-23")).checkIn).toMatchObject({ sleepHours: 10, sleepQuality: 10 });
+    expect(
+      await query(
+        client,
+        `SELECT date, ROUND(sleep_hours * 60) AS sleep_minutes, sleep_quality, resting_hr, left_knee_pain,
+           right_knee_pain, energy, motivation, life_stress, body_weight, notes
+         FROM check_ins ORDER BY date`,
+      ),
+    ).toEqual([
+      ["2031-01-20", 450, 8, 55, 1, 0, 7, 8, 3, null, null],
+      ["2031-01-21", 365, 2, 58, 2.5, 0, 5, 6, 6, 171.4, "Late night; work deadline; Body fat: 18.5%"],
+      ["2031-01-22", null, 6, null, null, null, null, null, null, null, "Partial report"],
+      ["2031-01-23", 600, 10, 54, 0, 0, 8, 8, 2, null, null],
+    ]);
   });
 
   it("loads the Race Results from the race history, linked to their narratives' vault paths", async () => {
@@ -237,6 +227,16 @@ describe("the structured import", () => {
       row("Daily Check-ins", 4, 4),
       row("Race Results", 2, 2),
     ]);
+    // What the coach sees agrees with the report's imported side.
+    const client = await connect();
+    expect(await query(client, "SELECT COUNT(*), ROUND(SUM(distance_miles), 2) FROM runs")).toEqual([[12, 54.77]]);
+    expect(
+      await query(
+        client,
+        `SELECT (SELECT COUNT(*) FROM strength_sessions), (SELECT COUNT(*) FROM exercise_entries),
+           (SELECT COUNT(*) FROM body_comp_scans), (SELECT COUNT(*) FROM check_ins), (SELECT COUNT(*) FROM race_results)`,
+      ),
+    ).toEqual([[2, 5, 2, 4, 2]]);
   });
 
   it("wipes whatever D1 held before rebuilding it", async () => {
@@ -257,21 +257,45 @@ describe("the structured import", () => {
 
   it("gives identical results when run twice", async () => {
     const client = await connect();
-    const observe = async () => ({
-      shoes: await callTool(client, "list_shoes", { includeRetired: true }),
-      prs: await callTool(client, "list_prs"),
-      sessions: [await callTool(client, "update_strength_session", { id: 1 }), await callTool(client, "update_strength_session", { id: 2 })],
-      scans: [await callTool(client, "update_body_comp_scan", { id: 1 }), await callTool(client, "update_body_comp_scan", { id: 2 })],
-      checkIn: await callTool(client, "log_check_in", { date: "2031-01-21" }),
-      week: await callTool(client, "check_mileage_cap", { proposed_week_miles: 0, week: "2031-01-20" }),
-      // A Run's id is stable too: the same correction finds the same Run.
-      run: await callTool(client, "update_run", { id: 3 }),
-    });
+    const tables = [
+      "programs",
+      "phases",
+      "shoes",
+      "runs",
+      "strength_sessions",
+      "exercise_entries",
+      "body_comp_scans",
+      "check_ins",
+      "race_results",
+    ];
+    // Every row of every table, ids included.
+    const everything = async () =>
+      Promise.all(tables.map((table) => query(client, `SELECT * FROM ${table} ORDER BY 1`)));
     const firstReport = await importFixture();
-    const first = await observe();
+    const first = await everything();
     const secondReport = await importFixture();
     expect(secondReport).toEqual(firstReport);
-    expect(await observe()).toEqual(first);
+    expect(await everything()).toEqual(first);
+    expect(first.every((rows) => rows.length > 0)).toBe(true);
+  });
+
+  it("dumps the rebuilt record as SQL that makes another D1 identical, as the remote target needs", async () => {
+    const client = await connect();
+    await importFixture();
+    const everything = async () =>
+      Promise.all(
+        ["programs", "phases", "shoes", "runs", "strength_sessions", "exercise_entries", "body_comp_scans", "check_ins", "race_results"].map(
+          (table) => query(client, `SELECT * FROM ${table} ORDER BY 1`),
+        ),
+      );
+    const imported = await everything();
+    const statements = await dumpStatements(env.DB);
+
+    // Stand in for the remote D1: one holding something else entirely.
+    await resetDatabase();
+    await callTool(client, "add_shoe", { id: "stray-pair" });
+    for (const statement of statements) await env.DB.prepare(statement).run();
+    expect(await everything()).toEqual(imported);
   });
 
   it("reports a record no Phase covers instead of dropping it silently", async () => {

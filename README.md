@@ -102,6 +102,22 @@ The tools are `list_documents(prefix)`, `read_document(path)` and `write_documen
 
 Writes never silently overwrite the runner's edits. `read_document` returns a version (the R2 ETag), and `write_document` either updates with `expected_version`, the version it read, or creates with `create_only: true`. R2 checks that condition atomically as it writes. If it fails (the document changed or was deleted since, or already exists when creating), nothing is written and the result is a `conflict` with the current content and version, so the coach can merge and retry.
 
+### Importing the archive
+
+The runner's history comes from the private archive repo, through a re-runnable import that wipes and rebuilds the stores. It's deterministic, so it can be dry-run as often as needed before cutover.
+
+```sh
+npm run import -- <archive> [--extraction <dir>] [--remote] [--yes]
+```
+
+- `<archive>` is a checkout of the private archive repo. It's only read.
+- `--extraction <dir>` is the folder of reviewed extraction files, if it isn't `<archive>/extraction`.
+- Without `--remote`, it rebuilds the local D1 that `npm run dev` uses. With `--remote`, it rebuilds the local D1 first, then makes the remote D1 an exact copy (applying migrations first) and checks the remote row counts. If anything didn't match, it asks before touching the remote D1, unless you pass `--yes`.
+
+Every record is written through the domain core ([`src/import/`](src/import/)), so the import follows the same rules as the tools. It reads Shoes, Runs, Strength Sessions, Body-comp Scans and Race Results from the archive's `data/` files, and the reviewed pre-build Runs and Daily Check-ins from the extraction folder. A record the core rejects, e.g. one dated outside every Phase, isn't dropped silently: the report lists it as unresolved. The report then compares counts and totals with the archive's files: Runs, total miles, miles per Shoe, Strength Sessions and their entries, Body-comp Scans, Daily Check-ins and Race Results. The command exits non-zero unless everything was imported and matched. **The report holds Athlete Record data, so keep it out of issues, PRs and logs.**
+
+Anything that takes judgement about one runner lives in the archive, not here. The extraction folder's `structure.json` gives every Program with its Phases, as `upsert_program` takes them (including each Phase's `planPath`). It also maps each legacy free-text `training_goal` label to a Program, and optionally a Phase (`legacyLabels`), and rates each sleep-quality word in the extracted Check-ins from 0 to 10 (`checkIns.sleepQuality`). Records are placed in Phases by date (ADR 0003). The labels are only a cross-check: the report warns where a label disagrees with the Phase a record's date falls in. [`test/fixtures/archive/`](test/fixtures/archive/) is a synthetic archive with the same shape.
+
 ### Local development
 
 Needs Node.js 24.

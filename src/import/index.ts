@@ -17,6 +17,7 @@ import {
   type Sourced,
 } from "./legacy";
 import { readStructure, type Structure } from "./structure";
+import { wipe } from "./tables";
 import { type Verification, verify } from "./verify";
 
 // The re-runnable import: rebuilds the structured Athlete Record in D1 from a
@@ -25,6 +26,7 @@ import { type Verification, verify } from "./verify";
 // It's deterministic: running it twice gives identical results.
 
 export type { ArchiveSource } from "./archive";
+export { dumpStatements } from "./tables";
 
 /** A record the import couldn't write, and why. */
 export type Unresolved = { record: string; source: string; date: string; reason: string };
@@ -161,17 +163,3 @@ function byDate<T>(items: T[], date: (item: T) => string): T[] {
   return [...items].sort((a, b) => (date(a) < date(b) ? -1 : date(a) > date(b) ? 1 : 0));
 }
 
-/** Empties every table, keeping the schema. */
-async function wipe(db: D1Database): Promise<void> {
-  const { results } = await db
-    .prepare(
-      "SELECT name FROM sqlite_master WHERE type = 'table' " +
-        "AND name NOT LIKE 'sqlite_%' AND name NOT LIKE '_cf_%' AND name <> 'd1_migrations'",
-    )
-    .all<{ name: string }>();
-  if (results.length === 0) return;
-  await db.batch([
-    db.prepare("PRAGMA defer_foreign_keys = on"),
-    ...results.map(({ name }) => db.prepare(`DELETE FROM "${name}"`)),
-  ]);
-}

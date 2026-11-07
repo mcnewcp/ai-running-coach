@@ -16,7 +16,7 @@
       "endDate": "2031-04-12",
       "aRace": { "name": "Synthetic City Half", "date": "2031-04-12" },
       "phases": [
-        { "name": "Base", "startDate": "2031-01-20", "endDate": "2031-02-23", "focus": "Aerobic base", "mileageTarget": "12-18 mpw" },
+        { "name": "Base", "startDate": "2031-01-20", "endDate": "2031-02-23", "focus": "Aerobic base", "mileageTarget": "12-18 mpw", "planPath": "Programs/2031-01-synthetic-spring-half/Plans/phase-1-base.md" },
         { "name": "Build", "startDate": "2031-02-24", "endDate": "2031-03-30", "focus": "Threshold", "mileageTarget": "18-25 mpw" },
         { "name": "Taper", "startDate": "2031-03-31", "endDate": "2031-04-11", "focus": "Freshen up" },
         { "name": "Race", "kind": "race", "startDate": "2031-04-12", "endDate": "2031-04-12" }

@@ -7,7 +7,7 @@ Append-only log of race results.
 ## Half Marathon
 
 ### Synthetic City Half — Apr 12, 2031
-- **Result**: 2:05:03 chip time — first half marathon
+- **Result**: 2:05:03 chip time — a debut at the distance
 - **Distance / Pace**: 13.1 mi at ~9:33/mi (official); watch recorded 13.2 mi
 - **Location**: Synthetic City
 - **Conditions**: 55°F, overcast
