@@ -140,6 +140,13 @@ describe("query", () => {
       );
       expect(await callToolExpectingError(client, "query", { sql: "SELECT 1; SELECT 2" })).toMatch(/one statement/);
     });
+
+    it("rejects any other start, as its message says, e.g. VALUES", async () => {
+      const client = await connect();
+      for (const sql of ["VALUES (1, 2)", "WITH a AS (SELECT 1) VALUES (1)"]) {
+        expect(await callToolExpectingError(client, "query", { sql })).toMatch(/must (start with|be) .*SELECT.*not VALUES/);
+      }
+    });
   });
 
   it("reports a broken query clearly", async () => {

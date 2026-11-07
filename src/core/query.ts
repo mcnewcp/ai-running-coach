@@ -75,7 +75,7 @@ export function checkReadOnly(sql: string): string {
   // Only the statement's own keywords matter, not those inside parentheses.
   const top = tokens.filter((token) => token.depth === 0);
   const first = top[0]?.text.toUpperCase();
-  if (first !== "SELECT" && first !== "WITH" && first !== "VALUES") {
+  if (first !== "SELECT" && first !== "WITH") {
     const start = top[0]?.text ?? clean.trim().split(/\s+/)[0];
     throw new DomainError(`The query is read-only, so it must start with SELECT or WITH, not ${start}. ${HINT}`);
   }
