@@ -3,12 +3,28 @@
   "name": "ai-running-coach",
   "main": "src/index.ts",
   "compatibility_date": "2026-08-01",
-  "compatibility_flags": ["nodejs_compat"],
+  // global_fetch_strictly_public: needed for OAuth clients that identify
+  // themselves with a Client ID Metadata Document (SSRF protection).
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  // Workers Logs: keeps console output (e.g. refused sign-ins) for later. No
+  // Athlete Record data is ever logged.
+  "observability": { "enabled": true },
+  "vars": {
+    // Comma-separated GitHub usernames allowed to sign in. Nobody else can
+    // reach the Athlete Record. To deploy your own copy, change this line.
+    "ALLOWED_GITHUB_USERS": "mcnewcp"
+  },
+  "secrets": {
+    // From the GitHub OAuth app. Set with `npx wrangler secret put <NAME>`,
+    // or in .dev.vars for local dev. Never committed.
+    "required": ["GITHUB_CLIENT_ID", "GITHUB_CLIENT_SECRET"]
+  },
   // The structured Athlete Record (ADR 0002). Schema lives in migrations/.
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "ai-running-coach",
+      "database_id": "9d9c64cd-aa80-4349-8bf7-8e1dc9ffe05f",
       "migrations_dir": "migrations"
     }
   ],
@@ -17,6 +33,13 @@
     {
       "binding": "DOCUMENTS",
       "bucket_name": "ai-running-coach-documents"
+    }
+  ],
+  // OAuth clients, grants and tokens (hashed), for workers-oauth-provider.
+  "kv_namespaces": [
+    {
+      "binding": "OAUTH_KV",
+      "id": "13e0892c07f24ae3b4659be8915de9e1"
     }
   ]
 }

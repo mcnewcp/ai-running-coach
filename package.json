@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
+    "deploy": "npm run typecheck && npm test && wrangler d1 migrations apply DB --remote && wrangler deploy",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "wrangler types --check && tsc",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^1.2.4",
     "@modelcontextprotocol/server": "2.0.0",
     "agents": "^0.24.0",
     "zod": "^4.6.5"

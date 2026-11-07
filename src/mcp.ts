@@ -50,7 +50,7 @@ function structured<T extends Record<string, unknown>>(output: T) {
   };
 }
 
-/** The MCP API: the Worker's `/mcp` route, and what OAuth will sit in front of. */
+/** The MCP API: the Worker's `/mcp` route, behind OAuth (src/auth). Tests call it directly. */
 export const mcpApi = {
   fetch(request, env, ctx) {
     return createMcpHandler(() => createServer(env))(request, env, ctx);

@@ -1,3 +1,4 @@
+import { withGitHubOAuth } from "./auth";
 import { mcpApi } from "./mcp";
 
-export default mcpApi satisfies ExportedHandler<Env>;
+export default withGitHubOAuth(mcpApi) satisfies ExportedHandler<Env>;
