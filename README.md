@@ -32,6 +32,10 @@ Record dates are local calendar dates, and weeks run Monday–Sunday over those 
 
 If no timezone is passed and there's no Runner Profile, or its `timezone` is missing or isn't an IANA timezone, these tools fail with a message saying what to fix. They never guess the day. In the core, `today(bucket, now, timezone?)` in [`src/core/session.ts`](src/core/session.ts) does this, and `homeTimezone(profile)` in [`src/core/runner-profile.ts`](src/core/runner-profile.ts) reads the Home Timezone.
 
+### Starting a coaching session
+
+`get_coaching_context(timezone?)` returns, in one call, everything a coaching session starts from: `today` (as the `today` tool gives it), the `runnerProfile` (content, version and frontmatter `properties`), the active `program` (with its Phases) and `phase`, the active Phase's `plan` document (see [Programs and Phases](#programs-and-phases)), this Monday–Sunday `week`'s miles so far against its Mileage Cap, `recentRuns` (the 14 days ending today, newest first) and the active `shoes` with their mileage. Missing pieces come back empty rather than failing: no Runner Profile (when a timezone is given), no Program covering today, no Plan linked or written, no Runs. In the core it's `getCoachingContext` in [`src/core/session.ts`](src/core/session.ts).
+
 ### Programs and Phases
 
 `upsert_program` and `upsert_phase` define how the season is structured. Programs tile the calendar and Phases tile their Program, so every day belongs to exactly one Phase. A race build ends on its A-race day with a one-day Race Phase. A bridge has neither. Writes that would leave a gap or overlap are rejected. When an existing window changes, the neighbour on each side moves its shared edge to keep meeting it. A change that would swallow or split a neighbour, or move a neighbouring race build's A-race day, is rejected instead.

@@ -1,7 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/server";
 import { createMcpHandler } from "agents/mcp/server";
 import { z } from "zod";
-import { WEEKDAYS } from "./core/calendar";
 import { PHASE_KINDS, placeDate, PROGRAM_KINDS, upsertPhase, upsertProgram } from "./core/programs";
 import { listDocuments, readDocument, writeDocument } from "./core/documents";
 import { DomainError } from "./core/errors";
@@ -9,8 +8,8 @@ import { deleteBodyCompScan, logBodyCompScan, updateBodyCompScan } from "./core/
 import { deleteCheckIn, logCheckIn } from "./core/check-ins";
 import { deleteRaceResult, listPRs, logRaceResult, updateRaceResult } from "./core/race-results";
 import { deleteStrengthSession, logStrengthSession, updateStrengthSession } from "./core/strength-sessions";
-import { today } from "./core/session";
 import { registerRunTools } from "./tools/runs";
+import { registerSessionTools } from "./tools/session";
 import { date, phaseSchema, programSchema, structured } from "./tools/shared";
 import { registerShoeTools } from "./tools/shoes";
 
@@ -20,37 +19,7 @@ import { registerShoeTools } from "./tools/shoes";
  */
 export function createServer(env: Env): McpServer {
   const server = new McpServer({ name: "ai-running-coach", version: "0.1.0" });
-
-  server.registerTool(
-    "today",
-    {
-      title: "Today",
-      description:
-        "What day it is for the runner: today's local calendar date and weekday. " +
-        "Call it instead of assuming the date. It uses the runner's Home Timezone (the timezone property of the Runner Profile) " +
-        "unless you pass the runner's current timezone, e.g. while they're travelling. " +
-        "Fails if no timezone is passed and the Runner Profile has no valid one.",
-      inputSchema: z.object({
-        timezone: z
-          .string()
-          .optional()
-          .describe(
-            "The runner's current IANA timezone (e.g. Europe/London), when you know they're away from home. " +
-              "Omit it to use the Home Timezone. Abbreviations like CST are rejected.",
-          ),
-      }),
-      outputSchema: z.object({
-        date: z.string().describe("ISO 8601 calendar date, e.g. 2026-09-24"),
-        weekday: z.enum(WEEKDAYS),
-        timezone: z.string().describe("The IANA timezone the date is local to"),
-        timezoneSource: z
-          .enum(["home", "given"])
-          .describe("home: the Home Timezone. given: the timezone you passed"),
-      }),
-      annotations: { readOnlyHint: true },
-    },
-    async ({ timezone }) => structured(await today(env.DOCUMENTS, new Date(), timezone)),
-  );
+  registerSessionTools(server, env);
 
   server.registerTool(
     "upsert_program",

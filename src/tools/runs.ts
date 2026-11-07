@@ -100,7 +100,7 @@ export function registerRunTools(server: McpServer, env: Env) {
   );
 }
 
-const weekStandingSchema = z
+export const weekStandingSchema = z
   .object({
     start: z.string().describe("The week's Monday"),
     end: z.string().describe("The week's Sunday"),
@@ -123,7 +123,7 @@ const runFields = {
   notes: z.string().nullish().describe("The runner's notes"),
 };
 
-const runSchema = z.object({
+export const runSchema = z.object({
   id: z.number().describe("Identifies the Run for update_run and delete_run"),
   date: z.string(),
   type: z.string().nullable(),

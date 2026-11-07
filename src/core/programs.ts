@@ -115,6 +115,11 @@ export async function placeDate(db: D1Database, date: string): Promise<Placement
   throw new DomainError(`No Phase covers ${date}. ${covered} Add or extend a Program with upsert_program first.`);
 }
 
+/** The Program named `name`, with its Phases, or null if there's none. */
+export async function findProgram(db: D1Database, name: string): Promise<Program | null> {
+  return (await loadPrograms(db, "WHERE name = ?", [name]))[0] ?? null;
+}
+
 // --- Changing the structure --------------------------------------------------
 
 /**
