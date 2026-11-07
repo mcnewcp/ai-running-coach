@@ -1,13 +1,14 @@
 import type { McpServer } from "@modelcontextprotocol/server";
 import { z } from "zod";
-import { today } from "../core/calendar";
 import { checkMileageCap } from "../core/mileage-cap";
 import { deleteRun, logRun, updateRun } from "../core/runs";
+import { today } from "../core/session";
 import { date, phaseSchema, programSchema, structured } from "./shared";
 import { shoeSchema } from "./shoes";
 
 /** The Run tools: logging, correcting and deleting Runs. */
-export function registerRunTools(server: McpServer, db: D1Database) {
+export function registerRunTools(server: McpServer, env: Env) {
+  const db = env.DB;
   server.registerTool(
     "log_run",
     {
@@ -80,7 +81,7 @@ export function registerRunTools(server: McpServer, db: D1Database) {
           .optional()
           .describe(
             "Only used to find this week when week is omitted: the runner's current IANA timezone, when they're away from home. " +
-              "Omit it to use the Home Timezone.",
+              "Omit it to use the Home Timezone from the Runner Profile.",
           ),
       }),
       outputSchema: z.object({
@@ -93,7 +94,9 @@ export function registerRunTools(server: McpServer, db: D1Database) {
       annotations: { readOnlyHint: true },
     },
     async ({ proposed_week_miles, week, timezone }) =>
-      structured(await checkMileageCap(db, proposed_week_miles, week ?? today(new Date(), timezone).date)),
+      structured(
+        await checkMileageCap(db, proposed_week_miles, week ?? (await today(env.DOCUMENTS, new Date(), timezone)).date),
+      ),
   );
 }
 

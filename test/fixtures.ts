@@ -44,3 +44,8 @@ export const recoveryPhase = {
   focus: "Rest",
   mileageTarget: "10-15 mi/wk",
 };
+
+/** A synthetic Runner Profile, with `frontmatter` as its properties block. */
+export function runnerProfile(frontmatter = "timezone: America/Chicago"): string {
+  return `---\n${frontmatter}\n---\n# Runner Profile\n\nA synthetic runner. Easy runs at conversational pace.\n`;
+}

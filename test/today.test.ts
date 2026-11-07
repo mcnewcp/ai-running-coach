@@ -1,11 +1,14 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { callTool, callToolExpectingError, connect } from "./mcp";
+import { runnerProfile } from "./fixtures";
+import { callTool, callToolExpectingError, connect, resetDocuments, writeRunnerProfile } from "./mcp";
 
-// Until the Runner Profile holds the Home Timezone (#8, #9), it's
-// America/Chicago. In 2026 its DST starts 2026-03-08 at 02:00 (08:00Z) and ends
-// 2026-11-01 at 02:00 (07:00Z).
+// The synthetic Runner Profile's Home Timezone is America/Chicago, unless a
+// test changes it. In 2026 its DST starts 2026-03-08 at 02:00 (08:00Z) and
+// ends 2026-11-01 at 02:00 (07:00Z).
 
-beforeEach(() => {
+beforeEach(async () => {
+  await resetDocuments();
+  await writeRunnerProfile(await connect(), runnerProfile("timezone: America/Chicago"));
   // Fake only the clock: the MCP transport still needs real timers.
   vi.useFakeTimers({ toFake: ["Date"] });
 });
@@ -49,6 +52,43 @@ describe("today", () => {
     ["a second before that midnight", "2026-11-02T05:59:59Z", "2026-11-01", "Sunday"],
   ])("is right across a DST change: %s", async (_, instant, date, weekday) => {
     expect(await todayAt(instant)).toMatchObject({ date, weekday });
+  });
+
+  describe("the Home Timezone", () => {
+    it("comes from the Runner Profile's timezone property, so the runner can change it", async () => {
+      await writeRunnerProfile(await connect(), runnerProfile("name: Synthetic Runner\ntimezone: Asia/Tokyo"));
+      // Late Wednesday evening in Chicago is already Thursday in Tokyo.
+      expect(await todayAt("2026-09-24T03:00:00Z")).toEqual({
+        date: "2026-09-24",
+        weekday: "Thursday",
+        timezone: "Asia/Tokyo",
+        timezoneSource: "home",
+      });
+    });
+
+    it.each([
+      ["there's no Runner Profile", null, /no Runner Profile/],
+      ["the Runner Profile has no timezone property", runnerProfile("name: Synthetic Runner"), /no timezone property/],
+      ["its timezone is empty", runnerProfile('timezone: ""'), /no timezone property/],
+      ["its timezone is an abbreviation", runnerProfile("timezone: CST"), /"CST" is not an IANA timezone/],
+      ["its timezone doesn't exist", runnerProfile("timezone: Mars/Olympus_Mons"), /not an IANA timezone/],
+    ])("fails clearly, without guessing, when %s", async (_, profile, message) => {
+      const client = await connect();
+      if (profile === null) await resetDocuments();
+      else await writeRunnerProfile(client, profile);
+      const error = await callToolExpectingError(client, "today");
+      expect(error).toMatch(message);
+      expect(error).toMatch(/Runner Profile\.md/);
+      expect(error).toMatch(/pass the runner's current timezone/);
+    });
+
+    it("isn't needed when the runner's current timezone is given", async () => {
+      await resetDocuments();
+      expect(await todayAt("2026-09-24T16:00:00Z", { timezone: "Europe/London" })).toMatchObject({
+        date: "2026-09-24",
+        timezoneSource: "given",
+      });
+    });
   });
 
   describe("when given the runner's current timezone", () => {

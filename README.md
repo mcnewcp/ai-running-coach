@@ -28,7 +28,9 @@ The Worker asks GitHub for no scopes and keeps only the username. OAuth clients,
 
 ### Time
 
-Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner. It uses the **Home Timezone** unless the coach passes the runner's current timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). Until the Runner Profile holds the Home Timezone (#8, #9), it's a temporary default in [`src/core/calendar.ts`](src/core/calendar.ts).
+Record dates are local calendar dates, and weeks run Monday–Sunday over those dates. `today` works out what day it is for the runner, and so do `get_coaching_context` and `check_mileage_cap` (when it isn't given a week). Each uses the **Home Timezone**, the `timezone` property of the Runner Profile (see [Documents](#documents)), unless the coach passes the runner's current IANA timezone, e.g. while they're travelling ([ADR 0004](docs/adr/0004-the-coach-supplies-the-runners-current-timezone.md)). `today` and `get_coaching_context` report the `timezone` they used and its `timezoneSource`: `home` or `given`. Timezone abbreviations like `CST` are rejected.
+
+If no timezone is passed and there's no Runner Profile, or its `timezone` is missing or isn't an IANA timezone, these tools fail with a message saying what to fix. They never guess the day. In the core, `today(bucket, now, timezone?)` in [`src/core/session.ts`](src/core/session.ts) does this, and `homeTimezone(profile)` in [`src/core/runner-profile.ts`](src/core/runner-profile.ts) reads the Home Timezone.
 
 ### Programs and Phases
 

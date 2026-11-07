@@ -12,12 +12,6 @@ export const WEEKDAYS = [
 
 export type Weekday = (typeof WEEKDAYS)[number];
 
-/**
- * The Home Timezone until the Runner Profile holds it (#8, #9). Temporary: it
- * goes away once `today` reads the Home Timezone from the profile.
- */
-export const TEMPORARY_HOME_TIMEZONE = "America/Chicago";
-
 /** Whether the timezone was the Home Timezone or given by the caller. */
 export type TimezoneSource = "home" | "given";
 
@@ -31,35 +25,35 @@ export type LocalDay = {
   timezoneSource: TimezoneSource;
 };
 
-/**
- * Today's local date for the runner: in `timezone` if given (the runner's
- * current timezone, e.g. while travelling), else in the Home Timezone.
- */
-export function today(now: Date, timezone?: string): LocalDay {
-  if (timezone === undefined) {
-    return localDay(now, TEMPORARY_HOME_TIMEZONE, "home");
-  }
-  return localDay(now, parseTimezone(timezone), "given");
-}
+/** How to write a timezone, for error messages. */
+export const TIMEZONE_HINT = "an Area/Location name, e.g. America/Chicago or Europe/London";
 
 /**
- * Returns the canonical IANA name for `value`, or fails. Abbreviations like
- * `CST` are rejected: they're ambiguous, and the runtime maps some of them to
- * zones without DST (`EST` becomes America/Panama).
+ * The canonical IANA name for `value`, or null if it isn't one. Abbreviations
+ * like `CST` are rejected: they're ambiguous, and the runtime maps some of
+ * them to zones without DST (`EST` becomes America/Panama).
  */
-function parseTimezone(value: string): string {
-  const invalid = new DomainError(
-    `"${value}" is not an IANA timezone. Use an Area/Location name, e.g. America/Chicago or Europe/London.`,
-  );
-  if (value !== "UTC" && !value.includes("/")) throw invalid;
+export function ianaTimezone(value: string): string | null {
+  if (value !== "UTC" && !value.includes("/")) return null;
   try {
     return new Intl.DateTimeFormat("en-US", { timeZone: value }).resolvedOptions().timeZone;
   } catch {
-    throw invalid;
+    return null;
   }
 }
 
-function localDay(instant: Date, timezone: string, timezoneSource: TimezoneSource): LocalDay {
+/** The canonical IANA name for a timezone the caller gave, or fails. */
+export function parseTimezone(value: string): string {
+  const timezone = ianaTimezone(value);
+  if (timezone === null) throw new DomainError(`"${value}" is not an IANA timezone. Use ${TIMEZONE_HINT}.`);
+  return timezone;
+}
+
+/**
+ * The local calendar date and weekday at `instant` in `timezone`, a canonical
+ * IANA name (see `ianaTimezone`).
+ */
+export function localDay(instant: Date, timezone: string, timezoneSource: TimezoneSource): LocalDay {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: timezone,
     year: "numeric",

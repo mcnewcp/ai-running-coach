@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/server";
 import { createMcpHandler } from "agents/mcp/server";
 import { z } from "zod";
-import { today, WEEKDAYS } from "./core/calendar";
+import { WEEKDAYS } from "./core/calendar";
 import { PHASE_KINDS, placeDate, PROGRAM_KINDS, upsertPhase, upsertProgram } from "./core/programs";
 import { listDocuments, readDocument, writeDocument } from "./core/documents";
 import { DomainError } from "./core/errors";
@@ -9,6 +9,7 @@ import { deleteBodyCompScan, logBodyCompScan, updateBodyCompScan } from "./core/
 import { deleteCheckIn, logCheckIn } from "./core/check-ins";
 import { deleteRaceResult, listPRs, logRaceResult, updateRaceResult } from "./core/race-results";
 import { deleteStrengthSession, logStrengthSession, updateStrengthSession } from "./core/strength-sessions";
+import { today } from "./core/session";
 import { registerRunTools } from "./tools/runs";
 import { date, phaseSchema, programSchema, structured } from "./tools/shared";
 import { registerShoeTools } from "./tools/shoes";
@@ -26,8 +27,9 @@ export function createServer(env: Env): McpServer {
       title: "Today",
       description:
         "What day it is for the runner: today's local calendar date and weekday. " +
-        "Call it instead of assuming the date. It uses the runner's Home Timezone unless you pass " +
-        "the runner's current timezone, e.g. while they're travelling.",
+        "Call it instead of assuming the date. It uses the runner's Home Timezone (the timezone property of the Runner Profile) " +
+        "unless you pass the runner's current timezone, e.g. while they're travelling. " +
+        "Fails if no timezone is passed and the Runner Profile has no valid one.",
       inputSchema: z.object({
         timezone: z
           .string()
@@ -47,7 +49,7 @@ export function createServer(env: Env): McpServer {
       }),
       annotations: { readOnlyHint: true },
     },
-    async ({ timezone }) => structured(today(new Date(), timezone)),
+    async ({ timezone }) => structured(await today(env.DOCUMENTS, new Date(), timezone)),
   );
 
   server.registerTool(
@@ -127,7 +129,7 @@ export function createServer(env: Env): McpServer {
     },
     async ({ date }) => structured(await placeDate(env.DB, date)),
   );
-  registerRunTools(server, env.DB);
+  registerRunTools(server, env);
   registerShoeTools(server, env.DB);
   registerDocumentTools(server, env.DOCUMENTS);
   registerOtherRecordTools(server, env.DB);

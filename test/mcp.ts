@@ -72,3 +72,29 @@ export async function callToolExpectingError(
   }
   return result.content.map((block) => (block.type === "text" ? block.text : "")).join("\n");
 }
+
+/**
+ * Empties the R2 bucket. Storage is shared by the tests in one file, so call
+ * it in `beforeEach` when tests need a blank vault.
+ */
+export async function resetDocuments(): Promise<void> {
+  let cursor: string | undefined;
+  do {
+    const page = await env.DOCUMENTS.list({ cursor });
+    if (page.objects.length > 0) await env.DOCUMENTS.delete(page.objects.map((object) => object.key));
+    cursor = page.truncated ? page.cursor : undefined;
+  } while (cursor !== undefined);
+}
+
+/**
+ * Writes `content` as the Runner Profile through `write_document`, creating
+ * it or replacing the current one.
+ */
+export async function writeRunnerProfile(client: Client, content: string): Promise<void> {
+  const path = "Runner Profile.md";
+  const listed = await callTool(client, "list_documents", { prefix: path });
+  const existing = (listed.documents as { path: string; version: string }[]).find((d) => d.path === path);
+  const condition = existing ? { expected_version: existing.version } : { create_only: true };
+  const written = await callTool(client, "write_document", { path, content, ...condition });
+  if (written.status !== "written") throw new Error(`Couldn't write the Runner Profile: ${JSON.stringify(written)}`);
+}

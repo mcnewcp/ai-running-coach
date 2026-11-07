@@ -1,4 +1,6 @@
+import { ianaTimezone, TIMEZONE_HINT } from "./calendar";
 import { type Document, findDocument } from "./documents";
+import { DomainError } from "./errors";
 
 /** Where the Runner Profile lives in the vault (README, "Documents"). */
 export const RUNNER_PROFILE_PATH = "Runner Profile.md";
@@ -17,6 +19,37 @@ export async function readRunnerProfile(bucket: R2Bucket): Promise<RunnerProfile
   const document = await findDocument(bucket, RUNNER_PROFILE_PATH);
   if (document === null) return null;
   return { ...document, properties: frontmatterProperties(document.content) };
+}
+
+/**
+ * The Home Timezone: the Runner Profile's `timezone` property, as a canonical
+ * IANA name (ADR 0004). Fails with a clear message, rather than guessing, if
+ * there's no Runner Profile or its `timezone` is missing or not an IANA
+ * timezone.
+ */
+export function homeTimezone(profile: RunnerProfile | null): string {
+  const remedy =
+    `Set the timezone property in its frontmatter to ${TIMEZONE_HINT} (e.g. "timezone: America/Chicago"), ` +
+    "or pass the runner's current timezone.";
+  if (profile === null) {
+    throw new DomainError(
+      `There's no Runner Profile ("${RUNNER_PROFILE_PATH}"), so there's no Home Timezone to tell what day it is. ` +
+        `Create it with write_document. ${remedy}`,
+    );
+  }
+  const value = profile.properties.timezone?.trim() ?? "";
+  if (value === "") {
+    throw new DomainError(
+      `The Runner Profile ("${RUNNER_PROFILE_PATH}") has no timezone property, so there's no Home Timezone to tell what day it is. ${remedy}`,
+    );
+  }
+  const timezone = ianaTimezone(value);
+  if (timezone === null) {
+    throw new DomainError(
+      `The Runner Profile ("${RUNNER_PROFILE_PATH}") gives the Home Timezone as "${value}", but "${value}" is not an IANA timezone. ${remedy}`,
+    );
+  }
+  return timezone;
 }
 
 /**
