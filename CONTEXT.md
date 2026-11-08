@@ -77,3 +77,7 @@ _Avoid_: race, PR (a PR is derived from Race Results)
 **Shoe**:
 One pair of running shoes, tracked for accumulated mileage. Its mileage is derived from the Runs worn in it, never stored.
 _Avoid_: gear
+
+**Replacement Threshold**:
+The mileage at which a Shoe is flagged as nearing replacement (`warnAtMiles`, 300 unless set when the pair is added). A Shoe at or past it is `nearingReplacement`, and the coach tells the runner. It's a flag, never a block.
+_Avoid_: shoe limit, max miles

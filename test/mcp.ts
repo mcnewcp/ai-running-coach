@@ -27,6 +27,23 @@ export async function connect(): Promise<Client> {
   return client;
 }
 
+/**
+ * Empties every table in D1, keeping the schema. Storage is shared by the
+ * tests in one file, so call it in `beforeEach` when tests need a blank
+ * Athlete Record. It names no tables, so it stays out of the schema's way.
+ */
+export async function resetDatabase(): Promise<void> {
+  const { results } = await env.DB.prepare(
+    "SELECT name FROM sqlite_master WHERE type = 'table' " +
+      "AND name NOT LIKE 'sqlite_%' AND name NOT LIKE '_cf_%' AND name <> 'd1_migrations'",
+  ).all<{ name: string }>();
+  if (results.length === 0) return;
+  await env.DB.batch([
+    env.DB.prepare("PRAGMA defer_foreign_keys = on"),
+    ...results.map(({ name }) => env.DB.prepare(`DELETE FROM "${name}"`)),
+  ]);
+}
+
 /** Calls a tool that is expected to succeed and returns its structured output. */
 export async function callTool(
   client: Client,
@@ -54,4 +71,30 @@ export async function callToolExpectingError(
     throw new Error(`Tool ${name} succeeded unexpectedly: ${JSON.stringify(result.structuredContent)}`);
   }
   return result.content.map((block) => (block.type === "text" ? block.text : "")).join("\n");
+}
+
+/**
+ * Empties the R2 bucket. Storage is shared by the tests in one file, so call
+ * it in `beforeEach` when tests need a blank vault.
+ */
+export async function resetDocuments(): Promise<void> {
+  let cursor: string | undefined;
+  do {
+    const page = await env.DOCUMENTS.list({ cursor });
+    if (page.objects.length > 0) await env.DOCUMENTS.delete(page.objects.map((object) => object.key));
+    cursor = page.truncated ? page.cursor : undefined;
+  } while (cursor !== undefined);
+}
+
+/**
+ * Writes `content` as the Runner Profile through `write_document`, creating
+ * it or replacing the current one.
+ */
+export async function writeRunnerProfile(client: Client, content: string): Promise<void> {
+  const path = "Runner Profile.md";
+  const listed = await callTool(client, "list_documents", { prefix: path });
+  const existing = (listed.documents as { path: string; version: string }[]).find((d) => d.path === path);
+  const condition = existing ? { expected_version: existing.version } : { create_only: true };
+  const written = await callTool(client, "write_document", { path, content, ...condition });
+  if (written.status !== "written") throw new Error(`Couldn't write the Runner Profile: ${JSON.stringify(written)}`);
 }
