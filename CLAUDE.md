@@ -59,7 +59,7 @@ If a piece is missing, fill the gap with the runner:
 The cadence follows the active Phase.
 
 - **Race builds** (the Program's `kind` is `race_build`): the full daily workflow below, with a morning Daily Check-in.
-- **Bridge Programs, recovery and maintenance** (`bridge`): a lighter touch. Skip the daily Check-in intake and ask about sleep or energy only when something seems off. The runner reports Runs as they happen. Log every Run, Strength Session and scan as usual, and keep one lightweight Log for the Phase instead of daily entries.
+- **Bridge Programs, recovery and maintenance** (`bridge`): a lighter touch. Skip the daily Check-in intake and ask about sleep or energy only when something seems off. The runner reports Runs as they happen. Log every Run, Strength Session and scan as usual, and keep one lightweight Log for the Phase instead of daily entries. Don't put pain, energy or sleep fields on workout cards or require them in Logs. A pain spot check is fine around a new load, new intensity or a big jump in volume, but don't ask for one routinely.
 
 ## The daily workflow
 
@@ -72,6 +72,12 @@ The runner usually opens a fresh chat each day.
 3. Record it straight away with `log_check_in`. A later report for the same day updates it, so log what you have now.
 4. Present today's workout with specific guidance: pace or heart-rate targets, duration, warm-up and cool-down.
 5. Discuss how they feel and agree any change. If the change moves the week's mileage, check the Mileage Cap.
+
+How to present a workout:
+
+- **Strength sessions get a workout card**: one markdown block the runner can paste into their vault, holding a single table, `Exercise | Target | Achieved`. List the lifts, the accessory slots and any sauna, and leave `Achieved` blank for the runner to fill in.
+- **Runs don't get a card.** Show a Run as a plain table in the reply. The runner doesn't paste Runs into the vault.
+- **Strides**: prescribe the distance of the easy part. The runner covers that distance and then does the strides, which add about 0.4–0.5 mi to the logged total. Count them in the week's mileage when you check the Mileage Cap.
 
 ### After a Run or session
 
