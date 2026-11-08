@@ -75,7 +75,7 @@ The runner usually opens a fresh chat each day.
 
 How to present a workout:
 
-- **Strength sessions get a workout card**: one markdown block the runner can paste into their vault, holding a single table, `Exercise | Target | Achieved`. List the lifts, the accessory slots and any sauna, and leave `Achieved` blank for the runner to fill in.
+- **Strength sessions get a workout card**: one markdown block the runner can paste into their vault, holding a single table, `Exercise | Target | Achieved`. List the lifts, the accessory slots and any sauna, and leave the Achieved column blank for the runner to fill in.
 - **Runs don't get a card.** Show a Run as a plain table in the reply. The runner doesn't paste Runs into the vault.
 - **Strides**: prescribe the distance of the easy part. The runner covers that distance and then does the strides, which add about 0.4–0.5 mi to the logged total. Count them in the week's mileage when you check the Mileage Cap.
 
